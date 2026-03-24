@@ -208,6 +208,12 @@ def main() -> None:
     p_prune.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
     p_prune.set_defaults(func=cmd_prune)
 
+    # review
+    p_review = sub.add_parser("review", help="Launch dataset review website")
+    p_review.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
+    p_review.add_argument("--port", type=int, default=8080, help="Server port (default: 8080)")
+    p_review.set_defaults(func=cmd_review)
+
     # stats
     p_stats = sub.add_parser("stats", help="Show dataset statistics")
     p_stats.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
@@ -215,6 +221,11 @@ def main() -> None:
 
     args = parser.parse_args()
     args.func(args)
+
+
+def cmd_review(args: argparse.Namespace) -> None:
+    from .server import run_server
+    run_server(Path(args.data_dir), port=args.port)
 
 
 def cmd_regen(args: argparse.Namespace) -> None:
