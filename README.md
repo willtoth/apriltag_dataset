@@ -1,0 +1,134 @@
+# AprilTag Dataset
+
+A ground-truth dataset of AprilTag detections. Images are ingested, preprocessed, and run through the upstream [AprilRobotics/apriltag](https://github.com/AprilRobotics/apriltag) detector (via `pupil-apriltags`). Detection results are stored as JSON sidecars alongside the images.
+
+Use this to validate new algorithm versions or train models against known-good outputs.
+
+## Setup
+
+Requires Python 3.13+.
+
+```bash
+uv sync
+```
+
+## Usage
+
+All commands can be run via `uv run python main.py` or `uv run apriltag-dataset`.
+
+### Ingest images
+
+Add images from local files, directories, zip/tar archives, or URLs:
+
+```bash
+# Single image
+uv run python main.py ingest photo.jpg
+
+# From a URL
+uv run python main.py ingest https://example.com/apriltag_photo.png
+
+# ZIP or TAR archive
+uv run python main.py ingest images.zip
+uv run python main.py ingest images.tar.gz
+
+# Directory of images
+uv run python main.py ingest ./my_photos/
+
+# Multiple sources at once
+uv run python main.py ingest photo1.jpg photo2.png https://example.com/photo3.jpg
+```
+
+Options:
+
+```
+--family         Tag family to detect (default: tag36h11)
+--nthreads       Detector threads (default: 4)
+--quad-decimate  Quad decimation factor (default: 1.0, no decimation)
+--data-dir       Data directory (default: ./data)
+```
+
+### Regenerate detections
+
+Re-run detection on all existing images (e.g. after upgrading `pupil-apriltags` or changing the tag family):
+
+```bash
+uv run python main.py regenerate
+uv run python main.py regenerate --family tagStandard41h12
+```
+
+### Rebuild manifest
+
+Rebuild `manifest.json` from the existing images and detection files:
+
+```bash
+uv run python main.py manifest
+```
+
+### Dataset statistics
+
+```bash
+uv run python main.py stats
+```
+
+## Image preprocessing
+
+During ingestion, every image is automatically:
+
+1. Converted to **grayscale**
+2. Resized to fit within **1920x1080** (preserving aspect ratio)
+3. Saved as **lossless PNG**
+
+## Deduplication
+
+- **Exact duplicates** are detected by SHA-256 hash of the preprocessed image
+- **Near-duplicates** are detected by perceptual hash (dhash, threshold: Hamming distance <= 5), unless the images differ by >25% in area (same scene at different scales is kept as useful test data)
+- Images with **0 detections** can be re-ingested (e.g. with a different `--family`) to retry detection
+
+## Dataset layout
+
+```
+data/
+  images/           Preprocessed grayscale PNGs (content-hash prefixed)
+  detections/       One JSON sidecar per image with detection results
+  manifest.json     Dataset index
+```
+
+### Detection JSON format
+
+Each sidecar in `data/detections/` contains:
+
+```json
+{
+  "image_file": "a1b2c3d4e5f6_photo.png",
+  "image_sha256": "a1b2c3d4e5f6...",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-03-24T12:00:00+00:00",
+  "num_detections": 2,
+  "detections": [
+    {
+      "tag_id": 42,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 87.5,
+      "center": [960.5, 540.2],
+      "corners": [[920.1, 500.3], [1000.9, 500.1], [1001.2, 580.7], [919.8, 581.0]],
+      "homography": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]
+    }
+  ]
+}
+```
+
+## Supported tag families
+
+`tag36h11` (default), `tagStandard41h12`, `tagStandard52h13`, `tagCircle21h7`, `tagCircle49h12`, `tagCustom48h12`, `tag25h9`, `tag16h5`

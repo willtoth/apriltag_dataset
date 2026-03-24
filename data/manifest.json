@@ -1,0 +1,39 @@
+{
+  "dataset_version": "1.0",
+  "total_images": 3,
+  "images": [
+    {
+      "filename": "d6651988f576_source_640x480.png",
+      "original_name": "source_640x480.png",
+      "source": "source_640x480.png",
+      "sha256": "d6651988f576c1720d12e9265799027924a9cdac688b50c1a0b8b8cc7f84ca07",
+      "dhash": "b9dccdfb9bde659e",
+      "width": 640,
+      "height": 480,
+      "ingested_at": "2026-03-24T14:00:13.768343+00:00",
+      "num_detections": 3
+    },
+    {
+      "filename": "12fc6fd375c4_apriltagrobots_overlay.png",
+      "original_name": "apriltagrobots_overlay.jpg",
+      "source": "apriltagrobots_overlay.jpg",
+      "sha256": "12fc6fd375c4050f0449ff71ed0a7b5ab0ba51dc760de7b366fad622143d05aa",
+      "dhash": "93b13d958b2367cc",
+      "width": 790,
+      "height": 400,
+      "ingested_at": "2026-03-24T14:00:35.528607+00:00",
+      "num_detections": 7
+    },
+    {
+      "filename": "3c5674cc4bca_apriltags.png",
+      "original_name": "apriltags.png",
+      "source": "apriltags.png",
+      "sha256": "3c5674cc4bca79d8bbb24498eaaed9c771c0ca50ad3587e645de47aa75724a78",
+      "dhash": "b9b0b2b68cc44c61",
+      "width": 1440,
+      "height": 1080,
+      "ingested_at": "2026-03-24T14:01:32.779860+00:00",
+      "num_detections": 2
+    }
+  ]
+}
