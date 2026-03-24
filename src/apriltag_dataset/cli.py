@@ -27,7 +27,7 @@ def cmd_ingest(args: argparse.Namespace) -> None:
 
     total = 0
     for p in args.paths:
-        count = ingest_source(p, data_dir, detector, args.family, manifest)
+        count = ingest_source(p, data_dir, detector, args.family, manifest, skip_empty=not args.keep_empty)
         total += count
 
     save_manifest(data_dir, manifest)
@@ -139,6 +139,40 @@ def cmd_stats(args: argparse.Namespace) -> None:
             print(f"  {src}: {count}")
 
 
+def cmd_prune(args: argparse.Namespace) -> None:
+    data_dir = Path(args.data_dir).resolve()
+    images_dir = data_dir / "images"
+    detections_dir = data_dir / "detections"
+    manifest = load_manifest(data_dir)
+
+    if not manifest:
+        print("Dataset is empty.")
+        return
+
+    empty = [e for e in manifest if e.num_detections == 0]
+    if not empty:
+        print("No images with 0 detections found.")
+        return
+
+    print(f"Found {len(empty)} image(s) with 0 detections.")
+    removed = 0
+    for entry in empty:
+        img_path = images_dir / entry.filename
+        det_path = detections_dir / f"{Path(entry.filename).stem}.json"
+
+        if img_path.exists():
+            img_path.unlink()
+        if det_path.exists():
+            det_path.unlink()
+
+        removed += 1
+        print(f"  REMOVE {entry.filename}")
+
+    kept = [e for e in manifest if e.num_detections > 0]
+    save_manifest(data_dir, kept)
+    print(f"\nPruned {removed} image(s). Dataset now has {len(kept)} image(s).")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="apriltag-dataset",
@@ -152,6 +186,7 @@ def main() -> None:
     p_ingest.add_argument("--family", default="tag36h11", help="Tag family (default: tag36h11)")
     p_ingest.add_argument("--nthreads", type=int, default=4, help="Detector threads (default: 4)")
     p_ingest.add_argument("--quad-decimate", type=float, default=1.0, help="Quad decimate (default: 1.0, no decimation)")
+    p_ingest.add_argument("--keep-empty", action="store_true", help="Keep images with 0 detections (default: skip them)")
     p_ingest.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
     p_ingest.set_defaults(func=cmd_ingest)
 
@@ -167,6 +202,11 @@ def main() -> None:
     p_manifest = sub.add_parser("manifest", help="Rebuild manifest.json")
     p_manifest.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
     p_manifest.set_defaults(func=cmd_manifest)
+
+    # prune
+    p_prune = sub.add_parser("prune", help="Remove images with 0 detections")
+    p_prune.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
+    p_prune.set_defaults(func=cmd_prune)
 
     # stats
     p_stats = sub.add_parser("stats", help="Show dataset statistics")

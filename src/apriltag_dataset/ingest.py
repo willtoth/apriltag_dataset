@@ -80,6 +80,8 @@ def process_single_image(
     family: str,
     source_name: str,
     manifest: list[ManifestEntry],
+    *,
+    skip_empty: bool = False,
 ) -> ManifestEntry | None:
     if not is_image_file(image_path):
         return None
@@ -133,6 +135,10 @@ def process_single_image(
         print(f"  SKIP {image_path.name}: detection failed ({e})")
         return None
 
+    if skip_empty and result.num_detections == 0:
+        print(f"  SKIP {image_path.name}: no tags detected (--skip-empty)")
+        return None
+
     # Write image and sidecar
     dest_path = images_dir / dest_name
     dest_path.write_bytes(png_bytes)
@@ -172,12 +178,15 @@ def ingest_directory(
     family: str,
     source_name: str,
     manifest: list[ManifestEntry],
+    *,
+    skip_empty: bool = False,
 ) -> int:
     count = 0
     for child in sorted(dir_path.rglob("*")):
         if child.is_file() and is_image_file(child):
             result = process_single_image(
-                child, data_dir, detector, family, source_name, manifest
+                child, data_dir, detector, family, source_name, manifest,
+                skip_empty=skip_empty,
             )
             if result is not None:
                 count += 1
@@ -190,15 +199,16 @@ def ingest_zip(
     detector: Detector,
     family: str,
     manifest: list[ManifestEntry],
+    *,
+    skip_empty: bool = False,
 ) -> int:
-    count = 0
     with tempfile.TemporaryDirectory() as tmpdir:
         with zipfile.ZipFile(zip_path) as zf:
             zf.extractall(tmpdir)
-        count = ingest_directory(
-            Path(tmpdir), data_dir, detector, family, zip_path.name, manifest
+        return ingest_directory(
+            Path(tmpdir), data_dir, detector, family, zip_path.name, manifest,
+            skip_empty=skip_empty,
         )
-    return count
 
 
 def ingest_tar(
@@ -207,15 +217,16 @@ def ingest_tar(
     detector: Detector,
     family: str,
     manifest: list[ManifestEntry],
+    *,
+    skip_empty: bool = False,
 ) -> int:
-    count = 0
     with tempfile.TemporaryDirectory() as tmpdir:
         with tarfile.open(tar_path) as tf:
             tf.extractall(tmpdir, filter="data")
-        count = ingest_directory(
-            Path(tmpdir), data_dir, detector, family, tar_path.name, manifest
+        return ingest_directory(
+            Path(tmpdir), data_dir, detector, family, tar_path.name, manifest,
+            skip_empty=skip_empty,
         )
-    return count
 
 
 def _is_url(s: str) -> bool:
@@ -243,6 +254,8 @@ def ingest_source(
     detector: Detector,
     family: str,
     manifest: list[ManifestEntry],
+    *,
+    skip_empty: bool = False,
 ) -> int:
     data_dir.mkdir(parents=True, exist_ok=True)
     (data_dir / "images").mkdir(exist_ok=True)
@@ -251,13 +264,15 @@ def ingest_source(
     if _is_url(source):
         with tempfile.TemporaryDirectory() as tmpdir:
             downloaded = download_to_tempdir(source, Path(tmpdir))
-            return _ingest_local(downloaded, data_dir, detector, family, manifest)
+            return _ingest_local(downloaded, data_dir, detector, family, manifest,
+                                 skip_empty=skip_empty)
 
     path = Path(source).resolve()
     if not path.exists():
         print(f"Path not found: {source}")
         return 0
-    return _ingest_local(path, data_dir, detector, family, manifest)
+    return _ingest_local(path, data_dir, detector, family, manifest,
+                         skip_empty=skip_empty)
 
 
 def _ingest_local(
@@ -266,24 +281,30 @@ def _ingest_local(
     detector: Detector,
     family: str,
     manifest: list[ManifestEntry],
+    *,
+    skip_empty: bool = False,
 ) -> int:
     if path.is_dir():
         print(f"Ingesting directory: {path}")
-        return ingest_directory(path, data_dir, detector, family, path.name, manifest)
+        return ingest_directory(path, data_dir, detector, family, path.name, manifest,
+                                skip_empty=skip_empty)
 
     suffix = path.suffix.lower()
     if suffix == ".zip":
         print(f"Ingesting ZIP archive: {path.name}")
-        return ingest_zip(path, data_dir, detector, family, manifest)
+        return ingest_zip(path, data_dir, detector, family, manifest,
+                          skip_empty=skip_empty)
 
     if suffix in {".tar", ".gz", ".bz2", ".xz", ".tgz"}:
         print(f"Ingesting TAR archive: {path.name}")
-        return ingest_tar(path, data_dir, detector, family, manifest)
+        return ingest_tar(path, data_dir, detector, family, manifest,
+                          skip_empty=skip_empty)
 
     if is_image_file(path):
         print(f"Ingesting single image: {path.name}")
         result = process_single_image(
-            path, data_dir, detector, family, path.name, manifest
+            path, data_dir, detector, family, path.name, manifest,
+            skip_empty=skip_empty,
         )
         return 1 if result is not None else 0
 
