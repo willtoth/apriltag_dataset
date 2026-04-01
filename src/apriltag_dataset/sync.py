@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-import os
+import shutil
+import tempfile
 from pathlib import Path
 
 REPO_ID = "wt200999/apriltag-dataset"
@@ -10,7 +11,7 @@ REPO_TYPE = "dataset"
 
 
 def upload_images(data_dir: Path) -> None:
-    """Upload images directory to Hugging Face."""
+    """Upload images + metadata to Hugging Face under train/ prefix."""
     from huggingface_hub import HfApi
 
     images_dir = data_dir / "images"
@@ -25,11 +26,12 @@ def upload_images(data_dir: Path) -> None:
 
     print(f"Uploading {len(image_files)} images to {REPO_ID}...")
     api = HfApi()
-    api.upload_large_folder(
+    api.upload_folder(
         repo_id=REPO_ID,
         repo_type=REPO_TYPE,
-        folder_path=str(data_dir),
-        allow_patterns=["images/*.png"],
+        folder_path=str(images_dir),
+        path_in_repo="train",
+        allow_patterns=["*.png", "metadata.jsonl"],
     )
     print("Upload complete.")
 
@@ -45,12 +47,22 @@ def download_images(data_dir: Path) -> None:
     print(f"Downloading images from {REPO_ID}...")
     print(f"  ({len(existing)} images already present locally)")
 
-    snapshot_download(
-        repo_id=REPO_ID,
-        repo_type=REPO_TYPE,
-        allow_patterns=["images/*.png"],
-        local_dir=str(data_dir),
-    )
+    with tempfile.TemporaryDirectory() as tmp:
+        snapshot_download(
+            repo_id=REPO_ID,
+            repo_type=REPO_TYPE,
+            allow_patterns=["train/*.png"],
+            local_dir=tmp,
+        )
 
-    new_count = len(list(images_dir.glob("*.png"))) - len(existing)
-    print(f"Download complete. {new_count} new image(s).")
+        train_dir = Path(tmp) / "train"
+        if train_dir.exists():
+            new = 0
+            for f in train_dir.glob("*.png"):
+                dest = images_dir / f.name
+                if not dest.exists():
+                    shutil.move(str(f), str(dest))
+                    new += 1
+            print(f"Download complete. {new} new image(s).")
+        else:
+            print("No images found on remote.")

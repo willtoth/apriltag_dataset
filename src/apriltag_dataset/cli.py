@@ -246,8 +246,11 @@ def cmd_review(args: argparse.Namespace) -> None:
 
 
 def cmd_upload(args: argparse.Namespace) -> None:
+    from .hf_metadata import generate_metadata
     from .sync import upload_images
-    upload_images(Path(args.data_dir).resolve())
+    data_dir = Path(args.data_dir).resolve()
+    generate_metadata(data_dir)
+    upload_images(data_dir)
 
 
 def cmd_download(args: argparse.Namespace) -> None:
