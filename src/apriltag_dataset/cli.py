@@ -226,6 +226,16 @@ def main() -> None:
     p_stats.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
     p_stats.set_defaults(func=cmd_stats)
 
+    # upload
+    p_upload = sub.add_parser("upload", help="Upload images to Hugging Face")
+    p_upload.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
+    p_upload.set_defaults(func=cmd_upload)
+
+    # download
+    p_download = sub.add_parser("download", help="Download images from Hugging Face")
+    p_download.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
+    p_download.set_defaults(func=cmd_download)
+
     args = parser.parse_args()
     args.func(args)
 
@@ -233,6 +243,16 @@ def main() -> None:
 def cmd_review(args: argparse.Namespace) -> None:
     from .server import run_server
     run_server(Path(args.data_dir), port=args.port)
+
+
+def cmd_upload(args: argparse.Namespace) -> None:
+    from .sync import upload_images
+    upload_images(Path(args.data_dir).resolve())
+
+
+def cmd_download(args: argparse.Namespace) -> None:
+    from .sync import download_images
+    download_images(Path(args.data_dir).resolve())
 
 
 def cmd_regen(args: argparse.Namespace) -> None:
