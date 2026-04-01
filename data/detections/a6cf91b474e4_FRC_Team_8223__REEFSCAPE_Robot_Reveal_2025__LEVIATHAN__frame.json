@@ -1,0 +1,65 @@
+{
+  "image_file": "a6cf91b474e4_FRC_Team_8223__REEFSCAPE_Robot_Reveal_2025__LEVIATHAN__frame.png",
+  "image_sha256": "a6cf91b474e44e85474b4bd3a5b197433c151dc727e62555fe62a4c12a22ed5a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:33:24.917236+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 62.95852279663086,
+      "center": [
+        360.34671888288995,
+        211.19339315406987
+      ],
+      "corners": [
+        [
+          349.19174194335943,
+          234.0332794189453
+        ],
+        [
+          374.954833984375,
+          239.78076171875
+        ],
+        [
+          371.708770751953,
+          187.9295196533203
+        ],
+        [
+          344.4261169433593,
+          180.0375518798828
+        ]
+      ],
+      "homography": [
+        [
+          19.335903770942423,
+          11.392223311553098,
+          360.34671888288995
+        ],
+        [
+          6.951925296495542,
+          31.94406820481666,
+          211.19339315406987
+        ],
+        [
+          0.016897753307999024,
+          0.026094123366091845,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

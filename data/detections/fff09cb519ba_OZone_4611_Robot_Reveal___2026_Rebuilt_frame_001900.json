@@ -1,0 +1,65 @@
+{
+  "image_file": "fff09cb519ba_OZone_4611_Robot_Reveal___2026_Rebuilt_frame_001900.png",
+  "image_sha256": "fff09cb519ba17f7d45ea4420f47bf90ccf2dc6dcc9fd5b75d67dbec2c6b61d2",
+  "image_width": 640,
+  "image_height": 360,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:38:48.053766+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 28,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 41.009090423583984,
+      "center": [
+        327.89722017731003,
+        13.658192608386468
+      ],
+      "corners": [
+        [
+          320.00915527343744,
+          24.977750778198246
+        ],
+        [
+          335.5071411132812,
+          25.38514328002929
+        ],
+        [
+          335.83847045898443,
+          2.2623121738433816
+        ],
+        [
+          319.87973022460943,
+          1.3031747341156024
+        ]
+      ],
+      "homography": [
+        [
+          11.58646791097459,
+          4.773611101941073,
+          327.89722017731003
+        ],
+        [
+          0.4927617701063788,
+          11.896243413309545,
+          13.658192608386468
+        ],
+        [
+          0.011360231889762698,
+          0.014720161057790235,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

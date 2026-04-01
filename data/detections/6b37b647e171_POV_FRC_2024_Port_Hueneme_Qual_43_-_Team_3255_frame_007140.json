@@ -1,0 +1,65 @@
+{
+  "image_file": "6b37b647e171_POV_FRC_2024_Port_Hueneme_Qual_43_-_Team_3255_frame_007140.png",
+  "image_sha256": "6b37b647e171bb7c1ee3bce32fb0b28ced4bf36bc0f776fe722a0d66845abf97",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:24:10.288236+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 44.56101989746094,
+      "center": [
+        1514.6998711006127,
+        100.25566201793612
+      ],
+      "corners": [
+        [
+          1499.6824951171877,
+          134.29277038574216
+        ],
+        [
+          1518.862060546875,
+          138.48785400390628
+        ],
+        [
+          1531.2105712890623,
+          62.83391189575198
+        ],
+        [
+          1510.8306884765625,
+          64.71491241455075
+        ]
+      ],
+      "homography": [
+        [
+          -53.632532866048905,
+          2.3824039881928845,
+          1514.6998711006127
+        ],
+        [
+          -3.609051390891527,
+          36.7888207445356,
+          100.25566201793612
+        ],
+        [
+          -0.041923843081830565,
+          0.005441057868164205,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

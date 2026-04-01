@@ -1,0 +1,65 @@
+{
+  "image_file": "90b5235bbf9a_FRC____Team_8285_Robot_Reveal_-_The_Artifact_frame_001200.png",
+  "image_sha256": "90b5235bbf9a911cf446a16568a4a1e2972bf12259000e902b265824987630b9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:42:29.456721+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 61.2625846862793,
+      "center": [
+        1677.741445991952,
+        379.5876994706172
+      ],
+      "corners": [
+        [
+          1650.0833740234375,
+          404.7801818847656
+        ],
+        [
+          1701.7510986328125,
+          405.3712463378907
+        ],
+        [
+          1706.269775390625,
+          353.60253906249994
+        ],
+        [
+          1653.6611328125002,
+          353.7282714843749
+        ]
+      ],
+      "homography": [
+        [
+          14.305219360755016,
+          12.20488523774384,
+          1677.741445991952
+        ],
+        [
+          -2.541424184248857,
+          28.920599476437246,
+          379.5876994706172
+        ],
+        [
+          -0.00700970742958529,
+          0.00847904801625943,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

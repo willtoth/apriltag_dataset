@@ -1,0 +1,65 @@
+{
+  "image_file": "47ef0410f9b6_Team_Montage_from_Port_Hueneme_Our_unofficial_robot_reveal_o.png",
+  "image_sha256": "47ef0410f9b68c0d3ef18184f6f6057c75fba7e1f91de2b2085518e9adec2b85",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:51:44.742599+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 32,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 48.2164306640625,
+      "center": [
+        1351.2818822394274,
+        309.2547134919151
+      ],
+      "corners": [
+        [
+          1342.1225585937498,
+          360.9615478515625
+        ],
+        [
+          1360.087646484375,
+          353.1956787109375
+        ],
+        [
+          1359.6092529296877,
+          262.24447631835943
+        ],
+        [
+          1342.9218749999998,
+          267.5380859375
+        ]
+      ],
+      "homography": [
+        [
+          23.24995556836894,
+          -49.76265033316963,
+          1351.2818822394274
+        ],
+        [
+          0.11782637872777998,
+          34.65143058074477,
+          309.2547134919151
+        ],
+        [
+          0.010804280331863016,
+          -0.03677206196787836,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

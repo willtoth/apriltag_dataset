@@ -1,0 +1,65 @@
+{
+  "image_file": "a03f52ac02b3_Makers_Assemble__5951_2024_robot_reveal_-_MAroon__Crescendo_.png",
+  "image_sha256": "a03f52ac02b35801f7ad3334877d281122f2babfdbf55578aa97f4880268602c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:39:09.250467+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 52.05251693725586,
+      "center": [
+        801.4661416775655,
+        446.2387359722631
+      ],
+      "corners": [
+        [
+          783.15576171875,
+          465.6112365722657
+        ],
+        [
+          819.8717651367188,
+          464.6499633789062
+        ],
+        [
+          818.9246826171875,
+          427.76748657226557
+        ],
+        [
+          783.0866088867189,
+          427.85360717773443
+        ]
+      ],
+      "homography": [
+        [
+          27.392696777640595,
+          -9.568585114515482,
+          801.4661416775655
+        ],
+        [
+          4.89886179135817,
+          13.182802571137586,
+          446.2387359722631
+        ],
+        [
+          0.011552894482805661,
+          -0.012262166128391835,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

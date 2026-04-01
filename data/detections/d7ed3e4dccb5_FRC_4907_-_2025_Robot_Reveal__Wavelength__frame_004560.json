@@ -1,0 +1,65 @@
+{
+  "image_file": "d7ed3e4dccb5_FRC_4907_-_2025_Robot_Reveal__Wavelength__frame_004560.png",
+  "image_sha256": "d7ed3e4dccb50585cd00201e432faee20db1f4ecdbf1b2bb21f4996a84f09a65",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:52:18.000382+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 83.71821594238281,
+      "center": [
+        997.3961252238569,
+        289.8764875037591
+      ],
+      "corners": [
+        [
+          984.2637939453125,
+          315.3570251464844
+        ],
+        [
+          1009.8109741210936,
+          311.2214660644531
+        ],
+        [
+          1010.2072753906251,
+          265.01913452148443
+        ],
+        [
+          985.0560302734376,
+          268.6600341796875
+        ]
+      ],
+      "homography": [
+        [
+          17.34150583726148,
+          -7.976041996999582,
+          997.3961252238569
+        ],
+        [
+          -0.5856214239046861,
+          20.99078638349107,
+          289.8764875037591
+        ],
+        [
+          0.004680136496155638,
+          -0.007699894782728994,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "153a1db71f81_2026_Robot_Reveal__RUFUS_frame_000768.png",
+  "image_sha256": "153a1db71f81f01c0b69a75ded896518fe5671ac32c720933a8bddf3a7adf924",
+  "image_width": 848,
+  "image_height": 480,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:26:01.450880+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 8.723398208618164,
+      "center": [
+        69.61837466481104,
+        46.1720716733385
+      ],
+      "corners": [
+        [
+          63.06054687499999,
+          59.9117317199707
+        ],
+        [
+          75.6549301147461,
+          65.19113159179688
+        ],
+        [
+          75.67271423339845,
+          33.48729705810547
+        ],
+        [
+          63.61772918701173,
+          27.266151428222667
+        ]
+      ],
+      "homography": [
+        [
+          7.443057624605316,
+          -1.6321996975962199,
+          69.61837466481104
+        ],
+        [
+          3.7383223395739673,
+          15.086256176354617,
+          46.1720716733385
+        ],
+        [
+          0.018468791588512022,
+          -0.021452040962791293,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

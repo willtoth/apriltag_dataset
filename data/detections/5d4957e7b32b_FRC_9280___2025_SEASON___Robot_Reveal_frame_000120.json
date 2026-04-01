@@ -1,0 +1,65 @@
+{
+  "image_file": "5d4957e7b32b_FRC_9280___2025_SEASON___Robot_Reveal_frame_000120.png",
+  "image_sha256": "5d4957e7b32b8576f222fc8046c5c427ab1df0a2ff34c8a1a49d9341b4a726ec",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:30:26.208402+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 1,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 43.341407775878906,
+      "center": [
+        522.2959538109818,
+        491.47415033253054
+      ],
+      "corners": [
+        [
+          490.81072998046864,
+          528.4990234375
+        ],
+        [
+          554.6364135742188,
+          527.32421875
+        ],
+        [
+          552.5558471679688,
+          455.89019775390625
+        ],
+        [
+          490.001251220703,
+          455.6748046875
+        ]
+      ],
+      "homography": [
+        [
+          36.58658390325331,
+          -4.638767917501123,
+          522.2959538109818
+        ],
+        [
+          4.469968995750829,
+          31.006790767360826,
+          491.47415033253054
+        ],
+        [
+          0.009568523829704249,
+          -0.010276453867969344,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

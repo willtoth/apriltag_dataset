@@ -1,0 +1,65 @@
+{
+  "image_file": "288d512b0175_FRC_TEAM_5484_s_Robot_Reveal_-_RAIJU_2024_frame_000531.png",
+  "image_sha256": "288d512b01756129a81b9b261ed7e4d4deb64cab46b6151dcf726baecb488ce7",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:38:28.085259+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 71.92422485351562,
+      "center": [
+        983.0518781030916,
+        394.046046825315
+      ],
+      "corners": [
+        [
+          956.3032226562501,
+          419.33197021484375
+        ],
+        [
+          1008.2861938476561,
+          420.8526916503907
+        ],
+        [
+          1009.5496215820312,
+          368.9973144531251
+        ],
+        [
+          958.0532226562502,
+          367.48974609375006
+        ]
+      ],
+      "homography": [
+        [
+          25.879559919213648,
+          -5.375464565692251,
+          983.0518781030916
+        ],
+        [
+          0.7611826509525456,
+          24.071096169890325,
+          394.046046825315
+        ],
+        [
+          1.0466764874359664e-05,
+          -0.004701813745430075,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

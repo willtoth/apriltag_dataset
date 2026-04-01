@@ -1,0 +1,65 @@
+{
+  "image_file": "9a32eed8abed_Final_Robot_Reveal__Definitely__DOES_IT_WORK___AIMBOT____fra.png",
+  "image_sha256": "9a32eed8abedc795f4173a6cbd40ddfae339a3b215cdd800d195766d73f818e1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:34:04.984207+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 74.75169372558594,
+      "center": [
+        878.2603212565631,
+        639.7760362688006
+      ],
+      "corners": [
+        [
+          845.7252197265624,
+          671.2026977539062
+        ],
+        [
+          910.3753662109375,
+          673.6957397460936
+        ],
+        [
+          910.5529174804686,
+          608.5836181640624
+        ],
+        [
+          845.9226684570311,
+          605.6212158203125
+        ]
+      ],
+      "homography": [
+        [
+          35.47903881046955,
+          -0.21972362972735046,
+          878.2603212565631
+        ],
+        [
+          3.6653384284078316,
+          32.58118707717779,
+          639.7760362688006
+        ],
+        [
+          0.003597292121384613,
+          -0.0001434747806821168,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

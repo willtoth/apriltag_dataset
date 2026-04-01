@@ -1,0 +1,65 @@
+{
+  "image_file": "79e6f7926d31_2025_CHAOS_131_Reveal__ANGLER_frame_001020.png",
+  "image_sha256": "79e6f7926d31285fc4490d4ad434ff640999e6aee9aecb8eac9d5ad3dc2577ed",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:18:19.238141+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 86.82093811035156,
+      "center": [
+        1051.8364659956765,
+        372.06543596938116
+      ],
+      "corners": [
+        [
+          1030.0981445312498,
+          397.78704833984375
+        ],
+        [
+          1074.110107421875,
+          398.74063110351574
+        ],
+        [
+          1073.853759765625,
+          346.01373291015625
+        ],
+        [
+          1029.9188232421875,
+          345.8165893554687
+        ]
+      ],
+      "homography": [
+        [
+          14.395748641379896,
+          -0.7749848059556808,
+          1051.8364659956765
+        ],
+        [
+          -2.397391158368524,
+          25.860388727685176,
+          372.06543596938116
+        ],
+        [
+          -0.00721577434187587,
+          -0.0008400828099978287,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "fa84a9ac6e77_FRC_Team_6487_REBUILT_Robot_Reveal__AVANTI_frame_002280.png",
+  "image_sha256": "fa84a9ac6e77a80bed6fe4ea4c9b78ea6e2c14de623e498304d35ae830f68cbe",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:34:59.260923+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 25,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 52.455814361572266,
+      "center": [
+        1828.9897288886748,
+        327.14451011627006
+      ],
+      "corners": [
+        [
+          1810.7689208984377,
+          378.3971557617187
+        ],
+        [
+          1839.089599609375,
+          398.448486328125
+        ],
+        [
+          1848.2972412109373,
+          272.8351135253907
+        ],
+        [
+          1819.3380126953123,
+          259.00445556640625
+        ]
+      ],
+      "homography": [
+        [
+          -32.920853768609504,
+          1.2926175867648868,
+          1828.9897288886748
+        ],
+        [
+          0.026750890930819986,
+          62.23661031435313,
+          327.14451011627006
+        ],
+        [
+          -0.025823229525428985,
+          0.0031336841593914196,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

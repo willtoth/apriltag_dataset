@@ -1,0 +1,65 @@
+{
+  "image_file": "e5dd14f7280c_Half_Hollow_Hills_Invitational_Playoff_Match_9_2025_frame_00.png",
+  "image_sha256": "e5dd14f7280c31e3688ef1034d532f80f4ae13547df9fe9f1b41c1642fe77252",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:08:36.447883+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 57.19565963745117,
+      "center": [
+        552.1882526125792,
+        484.261555087396
+      ],
+      "corners": [
+        [
+          541.1740112304689,
+          498.1607666015625
+        ],
+        [
+          570.064208984375,
+          496.504150390625
+        ],
+        [
+          563.1370849609373,
+          470.4448852539062
+        ],
+        [
+          534.5089721679686,
+          472.1536560058593
+        ]
+      ],
+      "homography": [
+        [
+          13.674271742873998,
+          1.0483402302858185,
+          552.1882526125792
+        ],
+        [
+          -1.4597339583036741,
+          10.955886743551787,
+          484.261555087396
+        ],
+        [
+          -0.001276711719372706,
+          -0.0042548483205989245,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

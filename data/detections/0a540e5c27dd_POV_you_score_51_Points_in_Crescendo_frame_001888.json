@@ -1,0 +1,65 @@
+{
+  "image_file": "0a540e5c27dd_POV_you_score_51_Points_in_Crescendo_frame_001888.png",
+  "image_sha256": "0a540e5c27dde7148d4c5fd9a350aaabbb7ed95c709443659e7dcd5bcccaf889",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:24:53.219124+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 16.414470672607422,
+      "center": [
+        836.3553464299403,
+        302.0081915414408
+      ],
+      "corners": [
+        [
+          826.369323730469,
+          311.8477783203125
+        ],
+        [
+          847.3323364257812,
+          310.87673950195324
+        ],
+        [
+          846.7288208007812,
+          291.7868347167969
+        ],
+        [
+          824.5891723632814,
+          292.50204467773426
+        ]
+      ],
+      "homography": [
+        [
+          17.319537015012312,
+          23.05974638022167,
+          836.3553464299403
+        ],
+        [
+          1.9408550000494507,
+          17.715064943030654,
+          302.0081915414408
+        ],
+        [
+          0.007834661726394878,
+          0.026865174613402796,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

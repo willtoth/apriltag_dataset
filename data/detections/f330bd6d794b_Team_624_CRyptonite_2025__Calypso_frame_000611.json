@@ -1,0 +1,65 @@
+{
+  "image_file": "f330bd6d794b_Team_624_CRyptonite_2025__Calypso_frame_000611.png",
+  "image_sha256": "f330bd6d794bef280ec43e1522dbe6bc8a5c1bd1cab5db8eab595173249a2c1a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:15:19.589122+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 99.87028503417969,
+      "center": [
+        338.8243748222644,
+        286.5652756819464
+      ],
+      "corners": [
+        [
+          314.15008544921875,
+          312.75927734375
+        ],
+        [
+          362.53735351562494,
+          320.1665954589843
+        ],
+        [
+          362.51171875,
+          261.41900634765625
+        ],
+        [
+          314.3740234375,
+          251.91909790039068
+        ]
+      ],
+      "homography": [
+        [
+          30.174354289278483,
+          -0.910988119332952,
+          338.8243748222644
+        ],
+        [
+          9.345843096175198,
+          29.157174794516038,
+          286.5652756819464
+        ],
+        [
+          0.017858724040765453,
+          -0.002548887901781923,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

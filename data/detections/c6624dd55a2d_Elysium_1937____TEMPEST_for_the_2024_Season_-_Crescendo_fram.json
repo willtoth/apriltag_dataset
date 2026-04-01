@@ -1,0 +1,65 @@
+{
+  "image_file": "c6624dd55a2d_Elysium_1937____TEMPEST_for_the_2024_Season_-_Crescendo_fram.png",
+  "image_sha256": "c6624dd55a2da80876b5b5f88c87a8ef9d47687a0c8aba3cbea0eb2fc6db26c3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:50:27.919018+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 46.48515701293945,
+      "center": [
+        1412.6189036796118,
+        308.15289925103383
+      ],
+      "corners": [
+        [
+          1394.7249755859375,
+          335.6011047363281
+        ],
+        [
+          1423.0032958984375,
+          341.10562133789057
+        ],
+        [
+          1430.53271484375,
+          280.67419433593744
+        ],
+        [
+          1403.1912841796877,
+          278.23629760742193
+        ]
+      ],
+      "homography": [
+        [
+          -20.60830077866944,
+          -37.72777576409544,
+          1412.6189036796118
+        ],
+        [
+          -5.577348262339515,
+          22.057207452028024,
+          308.15289925103383
+        ],
+        [
+          -0.024423915340772623,
+          -0.023868642350179693,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

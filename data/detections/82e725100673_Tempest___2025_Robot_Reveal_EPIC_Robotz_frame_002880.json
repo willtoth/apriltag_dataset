@@ -1,0 +1,65 @@
+{
+  "image_file": "82e725100673_Tempest___2025_Robot_Reveal_EPIC_Robotz_frame_002880.png",
+  "image_sha256": "82e7251006739e8f61c3082dcc1ff36b36f9eba2410f80daeaa0e2362e5cb81b",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:23:13.672541+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 13,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 57.279380798339844,
+      "center": [
+        652.3124746310905,
+        300.5975975312989
+      ],
+      "corners": [
+        [
+          631.4279174804686,
+          321.7060852050781
+        ],
+        [
+          674.1640625,
+          322.9020080566406
+        ],
+        [
+          671.9461059570314,
+          280.75344848632807
+        ],
+        [
+          631.4876098632815,
+          279.3411865234375
+        ]
+      ],
+      "homography": [
+        [
+          23.00554805416562,
+          -17.373204619478198,
+          652.3124746310905
+        ],
+        [
+          1.6797708936412035,
+          12.85616473324535,
+          300.5975975312989
+        ],
+        [
+          0.0034074438018235763,
+          -0.02746574850302098,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

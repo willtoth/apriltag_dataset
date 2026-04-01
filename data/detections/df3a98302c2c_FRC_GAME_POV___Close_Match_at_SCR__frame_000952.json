@@ -1,0 +1,65 @@
+{
+  "image_file": "df3a98302c2c_FRC_GAME_POV___Close_Match_at_SCR__frame_000952.png",
+  "image_sha256": "df3a98302c2c33f9283202e31a09dfadde6eab54090bf74148c651689d574c14",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:19:12.567077+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 36.25338363647461,
+      "center": [
+        247.80357887936617,
+        433.49742069986235
+      ],
+      "corners": [
+        [
+          230.94363403320315,
+          447.48248291015636
+        ],
+        [
+          260.19915771484375,
+          452.9144592285155
+        ],
+        [
+          264.9707641601562,
+          419.2575073242187
+        ],
+        [
+          234.7552947998047,
+          413.0579528808594
+        ]
+      ],
+      "homography": [
+        [
+          16.922547587008808,
+          2.1478571313857935,
+          247.80357887936617
+        ],
+        [
+          6.505018562407142,
+          24.53052473680708,
+          433.49742069986235
+        ],
+        [
+          0.008311739475342814,
+          0.01734101797989874,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

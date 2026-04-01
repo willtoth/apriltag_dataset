@@ -1,0 +1,65 @@
+{
+  "image_file": "ba41a4e29257_2026_Robot_Reveal_-_Roadrunner___Team_4099_The_Falcons_frame.png",
+  "image_sha256": "ba41a4e292576954a91139221fcee5de98553c6064ababf1927bc39611589903",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:08:53.073720+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 21,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.128173828125,
+      "center": [
+        242.93935071944372,
+        522.4152965712514
+      ],
+      "corners": [
+        [
+          207.7778472900391,
+          574.2219848632812
+        ],
+        [
+          278.55224609375006,
+          559.6976318359375
+        ],
+        [
+          278.2068786621094,
+          470.4523925781251
+        ],
+        [
+          208.47477722167972,
+          486.3351135253908
+        ]
+      ],
+      "homography": [
+        [
+          32.94856096998839,
+          -1.9001517721644592,
+          242.93935071944372
+        ],
+        [
+          -12.280128419569115,
+          40.39099894343519,
+          522.4152965712514
+        ],
+        [
+          -0.008945936294180964,
+          -0.007440527073075895,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

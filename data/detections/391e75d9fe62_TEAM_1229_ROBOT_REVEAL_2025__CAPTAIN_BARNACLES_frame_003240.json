@@ -1,0 +1,65 @@
+{
+  "image_file": "391e75d9fe62_TEAM_1229_ROBOT_REVEAL_2025__CAPTAIN_BARNACLES_frame_003240.png",
+  "image_sha256": "391e75d9fe62d13aec19f2f677af35b4512e1ac659f5524431ce57169edeee3d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:32:35.289707+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 57.40397262573242,
+      "center": [
+        1707.9254585844592,
+        290.402043255561
+      ],
+      "corners": [
+        [
+          1547.1549072265623,
+          440.4837341308594
+        ],
+        [
+          1853.4322509765625,
+          484.31298828125
+        ],
+        [
+          1893.6910400390625,
+          116.98712158203121
+        ],
+        [
+          1575.4837646484375,
+          113.90242004394543
+        ]
+      ],
+      "homography": [
+        [
+          53.781192340853295,
+          4.604151179248681,
+          1707.9254585844592
+        ],
+        [
+          -5.353703156025652,
+          176.4992898987996,
+          290.402043255561
+        ],
+        [
+          -0.059566837351922634,
+          0.01256137015661649,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

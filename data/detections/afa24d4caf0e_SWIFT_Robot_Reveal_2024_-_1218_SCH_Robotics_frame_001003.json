@@ -1,0 +1,65 @@
+{
+  "image_file": "afa24d4caf0e_SWIFT_Robot_Reveal_2024_-_1218_SCH_Robotics_frame_001003.png",
+  "image_sha256": "afa24d4caf0eb3539103b6cad8a60e877d9f4ec0f8b1988841ca1fb9ec0974e2",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:29:43.215070+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 56.879615783691406,
+      "center": [
+        948.9904165002401,
+        231.08290024641008
+      ],
+      "corners": [
+        [
+          927.6287841796877,
+          254.23368835449222
+        ],
+        [
+          971.06005859375,
+          256.09295654296875
+        ],
+        [
+          970.3434448242186,
+          207.94143676757815
+        ],
+        [
+          926.7344360351562,
+          205.86167907714847
+        ]
+      ],
+      "homography": [
+        [
+          23.85015969366964,
+          2.301675487590845,
+          948.9904165002401
+        ],
+        [
+          1.4935276737712369,
+          24.593105594283173,
+          231.08290024641008
+        ],
+        [
+          0.0022026409588216797,
+          0.002001211368975996,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

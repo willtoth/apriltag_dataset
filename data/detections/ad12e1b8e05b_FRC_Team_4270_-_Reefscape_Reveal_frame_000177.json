@@ -1,0 +1,65 @@
+{
+  "image_file": "ad12e1b8e05b_FRC_Team_4270_-_Reefscape_Reveal_frame_000177.png",
+  "image_sha256": "ad12e1b8e05b5a1e014bd9001e3f62e87ea1454a4301d9070efdfe1584f08aff",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:23:46.669628+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 32.001869201660156,
+      "center": [
+        996.6776734899122,
+        502.28777153240617
+      ],
+      "corners": [
+        [
+          973.4991455078123,
+          534.5299072265625
+        ],
+        [
+          1015.6085815429689,
+          568.4348754882812
+        ],
+        [
+          1022.6290283203127,
+          466.18853759765625
+        ],
+        [
+          979.3818359374998,
+          441.8538208007812
+        ]
+      ],
+      "homography": [
+        [
+          -29.336211375115226,
+          2.4282894662713908,
+          996.6776734899122
+        ],
+        [
+          -10.959571530419005,
+          51.450738666289,
+          502.28777153240617
+        ],
+        [
+          -0.05078652474986067,
+          0.005652177920829711,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

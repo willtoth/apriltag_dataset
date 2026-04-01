@@ -1,0 +1,65 @@
+{
+  "image_file": "2ac59fdb1884_2026_Robot_Reveal____STROMBOLI_frame_001680.png",
+  "image_sha256": "2ac59fdb18848caa9972435c9e9d3516728daddede2663272fa2e6d46795265f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:59:54.947873+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 59.58122634887695,
+      "center": [
+        1521.2117188885509,
+        340.31032350510725
+      ],
+      "corners": [
+        [
+          1491.6700439453125,
+          371.7177429199219
+        ],
+        [
+          1531.074462890625,
+          388.0728759765625
+        ],
+        [
+          1554.2066650390625,
+          305.2315368652344
+        ],
+        [
+          1511.7415771484375,
+          294.44903564453125
+        ]
+      ],
+      "homography": [
+        [
+          -37.02892324517234,
+          15.799397558336745,
+          1521.2117188885509
+        ],
+        [
+          -6.025949153813775,
+          45.90771802442856,
+          340.31032350510725
+        ],
+        [
+          -0.03776373377536234,
+          0.01745625008171601,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

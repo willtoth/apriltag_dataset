@@ -1,0 +1,65 @@
+{
+  "image_file": "e00dbe37ccdb_5348_Charger_Robotics_2024_Robot_Reveal_-__Admiral__frame_00.png",
+  "image_sha256": "e00dbe37ccdb4aadfc3031d0eda721fdb65e8661563df49dc586de9336c14e54",
+  "image_width": 1620,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:38:03.308462+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 61.44908142089844,
+      "center": [
+        62.29813688492341,
+        866.6554220891029
+      ],
+      "corners": [
+        [
+          7.613547325134269,
+          918.953857421875
+        ],
+        [
+          85.41107177734376,
+          906.6057128906248
+        ],
+        [
+          116.36309051513673,
+          814.9495849609375
+        ],
+        [
+          42.04589080810545,
+          831.6497802734376
+        ]
+      ],
+      "homography": [
+        [
+          36.10327882253193,
+          -18.62469140200113,
+          62.29813688492341
+        ],
+        [
+          -33.459269744219,
+          13.603126788040296,
+          866.6554220891029
+        ],
+        [
+          -0.030134793854768402,
+          -0.035832619440051366,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

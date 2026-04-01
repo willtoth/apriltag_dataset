@@ -1,0 +1,65 @@
+{
+  "image_file": "f19c03108736_2026_FIRST_Robotics_Competition_Field_Tour__Depot_and_Outpos.png",
+  "image_sha256": "f19c03108736cfe107dbbe62e686d54f4032ccff0759cc593860f28cb82171aa",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:06:09.983473+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 67.84813690185547,
+      "center": [
+        417.1063891082068,
+        596.5466928349425
+      ],
+      "corners": [
+        [
+          400.19659423828125,
+          615.0247802734375
+        ],
+        [
+          440.4113159179688,
+          614.6584472656249
+        ],
+        [
+          434.01992797851557,
+          578.0645141601562
+        ],
+        [
+          393.4275512695312,
+          578.1443481445314
+        ]
+      ],
+      "homography": [
+        [
+          21.837674713046,
+          4.972178734935087,
+          417.1063891082068
+        ],
+        [
+          2.2286131223328285,
+          20.77477939157484,
+          596.5466928349425
+        ],
+        [
+          0.003923805020798423,
+          0.004034497846405783,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "e8636939619a_FRC_1477_Texas_Torque_-_2025_Robot_Reveal_frame_000240.png",
+  "image_sha256": "e8636939619a40b78c690efdda56bcc728ef1afd9448b9bdb3a25aa0be3d707b",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:13:53.403001+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 82.26022338867188,
+      "center": [
+        1058.7541269789028,
+        145.03797231271878
+      ],
+      "corners": [
+        [
+          1030.8447265625,
+          174.27491760253906
+        ],
+        [
+          1086.5726318359377,
+          174.1285400390625
+        ],
+        [
+          1087.279296875,
+          115.15596771240236
+        ],
+        [
+          1031.0146484374998,
+          116.03004455566409
+        ]
+      ],
+      "homography": [
+        [
+          21.467293987644553,
+          4.805657440198959,
+          1058.7541269789028
+        ],
+        [
+          -1.1478051633005786,
+          29.99069044827567,
+          145.03797231271878
+        ],
+        [
+          -0.006166811041504269,
+          0.004744399521181106,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

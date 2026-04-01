@@ -1,0 +1,65 @@
+{
+  "image_file": "c39903cbe850_Team_Neutrino_Build_Season_Wrap_2026_frame_002419.png",
+  "image_sha256": "c39903cbe8503e3c44d52fba40349f2df97fac03b305045fca39b5711b7ccec6",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:47:48.899778+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 28,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 27.542455673217773,
+      "center": [
+        438.81409773258736,
+        276.1721899019251
+      ],
+      "corners": [
+        [
+          420.73904418945307,
+          314.0031127929687
+        ],
+        [
+          456.61483764648443,
+          314.393768310547
+        ],
+        [
+          456.76364135742193,
+          238.60395812988287
+        ],
+        [
+          420.2091674804688,
+          236.22386169433594
+        ]
+      ],
+      "homography": [
+        [
+          23.714067865449806,
+          4.173156902300891,
+          438.81409773258736
+        ],
+        [
+          4.2147541854113175,
+          40.95168829848927,
+          276.1721899019251
+        ],
+        [
+          0.012786853159778115,
+          0.009302847003804194,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

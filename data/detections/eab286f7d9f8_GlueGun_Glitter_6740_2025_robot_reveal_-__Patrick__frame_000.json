@@ -1,0 +1,65 @@
+{
+  "image_file": "eab286f7d9f8_GlueGun_Glitter_6740_2025_robot_reveal_-__Patrick__frame_000.png",
+  "image_sha256": "eab286f7d9f8d1f38a3a299eea2965a1d07d7f8d92928d61416725580e4977f1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:29:10.613823+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 47.029483795166016,
+      "center": [
+        547.5500628802513,
+        589.505311038177
+      ],
+      "corners": [
+        [
+          518.8876953125001,
+          644.4466552734376
+        ],
+        [
+          577.8812866210936,
+          637.8065185546875
+        ],
+        [
+          575.0204467773435,
+          536.8488159179686
+        ],
+        [
+          516.4459228515625,
+          539.9732666015625
+        ]
+      ],
+      "homography": [
+        [
+          38.64126016709531,
+          -1.0397309952202203,
+          547.5500628802513
+        ],
+        [
+          7.534482344331644,
+          48.79094797217522,
+          589.505311038177
+        ],
+        [
+          0.01690802533492328,
+          -0.0043270582758537695,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

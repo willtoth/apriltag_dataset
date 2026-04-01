@@ -1,0 +1,65 @@
+{
+  "image_file": "16dcc7e81adf_FRC_9483___Robot_POV__2024_Milstein_Q67__frame_007497.png",
+  "image_sha256": "16dcc7e81adf1a4066bae20a05195a6cc7e2060bb304df0a313aa777baaac739",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:10:58.561521+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 40.14762496948242,
+      "center": [
+        1062.3932401644158,
+        546.6115113978208
+      ],
+      "corners": [
+        [
+          1052.2010498046875,
+          557.025634765625
+        ],
+        [
+          1074.3787841796877,
+          559.0658569335938
+        ],
+        [
+          1072.8032226562502,
+          535.974853515625
+        ],
+        [
+          1050.1903076171875,
+          533.9312744140625
+        ]
+      ],
+      "homography": [
+        [
+          10.355160657728673,
+          11.286122777700713,
+          1062.3932401644158
+        ],
+        [
+          0.5881031467135905,
+          16.89072194203152,
+          546.6115113978208
+        ],
+        [
+          -0.0007920209238462586,
+          0.009779297629547398,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

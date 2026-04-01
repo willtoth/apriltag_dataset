@@ -1,0 +1,65 @@
+{
+  "image_file": "b6047442d1bc_FRC_4131___2024_Robot_Reveal_-_Atlas_frame_000826.png",
+  "image_sha256": "b6047442d1bc3ff85cffe2dbcfe61fff5e8878d786408698317f8d7b70d6f10b",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:51:29.088492+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 67.68667602539062,
+      "center": [
+        1324.5463175889413,
+        639.1316294259578
+      ],
+      "corners": [
+        [
+          1304.0643310546877,
+          660.918212890625
+        ],
+        [
+          1342.4901123046875,
+          663.4310913085938
+        ],
+        [
+          1345.2237548828125,
+          617.1371459960938
+        ],
+        [
+          1306.6651611328123,
+          614.9169921874999
+        ]
+      ],
+      "homography": [
+        [
+          14.942992210125112,
+          0.6535210317442779,
+          1324.5463175889413
+        ],
+        [
+          -0.8927770846572715,
+          24.032260584175674,
+          639.1316294259578
+        ],
+        [
+          -0.003248540328124167,
+          0.0015000868740818664,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "6ff12264c24e_6417_Fridolins_FRC_2025_Robot_Reveal_frame_002800.png",
+  "image_sha256": "6ff12264c24e36db294d8384bcedf078b00ee04dca167874d5b2b4b2e6d81025",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:48:18.230763+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 19,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 66.72686767578125,
+      "center": [
+        1095.722776102516,
+        810.4317802923242
+      ],
+      "corners": [
+        [
+          1067.352294921875,
+          831.95068359375
+        ],
+        [
+          1122.7576904296875,
+          840.9926147460938
+        ],
+        [
+          1124.7507324218748,
+          788.4141845703124
+        ],
+        [
+          1068.717041015625,
+          779.9039306640624
+        ]
+      ],
+      "homography": [
+        [
+          21.28654386468702,
+          5.142137621446866,
+          1095.722776102516
+        ],
+        [
+          -0.4709052177091772,
+          30.577645839412412,
+          810.4317802923242
+        ],
+        [
+          -0.00599726618129069,
+          0.005457316336186012,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "1d905aa6484a_2025_FIRST_Champs_FRC_5406_Practice_Field_Match_1_Robot_POV_.png",
+  "image_sha256": "1d905aa6484acb93eef184b160b5af97ce975a3b32c1e7446bcbbb9260ec7974",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:47:31.241667+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 90.7535171508789,
+      "center": [
+        630.3801882937092,
+        269.40575724569993
+      ],
+      "corners": [
+        [
+          601.026672363281,
+          306.53491210937494
+        ],
+        [
+          671.8264770507812,
+          342.26223754882807
+        ],
+        [
+          663.0274047851566,
+          228.11041259765625
+        ],
+        [
+          590.0543823242188,
+          198.51892089843747
+        ]
+      ],
+      "homography": [
+        [
+          14.832705719739463,
+          17.407875316450944,
+          630.3801882937092
+        ],
+        [
+          7.376621982243698,
+          60.79000725011264,
+          269.40575724569993
+        ],
+        [
+          -0.033413041550448934,
+          0.019710533484239137,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

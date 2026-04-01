@@ -1,0 +1,65 @@
+{
+  "image_file": "ca989baf1cfe_FRC_team_1690_Orbit_2026_robot_reveal_-__KEPLER__frame_00336.png",
+  "image_sha256": "ca989baf1cfe6fc417baa8c1016918088dc7dc69f71731b4fb77e53f536dc768",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:39:28.124670+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 31,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 32.45654296875,
+      "center": [
+        1624.8315241899143,
+        764.6301342691505
+      ],
+      "corners": [
+        [
+          1618.9743652343752,
+          773.1503906250001
+        ],
+        [
+          1636.8305664062502,
+          769.1629638671875
+        ],
+        [
+          1631.4571533203125,
+          754.9920043945311
+        ],
+        [
+          1613.4344482421875,
+          760.32470703125
+        ]
+      ],
+      "homography": [
+        [
+          -61.96312971177668,
+          31.847630468913387,
+          1624.8315241899143
+        ],
+        [
+          -35.687224380868315,
+          20.4300120555157,
+          764.6301342691505
+        ],
+        [
+          -0.04364585248299054,
+          0.017916530020700597,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

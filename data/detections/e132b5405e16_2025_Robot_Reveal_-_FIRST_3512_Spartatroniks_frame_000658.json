@@ -1,0 +1,65 @@
+{
+  "image_file": "e132b5405e16_2025_Robot_Reveal_-_FIRST_3512_Spartatroniks_frame_000658.png",
+  "image_sha256": "e132b5405e16a7fadfea3efe9ef3afe2a922311a1d52629beb42b2fb530472cf",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:37:34.249128+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 50.76982116699219,
+      "center": [
+        1307.6763212305423,
+        167.29473463292595
+      ],
+      "corners": [
+        [
+          1279.2231445312498,
+          199.63075256347653
+        ],
+        [
+          1340.583251953125,
+          195.65078735351562
+        ],
+        [
+          1336.5395507812498,
+          134.49270629882812
+        ],
+        [
+          1275.0247802734373,
+          139.15875244140622
+        ]
+      ],
+      "homography": [
+        [
+          23.492956702344372,
+          4.191594157685361,
+          1307.6763212305423
+        ],
+        [
+          -3.0851703296942254,
+          30.679045296325683,
+          167.29473463292595
+        ],
+        [
+          -0.005524899808009328,
+          0.001629297013520865,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

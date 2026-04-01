@@ -1,0 +1,65 @@
+{
+  "image_file": "dcd25dc40842_Team_195__The_CyberKnights__FRC_Robot_Reveal_for_the_2025_se.png",
+  "image_sha256": "dcd25dc40842c948b2bc9e70916cee9cfc68d9f88b1fa716835ab27f20d8e4de",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:42:50.472870+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 35.215057373046875,
+      "center": [
+        206.72873087297035,
+        755.0484869291286
+      ],
+      "corners": [
+        [
+          177.50720214843753,
+          811.5759887695312
+        ],
+        [
+          246.56605529785162,
+          767.9949340820314
+        ],
+        [
+          233.8316497802734,
+          702.6193237304685
+        ],
+        [
+          160.87268066406247,
+          740.146057128906
+        ]
+      ],
+      "homography": [
+        [
+          46.52669696682233,
+          10.628342868717573,
+          206.72873087297035
+        ],
+        [
+          20.443234487493207,
+          46.44379945540334,
+          755.0484869291286
+        ],
+        [
+          0.053924996858162176,
+          0.016310605482715082,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

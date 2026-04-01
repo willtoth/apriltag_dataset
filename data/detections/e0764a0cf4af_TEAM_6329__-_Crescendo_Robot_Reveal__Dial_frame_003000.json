@@ -1,0 +1,65 @@
+{
+  "image_file": "e0764a0cf4af_TEAM_6329__-_Crescendo_Robot_Reveal__Dial_frame_003000.png",
+  "image_sha256": "e0764a0cf4af91917ce0619452ffc90285a0b62587ff8d96e5120fd3b1c759a4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:40:07.149033+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 75.80059814453125,
+      "center": [
+        1436.4994805962199,
+        511.80279472094276
+      ],
+      "corners": [
+        [
+          1422.4046630859375,
+          530.3985595703125
+        ],
+        [
+          1456.5001220703125,
+          523.3145141601561
+        ],
+        [
+          1450.5676269531248,
+          493.2422180175781
+        ],
+        [
+          1417.3953857421873,
+          500.80709838867193
+        ]
+      ],
+      "homography": [
+        [
+          1.0248126588746818,
+          -14.417063815542178,
+          1436.4994805962199
+        ],
+        [
+          -9.289835816822917,
+          8.80362602920661,
+          511.80279472094276
+        ],
+        [
+          -0.01098988725821246,
+          -0.01193691660864507,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

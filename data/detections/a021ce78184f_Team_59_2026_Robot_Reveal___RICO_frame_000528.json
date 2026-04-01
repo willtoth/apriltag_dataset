@@ -1,0 +1,65 @@
+{
+  "image_file": "a021ce78184f_Team_59_2026_Robot_Reveal___RICO_frame_000528.png",
+  "image_sha256": "a021ce78184f53bf1d6f027c2bcc83636b0035f9dbabf790b362313c5e73ea27",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:49:02.673123+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 31,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 44.81181716918945,
+      "center": [
+        908.4834968869282,
+        156.1917104142292
+      ],
+      "corners": [
+        [
+          895.1925048828124,
+          169.8951416015625
+        ],
+        [
+          922.5362548828125,
+          170.62251281738278
+        ],
+        [
+          922.3034667968751,
+          141.94288635253903
+        ],
+        [
+          894.3870849609375,
+          141.71607971191406
+        ]
+      ],
+      "homography": [
+        [
+          5.653899398525708,
+          9.829534290563515,
+          908.4834968869282
+        ],
+        [
+          -1.161475058751167,
+          15.856880051244048,
+          156.1917104142292
+        ],
+        [
+          -0.00898039024818296,
+          0.010531197260517208,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

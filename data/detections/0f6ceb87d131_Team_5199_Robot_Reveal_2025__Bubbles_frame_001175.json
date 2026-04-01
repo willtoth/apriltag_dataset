@@ -1,0 +1,65 @@
+{
+  "image_file": "0f6ceb87d131_Team_5199_Robot_Reveal_2025__Bubbles_frame_001175.png",
+  "image_sha256": "0f6ceb87d1319e009d9f99dc684da8d55fab47db56dec7fd5f7e26a9093f976f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:18:29.577947+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 13,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 58.443424224853516,
+      "center": [
+        1680.4667808439654,
+        222.18174196833888
+      ],
+      "corners": [
+        [
+          1661.8018798828123,
+          173.8080902099609
+        ],
+        [
+          1631.1529541015625,
+          229.5742950439453
+        ],
+        [
+          1698.5017089843752,
+          268.92269897460943
+        ],
+        [
+          1728.054931640625,
+          215.04788208007812
+        ]
+      ],
+      "homography": [
+        [
+          -15.585758796561993,
+          -62.776406155311406,
+          1680.4667808439654
+        ],
+        [
+          27.330674856357835,
+          -24.026488693166694,
+          222.18174196833888
+        ],
+        [
+          -0.0003214589824525813,
+          -0.017487010870989365,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "634375d03322_STACCATO__2024_Robot_Reveal____CyberCats_2872_frame_001880.png",
+  "image_sha256": "634375d03322ab9fb1f7dd208ba9f56175bb497d73662b7bbb8f83f4248ef181",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:46:07.032122+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 76.97343444824219,
+      "center": [
+        763.4327869472675,
+        56.40609102339676
+      ],
+      "corners": [
+        [
+          727.6043701171876,
+          94.09955596923828
+        ],
+        [
+          801.2213134765625,
+          92.91210174560547
+        ],
+        [
+          799.110107421875,
+          18.871587753295906
+        ],
+        [
+          725.520751953125,
+          19.780763626098636
+        ]
+      ],
+      "homography": [
+        [
+          38.230821930495836,
+          0.8649289104695346,
+          763.4327869472675
+        ],
+        [
+          -0.41851292972474596,
+          37.07611342645309,
+          56.40609102339676
+        ],
+        [
+          0.0018723028985541633,
+          -0.00024076328561233637,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "e43490b2fcb9_The_Pink_Team_FRC_233_-_2025_Reveal_Video_frame_001416.png",
+  "image_sha256": "e43490b2fcb94429c6faedfb769a51087d16555437e1e6be5674f1dcceb80ec4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:54:30.380677+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 88.97531127929688,
+      "center": [
+        235.34176457782092,
+        964.8456505696923
+      ],
+      "corners": [
+        [
+          198.12026977539062,
+          1004.5504150390623
+        ],
+        [
+          273.5631408691406,
+          1017.5370483398439
+        ],
+        [
+          275.6336975097656,
+          921.8656005859376
+        ],
+        [
+          196.52418518066406,
+          911.332336425781
+        ]
+      ],
+      "homography": [
+        [
+          34.856045998221816,
+          5.482430567513238,
+          235.34176457782092
+        ],
+        [
+          -9.465304298296482,
+          70.03140316094118,
+          964.8456505696923
+        ],
+        [
+          -0.015936355578491927,
+          0.023675337766257,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

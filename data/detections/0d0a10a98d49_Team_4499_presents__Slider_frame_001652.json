@@ -1,0 +1,65 @@
+{
+  "image_file": "0d0a10a98d49_Team_4499_presents__Slider_frame_001652.png",
+  "image_sha256": "0d0a10a98d49241061aba3ff17db40b1afef3e8b460d87be7b670f00fe824d49",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:11:06.476695+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 55.583412170410156,
+      "center": [
+        466.4429543911368,
+        714.2853464754338
+      ],
+      "corners": [
+        [
+          439.4466857910157,
+          745.830078125
+        ],
+        [
+          494.9476623535157,
+          738.8223876953125
+        ],
+        [
+          492.7259216308593,
+          683.5740966796874
+        ],
+        [
+          437.2688903808594,
+          689.1721191406249
+        ]
+      ],
+      "homography": [
+        [
+          33.56404770457084,
+          0.6844755274304971,
+          466.4429543911368
+        ],
+        [
+          5.775711816681788,
+          27.335285065103335,
+          714.2853464754338
+        ],
+        [
+          0.01249643726901333,
+          -0.0008915430417930093,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

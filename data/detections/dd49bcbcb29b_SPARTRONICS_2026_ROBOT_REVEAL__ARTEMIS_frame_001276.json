@@ -1,0 +1,65 @@
+{
+  "image_file": "dd49bcbcb29b_SPARTRONICS_2026_ROBOT_REVEAL__ARTEMIS_frame_001276.png",
+  "image_sha256": "dd49bcbcb29b88ac593b3c3e60212ff2bd8cd59ae3cfebd9ae800b0169901bc3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:50:48.643131+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 59.648231506347656,
+      "center": [
+        1634.1807562198683,
+        190.68572803193766
+      ],
+      "corners": [
+        [
+          1579.3238525390623,
+          255.65333557128903
+        ],
+        [
+          1692.1676025390625,
+          252.95274353027344
+        ],
+        [
+          1688.5109863281255,
+          126.34186553955077
+        ],
+        [
+          1576.003173828125,
+          128.2138977050781
+        ]
+      ],
+      "homography": [
+        [
+          61.62010400831764,
+          -0.8548047135907306,
+          1634.1807562198683
+        ],
+        [
+          -0.5260452878719739,
+          63.208396301363734,
+          190.68572803193766
+        ],
+        [
+          0.0032327677166722633,
+          -0.0015908186737029558,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

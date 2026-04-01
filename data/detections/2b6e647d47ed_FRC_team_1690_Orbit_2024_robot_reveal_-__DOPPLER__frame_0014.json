@@ -1,0 +1,65 @@
+{
+  "image_file": "2b6e647d47ed_FRC_team_1690_Orbit_2024_robot_reveal_-__DOPPLER__frame_0014.png",
+  "image_sha256": "2b6e647d47ed0f50ff3a975790a336014c5a47f1b574cad816e4858f6517814c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:30:35.080709+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 73.40878295898438,
+      "center": [
+        971.5468383522698,
+        109.4473764627695
+      ],
+      "corners": [
+        [
+          931.7507934570315,
+          159.7778778076172
+        ],
+        [
+          1006.5707397460938,
+          150.69448852539065
+        ],
+        [
+          1009.5415039062498,
+          61.395099639892585
+        ],
+        [
+          937.7479248046875,
+          69.64291381835936
+        ]
+      ],
+      "homography": [
+        [
+          39.24007554396292,
+          -22.132281237901108,
+          971.5468383522698
+        ],
+        [
+          -4.0328443318967455,
+          42.59772206428346,
+          109.4473764627695
+        ],
+        [
+          0.002678793804884076,
+          -0.02047794728741176,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

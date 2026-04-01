@@ -1,0 +1,65 @@
+{
+  "image_file": "d3b4e8bc5d93_M11_-_Galileo_-_190_POV_frame_004560.png",
+  "image_sha256": "d3b4e8bc5d9350e5fc66fc6a5f6c91acade54e4ac36451d88ff154c9b588bd7b",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T14:53:24.111784+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 58.86671447753906,
+      "center": [
+        1089.8568063075484,
+        405.3916458247633
+      ],
+      "corners": [
+        [
+          1078.0515136718752,
+          415.6891784667969
+        ],
+        [
+          1098.8663330078125,
+          416.91314697265614
+        ],
+        [
+          1101.7788085937495,
+          394.9923095703125
+        ],
+        [
+          1080.7685546874998,
+          393.7694702148439
+        ]
+      ],
+      "homography": [
+        [
+          10.146075233386455,
+          3.6434947621742153,
+          1089.8568063075484
+        ],
+        [
+          0.49642106078789383,
+          12.838642695263786,
+          405.3916458247633
+        ],
+        [
+          -0.00028440795599704393,
+          0.0046343849747783605,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

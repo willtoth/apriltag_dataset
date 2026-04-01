@@ -1,0 +1,65 @@
+{
+  "image_file": "bdb2d1cf4ac3_Team_230_Gaelhawks_Robot_Reveal_2025_-__Calypso__frame_00106.png",
+  "image_sha256": "bdb2d1cf4ac3d4419c76628f954fb6e019e91ccbd3a697c0f1da8a465b9e9c26",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:39:38.770667+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 77.52983856201172,
+      "center": [
+        1379.836436367303,
+        121.95940945852895
+      ],
+      "corners": [
+        [
+          1328.7808837890627,
+          182.67999267578128
+        ],
+        [
+          1420.5667724609375,
+          172.4056243896484
+        ],
+        [
+          1430.7407226562498,
+          61.41872787475584
+        ],
+        [
+          1337.2324218749998,
+          69.19256591796875
+        ]
+      ],
+      "homography": [
+        [
+          62.84854205158831,
+          9.821627456616405,
+          1379.836436367303
+        ],
+        [
+          -3.0635008078306,
+          57.38606075101936,
+          121.95940945852895
+        ],
+        [
+          0.011983726650730072,
+          0.010500139672032569,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "5a7855dbc769_SPARTRONICS_2025_ROBOT_REVEAL__EPHYRA_frame_000840.png",
+  "image_sha256": "5a7855dbc769d2fe402e24cb28bf0784d60a7ba8c8e0255aa1f7b9437e57f9c2",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:45:47.541610+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 7.894182205200195,
+      "center": [
+        1250.480205542593,
+        815.8808703266153
+      ],
+      "corners": [
+        [
+          1224.048583984375,
+          849.8560791015625
+        ],
+        [
+          1273.6578369140625,
+          840.4542236328124
+        ],
+        [
+          1275.6938476562502,
+          783.4712524414062
+        ],
+        [
+          1226.3133544921877,
+          790.2587280273438
+        ]
+      ],
+      "homography": [
+        [
+          52.544299352986855,
+          -2.7547518287672057,
+          1250.480205542593
+        ],
+        [
+          14.100651743045997,
+          28.03322424146461,
+          815.8808703266153
+        ],
+        [
+          0.022238825525526404,
+          -0.0013447397032085025,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

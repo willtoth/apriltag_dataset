@@ -1,0 +1,65 @@
+{
+  "image_file": "1aa32c359eba_Byting_Bulldogs_2026_Reveal_Video_-_Frozone_-_FRC_3539_frame.png",
+  "image_sha256": "1aa32c359eba4bd7b4785b798235e3ae91a536df7c6b9491328a8a473af49e26",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:26:34.289825+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 32,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 60.76080322265625,
+      "center": [
+        1666.4357634250853,
+        344.39429093975855
+      ],
+      "corners": [
+        [
+          1654.0225830078127,
+          385.45471191406244
+        ],
+        [
+          1668.213134765625,
+          418.2335815429688
+        ],
+        [
+          1679.0212402343748,
+          302.7639465332031
+        ],
+        [
+          1664.7813720703125,
+          275.664093017578
+        ]
+      ],
+      "homography": [
+        [
+          -28.49555474012868,
+          -29.508837923562172,
+          1666.4357634250853
+        ],
+        [
+          7.567245382581285,
+          51.28430729350936,
+          344.39429093975855
+        ],
+        [
+          -0.021364016455846565,
+          -0.014471790587256223,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

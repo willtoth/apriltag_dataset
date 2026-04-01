@@ -1,0 +1,65 @@
+{
+  "image_file": "61eddc4fede6_FRC_10015_Bubbles_2025_REEFSCAPE_Robot_Reveal__Octo-MASTER_f.png",
+  "image_sha256": "61eddc4fede68e253675eea19d41bb1fba3734f0d202ddd79c315cbb418643fb",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:35:04.905954+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 80.25537109375,
+      "center": [
+        1009.8587476119865,
+        383.4874489739375
+      ],
+      "corners": [
+        [
+          963.2172851562499,
+          427.20919799804693
+        ],
+        [
+          1044.370849609375,
+          485.1348876953125
+        ],
+        [
+          1066.3057861328125,
+          330.5739440917968
+        ],
+        [
+          976.9920043945312,
+          286.68603515625
+        ]
+      ],
+      "homography": [
+        [
+          -17.984402729177194,
+          26.9934741918031,
+          1009.8587476119865
+        ],
+        [
+          2.7218147080862316,
+          87.07886492479082,
+          383.4874489739375
+        ],
+        [
+          -0.05976877747674725,
+          0.03534926160812503,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

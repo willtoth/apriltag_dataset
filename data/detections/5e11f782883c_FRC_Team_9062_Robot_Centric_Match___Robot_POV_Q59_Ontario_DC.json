@@ -1,0 +1,65 @@
+{
+  "image_file": "5e11f782883c_FRC_Team_9062_Robot_Centric_Match___Robot_POV_Q59_Ontario_DC.png",
+  "image_sha256": "5e11f782883c813075363b64a7c215d33f49b3749d15232d7957d08f6724ab54",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:39:00.266230+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 42.49197006225586,
+      "center": [
+        849.5791200198429,
+        210.21344516733967
+      ],
+      "corners": [
+        [
+          833.8728027343749,
+          224.53289794921875
+        ],
+        [
+          866.7395019531251,
+          223.34455871582034
+        ],
+        [
+          865.2416992187501,
+          195.93386840820312
+        ],
+        [
+          832.4620361328124,
+          197.1154632568359
+        ]
+      ],
+      "homography": [
+        [
+          16.467272921086078,
+          -0.401724755285384,
+          849.5791200198429
+        ],
+        [
+          -0.5786953085284682,
+          13.427688145867762,
+          210.21344516733967
+        ],
+        [
+          6.557513348075068e-05,
+          -0.0013287387080199822,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

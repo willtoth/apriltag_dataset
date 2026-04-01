@@ -1,0 +1,65 @@
+{
+  "image_file": "872acf6da061_Ri3D_Robot_Reveal_-_REBUILT___Georgia_Tech_RoboJackets_Ri3D_.png",
+  "image_sha256": "872acf6da061e4c463fc7585370c25a9f13ae4de1d40d6fa2c309b1a967d29f2",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:29:10.068767+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 66.8292007446289,
+      "center": [
+        1170.1280792839332,
+        695.8705011742762
+      ],
+      "corners": [
+        [
+          1150.8314208984375,
+          714.7595825195314
+        ],
+        [
+          1189.0008544921875,
+          715.0489501953124
+        ],
+        [
+          1189.4320068359377,
+          676.9743041992186
+        ],
+        [
+          1151.0906982421875,
+          676.5247802734375
+        ]
+      ],
+      "homography": [
+        [
+          21.557675775512052,
+          2.4777391059935807,
+          1170.1280792839332
+        ],
+        [
+          1.6297536212547332,
+          20.65343671653318,
+          695.8705011742762
+        ],
+        [
+          0.0020768403847840214,
+          0.002265157902051672,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "32db3516f762_Demacia__5635_-_FRC_2025_Robot_Reveal_-_phineas_frame_000450.png",
+  "image_sha256": "32db3516f762f63dda032cfdf612f968f0fc7d986394631d53c5cdda7d11245e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:26:25.419969+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 55.0153923034668,
+      "center": [
+        1130.4243905098074,
+        707.3863649513904
+      ],
+      "corners": [
+        [
+          1104.1358642578125,
+          729.2225341796875
+        ],
+        [
+          1155.3626708984375,
+          733.6444702148436
+        ],
+        [
+          1159.681396484375,
+          683.08447265625
+        ],
+        [
+          1105.2093505859373,
+          680.8368530273438
+        ]
+      ],
+      "homography": [
+        [
+          -0.7025627986317925,
+          32.0164457164467,
+          1130.4243905098074
+        ],
+        [
+          -15.250464403457846,
+          45.55701753323069,
+          707.3863649513904
+        ],
+        [
+          -0.023962003804443768,
+          0.02948027325331459,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

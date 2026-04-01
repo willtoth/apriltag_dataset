@@ -1,0 +1,65 @@
+{
+  "image_file": "35cfb35c0f6b_FRC_6731_Record_Robotics_2025_Robot_Reveal__Moray__frame_001.png",
+  "image_sha256": "35cfb35c0f6b86caea99b4e933c462641fd4f5438d36dd26298d41a39f507e62",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:50:39.007990+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 21,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 20.521635055541992,
+      "center": [
+        241.47015969694334,
+        345.8198736757101
+      ],
+      "corners": [
+        [
+          226.69708251953128,
+          368.6954040527344
+        ],
+        [
+          262.67254638671875,
+          391.1880798339843
+        ],
+        [
+          256.4436950683594,
+          322.6339416503906
+        ],
+        [
+          220.96287536621094,
+          301.9390258789062
+        ]
+      ],
+      "homography": [
+        [
+          15.035139566224046,
+          1.789741806871378,
+          241.47015969694334
+        ],
+        [
+          6.744420116428611,
+          32.10453641773768,
+          345.8198736757101
+        ],
+        [
+          -0.01170205709926813,
+          -0.004963199231841599,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

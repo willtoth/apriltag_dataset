@@ -1,0 +1,65 @@
+{
+  "image_file": "783a6eeab848_2026_Rebuilt_Robot_Reveal__In-TEA-ana_Jones_frame_001056.png",
+  "image_sha256": "783a6eeab8481b3957acbffda86240fc5240e0fab29b3b7276dbf4ad4387861a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T05:02:19.258007+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 48.725975036621094,
+      "center": [
+        1421.7406877368478,
+        455.76286384113223
+      ],
+      "corners": [
+        [
+          1391.1676025390625,
+          484.24725341796875
+        ],
+        [
+          1447.4073486328123,
+          487.4306335449218
+        ],
+        [
+          1451.80419921875,
+          427.75323486328125
+        ],
+        [
+          1395.800537109375,
+          423.7576599121093
+        ]
+      ],
+      "homography": [
+        [
+          37.80063267054061,
+          -4.463452409494034,
+          1421.7406877368478
+        ],
+        [
+          4.917998812651998,
+          29.332904186178723,
+          455.76286384113223
+        ],
+        [
+          0.006851610580601785,
+          -0.001552121551250491,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

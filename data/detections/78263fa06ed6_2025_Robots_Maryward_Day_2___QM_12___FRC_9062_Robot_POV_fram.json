@@ -1,0 +1,65 @@
+{
+  "image_file": "78263fa06ed6_2025_Robots_Maryward_Day_2___QM_12___FRC_9062_Robot_POV_fram.png",
+  "image_sha256": "78263fa06ed6e8e8a1bd1fa496f7df44c3402e49923cee97ef5396d25733b875",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:44:18.195179+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 77.47665405273438,
+      "center": [
+        402.56943286554565,
+        830.5153937323024
+      ],
+      "corners": [
+        [
+          390.8441467285156,
+          852.8436889648438
+        ],
+        [
+          415.5723571777344,
+          856.2130737304688
+        ],
+        [
+          414.49063110351557,
+          807.8140258789064
+        ],
+        [
+          389.83709716796875,
+          805.352478027344
+        ]
+      ],
+      "homography": [
+        [
+          8.560296057904168,
+          0.07316983975869212,
+          402.56943286554565
+        ],
+        [
+          -6.349476953629735,
+          23.044663511072258,
+          830.5153937323024
+        ],
+        [
+          -0.009399677871582272,
+          -0.0011146365168916389,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

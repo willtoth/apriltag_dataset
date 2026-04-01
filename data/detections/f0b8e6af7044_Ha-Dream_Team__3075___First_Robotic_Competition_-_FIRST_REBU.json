@@ -1,0 +1,65 @@
+{
+  "image_file": "f0b8e6af7044_Ha-Dream_Team__3075___First_Robotic_Competition_-_FIRST_REBU.png",
+  "image_sha256": "f0b8e6af70447a21a1270894f7379cb9dcef0a73b2efedea0840f55825b845f3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:56:05.706510+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.47126770019531,
+      "center": [
+        1280.278821580757,
+        563.4410812606583
+      ],
+      "corners": [
+        [
+          1263.6594238281248,
+          591.6997680664062
+        ],
+        [
+          1309.3438720703125,
+          580.5327148437498
+        ],
+        [
+          1296.6627197265627,
+          535.5828247070311
+        ],
+        [
+          1251.4951171875,
+          546.5148925781251
+        ]
+      ],
+      "homography": [
+        [
+          24.166750895480845,
+          -1.4696643813942927,
+          1280.278821580757
+        ],
+        [
+          -4.884152417927683,
+          19.152378419891647,
+          563.4410812606583
+        ],
+        [
+          0.001136080958127446,
+          -0.005999558086866836,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

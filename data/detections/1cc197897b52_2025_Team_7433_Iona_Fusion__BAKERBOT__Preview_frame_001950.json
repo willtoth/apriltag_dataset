@@ -1,0 +1,65 @@
+{
+  "image_file": "1cc197897b52_2025_Team_7433_Iona_Fusion__BAKERBOT__Preview_frame_001950.png",
+  "image_sha256": "1cc197897b52d368b3941f158ce77c0f5ba700a7e6bacba27863ad3b034f6717",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:31:57.866662+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 19,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 42.493770599365234,
+      "center": [
+        148.01056050954736,
+        871.839374201984
+      ],
+      "corners": [
+        [
+          97.39935302734371,
+          926.3394165039061
+        ],
+        [
+          208.16522216796875,
+          917.5537109375
+        ],
+        [
+          198.36770629882815,
+          817.6129150390624
+        ],
+        [
+          88.27766418457033,
+          826.4455566406249
+        ]
+      ],
+      "homography": [
+        [
+          55.13931175601772,
+          4.283023080371414,
+          148.01056050954736
+        ],
+        [
+          -4.841382103994881,
+          47.327757962200735,
+          871.839374201984
+        ],
+        [
+          -0.0005008784056441114,
+          -0.0030171291385812857,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

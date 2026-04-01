@@ -1,0 +1,65 @@
+{
+  "image_file": "06d5d0c260b5_FRC_3636_2025_Robot_Reveal__Neptune_frame_001200.png",
+  "image_sha256": "06d5d0c260b5ce629bc059410364da5fd564f63f44efd2fa58c3458080e36daa",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:23:29.407940+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 42.15346145629883,
+      "center": [
+        1561.66531155906,
+        492.659910584311
+      ],
+      "corners": [
+        [
+          1534.371459960937,
+          520.3057861328125
+        ],
+        [
+          1588.1503906250002,
+          523.75390625
+        ],
+        [
+          1588.9846191406255,
+          464.98825073242193
+        ],
+        [
+          1535.5106201171877,
+          461.9537963867188
+        ]
+      ],
+      "homography": [
+        [
+          21.54794493745885,
+          -5.030713929345208,
+          1561.66531155906
+        ],
+        [
+          -0.0408423345470544,
+          27.84755526680516,
+          492.659910584311
+        ],
+        [
+          -0.003371251233454067,
+          -0.0029051367690094633,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

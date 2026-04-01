@@ -1,0 +1,65 @@
+{
+  "image_file": "517102e6c413_FRC_Team_399_Eagle_Robotics_-_2025_Robot_Teaser_frame_000119.png",
+  "image_sha256": "517102e6c413548c6a94abd594cdd518213af3f2fa85a4d4f5ff109e81d6f3ff",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:05:54.511817+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 56.6547966003418,
+      "center": [
+        1151.4000376037152,
+        672.8284579610512
+      ],
+      "corners": [
+        [
+          1143.8828125,
+          698.3282470703125
+        ],
+        [
+          1158.1806640625002,
+          690.9559326171874
+        ],
+        [
+          1158.4833984375002,
+          648.8004150390625
+        ],
+        [
+          1144.7239990234377,
+          654.9805908203127
+        ]
+      ],
+      "homography": [
+        [
+          19.643667219424746,
+          -21.864651355157545,
+          1151.4000376037152
+        ],
+        [
+          4.004319139723974,
+          8.752908510582301,
+          672.8284579610512
+        ],
+        [
+          0.01097166962805013,
+          -0.018743868624140365,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

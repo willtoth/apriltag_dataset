@@ -1,0 +1,65 @@
+{
+  "image_file": "25ecede07200_2026_FIRST_Robotics_Competition_Field_Tour__Bump_and_Trench_.png",
+  "image_sha256": "25ecede07200252637c2aa0b7252c4e0fe1a1dec2fa2e0f69621a658e2d4a5a8",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:07:04.009700+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 82.85183715820312,
+      "center": [
+        1148.3674210469553,
+        434.3467738845115
+      ],
+      "corners": [
+        [
+          961.7208251953128,
+          694.1871337890627
+        ],
+        [
+          1281.3909912109375,
+          603.5458984374999
+        ],
+        [
+          1315.395141601562,
+          201.818862915039
+        ],
+        [
+          966.397521972656,
+          202.89044189453145
+        ]
+      ],
+      "homography": [
+        [
+          286.0658160931042,
+          46.07104067391746,
+          1148.3674210469553
+        ],
+        [
+          20.82522656127398,
+          242.15792509815458,
+          434.3467738845115
+        ],
+        [
+          0.10542998942728148,
+          0.049958403318381396,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

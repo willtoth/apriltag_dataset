@@ -1,0 +1,65 @@
+{
+  "image_file": "6a45cc5a0aa1_TRIGON_5990___2025_ROBOT_REVEAL__TRIDOG__frame_000767.png",
+  "image_sha256": "6a45cc5a0aa1a72cc23904fca3d0b17d7ee55c06ea582a4a5c130c1fd425169c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:42:26.191502+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 53.36787033081055,
+      "center": [
+        1475.3329479308793,
+        1022.7961166501707
+      ],
+      "corners": [
+        [
+          1420.84326171875,
+          1059.556396484375
+        ],
+        [
+          1525.1121826171875,
+          1082.5616455078125
+        ],
+        [
+          1531.2958984375002,
+          985.0419311523441
+        ],
+        [
+          1426.0222167968755,
+          963.5930786132814
+        ]
+      ],
+      "homography": [
+        [
+          39.053141404646794,
+          3.515267550689264,
+          1475.3329479308793
+        ],
+        [
+          1.8770077827036793,
+          52.77010194632351,
+          1022.7961166501707
+        ],
+        [
+          -0.009033244132239151,
+          0.004305181624340347,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

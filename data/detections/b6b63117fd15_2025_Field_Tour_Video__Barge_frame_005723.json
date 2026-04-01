@@ -1,0 +1,65 @@
+{
+  "image_file": "b6b63117fd15_2025_Field_Tour_Video__Barge_frame_005723.png",
+  "image_sha256": "b6b63117fd15e5518f51316d391edc992d4a8638ad1949ad4be694523af3f4f9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:08:09.015714+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 59.51128005981445,
+      "center": [
+        761.284873551763,
+        144.2821238261939
+      ],
+      "corners": [
+        [
+          725.7355346679684,
+          182.2308349609375
+        ],
+        [
+          806.1416015625,
+          179.81771850585932
+        ],
+        [
+          797.670349121094,
+          105.44084167480464
+        ],
+        [
+          715.76220703125,
+          108.21897125244143
+        ]
+      ],
+      "homography": [
+        [
+          38.955156818130604,
+          11.841428829374768,
+          761.284873551763
+        ],
+        [
+          -1.603169798807618,
+          38.46370744931471,
+          144.2821238261939
+        ],
+        [
+          -0.002127638506050429,
+          0.009495894436839,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

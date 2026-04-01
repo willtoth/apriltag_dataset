@@ -1,0 +1,65 @@
+{
+  "image_file": "49177252fb74_FRC_5549_Gryphon_Robotics_2026_Rebuilt_Robot_Reveal___SOLARI.png",
+  "image_sha256": "49177252fb74326aee7e949e9ad92057f4e1c56e02e3451ffe3a6754e3d9f97d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:04:44.487043+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 77.94051361083984,
+      "center": [
+        658.7644756563326,
+        62.857736902515924
+      ],
+      "corners": [
+        [
+          615.4482421875001,
+          103.84028625488283
+        ],
+        [
+          697.7313232421875,
+          111.17155456542966
+        ],
+        [
+          701.9874877929684,
+          21.963386535644513
+        ],
+        [
+          618.7007446289061,
+          13.183926582336454
+        ]
+      ],
+      "homography": [
+        [
+          46.31501157597643,
+          2.3358083223565758,
+          658.7644756563326
+        ],
+        [
+          4.4930509794548446,
+          45.3637420673705,
+          62.857736902515924
+        ],
+        [
+          0.007478221400970673,
+          0.006401006877729836,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

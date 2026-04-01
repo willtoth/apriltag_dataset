@@ -1,0 +1,65 @@
+{
+  "image_file": "3f75e33f36be_FRC_Team_9496_LYNK_2025_Robot_Reveal_-__Rocky__frame_004200.png",
+  "image_sha256": "3f75e33f36becf44129d0b03558053b040e48d5fda6d1c53977d6e137f45618e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:27:41.888474+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 73.18779754638672,
+      "center": [
+        299.7919297963523,
+        648.1362309687053
+      ],
+      "corners": [
+        [
+          262.74411010742193,
+          685.1018676757812
+        ],
+        [
+          329.93896484375,
+          685.2796020507814
+        ],
+        [
+          335.16213989257807,
+          612.844482421875
+        ],
+        [
+          268.74542236328125,
+          609.8846435546874
+        ]
+      ],
+      "homography": [
+        [
+          39.065599781598166,
+          -4.06885386921311,
+          299.7919297963523
+        ],
+        [
+          13.060674910494978,
+          34.15549231190289,
+          648.1362309687053
+        ],
+        [
+          0.0189322232106916,
+          -0.004233411061347531,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

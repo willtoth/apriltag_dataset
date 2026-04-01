@@ -1,0 +1,65 @@
+{
+  "image_file": "d3967e22e8cf_FRC_team_8214_Cyber_Unicorn_2026_Robot_Reveal_frame_000960.png",
+  "image_sha256": "d3967e22e8cfe1fe8401da4924f7e0c1210b9b72ff23240afe75bd4245b4a60f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:35:45.542895+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 23,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 69.59068298339844,
+      "center": [
+        1604.0719125487535,
+        200.24465056374086
+      ],
+      "corners": [
+        [
+          1572.0855712890627,
+          255.90057373046872
+        ],
+        [
+          1631.2607421875,
+          258.0462036132813
+        ],
+        [
+          1636.1301269531248,
+          144.4636688232422
+        ],
+        [
+          1577.7331542968748,
+          144.25028991699213
+        ]
+      ],
+      "homography": [
+        [
+          15.752437141697785,
+          -14.469652144603058,
+          1604.0719125487535
+        ],
+        [
+          -1.1197908639767102,
+          54.82331329368503,
+          200.24465056374086
+        ],
+        [
+          -0.00850161609378969,
+          -0.007379379489364027,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

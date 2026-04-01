@@ -1,0 +1,65 @@
+{
+  "image_file": "e72dae2bdf9c_LED_Robotics_Reveal_2024_frame_001140.png",
+  "image_sha256": "e72dae2bdf9c8d7f0292f1024fb13866d7e8e210763cc622cc052f84620ff075",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:52:42.539791+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 50.989105224609375,
+      "center": [
+        451.9819884373972,
+        264.7848426363101
+      ],
+      "corners": [
+        [
+          440.2029113769532,
+          278.69140625
+        ],
+        [
+          466.09805297851557,
+          279.72512817382807
+        ],
+        [
+          463.39965820312494,
+          251.30496215820315
+        ],
+        [
+          438.12158203124994,
+          250.1151428222657
+        ]
+      ],
+      "homography": [
+        [
+          14.247092088954389,
+          -4.3903838891988,
+          451.9819884373972
+        ],
+        [
+          1.4097690842522739,
+          10.974296810398755,
+          264.7848426363101
+        ],
+        [
+          0.003220879247087085,
+          -0.01235920607369396,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

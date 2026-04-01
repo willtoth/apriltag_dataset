@@ -1,0 +1,65 @@
+{
+  "image_file": "34a3762bf0b5_FRC_Team_6619_GravitechX_-_2024_robot_reveal__Annika_frame_0.png",
+  "image_sha256": "34a3762bf0b519fba8b756c1e6563827013ed79bc20edba8af6bf8275bacb19e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:54:25.536960+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.503662109375,
+      "center": [
+        839.6142770927067,
+        351.1994991249669
+      ],
+      "corners": [
+        [
+          819.9286499023436,
+          379.58197021484375
+        ],
+        [
+          861.1173095703124,
+          375.4373168945312
+        ],
+        [
+          858.5857543945312,
+          323.84667968750006
+        ],
+        [
+          816.5275268554686,
+          325.1765441894532
+        ]
+      ],
+      "homography": [
+        [
+          43.4603637808068,
+          8.627405676001677,
+          839.6142770927067
+        ],
+        [
+          8.101162922985221,
+          29.47125102967817,
+          351.1994991249669
+        ],
+        [
+          0.026995732823033296,
+          0.008521770587116624,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

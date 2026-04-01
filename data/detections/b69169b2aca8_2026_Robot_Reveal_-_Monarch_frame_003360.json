@@ -1,0 +1,65 @@
+{
+  "image_file": "b69169b2aca8_2026_Robot_Reveal_-_Monarch_frame_003360.png",
+  "image_sha256": "b69169b2aca8ebed5ab2996afd1f5f0c241df21c60695544f309464b6e4a1274",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:49:40.128175+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 60.234832763671875,
+      "center": [
+        1250.1167214494071,
+        318.29477164797476
+      ],
+      "corners": [
+        [
+          1231.7489013671875,
+          349.71893310546875
+        ],
+        [
+          1269.05615234375,
+          349.81353759765625
+        ],
+        [
+          1268.625,
+          286.63031005859375
+        ],
+        [
+          1231.2888183593748,
+          286.9616088867187
+        ]
+      ],
+      "homography": [
+        [
+          14.43402700741558,
+          0.7578519343178431,
+          1250.1167214494071
+        ],
+        [
+          -1.1352288781996018,
+          31.620987420405697,
+          318.29477164797476
+        ],
+        [
+          -0.003380976343417246,
+          0.0004279533856163319,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

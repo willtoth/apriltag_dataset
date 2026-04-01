@@ -1,0 +1,65 @@
+{
+  "image_file": "b21bb648be6a_2025_Newton_Division___QM_108___FRC_5406_Robot_POV_frame_007.png",
+  "image_sha256": "b21bb648be6aad5c2a34daf3d86153e40d2ece1aa491e68f7920f42f093e2bf4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:53:10.087607+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 21,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 87.17344665527344,
+      "center": [
+        767.7208605435006,
+        216.370559539738
+      ],
+      "corners": [
+        [
+          702.2543334960938,
+          285.0974426269532
+        ],
+        [
+          837.5934448242188,
+          265.9516296386719
+        ],
+        [
+          835.8179321289062,
+          144.88212585449213
+        ],
+        [
+          692.2437744140626,
+          162.8125762939453
+        ]
+      ],
+      "homography": [
+        [
+          76.90236006337477,
+          25.26678186860182,
+          767.7208605435006
+        ],
+        [
+          -7.2530322363095445,
+          67.08886518247905,
+          216.370559539738
+        ],
+        [
+          0.00943184041728806,
+          0.02912691126687341,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

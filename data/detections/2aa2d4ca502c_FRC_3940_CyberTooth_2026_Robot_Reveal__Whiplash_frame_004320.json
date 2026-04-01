@@ -1,0 +1,65 @@
+{
+  "image_file": "2aa2d4ca502c_FRC_3940_CyberTooth_2026_Robot_Reveal__Whiplash_frame_004320.png",
+  "image_sha256": "2aa2d4ca502c71f5da745d0abbbc6e1d555d1833fff0a5cbc01643502b20d898",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:48:50.440656+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 74.25846862792969,
+      "center": [
+        1351.9043990656514,
+        283.57488847161403
+      ],
+      "corners": [
+        [
+          1337.880126953125,
+          301.00836181640625
+        ],
+        [
+          1364.3883056640625,
+          305.4618530273437
+        ],
+        [
+          1366.5814208984377,
+          265.32998657226557
+        ],
+        [
+          1339.6467285156255,
+          262.08456420898443
+        ]
+      ],
+      "homography": [
+        [
+          -8.197483363111589,
+          8.20547474867976,
+          1351.9043990656514
+        ],
+        [
+          -2.5927168450290905,
+          21.68654973632971,
+          283.57488847161403
+        ],
+        [
+          -0.015943414806476708,
+          0.0067994525187241505,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

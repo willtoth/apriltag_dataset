@@ -1,0 +1,65 @@
+{
+  "image_file": "5445c2072bac_FRC_team_10015_Bubbles_2026_robot_reveal_-__BALLISTA__frame_.png",
+  "image_sha256": "5445c2072bace38eb0e3256a449de0042a96dbf75a7bfb76806028f18c7dc5b9",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:12:33.834085+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 21,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 46.054561614990234,
+      "center": [
+        580.3826266305739,
+        330.14432545207524
+      ],
+      "corners": [
+        [
+          558.4224243164064,
+          350.0230407714843
+        ],
+        [
+          600.4461059570312,
+          353.0810852050782
+        ],
+        [
+          602.9686279296874,
+          309.6991271972657
+        ],
+        [
+          560.0464477539062,
+          306.8958129882812
+        ]
+      ],
+      "homography": [
+        [
+          19.11591389421949,
+          5.000604252434985,
+          580.3826266305739
+        ],
+        [
+          0.26206248229851475,
+          25.058010828434305,
+          330.14432545207524
+        ],
+        [
+          -0.003649133216893389,
+          0.010399179191023058,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

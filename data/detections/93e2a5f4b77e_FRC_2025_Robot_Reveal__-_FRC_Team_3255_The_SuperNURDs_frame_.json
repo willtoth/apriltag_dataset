@@ -1,0 +1,65 @@
+{
+  "image_file": "93e2a5f4b77e_FRC_2025_Robot_Reveal__-_FRC_Team_3255_The_SuperNURDs_frame_.png",
+  "image_sha256": "93e2a5f4b77efa8c45b4dbbea2394448cf4ca9a2063f1b04b152312218f414be",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:39:56.822581+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 56.462501525878906,
+      "center": [
+        983.9468323223666,
+        1000.3891863894573
+      ],
+      "corners": [
+        [
+          966.9136962890625,
+          1033.6773681640623
+        ],
+        [
+          1005.57666015625,
+          1029.483154296875
+        ],
+        [
+          1000.9753417968749,
+          967.1100463867186
+        ],
+        [
+          963.3152465820311,
+          972.6379394531249
+        ]
+      ],
+      "homography": [
+        [
+          7.520961802074795,
+          -9.6435091388538,
+          983.9468323223666
+        ],
+        [
+          -14.18543631947455,
+          18.962342105604762,
+          1000.3891863894573
+        ],
+        [
+          -0.011742410920795586,
+          -0.011878239907527862,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "2a578d5fd155_Poi_Pouder_XXVI_Autonomous_-_2025_FRC_Reefscape_frame_000360.png",
+  "image_sha256": "2a578d5fd15511ef29fddf75a6c3a7668d24ead8e156638a08f94379c1a35025",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:43:59.073345+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 78.44750213623047,
+      "center": [
+        519.6823499388839,
+        174.48809076527812
+      ],
+      "corners": [
+        [
+          505.8420104980469,
+          196.76506042480472
+        ],
+        [
+          535.5122680664062,
+          191.00222778320312
+        ],
+        [
+          532.8069458007812,
+          153.36315917968744
+        ],
+        [
+          503.95761108398443,
+          158.08367919921872
+        ]
+      ],
+      "homography": [
+        [
+          20.656040094823425,
+          -6.611113351209039,
+          519.6823499388839
+        ],
+        [
+          -0.5883285084252654,
+          16.465809092443976,
+          174.48809076527812
+        ],
+        [
+          0.011605126198581622,
+          -0.014938367079043726,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

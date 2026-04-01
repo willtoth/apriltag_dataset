@@ -1,0 +1,65 @@
+{
+  "image_file": "0cea6c8fe896_Team_118_Robonauts_2024_frame_001947.png",
+  "image_sha256": "0cea6c8fe896eff0aeee6e63b06fd7e0b84523793fa01767d9a783b725312952",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:25:13.528215+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 13,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 58.0765380859375,
+      "center": [
+        601.5809371378155,
+        408.0205731271225
+      ],
+      "corners": [
+        [
+          581.8577880859375,
+          435.1928100585938
+        ],
+        [
+          618.1930541992186,
+          453.96078491210926
+        ],
+        [
+          620.3790283203126,
+          382.1227722167969
+        ],
+        [
+          584.1380615234376,
+          359.78292846679693
+        ]
+      ],
+      "homography": [
+        [
+          32.69435787365728,
+          -1.0016571206084524,
+          601.5809371378155
+        ],
+        [
+          20.14649731394371,
+          36.8679146146539,
+          408.0205731271225
+        ],
+        [
+          0.024204423535538293,
+          0.00019019492419240108,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

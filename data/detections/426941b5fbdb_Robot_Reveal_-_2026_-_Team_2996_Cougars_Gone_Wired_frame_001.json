@@ -1,0 +1,65 @@
+{
+  "image_file": "426941b5fbdb_Robot_Reveal_-_2026_-_Team_2996_Cougars_Gone_Wired_frame_001.png",
+  "image_sha256": "426941b5fbdb4220e2f238a3da06b10a885a753dc3b342662b84fe68c0c229ea",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:55:25.413380+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 67.04838562011719,
+      "center": [
+        1115.5479591637754,
+        68.45203735743023
+      ],
+      "corners": [
+        [
+          1050.8978271484375,
+          133.02986145019534
+        ],
+        [
+          1178.222900390625,
+          138.40036010742188
+        ],
+        [
+          1181.6348876953125,
+          2.4390237331390323
+        ],
+        [
+          1055.317749023437,
+          1.232154965400713
+        ]
+      ],
+      "homography": [
+        [
+          46.1697339026116,
+          -6.931061370628408,
+          1115.5479591637754
+        ],
+        [
+          0.5777774625841151,
+          66.61759588719774,
+          68.45203735743023
+        ],
+        [
+          -0.01544058611458499,
+          -0.004450615021546763,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "80a4e92d0f8c_Robot_Reveal_2024_-_Leto___Team_3161_frame_001770.png",
+  "image_sha256": "80a4e92d0f8c114f9fe38ca3a19e47de524ee38489dfc065b9d3dc9d3014214f",
+  "image_width": 1920,
+  "image_height": 960,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:53:22.046961+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 15,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 44.35559844970703,
+      "center": [
+        436.611789904761,
+        377.36961016450783
+      ],
+      "corners": [
+        [
+          415.6973571777344,
+          397.91595458984375
+        ],
+        [
+          455.83721923828125,
+          398.648193359375
+        ],
+        [
+          457.337158203125,
+          357.0090026855468
+        ],
+        [
+          416.96328735351557,
+          355.62277221679676
+        ]
+      ],
+      "homography": [
+        [
+          23.49414893014324,
+          0.6922532134772752,
+          436.611789904761
+        ],
+        [
+          3.438769159172236,
+          22.178386588757235,
+          377.36961016450783
+        ],
+        [
+          0.007711842624949121,
+          0.0031713687512306874,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

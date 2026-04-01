@@ -1,0 +1,65 @@
+{
+  "image_file": "9ccff90825b7_Strike_Zone_Team_5460_-_2025_Robot_Reveal_frame_000600.png",
+  "image_sha256": "9ccff90825b784336daf07f4228a7f3f4d17a647f660d4602ca6f6854bf93f81",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:12:14.837324+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 13.00139331817627,
+      "center": [
+        494.39306341176405,
+        666.0370409815567
+      ],
+      "corners": [
+        [
+          472.464385986328,
+          688.7573242187499
+        ],
+        [
+          519.1700439453126,
+          686.6593017578125
+        ],
+        [
+          515.9246826171875,
+          643.7281494140625
+        ],
+        [
+          469.85134887695307,
+          645.610595703125
+        ]
+      ],
+      "homography": [
+        [
+          24.27276936150639,
+          -1.9723965065286364,
+          494.39306341176405
+        ],
+        [
+          0.45947886268140586,
+          16.88719673848948,
+          666.0370409815567
+        ],
+        [
+          0.002182896529956428,
+          -0.006953217366941411,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

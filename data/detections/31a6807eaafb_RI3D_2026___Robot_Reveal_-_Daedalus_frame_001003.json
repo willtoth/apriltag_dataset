@@ -1,0 +1,65 @@
+{
+  "image_file": "31a6807eaafb_RI3D_2026___Robot_Reveal_-_Daedalus_frame_001003.png",
+  "image_sha256": "31a6807eaafb0fe1af923dd6781293ea29f0d8ab4cfc617a2e53d16c0a5292dc",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:20:39.041157+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 13,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 27.535869598388672,
+      "center": [
+        1120.0137224934167,
+        276.85931833777215
+      ],
+      "corners": [
+        [
+          1106.0296630859377,
+          292.14364624023443
+        ],
+        [
+          1134.8106689453125,
+          292.9290161132812
+        ],
+        [
+          1135.2034912109375,
+          260.2571716308594
+        ],
+        [
+          1105.8500976562502,
+          261.47741699218756
+        ]
+      ],
+      "homography": [
+        [
+          -20.87299878632075,
+          10.853441513378582,
+          1120.0137224934167
+        ],
+        [
+          -8.847183919051988,
+          18.510990193519206,
+          276.85931833777215
+        ],
+        [
+          -0.031598433098306275,
+          0.0097300242051274,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

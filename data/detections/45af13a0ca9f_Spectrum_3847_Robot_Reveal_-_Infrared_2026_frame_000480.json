@@ -1,0 +1,65 @@
+{
+  "image_file": "45af13a0ca9f_Spectrum_3847_Robot_Reveal_-_Infrared_2026_frame_000480.png",
+  "image_sha256": "45af13a0ca9fe301e75365588ec43f0cacef3765c89c0cbc1be00632a308d1c8",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:06:58.527422+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 53.22455978393555,
+      "center": [
+        1083.4735171785842,
+        469.18903620536486
+      ],
+      "corners": [
+        [
+          1069.6439208984377,
+          487.5120544433593
+        ],
+        [
+          1092.8663330078125,
+          490.20327758789074
+        ],
+        [
+          1097.6079101562495,
+          450.4621887207032
+        ],
+        [
+          1074.2622070312498,
+          448.58087158203114
+        ]
+      ],
+      "homography": [
+        [
+          0.45073852810901394,
+          -1.720151563680247,
+          1083.4735171785842
+        ],
+        [
+          -3.7024971423407487,
+          19.934214461258534,
+          469.18903620536486
+        ],
+        [
+          -0.01032791005941282,
+          0.000571704252015702,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

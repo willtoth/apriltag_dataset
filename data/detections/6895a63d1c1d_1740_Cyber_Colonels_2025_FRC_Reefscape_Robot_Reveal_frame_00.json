@@ -1,0 +1,65 @@
+{
+  "image_file": "6895a63d1c1d_1740_Cyber_Colonels_2025_FRC_Reefscape_Robot_Reveal_frame_00.png",
+  "image_sha256": "6895a63d1c1d9536990ac77ed6946d092a86306815d1fb03a071cc6c2bcedcb4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:35:20.339211+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 77.1629638671875,
+      "center": [
+        1425.3894219412894,
+        300.5335520925791
+      ],
+      "corners": [
+        [
+          1376.1813964843748,
+          352.4667663574218
+        ],
+        [
+          1478.5925292968752,
+          344.6988525390626
+        ],
+        [
+          1476.3588867187505,
+          246.74134826660162
+        ],
+        [
+          1372.3916015625,
+          256.5386657714843
+        ]
+      ],
+      "homography": [
+        [
+          37.67767677942652,
+          12.667303093390961,
+          1425.3894219412894
+        ],
+        [
+          -7.315853436079585,
+          50.81484910677125,
+          300.5335520925791
+        ],
+        [
+          -0.00975809513188754,
+          0.00782508963771838,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "a4e3b5b40294_Robot_Reveal_2024___Team_Pronto_3070_frame_000767.png",
+  "image_sha256": "a4e3b5b4029490255816ca2a2df8e318532b9cbb0fc4e49d911fad4fbea4c613",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:51:12.908580+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 63.863487243652344,
+      "center": [
+        1055.5160161349422,
+        196.5175278674149
+      ],
+      "corners": [
+        [
+          1017.7034301757814,
+          238.09342956542963
+        ],
+        [
+          1096.111328125,
+          235.10476684570315
+        ],
+        [
+          1093.7014160156248,
+          154.53170776367188
+        ],
+        [
+          1014.6091918945312,
+          157.63418579101557
+        ]
+      ],
+      "homography": [
+        [
+          38.802481331471654,
+          5.98231724451171,
+          1055.5160161349422
+        ],
+        [
+          -1.6290229091524162,
+          41.114864284582296,
+          196.5175278674149
+        ],
+        [
+          -0.0005417201634359505,
+          0.00436385618048824,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

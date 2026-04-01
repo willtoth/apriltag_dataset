@@ -1,0 +1,65 @@
+{
+  "image_file": "d98d2ab8b962_COMETS_3357_FRC_Reveal_Video_2024__Vaisala_frame_003360.png",
+  "image_sha256": "d98d2ab8b962c27cc28185edc92b6a165d3c7f5e92659e40af8e791ef5e923e1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:34:48.873493+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 43.65144729614258,
+      "center": [
+        1124.0623334890786,
+        566.5807737462806
+      ],
+      "corners": [
+        [
+          1101.6990966796875,
+          582.8392944335938
+        ],
+        [
+          1145.3311767578125,
+          595.124755859375
+        ],
+        [
+          1145.435668945312,
+          551.0419311523438
+        ],
+        [
+          1102.2192382812498,
+          537.26611328125
+        ]
+      ],
+      "homography": [
+        [
+          41.91148070944291,
+          -5.386801762697127,
+          1124.0623334890786
+        ],
+        [
+          16.70204551487677,
+          19.76901102660145,
+          566.5807737462806
+        ],
+        [
+          0.017976642271844766,
+          -0.004656620964821738,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

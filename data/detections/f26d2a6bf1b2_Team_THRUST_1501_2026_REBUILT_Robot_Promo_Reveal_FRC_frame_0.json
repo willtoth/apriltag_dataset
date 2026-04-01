@@ -1,0 +1,65 @@
+{
+  "image_file": "f26d2a6bf1b2_Team_THRUST_1501_2026_REBUILT_Robot_Promo_Reveal_FRC_frame_0.png",
+  "image_sha256": "f26d2a6bf1b2c4d32cbec90dcdc619b0f03c2b0d37557ce21ff003b539927291",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:01:13.736776+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 75.87531280517578,
+      "center": [
+        1053.6957124643689,
+        498.5743825946906
+      ],
+      "corners": [
+        [
+          1036.9702148437507,
+          519.3270263671875
+        ],
+        [
+          1071.6385498046873,
+          520.4940185546875
+        ],
+        [
+          1070.9556884765618,
+          477.15856933593756
+        ],
+        [
+          1036.1197509765625,
+          477.10293579101545
+        ]
+      ],
+      "homography": [
+        [
+          3.6456121675635127,
+          3.2282048365964333,
+          1053.6957124643689
+        ],
+        [
+          -6.1882540976093905,
+          22.731675402692417,
+          498.5743825946906
+        ],
+        [
+          -0.013027866606003285,
+          0.0026988052464843384,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

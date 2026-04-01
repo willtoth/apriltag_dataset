@@ -1,0 +1,65 @@
+{
+  "image_file": "8fc320d3ba02_FRC_team_1690_Orbit_2025_robot_reveal_-__WHISPER__frame_0006.png",
+  "image_sha256": "8fc320d3ba0210ab9f37657a87fc9e6b1bc5bd072db1ab3628f8c2ff96d070f6",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:38:43.192510+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 82.92206573486328,
+      "center": [
+        377.94666874933415,
+        27.52535688731472
+      ],
+      "corners": [
+        [
+          361.2385253906249,
+          41.20466232299805
+        ],
+        [
+          396.1327209472656,
+          37.55595016479492
+        ],
+        [
+          394.69454956054693,
+          13.813517570495607
+        ],
+        [
+          359.95101928710926,
+          17.599781036376953
+        ]
+      ],
+      "homography": [
+        [
+          16.190261695820936,
+          -0.08881995871649707,
+          377.94666874933415
+        ],
+        [
+          -1.9476438281073398,
+          11.780602518894934,
+          27.52535688731472
+        ],
+        [
+          -0.003225077951181915,
+          -0.0020373261638888607,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

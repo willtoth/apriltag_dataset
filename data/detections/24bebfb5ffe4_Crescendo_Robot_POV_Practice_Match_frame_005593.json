@@ -1,0 +1,65 @@
+{
+  "image_file": "24bebfb5ffe4_Crescendo_Robot_POV_Practice_Match_frame_005593.png",
+  "image_sha256": "24bebfb5ffe4bba5445bf73bb22c62f0ce054a7864a84e4749fdbf8354e954cc",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:22:46.377056+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 15,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 22.73161506652832,
+      "center": [
+        1448.2578009622227,
+        72.73181991338214
+      ],
+      "corners": [
+        [
+          1425.9862060546875,
+          113.75625610351561
+        ],
+        [
+          1472.5062255859377,
+          99.69088745117189
+        ],
+        [
+          1472.0423583984373,
+          28.920495986938473
+        ],
+        [
+          1426.0380859375,
+          48.02824401855468
+        ]
+      ],
+      "homography": [
+        [
+          -32.305485927989594,
+          -7.732878999644075,
+          1448.2578009622227
+        ],
+        [
+          -11.07730916757237,
+          33.684064307354774,
+          72.73181991338214
+        ],
+        [
+          -0.03825423287725565,
+          -0.0054038436960828565,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

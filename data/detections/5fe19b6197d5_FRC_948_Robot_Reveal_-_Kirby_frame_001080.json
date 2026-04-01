@@ -1,0 +1,65 @@
+{
+  "image_file": "5fe19b6197d5_FRC_948_Robot_Reveal_-_Kirby_frame_001080.png",
+  "image_sha256": "5fe19b6197d520d3e1127f10e4c696255b7abfe27d3f7aa7aec23df2b8b3f540",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:07:37.027230+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 84.01190185546875,
+      "center": [
+        94.3085403975985,
+        263.40021396299437
+      ],
+      "corners": [
+        [
+          81.31837463378908,
+          304.5030517578125
+        ],
+        [
+          106.10071563720702,
+          311.8417358398438
+        ],
+        [
+          106.67997741699216,
+          224.255126953125
+        ],
+        [
+          82.4780807495117,
+          214.80142211914057
+        ]
+      ],
+      "homography": [
+        [
+          13.469080318240373,
+          -1.5049512235008236,
+          94.3085403975985
+        ],
+        [
+          7.636408484148598,
+          41.31050478753144,
+          263.40021396299437
+        ],
+        [
+          0.013008472792790078,
+          -0.011387806484383731,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

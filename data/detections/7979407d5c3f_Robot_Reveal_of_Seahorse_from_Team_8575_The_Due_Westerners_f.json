@@ -1,0 +1,65 @@
+{
+  "image_file": "7979407d5c3f_Robot_Reveal_of_Seahorse_from_Team_8575_The_Due_Westerners_f.png",
+  "image_sha256": "7979407d5c3f66944c5a1964fadacfab79960297972771ceeb14fc8c72efd010",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:48:00.427850+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 46.30470275878906,
+      "center": [
+        818.9907608806726,
+        593.2508042624974
+      ],
+      "corners": [
+        [
+          804.5530395507815,
+          607.3936767578126
+        ],
+        [
+          833.2052001953124,
+          608.107238769531
+        ],
+        [
+          833.7434692382812,
+          578.7993774414062
+        ],
+        [
+          804.2491455078126,
+          577.8433837890627
+        ]
+      ],
+      "homography": [
+        [
+          17.569907007151073,
+          11.81392737418287,
+          818.9907608806726
+        ],
+        [
+          2.6152827251455593,
+          23.312396831305932,
+          593.2508042624974
+        ],
+        [
+          0.003707654893794702,
+          0.014498418547823565,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

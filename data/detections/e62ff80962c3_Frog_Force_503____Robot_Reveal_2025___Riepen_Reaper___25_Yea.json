@@ -1,0 +1,65 @@
+{
+  "image_file": "e62ff80962c3_Frog_Force_503____Robot_Reveal_2025___Riepen_Reaper___25_Yea.png",
+  "image_sha256": "e62ff80962c3b939f8c81b391e58631712631ac2531f9462b63f7ddba0bd1ffa",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:48:58.953939+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 67.16077423095703,
+      "center": [
+        371.3256014841746,
+        472.50990155664454
+      ],
+      "corners": [
+        [
+          327.9338684082031,
+          519.97802734375
+        ],
+        [
+          415.3347778320312,
+          520.3820800781249
+        ],
+        [
+          414.03759765625006,
+          425.7853698730469
+        ],
+        [
+          326.65609741210943,
+          423.91943359375006
+        ]
+      ],
+      "homography": [
+        [
+          46.54122745713562,
+          0.560654683497836,
+          371.3256014841746
+        ],
+        [
+          4.191942062584979,
+          47.555155582970656,
+          472.50990155664454
+        ],
+        [
+          0.007670345932874046,
+          -0.00022404969705150534,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

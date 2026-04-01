@@ -1,0 +1,65 @@
+{
+  "image_file": "1c6fc0fe6998_8422_Reefscape_Robot_Reveal___Jacques_frame_001920.png",
+  "image_sha256": "1c6fc0fe699822233f614dae065b3178719c67702bd5c0943e3b3522c88da093",
+  "image_width": 480,
+  "image_height": 854,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:47:28.013223+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 59.850833892822266,
+      "center": [
+        84.47797723969511,
+        261.4183533183366
+      ],
+      "corners": [
+        [
+          77.39429473876952,
+          271.91284179687494
+        ],
+        [
+          93.18685913085936,
+          269.8467102050782
+        ],
+        [
+          91.37477874755861,
+          251.20072937011724
+        ],
+        [
+          75.7205276489258,
+          252.94299316406244
+        ]
+      ],
+      "homography": [
+        [
+          8.543117531483702,
+          0.42488410592425047,
+          84.47797723969511
+        ],
+        [
+          1.159475454229379,
+          8.01922983705333,
+          261.4183533183366
+        ],
+        [
+          0.008073961592878112,
+          -0.005293314743521146,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

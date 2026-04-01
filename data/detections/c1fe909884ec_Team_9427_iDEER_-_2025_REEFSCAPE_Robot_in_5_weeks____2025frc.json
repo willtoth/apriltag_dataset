@@ -1,0 +1,65 @@
+{
+  "image_file": "c1fe909884ec_Team_9427_iDEER_-_2025_REEFSCAPE_Robot_in_5_weeks____2025frc.png",
+  "image_sha256": "c1fe909884ece39268697bd224a9ac6e57e3e267792e69f2155e73f948dbdfb3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:08:40.500485+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 34.84209060668945,
+      "center": [
+        401.51368548976956,
+        815.3349522502099
+      ],
+      "corners": [
+        [
+          387.60928344726557,
+          857.2066040039061
+        ],
+        [
+          415.5581359863282,
+          831.0352172851564
+        ],
+        [
+          414.31768798828136,
+          776.7770385742188
+        ],
+        [
+          386.62292480468756,
+          798.6885986328124
+        ]
+      ],
+      "homography": [
+        [
+          28.03649032854196,
+          -1.8376068748054843,
+          401.51368548976956
+        ],
+        [
+          16.726223339320423,
+          23.28053688569617,
+          815.3349522502099
+        ],
+        [
+          0.03522447547162229,
+          -0.005976021634160206,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "698c15b746e0_FRC_4907_-_2024_Robot_Reveal___Sir_Kappalot__frame_002124.png",
+  "image_sha256": "698c15b746e00d8983704ad7caf963ed5c90839c9369bf32ab9a56b6fa83672f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:51:52.672248+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 80.17012023925781,
+      "center": [
+        1827.8122638172772,
+        358.95813109701896
+      ],
+      "corners": [
+        [
+          1802.0216064453125,
+          396.383544921875
+        ],
+        [
+          1853.95751953125,
+          390.7559814453125
+        ],
+        [
+          1854.3865966796875,
+          320.39550781250006
+        ],
+        [
+          1801.83984375,
+          327.3704833984375
+        ]
+      ],
+      "homography": [
+        [
+          9.409654476382682,
+          10.587400228411072,
+          1827.8122638172772
+        ],
+        [
+          -6.4277718475118535,
+          36.9297746404244,
+          358.95813109701896
+        ],
+        [
+          -0.009140947905561357,
+          0.005824690146465836,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

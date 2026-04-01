@@ -1,0 +1,65 @@
+{
+  "image_file": "af69132edc5c_FRC_8810_-_The_Alphabots_-_2026_Reveal_frame_000624.png",
+  "image_sha256": "af69132edc5cd904cb95b8c20a513f30f3ac79af63c9395c14bcee2eddbe6a7c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T05:01:42.902696+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 28,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 80.8228530883789,
+      "center": [
+        967.9996732981634,
+        60.919196319428075
+      ],
+      "corners": [
+        [
+          929.3305053710935,
+          112.77136230468751
+        ],
+        [
+          1015.1484375,
+          115.82950592041013
+        ],
+        [
+          1005.7315673828127,
+          10.32383728027343
+        ],
+        [
+          919.4609375,
+          4.390100479125983
+        ]
+      ],
+      "homography": [
+        [
+          55.982494404761724,
+          5.912474830967092,
+          967.9996732981634
+        ],
+        [
+          3.0620794896791854,
+          53.53078763706059,
+          60.919196319428075
+        ],
+        [
+          0.013396984080190797,
+          0.0011291723804422685,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

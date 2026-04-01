@@ -1,0 +1,65 @@
+{
+  "image_file": "e92d71a901fa_FRC_3674_CloverBots_-_Robot_Reveal__2024__frame_001020.png",
+  "image_sha256": "e92d71a901fae06599dc2e1f7e7b876b016dfed280940d60bc89f7241c989e67",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:45:36.847287+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 80.15691375732422,
+      "center": [
+        1013.5376449731032,
+        209.0641697754146
+      ],
+      "corners": [
+        [
+          975.7620239257815,
+          250.37324523925784
+        ],
+        [
+          1054.081298828125,
+          247.34129333496097
+        ],
+        [
+          1051.5997314453123,
+          167.44183349609378
+        ],
+        [
+          973.0574951171875,
+          170.84700012207028
+        ]
+      ],
+      "homography": [
+        [
+          36.90366253805962,
+          2.813834375510173,
+          1013.5376449731032
+        ],
+        [
+          -2.0857787113623423,
+          40.16904366946727,
+          209.0641697754146
+        ],
+        [
+          -0.002280558909660004,
+          0.001496789249416016,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

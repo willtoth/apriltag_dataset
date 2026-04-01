@@ -1,0 +1,65 @@
+{
+  "image_file": "f0abbd4df5ff_Hub_Dispersion_Variations_frame_003420.png",
+  "image_sha256": "f0abbd4df5ffd0c348f18165968e52ffcd92764f46acf30e0ec7be0c3dce5ea4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:05:02.748624+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 24,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 78.19422912597656,
+      "center": [
+        1473.3224005113582,
+        914.1725628512851
+      ],
+      "corners": [
+        [
+          1418.391845703125,
+          888.3948364257814
+        ],
+        [
+          1484.2640380859373,
+          984.0215454101564
+        ],
+        [
+          1536.3197021484375,
+          943.73583984375
+        ],
+        [
+          1462.2078857421877,
+          843.219970703125
+        ]
+      ],
+      "homography": [
+        [
+          -9.758933416386531,
+          32.334304696547406,
+          1473.3224005113582
+        ],
+        [
+          21.284841983556465,
+          56.276949298094,
+          914.1725628512851
+        ],
+        [
+          -0.03028301696843604,
+          0.03812106559527215,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

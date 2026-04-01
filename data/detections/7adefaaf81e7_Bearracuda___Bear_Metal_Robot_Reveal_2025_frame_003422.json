@@ -1,0 +1,65 @@
+{
+  "image_file": "7adefaaf81e7_Bearracuda___Bear_Metal_Robot_Reveal_2025_frame_003422.png",
+  "image_sha256": "7adefaaf81e7aef8eba6e99455951198e1605b5c4d90edf09c91cc505480ab7d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:14:51.349304+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 39.917606353759766,
+      "center": [
+        51.263624741100934,
+        814.6973637945182
+      ],
+      "corners": [
+        [
+          25.183668136596676,
+          835.4698486328124
+        ],
+        [
+          71.46038818359375,
+          837.4186401367188
+        ],
+        [
+          76.78144073486328,
+          794.3726196289062
+        ],
+        [
+          31.085350036621083,
+          791.9968872070311
+        ]
+      ],
+      "homography": [
+        [
+          23.259182129365612,
+          -3.0951421827769297,
+          51.263624741100934
+        ],
+        [
+          5.333741683584661,
+          17.004059755426738,
+          814.6973637945182
+        ],
+        [
+          0.0052183716012117135,
+          -0.005676296568258718,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

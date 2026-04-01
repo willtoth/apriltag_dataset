@@ -1,0 +1,65 @@
+{
+  "image_file": "92233e0bec0a_Team_340_G_R_R__Robot_Reveal_2024_-_Mushu_frame_002160.png",
+  "image_sha256": "92233e0bec0a7037e32be7de939cf1a4b6414f1058976e59b3e026c4edaad41d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:26:49.390091+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 34.51364517211914,
+      "center": [
+        961.511746607789,
+        164.11333062149964
+      ],
+      "corners": [
+        [
+          947.1106567382814,
+          188.7188415527344
+        ],
+        [
+          971.7092895507812,
+          188.40907287597653
+        ],
+        [
+          976.4272460937499,
+          138.62890625
+        ],
+        [
+          951.4568481445311,
+          140.15744018554688
+        ]
+      ],
+      "homography": [
+        [
+          0.5679485692201066,
+          2.785532303388891,
+          961.511746607789
+        ],
+        [
+          -2.474094435975846,
+          25.44281079571968,
+          164.11333062149964
+        ],
+        [
+          -0.012295015054555138,
+          0.0052516923818375656,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "5e363b34d1aa_M3_-_Ballard_-_190_POV_frame_003480.png",
+  "image_sha256": "5e363b34d1aa80b042fa58fa8936d60dc09c8caadf15d98c88d58fbf5c85ece8",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:28:09.018190+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 46.43708419799805,
+      "center": [
+        759.0079715363213,
+        56.42174152810581
+      ],
+      "corners": [
+        [
+          711.7740478515626,
+          112.93725585937501
+        ],
+        [
+          805.3356323242189,
+          103.04637908935547
+        ],
+        [
+          802.2078857421874,
+          4.73293018341063
+        ],
+        [
+          705.7836914062499,
+          2.8562748432159495
+        ]
+      ],
+      "homography": [
+        [
+          90.55140664933765,
+          11.567163362576604,
+          759.0079715363213
+        ],
+        [
+          1.142825787702656,
+          52.620513888398094,
+          56.42174152810581
+        ],
+        [
+          0.05694194753014898,
+          0.01233464596044675,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

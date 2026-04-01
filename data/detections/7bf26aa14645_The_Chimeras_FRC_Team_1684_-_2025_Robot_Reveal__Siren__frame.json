@@ -1,0 +1,65 @@
+{
+  "image_file": "7bf26aa14645_The_Chimeras_FRC_Team_1684_-_2025_Robot_Reveal__Siren__frame.png",
+  "image_sha256": "7bf26aa14645f870cf95eef7d56d371fc5d7048261db93e71b393e83a42915d5",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:49:52.486729+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 64.06732177734375,
+      "center": [
+        909.6875466550883,
+        24.74012838648964
+      ],
+      "corners": [
+        [
+          893.9814453124998,
+          44.99912643432617
+        ],
+        [
+          923.2562866210938,
+          46.64626693725586
+        ],
+        [
+          925.8439331054688,
+          3.900316238403317
+        ],
+        [
+          896.0411987304688,
+          2.708695173263551
+        ]
+      ],
+      "homography": [
+        [
+          9.636888407931224,
+          6.564657153647546,
+          909.6875466550883
+        ],
+        [
+          0.5721127548151204,
+          21.467044714299842,
+          24.74012838648964
+        ],
+        [
+          -0.005640243544251445,
+          0.008491895500187578,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

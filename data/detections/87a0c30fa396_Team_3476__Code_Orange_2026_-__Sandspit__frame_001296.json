@@ -1,0 +1,65 @@
+{
+  "image_file": "87a0c30fa396_Team_3476__Code_Orange_2026_-__Sandspit__frame_001296.png",
+  "image_sha256": "87a0c30fa396da1b8d3694df6d2fdeab4fb76f215e561d5f483db81304c17fe0",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:44:16.749968+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 70.4100570678711,
+      "center": [
+        1750.7180727504779,
+        646.8749859911844
+      ],
+      "corners": [
+        [
+          1736.4591064453123,
+          696.4482421874999
+        ],
+        [
+          1769.8721923828123,
+          703.2181396484375
+        ],
+        [
+          1765.3953857421875,
+          595.8472900390624
+        ],
+        [
+          1731.8680419921873,
+          591.426330566406
+        ]
+      ],
+      "homography": [
+        [
+          -2.926683738082148,
+          7.919233208947162,
+          1750.7180727504779
+        ],
+        [
+          -4.462894276337131,
+          55.17927269732763,
+          646.8749859911844
+        ],
+        [
+          -0.011229489838193055,
+          0.00322802497399655,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

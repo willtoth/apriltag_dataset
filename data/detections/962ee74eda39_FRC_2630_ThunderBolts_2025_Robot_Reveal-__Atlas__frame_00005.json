@@ -1,0 +1,65 @@
+{
+  "image_file": "962ee74eda39_FRC_2630_ThunderBolts_2025_Robot_Reveal-__Atlas__frame_00005.png",
+  "image_sha256": "962ee74eda3963ac20d0df1c15a3e935931c7c22694342e8eaf153681a825076",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:40:14.312316+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 42.62712860107422,
+      "center": [
+        261.43320164871733,
+        723.1799462076672
+      ],
+      "corners": [
+        [
+          216.68920898437491,
+          772.0249023437499
+        ],
+        [
+          308.2624206542969,
+          768.541259765625
+        ],
+        [
+          306.37139892578125,
+          674.1229858398439
+        ],
+        [
+          215.08264160156244,
+          678.2822875976564
+        ]
+      ],
+      "homography": [
+        [
+          44.76022539537507,
+          0.4854679709308753,
+          261.43320164871733
+        ],
+        [
+          -4.55169718298294,
+          45.965060202255586,
+          723.1799462076672
+        ],
+        [
+          -0.0036512080339225817,
+          -0.0014857322259785421,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

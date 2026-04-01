@@ -1,0 +1,65 @@
+{
+  "image_file": "8885249ead29_FRC_Team_8169___ARIES___Robot_Reveal_2025_frame_000960.png",
+  "image_sha256": "8885249ead29b07e10db3dd34de2560c3d17c6a8b27b04f1ebf97a618930d995",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:45:44.856114+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 54.37562942504883,
+      "center": [
+        626.9646526472936,
+        751.2891648131939
+      ],
+      "corners": [
+        [
+          583.1290283203126,
+          798.9555053710938
+        ],
+        [
+          670.0701904296874,
+          807.1696777343749
+        ],
+        [
+          672.1622924804686,
+          702.1417846679686
+        ],
+        [
+          584.6582641601562,
+          696.4446411132811
+        ]
+      ],
+      "homography": [
+        [
+          35.87555057775239,
+          0.9605334662434233,
+          626.9646526472936
+        ],
+        [
+          -5.780162133381288,
+          54.10846182993248,
+          751.2891648131939
+        ],
+        [
+          -0.012327120412143967,
+          0.002970706967788738,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

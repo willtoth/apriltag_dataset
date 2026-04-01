@@ -1,0 +1,65 @@
+{
+  "image_file": "83bf4eb7cc06_2025_Reveal_Video_Team_7211_frame_000177.png",
+  "image_sha256": "83bf4eb7cc06f121c7684d195ad044fdaf11bcd54d5d8cb82318c28b1879d0e3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:32:13.891765+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 72.3711929321289,
+      "center": [
+        401.3056149017684,
+        848.6522177845528
+      ],
+      "corners": [
+        [
+          372.1892700195313,
+          875.260986328125
+        ],
+        [
+          426.1645202636719,
+          875.2462768554688
+        ],
+        [
+          429.6191711425781,
+          822.777099609375
+        ],
+        [
+          375.9417419433594,
+          821.5179443359375
+        ]
+      ],
+      "homography": [
+        [
+          31.73141135016482,
+          -2.5876121470446907,
+          401.3056149017684
+        ],
+        [
+          10.510204577306464,
+          24.88406474791566,
+          848.6522177845528
+        ],
+        [
+          0.012016568116837462,
+          -0.001962014916196623,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

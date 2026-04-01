@@ -1,0 +1,65 @@
+{
+  "image_file": "44b1ffd64fbd_FRC_1778_Chill_Out___2025_SubZero_Robot_POV___Finals_1_PNW_D.png",
+  "image_sha256": "44b1ffd64fbdcb6b321aac906458c94e031ebf9926edbb56d98b85027dc2eb9a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:54:22.413013+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 60.5716552734375,
+      "center": [
+        1222.6953092484187,
+        444.4222115784562
+      ],
+      "corners": [
+        [
+          1186.6253662109375,
+          464.4743957519531
+        ],
+        [
+          1239.9029541015625,
+          516.2166137695312
+        ],
+        [
+          1265.26708984375,
+          420.75549316406256
+        ],
+        [
+          1205.7910156249998,
+          373.8934631347656
+        ]
+      ],
+      "homography": [
+        [
+          -27.927451070542478,
+          34.10886573377911,
+          1222.6953092484187
+        ],
+        [
+          4.375195780111361,
+          62.828586481840546,
+          444.4222115784562
+        ],
+        [
+          -0.04578475451529691,
+          0.03689193741744836,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

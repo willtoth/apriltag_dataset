@@ -1,0 +1,65 @@
+{
+  "image_file": "d4b71fc0caf1_OnyxTronix_2231_FRC_2025_Robot_Reveal_-_RICO_frame_002000.png",
+  "image_sha256": "d4b71fc0caf14ddcc4f78afa96241e083adfdb93dc0776458d2c08a11ecc4491",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:42:45.246783+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 85.91126251220703,
+      "center": [
+        479.7735078189148,
+        934.2314304285457
+      ],
+      "corners": [
+        [
+          419.8450317382813,
+          999.9293823242188
+        ],
+        [
+          539.5567016601562,
+          993.9523315429689
+        ],
+        [
+          539.2770996093749,
+          868.9992675781251
+        ],
+        [
+          419.1824340820313,
+          873.7034912109375
+        ]
+      ],
+      "homography": [
+        [
+          62.413233092467294,
+          0.9911417586383285,
+          479.7735078189148
+        ],
+        [
+          2.125524698253222,
+          64.26618839314858,
+          934.2314304285457
+        ],
+        [
+          0.005134469863412162,
+          0.001576930437468617,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

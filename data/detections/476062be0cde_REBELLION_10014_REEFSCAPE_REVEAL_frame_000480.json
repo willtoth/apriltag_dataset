@@ -1,0 +1,65 @@
+{
+  "image_file": "476062be0cde_REBELLION_10014_REEFSCAPE_REVEAL_frame_000480.png",
+  "image_sha256": "476062be0cde09af889b72c34b5338ebaa6abaab92984c628fca3fa86f125c1a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:41:56.067942+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 23.310819625854492,
+      "center": [
+        1548.434814866063,
+        650.6603495031186
+      ],
+      "corners": [
+        [
+          1524.1694335937505,
+          672.948486328125
+        ],
+        [
+          1575.16015625,
+          686.1817016601561
+        ],
+        [
+          1573.6137695312498,
+          627.5330810546875
+        ],
+        [
+          1521.8446044921875,
+          615.3186035156251
+        ]
+      ],
+      "homography": [
+        [
+          9.418307770629779,
+          13.31470912439818,
+          1548.434814866063
+        ],
+        [
+          -0.46994300076960793,
+          34.25213231743862,
+          650.6603495031186
+        ],
+        [
+          -0.01050567863325903,
+          0.007971127163639902,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

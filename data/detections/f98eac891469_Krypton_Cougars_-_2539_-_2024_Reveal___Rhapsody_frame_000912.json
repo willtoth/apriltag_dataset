@@ -1,0 +1,65 @@
+{
+  "image_file": "f98eac891469_Krypton_Cougars_-_2539_-_2024_Reveal___Rhapsody_frame_000912.png",
+  "image_sha256": "f98eac891469f80ef1c914b10b936f575d324ea814b56921347bc4dbce9b0877",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:32:10.320914+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 76.8521957397461,
+      "center": [
+        734.6054352786776,
+        251.76044732490968
+      ],
+      "corners": [
+        [
+          704.275390625,
+          275.1284790039062
+        ],
+        [
+          759.7310180664062,
+          280.4327697753907
+        ],
+        [
+          764.66552734375,
+          228.60040283203128
+        ],
+        [
+          709.28271484375,
+          222.86315917968741
+        ]
+      ],
+      "homography": [
+        [
+          30.786326386579958,
+          -2.6919304606825527,
+          734.6054352786776
+        ],
+        [
+          3.815003128991347,
+          25.9531709735667,
+          251.76044732490968
+        ],
+        [
+          0.004188929899853082,
+          -0.00028121379037434404,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

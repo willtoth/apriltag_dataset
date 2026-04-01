@@ -1,0 +1,65 @@
+{
+  "image_file": "bba902cc55ef_2026_ROBOT_REVEAL______FRC_Team_533_-_The_PSIcotics_frame_00.png",
+  "image_sha256": "bba902cc55ef59d6f59ce0cae96db8b8388f8d01f711a54277196f52081b9add",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:45:06.776441+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 57.48369216918945,
+      "center": [
+        1633.8789224377933,
+        311.0817910322194
+      ],
+      "corners": [
+        [
+          1626.8282470703123,
+          317.9991455078125
+        ],
+        [
+          1640.3702392578123,
+          318.8514709472656
+        ],
+        [
+          1641.0307617187502,
+          304.065185546875
+        ],
+        [
+          1627.6641845703127,
+          303.6431579589844
+        ]
+      ],
+      "homography": [
+        [
+          -16.8762920349036,
+          -12.339138338253408,
+          1633.8789224377933
+        ],
+        [
+          -4.176683069843706,
+          5.005765921608883,
+          311.0817910322194
+        ],
+        [
+          -0.014445225279923542,
+          -0.007322267410831234,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

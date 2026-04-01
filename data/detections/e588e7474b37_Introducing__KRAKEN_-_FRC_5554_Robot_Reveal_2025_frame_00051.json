@@ -1,0 +1,65 @@
+{
+  "image_file": "e588e7474b37_Introducing__KRAKEN_-_FRC_5554_Robot_Reveal_2025_frame_00051.png",
+  "image_sha256": "e588e7474b3775334f4e893854b7b88118252b4c3a6346b164a1f651b5e68eef",
+  "image_width": 1920,
+  "image_height": 910,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:43:41.890830+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 46.55510711669922,
+      "center": [
+        1801.910397519668,
+        321.3178536227682
+      ],
+      "corners": [
+        [
+          1782.2897949218748,
+          364.9181518554687
+        ],
+        [
+          1821.10791015625,
+          363.3604125976563
+        ],
+        [
+          1822.110595703125,
+          276.4295959472656
+        ],
+        [
+          1783.9149169921873,
+          281.90774536132807
+        ]
+      ],
+      "homography": [
+        [
+          -22.989633700814462,
+          -16.668836898207477,
+          1801.910397519668
+        ],
+        [
+          -9.306261380909069,
+          39.60545565288129,
+          321.3178536227682
+        ],
+        [
+          -0.02343693736132373,
+          -0.008881841173087237,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

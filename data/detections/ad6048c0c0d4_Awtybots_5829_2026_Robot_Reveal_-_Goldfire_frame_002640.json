@@ -1,0 +1,65 @@
+{
+  "image_file": "ad6048c0c0d4_Awtybots_5829_2026_Robot_Reveal_-_Goldfire_frame_002640.png",
+  "image_sha256": "ad6048c0c0d40b802c07be5a96d8bf089c66859b6dacafd0560e9b714036b132",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:25:43.213752+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 19.913503646850586,
+      "center": [
+        462.4131269139537,
+        873.1387476109716
+      ],
+      "corners": [
+        [
+          440.29006958007824,
+          931.4382324218749
+        ],
+        [
+          480.15185546874994,
+          953.7378540039064
+        ],
+        [
+          488.7409667968749,
+          803.7586669921877
+        ],
+        [
+          443.7337341308594,
+          788.2655639648436
+        ]
+      ],
+      "homography": [
+        [
+          7.026792648389002,
+          23.11404941467481,
+          462.4131269139537
+        ],
+        [
+          -16.95003123402195,
+          122.18377141576195,
+          873.1387476109716
+        ],
+        [
+          -0.030477422762185586,
+          0.05630698765298441,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

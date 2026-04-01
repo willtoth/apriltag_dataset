@@ -1,0 +1,65 @@
+{
+  "image_file": "921b9dad7c40_2521_SERT_2024_Robot_Reveal__Marvin_frame_001800.png",
+  "image_sha256": "921b9dad7c4043aae4d1538dad5a2ee3d1fd1f8790740851efd8c60e1b8fe185",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:48:39.709860+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 61.08499526977539,
+      "center": [
+        454.5761278020657,
+        482.4645028393598
+      ],
+      "corners": [
+        [
+          443.8512268066407,
+          493.80352783203125
+        ],
+        [
+          462.1838989257812,
+          501.5833435058594
+        ],
+        [
+          464.83190917968744,
+          471.6214599609375
+        ],
+        [
+          446.7853088378906,
+          462.88565063476557
+        ]
+      ],
+      "homography": [
+        [
+          16.875565539362356,
+          -3.7736703360630464,
+          454.5761278020657
+        ],
+        [
+          12.39177073453021,
+          12.689547490964175,
+          482.4645028393598
+        ],
+        [
+          0.017123454722388513,
+          -0.005236143000034415,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

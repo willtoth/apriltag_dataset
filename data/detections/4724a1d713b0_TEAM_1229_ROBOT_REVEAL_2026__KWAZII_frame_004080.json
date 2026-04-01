@@ -1,0 +1,65 @@
+{
+  "image_file": "4724a1d713b0_TEAM_1229_ROBOT_REVEAL_2026__KWAZII_frame_004080.png",
+  "image_sha256": "4724a1d713b056d2e456bc1d5cbea32b2a3b7411b26491afbe8e470af7409a4f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:48:14.001165+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 25,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 53.824588775634766,
+      "center": [
+        69.65149545403165,
+        417.84284246311086
+      ],
+      "corners": [
+        [
+          37.10867691040039,
+          450.48760986328125
+        ],
+        [
+          95.24337005615234,
+          447.2630004882813
+        ],
+        [
+          101.25479888916016,
+          386.1405334472656
+        ],
+        [
+          45.17700195312501,
+          389.7072143554687
+        ]
+      ],
+      "homography": [
+        [
+          28.276281713078816,
+          -4.810048449624471,
+          69.65149545403165
+        ],
+        [
+          -3.304282411815737,
+          22.742425704272193,
+          417.84284246311086
+        ],
+        [
+          -0.003835757297670279,
+          -0.01848224066285071,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

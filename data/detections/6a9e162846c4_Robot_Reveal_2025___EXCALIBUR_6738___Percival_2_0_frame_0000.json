@@ -1,0 +1,65 @@
+{
+  "image_file": "6a9e162846c4_Robot_Reveal_2025___EXCALIBUR_6738___Percival_2_0_frame_0000.png",
+  "image_sha256": "6a9e162846c4ecfa2048ea35eb897349739c2c96a19332c388ea22b11d6bc795",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:44:52.137938+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 94.0034408569336,
+      "center": [
+        621.9591206778725,
+        795.6074839353445
+      ],
+      "corners": [
+        [
+          586.1885375976562,
+          853.9302978515625
+        ],
+        [
+          662.2611083984375,
+          836.3425903320312
+        ],
+        [
+          657.162353515625,
+          738.2097167968751
+        ],
+        [
+          581.3529052734375,
+          754.5648803710939
+        ]
+      ],
+      "homography": [
+        [
+          41.62432477954758,
+          1.1678698093377358,
+          621.9591206778725
+        ],
+        [
+          -3.808390805970481,
+          47.68827806975389,
+          795.6074839353445
+        ],
+        [
+          0.005876977608291414,
+          -0.0021168189084358443,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

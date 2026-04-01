@@ -1,0 +1,65 @@
+{
+  "image_file": "7e8a4624d92b_SigmaC_T_Robotics_2026_Robot_Release_Video_frame_000531.png",
+  "image_sha256": "7e8a4624d92b6340f873dfda9e4c7a7583c2db58c9cb968086083c927e0f55b9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:46:53.048605+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 38.95482635498047,
+      "center": [
+        1188.645747515015,
+        401.96141382908854
+      ],
+      "corners": [
+        [
+          1180.1127929687498,
+          414.7978515625
+        ],
+        [
+          1197.8370361328125,
+          415.870880126953
+        ],
+        [
+          1197.3812255859375,
+          388.8203125
+        ],
+        [
+          1178.8577880859373,
+          387.14898681640636
+        ]
+      ],
+      "homography": [
+        [
+          20.770801071129423,
+          26.07816472996183,
+          1188.645747515015
+        ],
+        [
+          4.641235158666288,
+          22.34240640790864,
+          401.96141382908854
+        ],
+        [
+          0.00985505081764131,
+          0.021583012998510672,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

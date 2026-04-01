@@ -1,0 +1,65 @@
+{
+  "image_file": "c1dd23cee310_3536_REEFSCAPE_ROBOT_REVEAL_frame_007320.png",
+  "image_sha256": "c1dd23cee310de73eb2cbb5d82fdddcb54710f3995c72cde9b6d258bdfded91e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:34:53.235316+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 55.70964813232422,
+      "center": [
+        1307.8111526913633,
+        975.0613292468504
+      ],
+      "corners": [
+        [
+          1295.7197265625,
+          996.8725585937501
+        ],
+        [
+          1319.5992431640623,
+          1023.9782714843749
+        ],
+        [
+          1320.7687988281248,
+          951.6875610351561
+        ],
+        [
+          1296.4099121093748,
+          927.7496948242188
+        ]
+      ],
+      "homography": [
+        [
+          -21.470765860785377,
+          11.244990483017089,
+          1307.8111526913633
+        ],
+        [
+          -12.22465305974311,
+          44.059348229437205,
+          975.0613292468504
+        ],
+        [
+          -0.025631578817797634,
+          0.008949342931026602,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "f44ec84b0976_9200_FRC_ROBOT_REVEAL_2026_-_Cerberus_REBUILT_frame_000177.png",
+  "image_sha256": "f44ec84b0976daac763ac3a2889ad6ccb7fd92c1ad96efaa494267e9fd192947",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:34:42.422698+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 71.62387084960938,
+      "center": [
+        1103.2401575964184,
+        58.88782472631127
+      ],
+      "corners": [
+        [
+          1050.0455322265627,
+          107.34957885742188
+        ],
+        [
+          1152.1746826171877,
+          117.1591567993164
+        ],
+        [
+          1157.7194824218745,
+          9.255674362182603
+        ],
+        [
+          1054.4128417968748,
+          0.7441576123237676
+        ]
+      ],
+      "homography": [
+        [
+          44.16856743150947,
+          3.502440562547468,
+          1103.2401575964184
+        ],
+        [
+          4.200133828179227,
+          53.942717215269745,
+          58.88782472631127
+        ],
+        [
+          -0.00651401131409733,
+          0.005417374627165298,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

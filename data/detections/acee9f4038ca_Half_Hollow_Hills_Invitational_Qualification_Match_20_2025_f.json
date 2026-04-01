@@ -1,0 +1,65 @@
+{
+  "image_file": "acee9f4038ca_Half_Hollow_Hills_Invitational_Qualification_Match_20_2025_f.png",
+  "image_sha256": "acee9f4038ca22ade78543c57c20963b418a8c338b5042640ec1da2c5522319e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:03:45.155405+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 21,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 58.50663375854492,
+      "center": [
+        1062.0735628473305,
+        743.2560987284511
+      ],
+      "corners": [
+        [
+          1053.8757324218752,
+          752.1195068359374
+        ],
+        [
+          1070.8751220703125,
+          751.3560791015627
+        ],
+        [
+          1070.431030273437,
+          734.2200927734375
+        ],
+        [
+          1053.20947265625,
+          735.0985717773435
+        ]
+      ],
+      "homography": [
+        [
+          5.313899928398995,
+          7.278228015064543,
+          1062.0735628473305
+        ],
+        [
+          -2.678142994012889,
+          13.43769290300088,
+          743.2560987284511
+        ],
+        [
+          -0.0030514804578574924,
+          0.0065911730348531825,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

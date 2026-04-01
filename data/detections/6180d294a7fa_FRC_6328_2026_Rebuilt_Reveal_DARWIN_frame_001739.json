@@ -1,0 +1,65 @@
+{
+  "image_file": "6180d294a7fa_FRC_6328_2026_Rebuilt_Reveal_DARWIN_frame_001739.png",
+  "image_sha256": "6180d294a7fa93dae245dc6fc389eef57f383ad924b26a211e50b4ca7be2cd17",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:58:27.939366+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 24,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.48849487304688,
+      "center": [
+        210.27839910019563,
+        756.5669379651692
+      ],
+      "corners": [
+        [
+          180.55027770996094,
+          795.2535400390625
+        ],
+        [
+          254.2638854980469,
+          773.3565063476564
+        ],
+        [
+          239.20471191406247,
+          718.9237670898435
+        ],
+        [
+          163.28399658203125,
+          738.6288452148436
+        ]
+      ],
+      "homography": [
+        [
+          42.29541729083368,
+          10.099166029467801,
+          210.27839910019563
+        ],
+        [
+          7.275405220789248,
+          35.09085803815083,
+          756.5669379651692
+        ],
+        [
+          0.023371181639416632,
+          0.009701139685252292,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

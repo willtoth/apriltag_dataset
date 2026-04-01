@@ -1,0 +1,65 @@
+{
+  "image_file": "b453171e7623_FRC_1160_Titanium_Robotics_2025_robot_reveal_-__S_Ti_ngray__.png",
+  "image_sha256": "b453171e7623c5d2cf7c7c8acae49c84bda2d82a18c44fdab2a5cee9f54251a9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:38:51.190144+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.59829711914062,
+      "center": [
+        1224.32872865477,
+        965.0504150303562
+      ],
+      "corners": [
+        [
+          1178.3728027343748,
+          989.4349365234376
+        ],
+        [
+          1267.542724609375,
+          1024.4790039062498
+        ],
+        [
+          1273.8061523437502,
+          938.7973632812499
+        ],
+        [
+          1182.15869140625,
+          907.0574951171875
+        ]
+      ],
+      "homography": [
+        [
+          15.095052568893605,
+          12.62117157698299,
+          1224.32872865477
+        ],
+        [
+          -6.996039252873749,
+          53.898705714384505,
+          965.0504150303562
+        ],
+        [
+          -0.024563350939962886,
+          0.012336724170041162,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

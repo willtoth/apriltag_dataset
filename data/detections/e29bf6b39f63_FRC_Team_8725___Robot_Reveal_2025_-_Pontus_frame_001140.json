@@ -1,0 +1,65 @@
+{
+  "image_file": "e29bf6b39f63_FRC_Team_8725___Robot_Reveal_2025_-_Pontus_frame_001140.png",
+  "image_sha256": "e29bf6b39f631e25ea8f135c2fa4ed00337f2a523b80f6aa0caae957773856c7",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:29:18.235002+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 47.07198715209961,
+      "center": [
+        641.863150998444,
+        207.70383098745245
+      ],
+      "corners": [
+        [
+          633.6295166015625,
+          221.88003540039062
+        ],
+        [
+          656.8056030273439,
+          219.15113830566406
+        ],
+        [
+          650.3297119140624,
+          193.12658691406247
+        ],
+        [
+          626.5667114257811,
+          195.98533630371097
+        ]
+      ],
+      "homography": [
+        [
+          11.01366255175685,
+          11.61759650118836,
+          641.863150998444
+        ],
+        [
+          -1.6290563042460369,
+          15.641827138246157,
+          207.70383098745245
+        ],
+        [
+          -0.0011205831198072402,
+          0.012826949491540736,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

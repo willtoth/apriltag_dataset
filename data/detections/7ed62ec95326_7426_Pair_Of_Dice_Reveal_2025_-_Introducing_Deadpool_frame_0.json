@@ -1,0 +1,65 @@
+{
+  "image_file": "7ed62ec95326_7426_Pair_Of_Dice_Reveal_2025_-_Introducing_Deadpool_frame_0.png",
+  "image_sha256": "7ed62ec953267de3f1638a64ade01561daf6d599344d29290e38ad002bd83d20",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:46:50.213961+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 15,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 80.48442840576172,
+      "center": [
+        930.5058143683468,
+        210.15627547164198
+      ],
+      "corners": [
+        [
+          910.018371582031,
+          242.03024291992188
+        ],
+        [
+          966.5086669921876,
+          235.23736572265628
+        ],
+        [
+          951.6594848632815,
+          177.24580383300784
+        ],
+        [
+          894.1079711914061,
+          184.80001831054685
+        ]
+      ],
+      "homography": [
+        [
+          23.601780808197415,
+          17.673974081687337,
+          930.5058143683468
+        ],
+        [
+          -4.690910429844568,
+          31.055365932654638,
+          210.15627547164198
+        ],
+        [
+          -0.005271829435912089,
+          0.010727447627576618,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

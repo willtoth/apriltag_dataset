@@ -1,0 +1,65 @@
+{
+  "image_file": "bae7837a103a_2025_Robot_Reveal__Team_341__Miss_Daisy_XXIII_frame_001003.png",
+  "image_sha256": "bae7837a103a45e897d56bb3bfd48f536f07fac616ce4f6f4e1dc919bfda9668",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:20:22.416061+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 59.569427490234375,
+      "center": [
+        540.0894493958273,
+        395.3777139290408
+      ],
+      "corners": [
+        [
+          511.9476013183594,
+          426.2688293457031
+        ],
+        [
+          568.9661865234376,
+          422.6579895019531
+        ],
+        [
+          567.7374267578125,
+          365.0287170410156
+        ],
+        [
+          509.9335632324218,
+          366.8890075683594
+        ]
+      ],
+      "homography": [
+        [
+          36.93958567144148,
+          4.265801418135088,
+          540.0894493958273
+        ],
+        [
+          4.660503799763543,
+          31.778140986682615,
+          395.3777139290408
+        ],
+        [
+          0.015260427305259951,
+          0.006408083502558426,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

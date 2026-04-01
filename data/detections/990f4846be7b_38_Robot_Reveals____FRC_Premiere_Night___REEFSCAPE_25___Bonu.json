@@ -1,0 +1,65 @@
+{
+  "image_file": "990f4846be7b_38_Robot_Reveals____FRC_Premiere_Night___REEFSCAPE_25___Bonu.png",
+  "image_sha256": "990f4846be7b673426a167d178d06ff7078ed78507a504529b4a0fb9859fb303",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:08:49.855151+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 64.32377624511719,
+      "center": [
+        1288.370431036976,
+        988.3389600668004
+      ],
+      "corners": [
+        [
+          1262.013427734375,
+          1035.8740234375
+        ],
+        [
+          1315.8216552734375,
+          1020.8911132812501
+        ],
+        [
+          1313.8845214843748,
+          942.3240966796874
+        ],
+        [
+          1260.654541015625,
+          955.4729614257811
+        ]
+      ],
+      "homography": [
+        [
+          40.314410832371095,
+          -6.550495133742965,
+          1288.370431036976
+        ],
+        [
+          3.3739740057308114,
+          34.07593308652167,
+          988.3389600668004
+        ],
+        [
+          0.01052383716938486,
+          -0.005726308996119732,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

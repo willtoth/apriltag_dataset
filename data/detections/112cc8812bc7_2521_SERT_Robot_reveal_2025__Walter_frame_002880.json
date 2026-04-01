@@ -1,0 +1,65 @@
+{
+  "image_file": "112cc8812bc7_2521_SERT_Robot_reveal_2025__Walter_frame_002880.png",
+  "image_sha256": "112cc8812bc7ec1b3ab93a703790a03d47a09d3da0954177bdbc6f4ebdd88a18",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:03:35.244123+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 62.06471633911133,
+      "center": [
+        578.7648353986599,
+        795.5862834472128
+      ],
+      "corners": [
+        [
+          532.6424560546873,
+          839.25048828125
+        ],
+        [
+          623.5606079101564,
+          841.8319702148436
+        ],
+        [
+          624.8019409179689,
+          752.0028076171875
+        ],
+        [
+          534.1968383789061,
+          749.5757446289065
+        ]
+      ],
+      "homography": [
+        [
+          44.91081558066537,
+          -1.7044100446570327,
+          578.7648353986599
+        ],
+        [
+          0.6061593136832872,
+          43.49381793446105,
+          795.5862834472128
+        ],
+        [
+          -0.0008117859306097625,
+          -0.0017370713181103178,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

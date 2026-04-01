@@ -1,0 +1,65 @@
+{
+  "image_file": "9484e569b897_Full_Transparency__The_2026_Rangers_2848_FRC_Build_Reveal__f.png",
+  "image_sha256": "9484e569b897c7727b2d6ae3c738ab539380cdaa24cf6d2eb179a90658f83c4d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T05:00:32.733272+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 77.16944885253906,
+      "center": [
+        1325.6674847898473,
+        785.3977263063537
+      ],
+      "corners": [
+        [
+          1290.1789550781255,
+          813.4757690429688
+        ],
+        [
+          1352.1346435546875,
+          817.0728759765625
+        ],
+        [
+          1360.6614990234373,
+          757.7109375000001
+        ],
+        [
+          1298.960693359375,
+          753.435791015625
+        ]
+      ],
+      "homography": [
+        [
+          38.55063461465829,
+          -5.989972776631471,
+          1325.6674847898473
+        ],
+        [
+          6.493386062942474,
+          28.863967967988515,
+          785.3977263063537
+        ],
+        [
+          0.005761360632047419,
+          -0.0012547805349890835,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

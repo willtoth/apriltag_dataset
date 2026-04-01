@@ -1,0 +1,65 @@
+{
+  "image_file": "9c1a780a8ebd_NC_GEARS_Robotics_Team_1918_-_2026_Reveal_Video_-_GEARSOSAUR.png",
+  "image_sha256": "9c1a780a8ebd7ba0c4bf0217b647f98a60f0ee60f042605e350ddfefdddf3e5b",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:58:57.849605+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 82.91451263427734,
+      "center": [
+        1793.7486638532669,
+        373.283796214314
+      ],
+      "corners": [
+        [
+          1779.3137207031248,
+          389.5489501953125
+        ],
+        [
+          1806.2425537109375,
+          388.79672241210943
+        ],
+        [
+          1808.5220947265627,
+          356.63723754882807
+        ],
+        [
+          1781.9642333984375,
+          358.65176391601557
+        ]
+      ],
+      "homography": [
+        [
+          -23.236517126824307,
+          -17.051488428694032,
+          1793.7486638532669
+        ],
+        [
+          -8.313996625703398,
+          12.46553179814333,
+          373.283796214314
+        ],
+        [
+          -0.02040532647908302,
+          -0.00881660459808502,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

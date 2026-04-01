@@ -1,0 +1,65 @@
+{
+  "image_file": "63892da83ca2_2025_Robot_Reveal_-_ICRobotics_presents_SPUD_frame_000600.png",
+  "image_sha256": "63892da83ca278f4f4215893a9f23ffb60cb3ee0546661fcbc4197bcfb831291",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:28:20.868907+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 89.42887878417969,
+      "center": [
+        1090.0489295939703,
+        451.5051815888829
+      ],
+      "corners": [
+        [
+          1072.0640869140625,
+          467.96694946289057
+        ],
+        [
+          1108.807373046875,
+          469.27880859375
+        ],
+        [
+          1108.980712890625,
+          434.17666625976557
+        ],
+        [
+          1071.335205078125,
+          433.77392578125
+        ]
+      ],
+      "homography": [
+        [
+          3.9603775320144887,
+          13.474825505026274,
+          1090.0489295939703
+        ],
+        [
+          -5.625947869810719,
+          22.83954190507967,
+          451.5051815888829
+        ],
+        [
+          -0.013422090304029119,
+          0.012228699596112256,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

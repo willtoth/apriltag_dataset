@@ -1,0 +1,65 @@
+{
+  "image_file": "4713b1a865bf_Primo_4586___2025_Robot_Reveal_-_Sparrow_frame_001652.png",
+  "image_sha256": "4713b1a865bf18737d7b47f5874b5d07f173f25882cbe1092c3fb45dfae0f691",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:47:05.096612+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 64.40635681152344,
+      "center": [
+        757.8013565211807,
+        485.5199402217595
+      ],
+      "corners": [
+        [
+          726.5899658203123,
+          515.6248168945314
+        ],
+        [
+          788.1803588867189,
+          519.0990600585938
+        ],
+        [
+          789.2223510742191,
+          455.212890625
+        ],
+        [
+          727.2855834960938,
+          451.78964233398443
+        ]
+      ],
+      "homography": [
+        [
+          30.464536312384325,
+          1.6847320051466605,
+          757.8013565211807
+        ],
+        [
+          1.4572860067474909,
+          33.287738792538676,
+          485.5199402217595
+        ],
+        [
+          -0.0005502783601881052,
+          0.00279629468377835,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

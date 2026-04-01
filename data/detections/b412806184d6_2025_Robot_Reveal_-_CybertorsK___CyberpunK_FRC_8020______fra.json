@@ -1,0 +1,65 @@
+{
+  "image_file": "b412806184d6_2025_Robot_Reveal_-_CybertorsK___CyberpunK_FRC_8020______fra.png",
+  "image_sha256": "b412806184d605dd35c45e65e36fe3d6011dc77f54d0350955be9e899f03793e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:29:42.520062+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 1,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 79.22398376464844,
+      "center": [
+        829.078096149606,
+        144.88695296884023
+      ],
+      "corners": [
+        [
+          807.7359008789061,
+          169.93501281738284
+        ],
+        [
+          851.6864013671876,
+          169.06985473632815
+        ],
+        [
+          850.7170410156252,
+          119.49061584472653
+        ],
+        [
+          806.4639892578125,
+          120.69784545898435
+        ]
+      ],
+      "homography": [
+        [
+          19.241504867320373,
+          3.4760649118156857,
+          829.078096149606
+        ],
+        [
+          -1.008364975918997,
+          25.21295705514629,
+          144.88695296884023
+        ],
+        [
+          -0.0033879447761311424,
+          0.0035162367875794386,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

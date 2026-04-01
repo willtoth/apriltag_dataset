@@ -1,0 +1,65 @@
+{
+  "image_file": "9a9cba7e116e_FRC_3572__2026_Robot_Reveal_-_Vanellope_von_Schweetz______no.png",
+  "image_sha256": "9a9cba7e116ea28d484b400ecc4a045a857828844b0a06d8c5f7257f15fb4b9b",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:42:16.007579+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 26,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 19.407896041870117,
+      "center": [
+        1235.7107260756231,
+        281.0998393243764
+      ],
+      "corners": [
+        [
+          1203.0147705078125,
+          307.4723815917968
+        ],
+        [
+          1264.419921875,
+          309.2627868652343
+        ],
+        [
+          1269.37353515625,
+          253.94743347167966
+        ],
+        [
+          1207.5708007812498,
+          253.49533081054685
+        ]
+      ],
+      "homography": [
+        [
+          15.607789852750557,
+          0.43987391915084306,
+          1235.7107260756231
+        ],
+        [
+          -2.8931819248413184,
+          27.959262188415437,
+          281.0998393243764
+        ],
+        [
+          -0.012291901614348223,
+          0.002278193503280359,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

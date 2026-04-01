@@ -1,0 +1,65 @@
+{
+  "image_file": "7bfeb2e35b17_FRC_5026_Robot_Reveal__The_Grim_Reefer_frame_001888.png",
+  "image_sha256": "7bfeb2e35b17ec9855d7f7b4a6fa84ae4f8c15644c656f25a582b05c7ab143e5",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:30:10.264514+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 63.45941925048828,
+      "center": [
+        480.27706540419183,
+        405.3582687854972
+      ],
+      "corners": [
+        [
+          466.14569091796875,
+          420.6798400878907
+        ],
+        [
+          497.2546691894532,
+          420.2086486816406
+        ],
+        [
+          494.57666015624994,
+          389.85430908203125
+        ],
+        [
+          463.1539916992187,
+          390.3806457519532
+        ]
+      ],
+      "homography": [
+        [
+          15.236062662973495,
+          3.8627774767277305,
+          480.27706540419183
+        ],
+        [
+          -0.5838512053702537,
+          17.22679719945802,
+          405.3582687854972
+        ],
+        [
+          -0.0008254507170366298,
+          0.005091346013500317,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "7a5d9f30c6b9_3015_Ranger_Robotics_2025_Reveal__Organey_Prongingy_frame_00.png",
+  "image_sha256": "7a5d9f30c6b9ea01e1869b0c904babe648c2ae0b66ec2e39a8cc57b5c3ed4119",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:28:46.237294+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 79.48530578613281,
+      "center": [
+        952.602075446675,
+        844.8249031255469
+      ],
+      "corners": [
+        [
+          924.0112304687499,
+          861.5556030273436
+        ],
+        [
+          980.6660156250001,
+          863.1087036132814
+        ],
+        [
+          981.8792724609375,
+          827.6925659179686
+        ],
+        [
+          923.6480102539062,
+          825.9611816406248
+        ]
+      ],
+      "homography": [
+        [
+          30.502444314912395,
+          12.870964261008229,
+          952.602075446675
+        ],
+        [
+          2.4043728442062466,
+          29.353673932399374,
+          844.8249031255469
+        ],
+        [
+          0.0018753282879538547,
+          0.013735968681319185,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

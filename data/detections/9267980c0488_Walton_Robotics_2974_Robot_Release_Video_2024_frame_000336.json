@@ -1,0 +1,65 @@
+{
+  "image_file": "9267980c0488_Walton_Robotics_2974_Robot_Release_Video_2024_frame_000336.png",
+  "image_sha256": "9267980c04889a488a7ecf48ac521121f4d319539c83578ceda1a145879d5abd",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:47:07.158570+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 71.00514221191406,
+      "center": [
+        1032.3645112876939,
+        145.41430306155513
+      ],
+      "corners": [
+        [
+          999.2627563476562,
+          165.1189117431641
+        ],
+        [
+          1064.556640625,
+          170.01025390625
+        ],
+        [
+          1063.9505615234375,
+          126.61195373535156
+        ],
+        [
+          999.9782104492189,
+          120.66999816894533
+        ]
+      ],
+      "homography": [
+        [
+          45.95427194430522,
+          -10.561281879557777,
+          1032.3645112876939
+        ],
+        [
+          4.635717311742522,
+          20.471412670091865,
+          145.41430306155513
+        ],
+        [
+          0.013218914017993235,
+          -0.010212159275885691,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

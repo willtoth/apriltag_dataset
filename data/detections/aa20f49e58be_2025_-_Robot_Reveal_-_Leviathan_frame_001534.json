@@ -1,0 +1,65 @@
+{
+  "image_file": "aa20f49e58be_2025_-_Robot_Reveal_-_Leviathan_frame_001534.png",
+  "image_sha256": "aa20f49e58beac6f7cdb19d800f37bdd48d2769ceddc0e743a0ba70f9854359c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:16:11.207674+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 59.52470016479492,
+      "center": [
+        512.9665032473333,
+        911.895566308617
+      ],
+      "corners": [
+        [
+          481.6983947753906,
+          1002.5135498046875
+        ],
+        [
+          543.0860595703126,
+          958.1914672851562
+        ],
+        [
+          543.876708984375,
+          822.3148193359375
+        ],
+        [
+          481.8992614746094,
+          864.1430053710939
+        ]
+      ],
+      "homography": [
+        [
+          36.28594363927016,
+          2.245145442931805,
+          512.9665032473333
+        ],
+        [
+          -11.855346972383026,
+          72.99209826103242,
+          911.895566308617
+        ],
+        [
+          0.010622233789430034,
+          0.004866163695635046,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

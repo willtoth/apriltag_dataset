@@ -1,0 +1,65 @@
+{
+  "image_file": "5e4cfe3ff25d_2025_Reefscape_Robot_Reveal_______not_our_audio__frame_01056.png",
+  "image_sha256": "5e4cfe3ff25d52387bd580510075c230fdc36804e54b2f259a7d9d77bf9ca63f",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:46:38.006653+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 19,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 82.49075317382812,
+      "center": [
+        532.7665085094924,
+        451.6419098258742
+      ],
+      "corners": [
+        [
+          518.9664916992188,
+          468.43798828125006
+        ],
+        [
+          550.1682739257812,
+          470.77154541015625
+        ],
+        [
+          546.859619140625,
+          434.48910522460943
+        ],
+        [
+          515.6025390624999,
+          432.773681640625
+        ]
+      ],
+      "homography": [
+        [
+          10.981858545937257,
+          2.6350083721192745,
+          532.7665085094924
+        ],
+        [
+          -2.913677692038791,
+          18.80462686040113,
+          451.6419098258742
+        ],
+        [
+          -0.00869363602356277,
+          0.0018141072000906603,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

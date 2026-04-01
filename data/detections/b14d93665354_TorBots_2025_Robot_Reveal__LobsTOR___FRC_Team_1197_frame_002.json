@@ -1,0 +1,65 @@
+{
+  "image_file": "b14d93665354_TorBots_2025_Robot_Reveal__LobsTOR___FRC_Team_1197_frame_002.png",
+  "image_sha256": "b14d93665354ae78e588141968bc72c3355dd634de9d39931c5688e5ac1b5b85",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:53:27.544264+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 75.5672378540039,
+      "center": [
+        553.2799885645369,
+        889.1167627638033
+      ],
+      "corners": [
+        [
+          510.8798522949218,
+          943.4429931640624
+        ],
+        [
+          607.5656127929688,
+          910.831787109375
+        ],
+        [
+          594.9454345703124,
+          835.7318725585938
+        ],
+        [
+          494.64819335937494,
+          865.6632080078125
+        ]
+      ],
+      "homography": [
+        [
+          62.267839845993535,
+          15.402874530845118,
+          553.2799885645369
+        ],
+        [
+          5.345877057964111,
+          51.426897435236924,
+          889.1167627638033
+        ],
+        [
+          0.02361465392969525,
+          0.01487516454588626,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

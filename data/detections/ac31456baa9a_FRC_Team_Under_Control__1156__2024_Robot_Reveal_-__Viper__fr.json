@@ -1,0 +1,65 @@
+{
+  "image_file": "ac31456baa9a_FRC_Team_Under_Control__1156__2024_Robot_Reveal_-__Viper__fr.png",
+  "image_sha256": "ac31456baa9a15e02ac9fc32bf17c4e4fd32d370063e0518196a5a46a85c26ce",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:29:25.713663+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 32.62749481201172,
+      "center": [
+        822.3894747811834,
+        273.02173030326287
+      ],
+      "corners": [
+        [
+          799.3895263671875,
+          298.94439697265625
+        ],
+        [
+          848.1215209960938,
+          295.9608764648437
+        ],
+        [
+          845.3646240234375,
+          247.12701416015622
+        ],
+        [
+          796.699462890625,
+          250.12005615234378
+        ]
+      ],
+      "homography": [
+        [
+          24.234951228649493,
+          0.8038085559447866,
+          822.3894747811834
+        ],
+        [
+          -1.5320990625579072,
+          24.22931567220786,
+          273.02173030326287
+        ],
+        [
+          -0.00013901658639946382,
+          -0.0006784210250194752,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

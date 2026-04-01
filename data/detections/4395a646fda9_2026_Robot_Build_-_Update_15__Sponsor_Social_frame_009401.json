@@ -1,0 +1,65 @@
+{
+  "image_file": "4395a646fda9_2026_Robot_Build_-_Update_15__Sponsor_Social_frame_009401.png",
+  "image_sha256": "4395a646fda9b085d8f3425de82002256d0374501ad8e15da2e644c495fd00e0",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:41:40.263272+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 46.65180587768555,
+      "center": [
+        26.758951062830793,
+        517.2214051134439
+      ],
+      "corners": [
+        [
+          13.431846618652342,
+          557.5375366210938
+        ],
+        [
+          45.709423065185554,
+          545.6824340820312
+        ],
+        [
+          38.93705749511719,
+          480.3811340332031
+        ],
+        [
+          7.729008197784416,
+          488.64102172851574
+        ]
+      ],
+      "homography": [
+        [
+          16.48915906263644,
+          2.5569561099366696,
+          26.758951062830793
+        ],
+        [
+          7.201751025942483,
+          22.40107310058511,
+          517.2214051134439
+        ],
+        [
+          0.023570978348269704,
+          -0.021478561428415883,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

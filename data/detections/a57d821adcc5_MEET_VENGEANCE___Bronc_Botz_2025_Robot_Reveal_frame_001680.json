@@ -1,0 +1,65 @@
+{
+  "image_file": "a57d821adcc5_MEET_VENGEANCE___Bronc_Botz_2025_Robot_Reveal_frame_001680.png",
+  "image_sha256": "a57d821adcc5941b2ac158076b8f1b2d12fe2bd322bdd96d9b979212a940cbd2",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:56:57.288319+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 31.5750675201416,
+      "center": [
+        1065.3060557236154,
+        364.17554977563555
+      ],
+      "corners": [
+        [
+          1056.8641357421875,
+          401.64639282226557
+        ],
+        [
+          1079.9495849609375,
+          411.38742065429693
+        ],
+        [
+          1073.734375,
+          326.76507568359375
+        ],
+        [
+          1052.036865234375,
+          321.3946533203124
+        ]
+      ],
+      "homography": [
+        [
+          -14.61799810737011,
+          -23.911956827625094,
+          1065.3060557236154
+        ],
+        [
+          -5.095325842667879,
+          32.05171183066841,
+          364.17554977563555
+        ],
+        [
+          -0.024215405415532226,
+          -0.025021600564002145,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

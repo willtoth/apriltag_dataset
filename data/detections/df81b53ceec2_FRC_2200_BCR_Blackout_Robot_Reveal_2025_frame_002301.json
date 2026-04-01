@@ -1,0 +1,65 @@
+{
+  "image_file": "df81b53ceec2_FRC_2200_BCR_Blackout_Robot_Reveal_2025_frame_002301.png",
+  "image_sha256": "df81b53ceec20582e7275bd8588a10c3f3eaabfae7f923a954e08682b20484f9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:22:08.180186+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 92.0731201171875,
+      "center": [
+        1491.333081472115,
+        738.8512229782475
+      ],
+      "corners": [
+        [
+          1453.687744140625,
+          779.213134765625
+        ],
+        [
+          1535.6048583984377,
+          781.2165527343751
+        ],
+        [
+          1530.205078125,
+          697.1741333007812
+        ],
+        [
+          1448.9881591796877,
+          698.3297729492188
+        ]
+      ],
+      "homography": [
+        [
+          12.226077089955425,
+          -2.115003168073598,
+          1491.333081472115
+        ],
+        [
+          -13.933503973878038,
+          38.92007480373786,
+          738.8512229782475
+        ],
+        [
+          -0.019138446865700584,
+          -0.003107316956685776,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

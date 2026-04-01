@@ -1,0 +1,65 @@
+{
+  "image_file": "ba1df544e7e0_FRC_2025_Robot_in_5_Weeks___Team_6947_Savage_Tumaz_frame_000.png",
+  "image_sha256": "ba1df544e7e0a01fce897fe478afa694988e0a7161aca0e2a10d3212b7497e4a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:25:22.536429+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 43.33346176147461,
+      "center": [
+        738.339426500712,
+        81.47415646344132
+      ],
+      "corners": [
+        [
+          715.1249389648436,
+          111.05576324462888
+        ],
+        [
+          763.4595336914064,
+          107.33034515380861
+        ],
+        [
+          762.4800415039064,
+          50.71240997314453
+        ],
+        [
+          713.0540771484375,
+          55.44788360595702
+        ]
+      ],
+      "homography": [
+        [
+          18.425829201855095,
+          9.19709637951428,
+          738.339426500712
+        ],
+        [
+          -2.7727438401859708,
+          28.98078924315412,
+          81.47415646344132
+        ],
+        [
+          -0.008139409652720095,
+          0.011417669049879842,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

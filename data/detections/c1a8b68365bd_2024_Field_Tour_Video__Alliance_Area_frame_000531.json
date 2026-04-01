@@ -1,0 +1,65 @@
+{
+  "image_file": "c1a8b68365bd_2024_Field_Tour_Video__Alliance_Area_frame_000531.png",
+  "image_sha256": "c1a8b68365bd1cf74f17a20dd41ac9453a5b20daaa47a6260643a2d14aaafbee",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:12:09.989165+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 38.87128829956055,
+      "center": [
+        1327.2641165012576,
+        333.92762183267035
+      ],
+      "corners": [
+        [
+          1311.4647216796873,
+          355.0672912597656
+        ],
+        [
+          1341.7105712890627,
+          353.64422607421886
+        ],
+        [
+          1343.0905761718757,
+          312.7517395019532
+        ],
+        [
+          1312.5050048828125,
+          313.7843017578124
+        ]
+      ],
+      "homography": [
+        [
+          21.743524672737294,
+          7.0664582528284,
+          1327.2641165012576
+        ],
+        [
+          1.0294860265049666,
+          22.473015785406517,
+          333.92762183267035
+        ],
+        [
+          0.004924801277453862,
+          0.005780583658106918,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

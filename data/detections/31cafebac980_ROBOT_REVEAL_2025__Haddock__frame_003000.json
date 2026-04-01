@@ -1,0 +1,65 @@
+{
+  "image_file": "31cafebac980_ROBOT_REVEAL_2025__Haddock__frame_003000.png",
+  "image_sha256": "31cafebac9802ed04920366e460c514d84fb9f9d8e9316ea038012c77e1df47f",
+  "image_width": 1920,
+  "image_height": 1014,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:25:38.822385+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 92.91152954101562,
+      "center": [
+        889.7715327474355,
+        254.90887784215943
+      ],
+      "corners": [
+        [
+          871.3654174804686,
+          279.88830566406244
+        ],
+        [
+          910.0917358398439,
+          270.8644409179688
+        ],
+        [
+          908.1390991210939,
+          229.9817657470704
+        ],
+        [
+          868.9881591796874,
+          238.58963012695307
+        ]
+      ],
+      "homography": [
+        [
+          24.947501058873854,
+          5.627956104898547,
+          889.7715327474355
+        ],
+        [
+          -2.8391316457344287,
+          21.84689655034998,
+          254.90887784215943
+        ],
+        [
+          0.006158323995539563,
+          0.005110050023811782,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

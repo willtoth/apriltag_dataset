@@ -1,0 +1,65 @@
+{
+  "image_file": "60930b0d22ca_Robot_Reveal_2026___Ri3D_at_Penn_State_frame_002544.png",
+  "image_sha256": "60930b0d22cabd1ad3f7441d94a5f57e2170de20827ea61c1f0efe188b01ce51",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:18:19.556658+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 33.108306884765625,
+      "center": [
+        1300.1473010732389,
+        513.0288411482511
+      ],
+      "corners": [
+        [
+          1290.1419677734375,
+          460.61428833007807
+        ],
+        [
+          1292.6319580078127,
+          559.8969116210939
+        ],
+        [
+          1309.1867675781252,
+          560.383544921875
+        ],
+        [
+          1309.4835205078123,
+          454.8052062988279
+        ]
+      ],
+      "homography": [
+        [
+          103.79703716313725,
+          28.36149193262033,
+          1300.1473010732389
+        ],
+        [
+          91.57096779526984,
+          15.796124980666507,
+          513.0288411482511
+        ],
+        [
+          0.07938468639622294,
+          0.028669173247203503,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

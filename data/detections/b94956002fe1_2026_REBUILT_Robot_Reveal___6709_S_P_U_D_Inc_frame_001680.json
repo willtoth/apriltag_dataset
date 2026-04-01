@@ -1,0 +1,65 @@
+{
+  "image_file": "b94956002fe1_2026_REBUILT_Robot_Reveal___6709_S_P_U_D_Inc_frame_001680.png",
+  "image_sha256": "b94956002fe113ec0539faff1fe8898cd613ccdcdcfd290384942be349b0e944",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:11:50.610396+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 80.9437026977539,
+      "center": [
+        719.9915367419094,
+        151.63427886680282
+      ],
+      "corners": [
+        [
+          665.6102294921875,
+          204.3992919921875
+        ],
+        [
+          774.7068481445312,
+          205.99095153808597
+        ],
+        [
+          774.7915649414064,
+          98.46298980712888
+        ],
+        [
+          665.3833007812501,
+          97.38397979736325
+        ]
+      ],
+      "homography": [
+        [
+          52.892581645419114,
+          1.0639538104178492,
+          719.9915367419094
+        ],
+        [
+          0.3030067760276656,
+          53.851910896371976,
+          151.63427886680282
+        ],
+        [
+          -0.002407266324757867,
+          0.0014278301049771968,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

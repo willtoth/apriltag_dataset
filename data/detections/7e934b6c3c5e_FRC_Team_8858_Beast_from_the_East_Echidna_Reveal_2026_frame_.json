@@ -1,0 +1,65 @@
+{
+  "image_file": "7e934b6c3c5e_FRC_Team_8858_Beast_from_the_East_Echidna_Reveal_2026_frame_.png",
+  "image_sha256": "7e934b6c3c5e1824763c2bb4ad5b0771830b9fadc7de762c1cde9b1a5d39658e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:54:21.349476+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 76.83161926269531,
+      "center": [
+        1506.1626474129869,
+        530.5202929157267
+      ],
+      "corners": [
+        [
+          1478.2716064453123,
+          559.2328491210938
+        ],
+        [
+          1532.6192626953125,
+          559.3459472656249
+        ],
+        [
+          1534.2911376953127,
+          501.5632934570314
+        ],
+        [
+          1479.8990478515625,
+          501.9049377441408
+        ]
+      ],
+      "homography": [
+        [
+          21.235300551563796,
+          -0.3898083030330755,
+          1506.1626474129869
+        ],
+        [
+          -2.152577676613081,
+          28.93039209329629,
+          530.5202929157267
+        ],
+        [
+          -0.0039499105223753305,
+          0.00028877747363171717,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

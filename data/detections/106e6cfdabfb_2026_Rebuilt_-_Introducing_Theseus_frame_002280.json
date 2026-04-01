@@ -1,0 +1,65 @@
+{
+  "image_file": "106e6cfdabfb_2026_Rebuilt_-_Introducing_Theseus_frame_002280.png",
+  "image_sha256": "106e6cfdabfbd61e6988a98c8bbd9b2f9a0cc480038f2beb0039b5b586b45a8e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:44:26.575737+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 65.2440414428711,
+      "center": [
+        682.0873702054058,
+        47.746076811091825
+      ],
+      "corners": [
+        [
+          656.3806152343749,
+          89.21458435058595
+        ],
+        [
+          705.2926025390625,
+          95.48011016845703
+        ],
+        [
+          709.3914184570314,
+          3.7009170055389355
+        ],
+        [
+          660.4711303710938,
+          3.2806606292724667
+        ]
+      ],
+      "homography": [
+        [
+          2.065265709864207,
+          -3.863778257188073,
+          682.0873702054058
+        ],
+        [
+          0.0962188389602633,
+          44.25289270401828,
+          47.746076811091825
+        ],
+        [
+          -0.03279152911960585,
+          -0.002660061881018216,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

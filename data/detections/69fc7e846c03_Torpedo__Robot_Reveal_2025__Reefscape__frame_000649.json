@@ -1,0 +1,65 @@
+{
+  "image_file": "69fc7e846c03_Torpedo__Robot_Reveal_2025__Reefscape__frame_000649.png",
+  "image_sha256": "69fc7e846c03ae38ff923e863aa8754a17a566e5c9e7e0d0c8ef93a45059dcfc",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:44:58.689164+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 52.11636734008789,
+      "center": [
+        1624.2863229984537,
+        575.8183345980672
+      ],
+      "corners": [
+        [
+          1582.648681640625,
+          599.1399536132812
+        ],
+        [
+          1647.0794677734375,
+          636.9658203125001
+        ],
+        [
+          1668.2515869140623,
+          551.1929931640625
+        ],
+        [
+          1602.123657226562,
+          516.3622436523436
+        ]
+      ],
+      "homography": [
+        [
+          -0.8511153385486524,
+          0.5449319460860805,
+          1624.2863229984537
+        ],
+        [
+          6.300810323014952,
+          45.9136015460283,
+          575.8183345980672
+        ],
+        [
+          -0.02060767288346273,
+          0.0065832565639072724,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

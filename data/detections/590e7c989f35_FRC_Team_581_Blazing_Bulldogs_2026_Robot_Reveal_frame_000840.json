@@ -1,0 +1,65 @@
+{
+  "image_file": "590e7c989f35_FRC_Team_581_Blazing_Bulldogs_2026_Robot_Reveal_frame_000840.png",
+  "image_sha256": "590e7c989f354ada8af6eed97440efe3d724910afcd91b899f320f507e795dab",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:12:13.996067+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 75.14430236816406,
+      "center": [
+        764.7614424881604,
+        412.948107361206
+      ],
+      "corners": [
+        [
+          731.8386840820312,
+          446.413818359375
+        ],
+        [
+          798.5899047851562,
+          445.9739990234375
+        ],
+        [
+          797.5288696289062,
+          379.6402893066406
+        ],
+        [
+          731.0426635742188,
+          380.029296875
+        ]
+      ],
+      "homography": [
+        [
+          33.59248847001561,
+          -1.060778503085767,
+          764.7614424881604
+        ],
+        [
+          -0.054200612262097235,
+          32.355918554143216,
+          412.948107361206
+        ],
+        [
+          0.0003704006440324902,
+          -0.0019942032018859385,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

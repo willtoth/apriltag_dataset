@@ -1,0 +1,65 @@
+{
+  "image_file": "efd222fefcc2_FRC_Team_857_Superior_Roboworks_2026_Robot_Reveal_frame_0002.png",
+  "image_sha256": "efd222fefcc2b470805ed29740c001dd6bd636a697de36c510d44867c2a3529c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:54:33.701670+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 86.11677551269531,
+      "center": [
+        261.6363140988164,
+        309.93123175191
+      ],
+      "corners": [
+        [
+          234.60861206054693,
+          343.60522460937494
+        ],
+        [
+          291.9995422363281,
+          337.84375000000006
+        ],
+        [
+          288.261016845703,
+          276.75933837890625
+        ],
+        [
+          230.26402282714847,
+          281.0910949707031
+        ]
+      ],
+      "homography": [
+        [
+          31.96292984869706,
+          3.173012215594444,
+          261.6363140988164
+        ],
+        [
+          1.1707408956355567,
+          32.26381193631522,
+          309.93123175191
+        ],
+        [
+          0.011928118010476546,
+          0.004416818321365508,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

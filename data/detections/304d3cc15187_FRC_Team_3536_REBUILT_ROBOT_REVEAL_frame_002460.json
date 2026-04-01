@@ -1,0 +1,65 @@
+{
+  "image_file": "304d3cc15187_FRC_Team_3536_REBUILT_ROBOT_REVEAL_frame_002460.png",
+  "image_sha256": "304d3cc151871a4ea77959f50804b0a9d9d28ab36ad3b8942a63757df009799f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:27:53.240499+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 26,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 47.405033111572266,
+      "center": [
+        958.6722913902595,
+        49.28025274085349
+      ],
+      "corners": [
+        [
+          938.6943359375,
+          85.8190841674805
+        ],
+        [
+          975.7606201171874,
+          94.22107696533202
+        ],
+        [
+          977.5264282226565,
+          14.796837806701653
+        ],
+        [
+          941.3898925781251,
+          3.829041004180919
+        ]
+      ],
+      "homography": [
+        [
+          34.87102127157709,
+          -12.273180228624252,
+          958.6722913902595
+        ],
+        [
+          5.708822153419983,
+          39.76400979228354,
+          49.28025274085349
+        ],
+        [
+          0.01729341858488812,
+          -0.011647041591970352,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

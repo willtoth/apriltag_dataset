@@ -1,0 +1,65 @@
+{
+  "image_file": "f7704824236a_FRC_Team_2530_Robot_Reveal_2026_-_Dread_Pirate_Lobberts_fram.png",
+  "image_sha256": "f7704824236a23884b8db444c455591bf3bb4c7f7c3fd931a9e27ce106e579dd",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:53:12.042520+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 30,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 51.74919891357422,
+      "center": [
+        979.305160412256,
+        720.15186782302
+      ],
+      "corners": [
+        [
+          962.0550537109376,
+          737.5449829101564
+        ],
+        [
+          996.4334716796875,
+          743.8129882812498
+        ],
+        [
+          997.3275756835939,
+          701.9800415039061
+        ],
+        [
+          961.9317016601561,
+          696.152099609375
+        ]
+      ],
+      "homography": [
+        [
+          10.196892612348732,
+          14.01143684206784,
+          979.305160412256
+        ],
+        [
+          -2.297916229165143,
+          31.244095484014565,
+          720.15186782302
+        ],
+        [
+          -0.007395056921717124,
+          0.014500416575132003,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

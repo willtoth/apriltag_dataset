@@ -1,0 +1,65 @@
+{
+  "image_file": "0107176ade66_BumbleB_3339_FRC_Robot_Reveal_2026_-_Chamber_frame_002832.png",
+  "image_sha256": "0107176ade66d0c3d0a3fd593e2b7a3bc6dc01780c162361b5dd7046915feb1f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:57:31.521030+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 1,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 32.93742752075195,
+      "center": [
+        1052.8937130110269,
+        214.29419604196252
+      ],
+      "corners": [
+        [
+          1042.1162109375,
+          252.69659423828125
+        ],
+        [
+          1069.4273681640625,
+          247.7632904052734
+        ],
+        [
+          1063.949951171875,
+          174.89860534667972
+        ],
+        [
+          1036.8979492187502,
+          181.91395568847665
+        ]
+      ],
+      "homography": [
+        [
+          -1.8381827910525317,
+          0.6882837662053587,
+          1052.8937130110269
+        ],
+        [
+          -6.128101574438806,
+          35.50029726131709,
+          214.29419604196252
+        ],
+        [
+          -0.014650917949052645,
+          -0.001884617520028286,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

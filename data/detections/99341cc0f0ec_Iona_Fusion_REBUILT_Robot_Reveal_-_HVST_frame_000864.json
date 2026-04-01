@@ -1,0 +1,65 @@
+{
+  "image_file": "99341cc0f0ec_Iona_Fusion_REBUILT_Robot_Reveal_-_HVST_frame_000864.png",
+  "image_sha256": "99341cc0f0ec98b158cac123271df8007e3a420167e4cade98d447d45cae7e7c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:31:00.669998+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 15,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 6.912326812744141,
+      "center": [
+        314.22158690299096,
+        211.26730090941308
+      ],
+      "corners": [
+        [
+          281.83914184570307,
+          256.0348815917969
+        ],
+        [
+          348.8760681152344,
+          256.4256591796875
+        ],
+        [
+          346.2380065917968,
+          167.00573730468747
+        ],
+        [
+          277.82498168945307,
+          163.8387756347656
+        ]
+      ],
+      "homography": [
+        [
+          38.596512255836785,
+          4.612171324243495,
+          314.22158690299096
+        ],
+        [
+          4.066695399106714,
+          47.37904449863001,
+          211.26730090941308
+        ],
+        [
+          0.015101519690005848,
+          0.009417795762183274,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

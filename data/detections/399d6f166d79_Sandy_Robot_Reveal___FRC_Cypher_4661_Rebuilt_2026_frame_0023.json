@@ -1,0 +1,65 @@
+{
+  "image_file": "399d6f166d79_Sandy_Robot_Reveal___FRC_Cypher_4661_Rebuilt_2026_frame_0023.png",
+  "image_sha256": "399d6f166d79e02cb49a9f97ed01c4ec7e72a1cb73317798517f9f2c396b30f5",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:34:00.932471+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 19,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 19.38111114501953,
+      "center": [
+        425.7031545125945,
+        789.2022688267305
+      ],
+      "corners": [
+        [
+          385.1269226074219,
+          839.1359252929688
+        ],
+        [
+          461.6543884277344,
+          830.0329589843751
+        ],
+        [
+          466.3469848632813,
+          739.1854248046874
+        ],
+        [
+          390.3165283203125,
+          749.0128173828123
+        ]
+      ],
+      "homography": [
+        [
+          36.27656922890333,
+          -3.9791263386842344,
+          425.7031545125945
+        ],
+        [
+          -8.18535687011468,
+          42.44670196801815,
+          789.2022688267305
+        ],
+        [
+          -0.00437342340906387,
+          -0.0035411358727500206,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

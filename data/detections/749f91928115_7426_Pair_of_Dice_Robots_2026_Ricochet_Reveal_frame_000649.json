@@ -1,0 +1,65 @@
+{
+  "image_file": "749f91928115_7426_Pair_of_Dice_Robots_2026_Ricochet_Reveal_frame_000649.png",
+  "image_sha256": "749f91928115a44dcaf351d84a76ea1fd77c5fa60939a2fbadf87f3e5de9f570",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:13:22.729372+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 76.649169921875,
+      "center": [
+        932.7671660560376,
+        211.14026924180473
+      ],
+      "corners": [
+        [
+          892.0316772460939,
+          257.11190795898443
+        ],
+        [
+          978.718505859375,
+          252.65284729003906
+        ],
+        [
+          973.3134765625,
+          165.3821258544922
+        ],
+        [
+          886.9414672851564,
+          169.74119567871094
+        ]
+      ],
+      "homography": [
+        [
+          43.711564696416985,
+          0.8999279570189227,
+          932.7671660560376
+        ],
+        [
+          -2.103262881256489,
+          43.269963953292404,
+          211.14026924180473
+        ],
+        [
+          0.0004792281667330686,
+          -0.0018482092801790006,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "d7a0c3df6145_XO7039_Robot_Reveal_-_Manta_Ray____ReefScape_2025_frame_0034.png",
+  "image_sha256": "d7a0c3df6145979ae7e5d6e95e0ca97495c99b7869db076440cb048830bb905d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:04:38.216289+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 44.18436813354492,
+      "center": [
+        882.002298752655,
+        55.76608773273784
+      ],
+      "corners": [
+        [
+          818.8881225585939,
+          94.86541748046876
+        ],
+        [
+          958.55126953125,
+          115.37803649902344
+        ],
+        [
+          963.0950927734375,
+          5.528976440429685
+        ],
+        [
+          806.0021362304688,
+          -3.4184806346893315
+        ]
+      ],
+      "homography": [
+        [
+          17.060997481669226,
+          56.03950499345342,
+          882.002298752655
+        ],
+        [
+          4.135222506867983,
+          55.06164413034347,
+          55.76608773273784
+        ],
+        [
+          -0.06413495279274876,
+          0.060537369217319614,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

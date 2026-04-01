@@ -1,0 +1,65 @@
+{
+  "image_file": "214102bdb63b_TechHOUNDS_FRC_868___Robot_Reveal_2024___Remix__frame_000826.png",
+  "image_sha256": "214102bdb63bf485f538061640604da21419c4c31160cecde4def2d631f29a68",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:28:51.505232+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 88.5941390991211,
+      "center": [
+        1761.4913828342167,
+        155.97842790404752
+      ],
+      "corners": [
+        [
+          1735.7430419921877,
+          179.79118347167966
+        ],
+        [
+          1781.8077392578123,
+          180.9341735839844
+        ],
+        [
+          1786.9451904296877,
+          132.43806457519534
+        ],
+        [
+          1741.429077148438,
+          131.3347473144531
+        ]
+      ],
+      "homography": [
+        [
+          22.41935230047534,
+          -13.313609284033642,
+          1761.4913828342167
+        ],
+        [
+          0.519414497278089,
+          23.29794625621446,
+          155.97842790404752
+        ],
+        [
+          -0.00026967328494017915,
+          -0.006022034378100724,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

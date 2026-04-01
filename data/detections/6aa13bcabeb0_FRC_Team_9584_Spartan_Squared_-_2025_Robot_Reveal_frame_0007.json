@@ -1,0 +1,65 @@
+{
+  "image_file": "6aa13bcabeb0_FRC_Team_9584_Spartan_Squared_-_2025_Robot_Reveal_frame_0007.png",
+  "image_sha256": "6aa13bcabeb0733427c916df9a89957b2b35b1659b84d06b8c62510288ba2c0c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:09:34.725567+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 78.33929443359375,
+      "center": [
+        1244.6387740462926,
+        639.5196372112018
+      ],
+      "corners": [
+        [
+          1231.1551513671873,
+          691.7347412109375
+        ],
+        [
+          1260.260009765625,
+          704.2454833984375
+        ],
+        [
+          1258.5723876953125,
+          585.5619506835938
+        ],
+        [
+          1229.468505859375,
+          576.662353515625
+        ]
+      ],
+      "homography": [
+        [
+          -4.779648146088903,
+          1.9433136039876893,
+          1244.6387740462926
+        ],
+        [
+          -4.578381898162895,
+          58.98995929134128,
+          639.5196372112018
+        ],
+        [
+          -0.015529273244346062,
+          0.0008834302290890831,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

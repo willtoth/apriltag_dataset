@@ -1,0 +1,65 @@
+{
+  "image_file": "d03cde3da694_Team_1540_2026_Robot_Reveal__Hephaestus_frame_000800.png",
+  "image_sha256": "d03cde3da6942937f0ce232bd6900359ea8f74817a7c111f4e9aed5e49b875b8",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:49:22.772599+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 28,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 88.28333282470703,
+      "center": [
+        563.434441403725,
+        128.06414349206696
+      ],
+      "corners": [
+        [
+          545.0307006835936,
+          173.04403686523438
+        ],
+        [
+          582.6327514648438,
+          167.4211120605469
+        ],
+        [
+          581.0167846679689,
+          85.09179687500001
+        ],
+        [
+          544.403076171875,
+          89.04941558837889
+        ]
+      ],
+      "homography": [
+        [
+          23.74915563560853,
+          -7.095139358683466,
+          563.434441403725
+        ],
+        [
+          -1.2021159361337417,
+          39.82797473832011,
+          128.06414349206696
+        ],
+        [
+          0.009229264093486284,
+          -0.013596155205935486,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "72cc273334e7_Cranberry_Alarm_Ri3D_Robot_Reveal___Mini-Fridge___2026_FRC_R.png",
+  "image_sha256": "72cc273334e7496504a07128698b5101be39f24d2f087fa30c9eda045e2eccf1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:24:45.229275+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 70.81184387207031,
+      "center": [
+        136.63405639566628,
+        317.84118320008696
+      ],
+      "corners": [
+        [
+          87.65284729003909,
+          352.4147033691406
+        ],
+        [
+          184.45663452148435,
+          361.05868530273426
+        ],
+        [
+          183.34053039550784,
+          284.87329101562506
+        ],
+        [
+          87.45618438720706,
+          273.398895263672
+        ]
+      ],
+      "homography": [
+        [
+          50.732374581063596,
+          -0.33256152454699706,
+          136.63405639566628
+        ],
+        [
+          11.033242270271836,
+          37.22898515878222,
+          317.84118320008696
+        ],
+        [
+          0.01887226674141628,
+          -0.004900229696588176,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

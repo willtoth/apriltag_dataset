@@ -1,0 +1,65 @@
+{
+  "image_file": "10cb5bd3c0b5_Robot_Reveal_2025___FRC_3100_Lightning_Turtles_frame_000472.png",
+  "image_sha256": "10cb5bd3c0b5138c92dc9cce3a32658e4dc2892ed5a59e9b77a6719727126673",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:31:44.811625+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 42.66278839111328,
+      "center": [
+        1467.9988562959104,
+        312.97190536003325
+      ],
+      "corners": [
+        [
+          1448.635009765625,
+          332.01220703124994
+        ],
+        [
+          1487.2001953125,
+          330.8534240722657
+        ],
+        [
+          1487.397705078125,
+          293.89718627929693
+        ],
+        [
+          1449.0877685546875,
+          295.3606872558593
+        ]
+      ],
+      "homography": [
+        [
+          12.965537346259453,
+          -5.090209033694235,
+          1467.9988562959104
+        ],
+        [
+          -1.98912656913649,
+          17.350978168416304,
+          312.97190536003325
+        ],
+        [
+          -0.00425932392869901,
+          -0.003356335845770348,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

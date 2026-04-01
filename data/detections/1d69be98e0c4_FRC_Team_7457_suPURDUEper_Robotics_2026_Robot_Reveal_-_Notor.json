@@ -1,0 +1,65 @@
+{
+  "image_file": "1d69be98e0c4_FRC_Team_7457_suPURDUEper_Robotics_2026_Robot_Reveal_-_Notor.png",
+  "image_sha256": "1d69be98e0c4ba872d1d8a191263a363c0d993ec003658ccad5ea0d175c6bb73",
+  "image_width": 1278,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:59:25.759483+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 45.5469856262207,
+      "center": [
+        482.6150159349328,
+        262.56216942689133
+      ],
+      "corners": [
+        [
+          454.9912719726563,
+          288.52548217773443
+        ],
+        [
+          508.0392456054688,
+          288.3869323730469
+        ],
+        [
+          509.90823364257807,
+          236.90951538085935
+        ],
+        [
+          457.4791259765625,
+          237.03028869628906
+        ]
+      ],
+      "homography": [
+        [
+          26.444554053080196,
+          -3.9176254752222204,
+          482.6150159349328
+        ],
+        [
+          -0.023329287549987164,
+          24.203448081691818,
+          262.56216942689133
+        ],
+        [
+          0.0001578735647652859,
+          -0.005860781593504415,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

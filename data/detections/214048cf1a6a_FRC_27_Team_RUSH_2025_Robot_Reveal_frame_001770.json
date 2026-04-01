@@ -1,0 +1,65 @@
+{
+  "image_file": "214048cf1a6a_FRC_27_Team_RUSH_2025_Robot_Reveal_frame_001770.png",
+  "image_sha256": "214048cf1a6a903bfaf6bd8da0b3b57db956aed3f7f4551f09dec1b9775499ad",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:05:41.049240+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 13,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 79.84757232666016,
+      "center": [
+        1021.5523822058317,
+        169.928039546969
+      ],
+      "corners": [
+        [
+          964.407775878906,
+          218.68251037597653
+        ],
+        [
+          1076.888916015625,
+          202.78486633300784
+        ],
+        [
+          1083.1561279296877,
+          117.3691329956055
+        ],
+        [
+          961.8745117187499,
+          134.49348449707028
+        ]
+      ],
+      "homography": [
+        [
+          58.457388968648154,
+          37.52742169868089,
+          1021.5523822058317
+        ],
+        [
+          -8.227552534518287,
+          48.73870212640432,
+          169.928039546969
+        ],
+        [
+          9.74285890542748e-05,
+          0.037648597257260455,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

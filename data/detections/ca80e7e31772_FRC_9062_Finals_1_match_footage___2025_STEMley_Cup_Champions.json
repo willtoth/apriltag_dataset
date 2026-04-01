@@ -1,0 +1,65 @@
+{
+  "image_file": "ca80e7e31772_FRC_9062_Finals_1_match_footage___2025_STEMley_Cup_Champions.png",
+  "image_sha256": "ca80e7e317722a4f675ceae91a21f101c45c5c0bdc77a59294656d90d893458f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:46:07.818744+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 13,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 35.0405387878418,
+      "center": [
+        1105.940816667861,
+        406.21969000214136
+      ],
+      "corners": [
+        [
+          1101.2337646484373,
+          422.6792602539063
+        ],
+        [
+          1112.0595703125,
+          420.3070983886718
+        ],
+        [
+          1110.7679443359377,
+          389.34024047851557
+        ],
+        [
+          1099.89697265625,
+          392.30474853515625
+        ]
+      ],
+      "homography": [
+        [
+          -4.946288960077255,
+          4.2158499674546865,
+          1105.940816667861
+        ],
+        [
+          -5.142079834413666,
+          16.640810095667575,
+          406.21969000214136
+        ],
+        [
+          -0.009376622810412887,
+          0.003217606854696805,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

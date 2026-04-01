@@ -1,0 +1,65 @@
+{
+  "image_file": "3a4a2d41981a_687_Nerd_Herd___Abruticus___Robot_Reveal_2024_frame_001020.png",
+  "image_sha256": "3a4a2d41981abcb52348c482834e2305c9cee0ab9fa3bdee5f7f72a6d5c3b7aa",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:49:35.122288+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 52.59804916381836,
+      "center": [
+        1022.1041717415492,
+        345.2232301569272
+      ],
+      "corners": [
+        [
+          983.5134277343751,
+          382.1747131347656
+        ],
+        [
+          1059.88720703125,
+          382.27233886718744
+        ],
+        [
+          1060.4071044921873,
+          308.5473327636718
+        ],
+        [
+          984.039306640625,
+          307.89776611328125
+        ]
+      ],
+      "homography": [
+        [
+          41.99664747184431,
+          -0.2753645848166519,
+          1022.1041717415492
+        ],
+        [
+          1.4742575488642684,
+          36.995269400318875,
+          345.2232301569272
+        ],
+        [
+          0.0037293501075937245,
+          -1.3626801188438199e-05,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

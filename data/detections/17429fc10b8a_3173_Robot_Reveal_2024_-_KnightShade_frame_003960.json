@@ -1,0 +1,65 @@
+{
+  "image_file": "17429fc10b8a_3173_Robot_Reveal_2024_-_KnightShade_frame_003960.png",
+  "image_sha256": "17429fc10b8af245f9e4a90eecedd5ab86aac3c050cf85b527b3d45dcd69a79e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:45:18.443093+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 67.98084259033203,
+      "center": [
+        1160.3007761746508,
+        449.666069852675
+      ],
+      "corners": [
+        [
+          1146.9080810546877,
+          463.03955078125
+        ],
+        [
+          1172.407958984375,
+          465.0740661621094
+        ],
+        [
+          1174.241821289062,
+          435.7450256347656
+        ],
+        [
+          1148.3621826171873,
+          434.4726257324219
+        ]
+      ],
+      "homography": [
+        [
+          -2.8642681204944447,
+          6.751488383303013,
+          1160.3007761746508
+        ],
+        [
+          -5.257685717592382,
+          17.404964308336105,
+          449.666069852675
+        ],
+        [
+          -0.01353623296599383,
+          0.006525053551930158,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "aa05c7a4d581_2026_FRC_Robot_Reveal_-_Rebuilt_-_3966_Gryphon_Command_frame.png",
+  "image_sha256": "aa05c7a4d58164c406dab53bf061f8f5f900e1ddf5202e7b74d57d9b315a71cc",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:36:57.587440+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 27,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 81.33366394042969,
+      "center": [
+        1170.4025591769494,
+        633.4494266522725
+      ],
+      "corners": [
+        [
+          1131.005615234375,
+          671.7869262695312
+        ],
+        [
+          1209.84228515625,
+          673.0371704101561
+        ],
+        [
+          1209.9722900390625,
+          594.9437866210936
+        ],
+        [
+          1131.22705078125,
+          594.1268920898438
+        ]
+      ],
+      "homography": [
+        [
+          36.14788199234499,
+          -0.7743094458239694,
+          1170.4025591769494
+        ],
+        [
+          -1.2408499365849412,
+          38.56658612998831,
+          633.4494266522725
+        ],
+        [
+          -0.002774497335524264,
+          -0.0005863981156167813,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

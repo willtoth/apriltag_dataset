@@ -1,0 +1,65 @@
+{
+  "image_file": "f3b1e194112f_FRC_World_Championship_2025_Daly_Q52_Team_4451_POV_frame_001.png",
+  "image_sha256": "f3b1e194112f5beed216de673675f440d00bf0a22a35b4338cd637cf3dccdeea",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:55:19.789515+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 25.060277938842773,
+      "center": [
+        190.78572330092138,
+        538.4880310521839
+      ],
+      "corners": [
+        [
+          171.73611450195315,
+          551.0227661132812
+        ],
+        [
+          204.6396331787109,
+          554.2545776367188
+        ],
+        [
+          208.5515441894531,
+          526.7980346679688
+        ],
+        [
+          175.6746063232422,
+          521.2907104492186
+        ]
+      ],
+      "homography": [
+        [
+          23.887178884067623,
+          -1.1510262576402084,
+          190.78572330092138
+        ],
+        [
+          23.25176087522868,
+          16.57182503567083,
+          538.4880310521839
+        ],
+        [
+          0.03913761673716154,
+          0.00426669654598942,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

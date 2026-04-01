@@ -1,0 +1,65 @@
+{
+  "image_file": "720c984a39d8_Robot_Reveal__10079_ArrowDynamics_frame_000120.png",
+  "image_sha256": "720c984a39d88c427fd9d76121374ab649527ed5f9dd72a04bcb04c834b459a9",
+  "image_width": 480,
+  "image_height": 854,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:47:53.047182+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 53.38534164428711,
+      "center": [
+        387.34270137842634,
+        366.04852436184734
+      ],
+      "corners": [
+        [
+          380.7321472167969,
+          371.7919616699219
+        ],
+        [
+          392.02926635742193,
+          374.03717041015625
+        ],
+        [
+          394.11230468749994,
+          360.1669006347657
+        ],
+        [
+          382.66931152343744,
+          358.0823364257813
+        ]
+      ],
+      "homography": [
+        [
+          3.1097779356258,
+          1.0249644875871131,
+          387.34270137842634
+        ],
+        [
+          -1.3503786471257524,
+          8.812527913061103,
+          366.04852436184734
+        ],
+        [
+          -0.006647273443041893,
+          0.005239667932081035,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

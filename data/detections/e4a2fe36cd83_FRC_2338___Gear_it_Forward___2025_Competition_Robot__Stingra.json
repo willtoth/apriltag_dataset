@@ -1,0 +1,65 @@
+{
+  "image_file": "e4a2fe36cd83_FRC_2338___Gear_it_Forward___2025_Competition_Robot__Stingra.png",
+  "image_sha256": "e4a2fe36cd8314f67d1a63cfc598a54542e58b17c158e4a71f5ee9fae161fcd6",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:40:23.524141+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 23.85579490661621,
+      "center": [
+        894.0923042241023,
+        430.66268210494053
+      ],
+      "corners": [
+        [
+          879.1229248046876,
+          457.82238769531244
+        ],
+        [
+          915.5614624023436,
+          444.25
+        ],
+        [
+          908.5266113281249,
+          404.4737854003906
+        ],
+        [
+          871.8094482421875,
+          416.5603942871093
+        ]
+      ],
+      "homography": [
+        [
+          34.73195300751206,
+          3.764772138451808,
+          894.0923042241023
+        ],
+        [
+          1.5104775201890537,
+          20.338979986516165,
+          430.66268210494053
+        ],
+        [
+          0.018397703766883905,
+          0.0002002469627632239,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

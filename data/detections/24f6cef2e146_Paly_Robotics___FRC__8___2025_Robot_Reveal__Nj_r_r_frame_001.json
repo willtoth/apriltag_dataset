@@ -1,0 +1,65 @@
+{
+  "image_file": "24f6cef2e146_Paly_Robotics___FRC__8___2025_Robot_Reveal__Nj_r_r_frame_001.png",
+  "image_sha256": "24f6cef2e146ec17dd2ade70c0fa6917e58322c4af6080a466fb6e17e933a5c3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:50:36.866887+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 36.26521301269531,
+      "center": [
+        133.03160940589981,
+        453.1584805923434
+      ],
+      "corners": [
+        [
+          53.120391845703175,
+          520.6293334960936
+        ],
+        [
+          196.77786254882812,
+          528.752685546875
+        ],
+        [
+          208.18481445312494,
+          389.70492553710955
+        ],
+        [
+          64.27700042724607,
+          371.62506103515625
+        ]
+      ],
+      "homography": [
+        [
+          76.36268145843933,
+          -5.1784876073692105,
+          133.03160940589981
+        ],
+        [
+          22.042270819410977,
+          73.53808030739407,
+          453.1584805923434
+        ],
+        [
+          0.034241383862704075,
+          0.0035572821650669724,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

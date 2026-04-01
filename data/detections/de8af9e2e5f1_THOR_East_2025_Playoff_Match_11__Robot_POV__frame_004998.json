@@ -1,0 +1,65 @@
+{
+  "image_file": "de8af9e2e5f1_THOR_East_2025_Playoff_Match_11__Robot_POV__frame_004998.png",
+  "image_sha256": "de8af9e2e5f1a708522698ae055fd47c465718a910f59cfd8e8d0dbcc2c629e2",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:00:05.326650+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 46.90338897705078,
+      "center": [
+        1844.893812382837,
+        793.3506078495038
+      ],
+      "corners": [
+        [
+          1837.2923583984375,
+          812.4673461914062
+        ],
+        [
+          1857.706787109375,
+          807.0238037109375
+        ],
+        [
+          1852.4371337890627,
+          774.3800659179689
+        ],
+        [
+          1832.2915039062502,
+          779.9022216796875
+        ]
+      ],
+      "homography": [
+        [
+          6.034170718606675,
+          -8.619652079340995,
+          1844.893812382837
+        ],
+        [
+          -4.507154272451773,
+          11.490962611023065,
+          793.3506078495038
+        ],
+        [
+          -0.0022252508878397395,
+          -0.006063708486224118,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "17286e80246b_FTC_AprilTags__Get_Distance___Angle__Standard_Webcam__frame_.png",
+  "image_sha256": "17286e80246b92eb452f9065fda9263c9cce3c5b1c28925ee39ad4f460b8aa3a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:09:20.187660+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 52.97942352294922,
+      "center": [
+        159.49177155379138,
+        832.8291411597089
+      ],
+      "corners": [
+        [
+          56.71226501464841,
+          932.1959228515626
+        ],
+        [
+          252.10740661621094,
+          942.3652343750001
+        ],
+        [
+          261.938720703125,
+          733.7838745117188
+        ],
+        [
+          70.84592437744135,
+          727.988098144531
+        ]
+      ],
+      "homography": [
+        [
+          94.98283188279024,
+          -7.888573543171094,
+          159.49177155379138
+        ],
+        [
+          -4.4793788657856455,
+          93.37683421124473,
+          832.8291411597089
+        ],
+        [
+          -0.0101402247171318,
+          -0.011760665847363827,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

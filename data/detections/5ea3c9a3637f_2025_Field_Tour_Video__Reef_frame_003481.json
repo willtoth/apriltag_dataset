@@ -1,0 +1,65 @@
+{
+  "image_file": "5ea3c9a3637f_2025_Field_Tour_Video__Reef_frame_003481.png",
+  "image_sha256": "5ea3c9a3637f9e87ca11748fa846730efbb2f534ac3bc71b98edfcc4dc3c536a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:11:39.923152+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 75.8777084350586,
+      "center": [
+        917.6048747691535,
+        705.8959442466498
+      ],
+      "corners": [
+        [
+          689.6138305664061,
+          897.7024536132811
+        ],
+        [
+          1146.338623046875,
+          886.5686645507811
+        ],
+        [
+          1157.51513671875,
+          504.0619201660156
+        ],
+        [
+          674.7435302734374,
+          514.0640869140624
+        ]
+      ],
+      "homography": [
+        [
+          236.74931849811685,
+          26.32534944493844,
+          917.6048747691535
+        ],
+        [
+          -3.7213451897432863,
+          210.9530443811242,
+          705.8959442466498
+        ],
+        [
+          0.0022416303451740813,
+          0.027715416355440774,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

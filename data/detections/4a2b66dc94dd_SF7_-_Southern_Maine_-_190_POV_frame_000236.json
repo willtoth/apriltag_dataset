@@ -1,0 +1,65 @@
+{
+  "image_file": "4a2b66dc94dd_SF7_-_Southern_Maine_-_190_POV_frame_000236.png",
+  "image_sha256": "4a2b66dc94dd2c287bacae41e1b3150da8e6860793668cbd5ce73b13ef02fb86",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T15:32:43.578622+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 1,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 38.86791229248047,
+      "center": [
+        845.3458842138796,
+        280.8992305683655
+      ],
+      "corners": [
+        [
+          827.1577758789062,
+          302.4608459472656
+        ],
+        [
+          864.5595092773438,
+          301.5007934570313
+        ],
+        [
+          863.6575317382812,
+          259.19116210937494
+        ],
+        [
+          826.462158203125,
+          260.651397705078
+        ]
+      ],
+      "homography": [
+        [
+          13.557773353690777,
+          -1.8306888259726277,
+          845.3458842138796
+        ],
+        [
+          -2.2972929390848575,
+          20.288048951469364,
+          280.8992305683655
+        ],
+        [
+          -0.006022013900842323,
+          -0.0026373559347908594,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

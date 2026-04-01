@@ -1,0 +1,65 @@
+{
+  "image_file": "af58dc760cbd_Uni-Rex_2026_Robot_Reveal_-__Dilophosaurus__frame_000476.png",
+  "image_sha256": "af58dc760cbd6e1c8961969ad2d912ebc122bdd242449b704e459e3646ae325e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:04:58.616041+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 23,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 63.48574447631836,
+      "center": [
+        1417.3292418316971,
+        35.52126472057624
+      ],
+      "corners": [
+        [
+          1402.222045898438,
+          69.0914993286133
+        ],
+        [
+          1431.9022216796873,
+          62.17980957031247
+        ],
+        [
+          1432.9401855468745,
+          0.8316343426704177
+        ],
+        [
+          1403.270263671875,
+          9.802989959716824
+        ]
+      ],
+      "homography": [
+        [
+          -9.5102286191634,
+          -1.6223391253026886,
+          1417.3292418316971
+        ],
+        [
+          -4.580488579051437,
+          30.122779797778854,
+          35.52126472057624
+        ],
+        [
+          -0.017175530023347364,
+          -0.000776497149501451,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

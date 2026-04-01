@@ -1,0 +1,65 @@
+{
+  "image_file": "d9e6f00828ef_FRC_Team_Under_Control__1156__2025_Robot_Reveal_-__Ultralisk.png",
+  "image_sha256": "d9e6f00828ef674fbde85f36c702cc95157a551eb92b59f2132c204a3a34dd68",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:42:04.953490+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 43.10350799560547,
+      "center": [
+        1296.6902615221384,
+        336.27670612788995
+      ],
+      "corners": [
+        [
+          1230.5180664062498,
+          401.36602783203125
+        ],
+        [
+          1359.4449462890627,
+          415.39587402343744
+        ],
+        [
+          1367.693969726563,
+          266.43493652343744
+        ],
+        [
+          1236.9536132812502,
+          260.9625854492188
+        ]
+      ],
+      "homography": [
+        [
+          26.045689630779407,
+          3.2139355079366427,
+          1296.6902615221384
+        ],
+        [
+          -5.17081569312206,
+          74.05513766297935,
+          336.27670612788995
+        ],
+        [
+          -0.029930036018048136,
+          0.005291259935470331,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

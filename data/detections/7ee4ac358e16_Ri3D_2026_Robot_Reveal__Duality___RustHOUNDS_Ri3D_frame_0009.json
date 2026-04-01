@@ -1,0 +1,65 @@
+{
+  "image_file": "7ee4ac358e16_Ri3D_2026_Robot_Reveal__Duality___RustHOUNDS_Ri3D_frame_0009.png",
+  "image_sha256": "7ee4ac358e16e26636afe0a75275ac0d5c33ffbcb744593773a8629c92edd838",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:26:47.692507+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 56.62718963623047,
+      "center": [
+        149.29009974065426,
+        304.7894900922762
+      ],
+      "corners": [
+        [
+          103.30267333984382,
+          384.7110290527343
+        ],
+        [
+          229.9274749755859,
+          356.97027587890625
+        ],
+        [
+          192.333999633789,
+          229.98350524902347
+        ],
+        [
+          53.11614227294919,
+          242.55491638183588
+        ]
+      ],
+      "homography": [
+        [
+          75.12205595595697,
+          25.719268131846302,
+          149.29009974065426
+        ],
+        [
+          8.172883775177686,
+          75.37522423607425,
+          304.7894900922762
+        ],
+        [
+          0.060466329181406236,
+          0.02740463471717473,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

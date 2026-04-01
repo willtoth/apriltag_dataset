@@ -1,0 +1,65 @@
+{
+  "image_file": "46f2cad440a3_BumbleB_3339_FRC_Robot_Reveal_2024_-_ARCHER_frame_001750.png",
+  "image_sha256": "46f2cad440a3be3bf28cdb5d847762655663a4b019c98c3ad6bad048d2e1cab9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:34:28.776095+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 74.03748321533203,
+      "center": [
+        1492.573110124346,
+        186.56524133913265
+      ],
+      "corners": [
+        [
+          1477.0120849609373,
+          201.32882690429688
+        ],
+        [
+          1505.85791015625,
+          201.4466705322266
+        ],
+        [
+          1508.73828125,
+          171.2284698486328
+        ],
+        [
+          1479.3098144531248,
+          171.70790100097656
+        ]
+      ],
+      "homography": [
+        [
+          -0.24996956420159372,
+          12.315001820691123,
+          1492.573110124346
+        ],
+        [
+          -1.9395672960158115,
+          16.65782162677874,
+          186.56524133913265
+        ],
+        [
+          -0.009926255535013504,
+          0.009116240348860898,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

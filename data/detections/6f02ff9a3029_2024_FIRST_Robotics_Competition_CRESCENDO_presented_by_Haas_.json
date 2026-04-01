@@ -1,0 +1,65 @@
+{
+  "image_file": "6f02ff9a3029_2024_FIRST_Robotics_Competition_CRESCENDO_presented_by_Haas_.png",
+  "image_sha256": "6f02ff9a302975298f29275fff88332250967a7bcfa0d8b04e077bead177c42c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:01:59.663526+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 73.21888732910156,
+      "center": [
+        1771.9144117086087,
+        39.09674749181419
+      ],
+      "corners": [
+        [
+          1741.5880126953125,
+          66.09830474853516
+        ],
+        [
+          1796.3707275390625,
+          68.59886169433594
+        ],
+        [
+          1802.8328857421873,
+          11.568027496337885
+        ],
+        [
+          1747.7462158203127,
+          9.942197799682623
+        ]
+      ],
+      "homography": [
+        [
+          13.650983195669596,
+          0.1611079049616836,
+          1771.9144117086087
+        ],
+        [
+          0.7275430439378959,
+          28.368095096103787,
+          39.09674749181419
+        ],
+        [
+          -0.007796372753636211,
+          0.001870967397914078,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

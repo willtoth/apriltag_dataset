@@ -1,0 +1,65 @@
+{
+  "image_file": "e10b7a0711a7_FRC_team_4728_ROCORI_2025_Robot_Reveal_-__GRAYDUCK__frame_00.png",
+  "image_sha256": "e10b7a0711a76c7607d0b59dc1568cda975fc9a742b7d12982813a038e3f6d35",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:52:43.770557+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 49.38185501098633,
+      "center": [
+        904.0361604903969,
+        755.1151631511034
+      ],
+      "corners": [
+        [
+          890.6359252929689,
+          799.3826904296875
+        ],
+        [
+          914.230712890625,
+          798.5031127929688
+        ],
+        [
+          916.2740478515623,
+          714.6874389648438
+        ],
+        [
+          893.2910766601561,
+          709.3841552734375
+        ]
+      ],
+      "homography": [
+        [
+          44.00482262808953,
+          -9.773905116760938,
+          904.0361604903969
+        ],
+        [
+          28.177762041365778,
+          36.20391718190592,
+          755.1151631511034
+        ],
+        [
+          0.03581402730738555,
+          -0.009522671337619353,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

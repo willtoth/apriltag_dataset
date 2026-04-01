@@ -1,0 +1,65 @@
+{
+  "image_file": "f971fa6b4c39_ARTEMIS_3083_-_2025_ROBOT_REVEAL__SWELL__frame_001632.png",
+  "image_sha256": "f971fa6b4c396384333e2cd34f36d1d46bd91608e33566385d97ef7f0195f92c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:33:56.568314+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 82.74490356445312,
+      "center": [
+        741.4464830201757,
+        952.8215840506932
+      ],
+      "corners": [
+        [
+          727.8536376953125,
+          1002.91162109375
+        ],
+        [
+          759.2852172851562,
+          965.4060058593751
+        ],
+        [
+          754.5473022460938,
+          904.5446777343749
+        ],
+        [
+          724.1625366210938,
+          940.6285400390624
+        ]
+      ],
+      "homography": [
+        [
+          16.427077870364997,
+          -10.581796762762677,
+          741.4464830201757
+        ],
+        [
+          -17.134454159384404,
+          14.46959750782514,
+          952.8215840506932
+        ],
+        [
+          0.0013183010536197833,
+          -0.017114016397928852,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

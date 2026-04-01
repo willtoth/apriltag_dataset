@@ -1,0 +1,65 @@
+{
+  "image_file": "fc0c84473da2_FRC_6328_Granite_State_2024_Teaser_frame_000705.png",
+  "image_sha256": "fc0c84473da2a833bfc1f360a6d61eb2f2efc85214e0c9930f2672f598c4b492",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:39:45.177334+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 70.79873657226562,
+      "center": [
+        1184.4353564720413,
+        404.892142777866
+      ],
+      "corners": [
+        [
+          1156.7618408203123,
+          434.489013671875
+        ],
+        [
+          1211.8519287109375,
+          431.7619323730468
+        ],
+        [
+          1212.1751708984373,
+          375.22436523437494
+        ],
+        [
+          1157.9383544921873,
+          378.923583984375
+        ]
+      ],
+      "homography": [
+        [
+          16.518143540533856,
+          -9.771374930012824,
+          1184.4353564720413
+        ],
+        [
+          -5.305608056755719,
+          24.81110326503756,
+          404.892142777866
+        ],
+        [
+          -0.009126409060378706,
+          -0.007929968157555681,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

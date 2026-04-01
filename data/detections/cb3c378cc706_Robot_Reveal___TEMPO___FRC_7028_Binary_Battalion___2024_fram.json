@@ -1,0 +1,65 @@
+{
+  "image_file": "cb3c378cc706_Robot_Reveal___TEMPO___FRC_7028_Binary_Battalion___2024_fram.png",
+  "image_sha256": "cb3c378cc70697ae06329e7e3721296e4583a28e61251e44cab34633541a9eda",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:48:02.069048+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 11.994778633117676,
+      "center": [
+        78.45284110660857,
+        361.1503148905119
+      ],
+      "corners": [
+        [
+          53.64725875854494,
+          383.67199707031244
+        ],
+        [
+          101.76805877685545,
+          387.7921447753906
+        ],
+        [
+          103.52298736572263,
+          338.38842773437506
+        ],
+        [
+          55.410568237304695,
+          334.8203735351563
+        ]
+      ],
+      "homography": [
+        [
+          23.61851881385661,
+          -0.902493684489525,
+          78.45284110660857
+        ],
+        [
+          -0.09913910795916381,
+          24.457716631007088,
+          361.1503148905119
+        ],
+        [
+          -0.005596143638715402,
+          -0.0002916815598927137,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "b03ac2668d3b_FRC_2363_Triple_Helix_2025_Robot_Reveal_Video_frame_000944.png",
+  "image_sha256": "b03ac2668d3bce894d3e857fe1371b2ac22f31aec154e2dd3cf3079b5212e9cb",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:30:35.320662+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 58.664363861083984,
+      "center": [
+        121.01395317441619,
+        629.394151679338
+      ],
+      "corners": [
+        [
+          82.23530578613283,
+          678.382568359375
+        ],
+        [
+          159.7882995605469,
+          672.7913208007811
+        ],
+        [
+          160.12324523925778,
+          579.988037109375
+        ],
+        [
+          81.03176879882808,
+          584.6451416015626
+        ]
+      ],
+      "homography": [
+        [
+          39.82723189115896,
+          1.3976843285256044,
+          121.01395317441619
+        ],
+        [
+          0.923546778830876,
+          52.791787812584744,
+          629.394151679338
+        ],
+        [
+          0.005545610114244484,
+          0.009790743300201167,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

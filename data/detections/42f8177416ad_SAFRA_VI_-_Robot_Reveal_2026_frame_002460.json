@@ -1,0 +1,65 @@
+{
+  "image_file": "42f8177416ad_SAFRA_VI_-_Robot_Reveal_2026_frame_002460.png",
+  "image_sha256": "42f8177416adb3069d3eef2d68106b8f6ee6ed5357f75b8bfdfed24b33fbc707",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:42:35.956049+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 25,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 49.77104568481445,
+      "center": [
+        190.72243136987822,
+        56.106357043793786
+      ],
+      "corners": [
+        [
+          150.34854125976565,
+          92.6690902709961
+        ],
+        [
+          234.0433502197266,
+          99.05320739746097
+        ],
+        [
+          230.60221862792966,
+          19.991085052490227
+        ],
+        [
+          145.82507324218747,
+          11.59667968749999
+        ]
+      ],
+      "homography": [
+        [
+          44.40138366741985,
+          3.101833257669062,
+          190.72243136987822
+        ],
+        [
+          4.362357797404707,
+          40.35454942075305,
+          56.106357043793786
+        ],
+        [
+          0.012013260476088002,
+          0.005856497717486378,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

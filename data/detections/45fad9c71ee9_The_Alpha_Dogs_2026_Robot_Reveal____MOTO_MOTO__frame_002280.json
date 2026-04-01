@@ -1,0 +1,65 @@
+{
+  "image_file": "45fad9c71ee9_The_Alpha_Dogs_2026_Robot_Reveal____MOTO_MOTO__frame_002280.png",
+  "image_sha256": "45fad9c71ee9904f0f8f7e274984a2262c89c1248d548f994b64f6e04db1e7a1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:22:45.462024+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 85.5123519897461,
+      "center": [
+        171.5981088924186,
+        108.11845143302403
+      ],
+      "corners": [
+        [
+          145.88430786132815,
+          140.1439666748047
+        ],
+        [
+          209.09057617187497,
+          135.08741760253906
+        ],
+        [
+          197.41836547851562,
+          75.9603500366211
+        ],
+        [
+          132.9518585205078,
+          80.31954956054685
+        ]
+      ],
+      "homography": [
+        [
+          33.03670287612718,
+          7.624259736850523,
+          171.5981088924186
+        ],
+        [
+          -1.649487549972836,
+          30.66552757679672,
+          108.11845143302403
+        ],
+        [
+          0.006543982701090269,
+          0.008609714761184436,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

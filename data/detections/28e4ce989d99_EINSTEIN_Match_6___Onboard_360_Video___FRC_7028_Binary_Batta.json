@@ -1,0 +1,65 @@
+{
+  "image_file": "28e4ce989d99_EINSTEIN_Match_6___Onboard_360_Video___FRC_7028_Binary_Batta.png",
+  "image_sha256": "28e4ce989d99c9b10b164f62607c252c98ba86515d07e1d5ffc54d2a5930a12a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:09:20.857051+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 52.62591552734375,
+      "center": [
+        843.4648036889723,
+        366.65245903593245
+      ],
+      "corners": [
+        [
+          825.7432861328124,
+          379.4665832519531
+        ],
+        [
+          858.8143310546876,
+          385.7723083496094
+        ],
+        [
+          860.2009887695314,
+          354.5508117675782
+        ],
+        [
+          827.925537109375,
+          347.29626464843756
+        ]
+      ],
+      "homography": [
+        [
+          30.979460659987467,
+          -10.354532890698462,
+          843.4648036889723
+        ],
+        [
+          9.763198848920636,
+          11.72631677977438,
+          366.65245903593245
+        ],
+        [
+          0.017369037599461543,
+          -0.01122638229805871,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

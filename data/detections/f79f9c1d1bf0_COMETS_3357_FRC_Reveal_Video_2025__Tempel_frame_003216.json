@@ -1,0 +1,65 @@
+{
+  "image_file": "f79f9c1d1bf0_COMETS_3357_FRC_Reveal_Video_2025__Tempel_frame_003216.png",
+  "image_sha256": "f79f9c1d1bf05e1df6ce3789555e87d656324997ec488a46c6bbe639d0c2a807",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:28:31.304403+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 52.67924118041992,
+      "center": [
+        449.24283926154374,
+        797.5222648662563
+      ],
+      "corners": [
+        [
+          294.1521301269532,
+          846.7243041992188
+        ],
+        [
+          440.4298400878906,
+          829.5707397460936
+        ],
+        [
+          589.091552734375,
+          753.1557006835939
+        ],
+        [
+          459.4598999023437,
+          760.3679199218752
+        ]
+      ],
+      "homography": [
+        [
+          96.98724033007757,
+          -73.3047784553426,
+          449.24283926154374
+        ],
+        [
+          43.90527399748327,
+          49.34996120295853,
+          797.5222648662563
+        ],
+        [
+          0.06272981844751348,
+          0.011051424535258468,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

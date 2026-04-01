@@ -1,0 +1,65 @@
+{
+  "image_file": "1c0872ff7c4e_2026_Robot_Reveal_-_ICRobotics_presents_THUD_frame_000250.png",
+  "image_sha256": "1c0872ff7c4ed9e0b7709423775041f2c541e434c5a1b11623b47326e69ac8f3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:21:08.150657+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 26,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 39.385746002197266,
+      "center": [
+        1051.5030377989585,
+        506.23235697767916
+      ],
+      "corners": [
+        [
+          1033.0458984374998,
+          534.2984008789062
+        ],
+        [
+          1069.3988037109375,
+          529.5081787109375
+        ],
+        [
+          1070.0244140625002,
+          478.0686340332031
+        ],
+        [
+          1033.6199951171875,
+          482.9730834960938
+        ]
+      ],
+      "homography": [
+        [
+          17.089035974254784,
+          0.42644317864778924,
+          1051.5030377989585
+        ],
+        [
+          -2.9533356294940663,
+          26.040860023642153,
+          506.23235697767916
+        ],
+        [
+          -0.0010463745824961517,
+          0.0006907665925144922,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

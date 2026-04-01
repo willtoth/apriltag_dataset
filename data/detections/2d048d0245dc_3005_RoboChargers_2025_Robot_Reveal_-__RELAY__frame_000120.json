@@ -1,0 +1,65 @@
+{
+  "image_file": "2d048d0245dc_3005_RoboChargers_2025_Robot_Reveal_-__RELAY__frame_000120.png",
+  "image_sha256": "2d048d0245dcdc28ee28dd801ea3f7f4e1b883a6a2ebb64f03dc4873adb2988a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:18:19.271735+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 62.38595962524414,
+      "center": [
+        375.9241812581152,
+        389.60461184935457
+      ],
+      "corners": [
+        [
+          361.9117431640625,
+          414.48681640625
+        ],
+        [
+          394.2009582519531,
+          417.12207031249994
+        ],
+        [
+          390.14968872070307,
+          364.34405517578125
+        ],
+        [
+          358.0992736816406,
+          362.7674865722657
+        ]
+      ],
+      "homography": [
+        [
+          12.31218254116834,
+          1.030548868661869,
+          375.9241812581152
+        ],
+        [
+          -2.85659751209312,
+          25.15311658903306,
+          389.60461184935457
+        ],
+        [
+          -0.010031036271806152,
+          -0.0024855380305174053,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

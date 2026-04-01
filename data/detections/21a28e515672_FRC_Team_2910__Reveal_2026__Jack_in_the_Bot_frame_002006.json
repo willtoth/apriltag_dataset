@@ -1,0 +1,65 @@
+{
+  "image_file": "21a28e515672_FRC_Team_2910__Reveal_2026__Jack_in_the_Bot_frame_002006.png",
+  "image_sha256": "21a28e515672b5fe1383a9b0430d39b8c67dbb29cb16edd6e274696b77fc9f49",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:30:02.618879+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 30,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 58.06259536743164,
+      "center": [
+        544.9804287434965,
+        750.8312268938532
+      ],
+      "corners": [
+        [
+          601.7389526367188,
+          767.0872802734376
+        ],
+        [
+          539.2854003906249,
+          705.4307250976562
+        ],
+        [
+          482.2311401367187,
+          732.8593749999999
+        ],
+        [
+          551.3090209960939,
+          801.2824707031251
+        ]
+      ],
+      "homography": [
+        [
+          -32.100599416274235,
+          54.82228284663995,
+          544.9804287434965
+        ],
+        [
+          -31.469074378662754,
+          23.240024996382655,
+          750.8312268938532
+        ],
+        [
+          0.00128231300645368,
+          0.051410958056797885,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

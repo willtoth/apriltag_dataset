@@ -1,0 +1,65 @@
+{
+  "image_file": "3b92a6ace2d2_Overture_7421_FRC_2024_Robot_Reveal_-__MAVERICK__frame_00162.png",
+  "image_sha256": "3b92a6ace2d2731bc04cb0d7efc07266739f022cd5fd8906685b170fb8e16626",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:40:46.760876+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 29.372095108032227,
+      "center": [
+        1535.7122804281948,
+        113.98533917504697
+      ],
+      "corners": [
+        [
+          1498.766357421875,
+          155.158203125
+        ],
+        [
+          1573.6898193359377,
+          149.7673645019531
+        ],
+        [
+          1571.6685791015623,
+          73.91532135009763
+        ],
+        [
+          1495.8250732421873,
+          76.4040451049805
+        ]
+      ],
+      "homography": [
+        [
+          66.93209676722131,
+          9.640900015586803,
+          1535.7122804281948
+        ],
+        [
+          0.19424850236773725,
+          39.2608894904981,
+          113.98533917504697
+        ],
+        [
+          0.01905006720704448,
+          0.0054753871746530585,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

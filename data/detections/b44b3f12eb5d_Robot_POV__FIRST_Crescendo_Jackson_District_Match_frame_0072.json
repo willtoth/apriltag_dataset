@@ -1,0 +1,65 @@
+{
+  "image_file": "b44b3f12eb5d_Robot_POV__FIRST_Crescendo_Jackson_District_Match_frame_0072.png",
+  "image_sha256": "b44b3f12eb5d18f94d2833c85c1057181bedad28827ee05c97cc694cab685b57",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:21:45.822335+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 1,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 51.570091247558594,
+      "center": [
+        854.1935881374421,
+        392.9970884621028
+      ],
+      "corners": [
+        [
+          843.7586669921874,
+          408.6848449707032
+        ],
+        [
+          864.77294921875,
+          406.0344848632812
+        ],
+        [
+          865.579833984375,
+          375.8791198730469
+        ],
+        [
+          843.8267211914061,
+          380.22155761718756
+        ]
+      ],
+      "homography": [
+        [
+          -12.271736737119342,
+          14.078197045509112,
+          854.1935881374421
+        ],
+        [
+          -12.29333566130663,
+          21.21161588371632,
+          392.9970884621028
+        ],
+        [
+          -0.026870580977080442,
+          0.01672583630063829,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

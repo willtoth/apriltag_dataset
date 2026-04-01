@@ -1,0 +1,65 @@
+{
+  "image_file": "e855f48b743a_2026_FIRST_Robotics_Competition_Field_Tour__Hub_frame_000118.png",
+  "image_sha256": "e855f48b743ae52fb4adf599e5900a22e110f79e1c0b9c4efeb326e178be274c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-03-31T23:59:45.538547+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 11.539043426513672,
+      "center": [
+        985.0937291372912,
+        530.347888629647
+      ],
+      "corners": [
+        [
+          965.4749755859374,
+          549.4404907226561
+        ],
+        [
+          1004.4539184570311,
+          548.6111450195312
+        ],
+        [
+          1007.0624389648439,
+          508.9683532714844
+        ],
+        [
+          965.8739013671875,
+          512.2170410156249
+        ]
+      ],
+      "homography": [
+        [
+          -9.615466611886635,
+          25.321258677094193,
+          985.0937291372912
+        ],
+        [
+          -16.936091213946842,
+          33.20339435468168,
+          530.347888629647
+        ],
+        [
+          -0.030072277710247813,
+          0.026434084670843846,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

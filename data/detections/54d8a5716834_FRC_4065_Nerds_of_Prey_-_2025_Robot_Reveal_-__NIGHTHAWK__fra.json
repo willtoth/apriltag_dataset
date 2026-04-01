@@ -1,0 +1,65 @@
+{
+  "image_file": "54d8a5716834_FRC_4065_Nerds_of_Prey_-_2025_Robot_Reveal_-__NIGHTHAWK__fra.png",
+  "image_sha256": "54d8a571683459809bafcd9d535f068f6aa38d7052a6d07a0548fa2ef86448d6",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:41:03.349446+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 54.13030242919922,
+      "center": [
+        769.2859775594848,
+        506.4368057452308
+      ],
+      "corners": [
+        [
+          738.5769042968752,
+          539.5734252929689
+        ],
+        [
+          809.1243896484375,
+          546.4279785156249
+        ],
+        [
+          802.0482177734375,
+          471.08471679687494
+        ],
+        [
+          729.0840454101565,
+          466.0807189941407
+        ]
+      ],
+      "homography": [
+        [
+          25.165422154749646,
+          18.347798554475734,
+          769.2859775594848
+        ],
+        [
+          -4.05891200089332,
+          46.53180238046724,
+          506.4368057452308
+        ],
+        [
+          -0.013903120424859527,
+          0.018444830781495024,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

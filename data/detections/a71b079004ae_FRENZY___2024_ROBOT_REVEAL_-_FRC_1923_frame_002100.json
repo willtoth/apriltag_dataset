@@ -1,0 +1,65 @@
+{
+  "image_file": "a71b079004ae_FRENZY___2024_ROBOT_REVEAL_-_FRC_1923_frame_002100.png",
+  "image_sha256": "a71b079004ae951d4d802efb9fc566d6cce7b13cae5d61e4a3b7764cd66b6b02",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:44:10.448377+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 62.08882141113281,
+      "center": [
+        1552.4456257912511,
+        113.3877104519446
+      ],
+      "corners": [
+        [
+          1526.7252197265625,
+          140.97291564941403
+        ],
+        [
+          1574.269775390625,
+          135.7042236328125
+        ],
+        [
+          1579.5467529296873,
+          84.32167816162114
+        ],
+        [
+          1530.8240966796875,
+          91.27838897705078
+        ]
+      ],
+      "homography": [
+        [
+          0.14745465686632822,
+          14.33466877791102,
+          1552.4456257912511
+        ],
+        [
+          -4.793263292174462,
+          26.476883701972596,
+          113.3877104519446
+        ],
+        [
+          -0.015401563114009365,
+          0.010737796916265585,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

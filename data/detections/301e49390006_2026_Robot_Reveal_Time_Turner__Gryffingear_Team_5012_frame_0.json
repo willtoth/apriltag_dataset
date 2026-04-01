@@ -1,0 +1,65 @@
+{
+  "image_file": "301e49390006_2026_Robot_Reveal_Time_Turner__Gryffingear_Team_5012_frame_0.png",
+  "image_sha256": "301e49390006f031dea269aa8bb26c2b632e8824c0ee79d429a7ec1770b643a2",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:38:42.922278+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 24,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 68.75292205810547,
+      "center": [
+        306.9252018748355,
+        694.7938025763708
+      ],
+      "corners": [
+        [
+          258.10351562499994,
+          747.6311035156251
+        ],
+        [
+          367.0343017578125,
+          752.9097290039062
+        ],
+        [
+          355.5516052246093,
+          642.1678466796873
+        ],
+        [
+          246.85118103027335,
+          636.7117919921874
+        ]
+      ],
+      "homography": [
+        [
+          54.67044375203022,
+          5.331526192125189,
+          306.9252018748355
+        ],
+        [
+          3.278547715633629,
+          54.61761948825415,
+          694.7938025763708
+        ],
+        [
+          0.0008560442855423118,
+          -0.001147924195154324,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

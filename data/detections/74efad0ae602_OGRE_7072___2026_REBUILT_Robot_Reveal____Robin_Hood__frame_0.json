@@ -1,0 +1,65 @@
+{
+  "image_file": "74efad0ae602_OGRE_7072___2026_REBUILT_Robot_Reveal____Robin_Hood__frame_0.png",
+  "image_sha256": "74efad0ae6028a6e047d03824a03799c80bfa01a2b2a27644c7c4857e948711e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:37:19.467802+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 29,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 71.05769348144531,
+      "center": [
+        101.40921320910297,
+        719.9135875560579
+      ],
+      "corners": [
+        [
+          127.90436553955077,
+          905.429443359375
+        ],
+        [
+          129.70832824707028,
+          755.0340576171873
+        ],
+        [
+          77.22422790527344,
+          550.5732421874999
+        ],
+        [
+          70.03093719482422,
+          680.9717407226564
+        ]
+      ],
+      "homography": [
+        [
+          7.16339753870859,
+          27.82824905264573,
+          101.40921320910297
+        ],
+        [
+          -35.082808300813795,
+          109.16060147892642,
+          719.9135875560579
+        ],
+        [
+          0.048590029190147585,
+          0.0030067467750699733,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "338637524a28_Team_4201__The_Vitruvian_Bots___Robot_Reveal__LOCHNESS___REE.png",
+  "image_sha256": "338637524a28ead9705fbbc9e9f4f202841a5cdc2bdbac4a405233662d94c6c5",
+  "image_width": 1280,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:24:48.496077+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 77.51652526855469,
+      "center": [
+        468.05154561137454,
+        248.96550362110418
+      ],
+      "corners": [
+        [
+          442.5830993652345,
+          268.44482421875006
+        ],
+        [
+          489.7733459472657,
+          274.7298583984375
+        ],
+        [
+          495.00268554687494,
+          228.3521575927734
+        ],
+        [
+          445.7402954101562,
+          222.50199890136722
+        ]
+      ],
+      "homography": [
+        [
+          20.61405119446499,
+          7.664115990599615,
+          468.05154561137454
+        ],
+        [
+          1.184861682261836,
+          28.257173293445476,
+          248.96550362110418
+        ],
+        [
+          -0.007449288027019043,
+          0.020835820600556512,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

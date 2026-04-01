@@ -1,0 +1,65 @@
+{
+  "image_file": "8452db76d91f_Team_STEAM_Robot_Reveal_2024_frame_002160.png",
+  "image_sha256": "8452db76d91f4d16d1f5e37482576d84bd67d3b7d3f76e2484eea1c0dee5b785",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:50:00.624688+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 55.97571563720703,
+      "center": [
+        1609.5547136183347,
+        717.1786781005546
+      ],
+      "corners": [
+        [
+          1573.9566650390623,
+          769.1864624023438
+        ],
+        [
+          1645.1005859375,
+          773.0308837890624
+        ],
+        [
+          1643.9716796874998,
+          666.8964233398436
+        ],
+        [
+          1572.7374267578123,
+          659.3287353515624
+        ]
+      ],
+      "homography": [
+        [
+          63.29962782830239,
+          1.1505216211967386,
+          1609.5547136183347
+        ],
+        [
+          15.20095305239942,
+          54.233339401102626,
+          717.1786781005546
+        ],
+        [
+          0.01721945188630262,
+          0.00035046291247064397,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

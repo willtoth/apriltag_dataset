@@ -1,0 +1,65 @@
+{
+  "image_file": "a7b393a51fd3_FRC_ROBOT_REVEAL_-__FIN__-_GENERAL_ANGELS__2230_-_REEFSCAPE_.png",
+  "image_sha256": "a7b393a51fd34d6b00ead5c022afb1c125b44beb56742e423d79da6f486158da",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:22:23.181081+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 48.09540939331055,
+      "center": [
+        1316.3620348899217,
+        822.7517640369788
+      ],
+      "corners": [
+        [
+          1286.0699462890627,
+          865.9641723632814
+        ],
+        [
+          1346.3721923828125,
+          858.8441162109376
+        ],
+        [
+          1345.90771484375,
+          780.6041259765624
+        ],
+        [
+          1285.57470703125,
+          785.7247314453124
+        ]
+      ],
+      "homography": [
+        [
+          46.777553593697576,
+          0.44319350139085717,
+          1316.3620348899217
+        ],
+        [
+          7.330209606787089,
+          39.74069196086407,
+          822.7517640369788
+        ],
+        [
+          0.012628403856781245,
+          0.0001545321690574265,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

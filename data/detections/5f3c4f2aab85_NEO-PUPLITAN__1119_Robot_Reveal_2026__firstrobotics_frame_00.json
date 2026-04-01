@@ -1,0 +1,65 @@
+{
+  "image_file": "5f3c4f2aab85_NEO-PUPLITAN__1119_Robot_Reveal_2026__firstrobotics_frame_00.png",
+  "image_sha256": "5f3c4f2aab85bef53050e431729bd5f6a2215d10285b2d7fe12d55a759fc4d8f",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:32:59.717460+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 42.8959846496582,
+      "center": [
+        115.08516375923662,
+        318.13697901305994
+      ],
+      "corners": [
+        [
+          86.54166412353516,
+          356.7489013671875
+        ],
+        [
+          146.8872528076172,
+          356.23944091796875
+        ],
+        [
+          142.6407470703125,
+          280.86145019531244
+        ],
+        [
+          82.20023345947264,
+          278.73715209960926
+        ]
+      ],
+      "homography": [
+        [
+          32.164226765054465,
+          2.096710723790413,
+          115.08516375923662
+        ],
+        [
+          5.868150891620526,
+          38.19765212689924,
+          318.13697901305994
+        ],
+        [
+          0.017174951906247463,
+          -0.0004352526235279544,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

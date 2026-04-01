@@ -1,0 +1,65 @@
+{
+  "image_file": "d4392021d10b_FRC_5026_The_Iron_Panthers_Robot_Reveal_2026__Jukebox_frame_.png",
+  "image_sha256": "d4392021d10bbdca4b9041f0283b313998054ca119faaeb9f314d7cd48cbba71",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:21:40.699723+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 61.2436637878418,
+      "center": [
+        703.8670999670233,
+        334.2061740958746
+      ],
+      "corners": [
+        [
+          681.4420776367188,
+          373.7835388183594
+        ],
+        [
+          733.2594604492188,
+          368.89349365234364
+        ],
+        [
+          726.7368774414062,
+          293.84387207031244
+        ],
+        [
+          675.0387573242189,
+          300.1844787597657
+        ]
+      ],
+      "homography": [
+        [
+          19.01135451843811,
+          3.27749476589918,
+          703.8670999670233
+        ],
+        [
+          -6.0669785767408415,
+          37.180612140299445,
+          334.2061740958746
+        ],
+        [
+          -0.009753351798693364,
+          6.576973394053598e-05,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

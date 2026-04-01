@@ -1,0 +1,65 @@
+{
+  "image_file": "94804ef1369c_Makers_Assemble__5951_MAntaRay_ReefScape_2025_Robot_Reveal_f.png",
+  "image_sha256": "94804ef1369c490ffe7169e2ec9c471abd8fa97def7de6f8bafe4d67bb5dd5c9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:31:01.133614+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 59.63355255126953,
+      "center": [
+        513.9182233380616,
+        781.5363955548022
+      ],
+      "corners": [
+        [
+          463.15411376953125,
+          830.3651123046875
+        ],
+        [
+          559.5185546875,
+          830.2839355468751
+        ],
+        [
+          561.8792114257812,
+          735.4039306640626
+        ],
+        [
+          467.66412353515625,
+          732.0899658203124
+        ]
+      ],
+      "homography": [
+        [
+          56.748604266033226,
+          -7.16593286402405,
+          513.9182233380616
+        ],
+        [
+          14.702521412035816,
+          39.9545151353052,
+          781.5363955548022
+        ],
+        [
+          0.017755320470287654,
+          -0.01063787991499643,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "ae0f47d30ad7_2025_MavBots_Robot_Reveal_Gorgasia_frame_001357.png",
+  "image_sha256": "ae0f47d30ad79910629e0a4b540285a6e15c378fd8e2704ca465096446c7b55d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:22:45.964439+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 48.68560791015625,
+      "center": [
+        642.3193305023968,
+        224.60243263526473
+      ],
+      "corners": [
+        [
+          564.1719970703125,
+          309.10028076171875
+        ],
+        [
+          722.5804443359375,
+          310.595947265625
+        ],
+        [
+          719.9584350585939,
+          140.65411376953128
+        ],
+        [
+          560.3264770507811,
+          136.75349426269528
+        ]
+      ],
+      "homography": [
+        [
+          83.9805423386415,
+          3.992686049876976,
+          642.3193305023968
+        ],
+        [
+          2.9095270684851933,
+          86.39898389813175,
+          224.60243263526473
+        ],
+        [
+          0.006967681080661355,
+          0.003705337564432617,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

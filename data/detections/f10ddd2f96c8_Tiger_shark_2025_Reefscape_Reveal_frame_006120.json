@@ -1,0 +1,65 @@
+{
+  "image_file": "f10ddd2f96c8_Tiger_shark_2025_Reefscape_Reveal_frame_006120.png",
+  "image_sha256": "f10ddd2f96c8b4b0fba82df654c93bda040ed0e23858d1e9a6778107e714ceed",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:20:29.656715+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 81.50550842285156,
+      "center": [
+        1262.6761950299463,
+        484.16062610509886
+      ],
+      "corners": [
+        [
+          1243.8272705078125,
+          502.79443359374994
+        ],
+        [
+          1281.6072998046875,
+          503.21813964843744
+        ],
+        [
+          1281.942504882812,
+          465.11419677734375
+        ],
+        [
+          1243.9339599609375,
+          465.29324340820324
+        ]
+      ],
+      "homography": [
+        [
+          8.867102541817076,
+          3.638853982662341,
+          1262.6761950299463
+        ],
+        [
+          -3.802506370898132,
+          20.337210353184048,
+          484.16062610509886
+        ],
+        [
+          -0.00798198435850372,
+          0.0029686325687308186,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

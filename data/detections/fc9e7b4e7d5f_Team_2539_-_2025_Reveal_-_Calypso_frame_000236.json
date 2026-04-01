@@ -1,0 +1,65 @@
+{
+  "image_file": "fc9e7b4e7d5f_Team_2539_-_2025_Reveal_-_Calypso_frame_000236.png",
+  "image_sha256": "fc9e7b4e7d5f28deb9edfacb18ae6eb1bd3d4629b555db2dfa5d2ed1fe827e17",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:20:40.718704+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 81.48735809326172,
+      "center": [
+        107.2564827572604,
+        951.2458116604118
+      ],
+      "corners": [
+        [
+          82.65502166748048,
+          980.3252563476564
+        ],
+        [
+          124.40874481201173,
+          982.5924072265623
+        ],
+        [
+          131.18774414062497,
+          922.958557128906
+        ],
+        [
+          90.98608398437499,
+          921.5108642578127
+        ]
+      ],
+      "homography": [
+        [
+          19.806288594889423,
+          -5.936575005041289,
+          107.2564827572604
+        ],
+        [
+          -5.0605983355177395,
+          10.481305791143086,
+          951.2458116604118
+        ],
+        [
+          -0.00628797853655043,
+          -0.020097212230089784,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

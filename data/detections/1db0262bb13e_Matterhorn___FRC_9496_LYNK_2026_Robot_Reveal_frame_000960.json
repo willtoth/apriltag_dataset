@@ -1,0 +1,65 @@
+{
+  "image_file": "1db0262bb13e_Matterhorn___FRC_9496_LYNK_2026_Robot_Reveal_frame_000960.png",
+  "image_sha256": "1db0262bb13ee3884419bbd7ed1544979160fe8ba696c74f1e9be5023458adc0",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:40:10.764940+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 70.99868774414062,
+      "center": [
+        57.38352040706522,
+        480.42689519986305
+      ],
+      "corners": [
+        [
+          32.78039550781251,
+          502.1541137695312
+        ],
+        [
+          82.13581848144531,
+          501.7560424804688
+        ],
+        [
+          81.66920471191405,
+          458.9800109863282
+        ],
+        [
+          32.1731948852539,
+          458.70306396484375
+        ]
+      ],
+      "homography": [
+        [
+          25.160620930280587,
+          0.3446491974846029,
+          57.38352040706522
+        ],
+        [
+          3.731135854128806,
+          22.197810692983808,
+          480.42689519986305
+        ],
+        [
+          0.007830257744733633,
+          0.001337144094150997,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

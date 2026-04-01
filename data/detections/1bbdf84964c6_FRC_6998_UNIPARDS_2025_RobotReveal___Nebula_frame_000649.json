@@ -1,0 +1,65 @@
+{
+  "image_file": "1bbdf84964c6_FRC_6998_UNIPARDS_2025_RobotReveal___Nebula_frame_000649.png",
+  "image_sha256": "1bbdf84964c6ad1e1067a9e0f2fa443be3640ed2ac34f3751adb52442264e7a0",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:32:38.226481+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 66.3239517211914,
+      "center": [
+        549.5808767980669,
+        348.63902586395125
+      ],
+      "corners": [
+        [
+          530.9051513671874,
+          374.0680847167969
+        ],
+        [
+          568.8010864257812,
+          371.3266296386719
+        ],
+        [
+          568.2055053710938,
+          323.27954101562506
+        ],
+        [
+          530.8661499023436,
+          326.548095703125
+        ]
+      ],
+      "homography": [
+        [
+          15.52196961811535,
+          -3.8810300110151257,
+          549.5808767980669
+        ],
+        [
+          -3.588476318197709,
+          21.328155661970015,
+          348.63902586395125
+        ],
+        [
+          -0.005977558108299306,
+          -0.007347434057662536,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

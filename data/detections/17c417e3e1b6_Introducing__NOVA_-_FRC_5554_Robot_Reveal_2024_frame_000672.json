@@ -1,0 +1,65 @@
+{
+  "image_file": "17c417e3e1b6_Introducing__NOVA_-_FRC_5554_Robot_Reveal_2024_frame_000672.png",
+  "image_sha256": "17c417e3e1b69a7a8205ff61c6c74a710d45e75eb0a9bbf09f758a1ced93df29",
+  "image_width": 1920,
+  "image_height": 960,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:43:46.089831+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 34.9405403137207,
+      "center": [
+        990.8659712270194,
+        98.7936668196235
+      ],
+      "corners": [
+        [
+          973.2126464843751,
+          117.43498992919922
+        ],
+        [
+          1009.0748901367188,
+          116.9471893310547
+        ],
+        [
+          1008.5254516601559,
+          80.14584350585936
+        ],
+        [
+          972.5337524414062,
+          80.51721954345702
+        ]
+      ],
+      "homography": [
+        [
+          19.54874561268923,
+          2.0650702594161907,
+          990.8659712270194
+        ],
+        [
+          -0.0568298358246318,
+          18.604964415802385,
+          98.7936668196235
+        ],
+        [
+          0.0015999784240873067,
+          0.0017742973563206299,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

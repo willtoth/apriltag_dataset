@@ -1,0 +1,65 @@
+{
+  "image_file": "007e8631b411_2026_FRC_-_Hemlock_s_Gray_Matter_Robot_Reveal__Athena_frame_.png",
+  "image_sha256": "007e8631b411e8a7aaf2a48fe4666509123e47e56d373d268137a2250ba8625c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:22:08.504014+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 32,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 46.864532470703125,
+      "center": [
+        1484.821134916859,
+        47.4404896992297
+      ],
+      "corners": [
+        [
+          1469.3868408203123,
+          61.99663162231445
+        ],
+        [
+          1497.1170654296875,
+          62.22821044921875
+        ],
+        [
+          1500.016967773438,
+          33.10924148559571
+        ],
+        [
+          1472.84912109375,
+          33.042327880859375
+        ]
+      ],
+      "homography": [
+        [
+          9.59344298967949,
+          -17.280301181319146,
+          1484.821134916859
+        ],
+        [
+          -0.058178835357709895,
+          14.015307770199001,
+          47.4404896992297
+        ],
+        [
+          -0.002781163164153186,
+          -0.010566349308916558,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

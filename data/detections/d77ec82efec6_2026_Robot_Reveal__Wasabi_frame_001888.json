@@ -1,0 +1,65 @@
+{
+  "image_file": "d77ec82efec6_2026_Robot_Reveal__Wasabi_frame_001888.png",
+  "image_sha256": "d77ec82efec68eed5d231369cd8e09cc01d581a76babb6d74d23683b92740da2",
+  "image_width": 1440,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:59:54.441577+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 62.059627532958984,
+      "center": [
+        1277.8759345090098,
+        393.3770053004438
+      ],
+      "corners": [
+        [
+          1269.3468017578125,
+          412.7401733398437
+        ],
+        [
+          1283.9989013671875,
+          426.5030517578126
+        ],
+        [
+          1286.8502197265625,
+          373.0032348632813
+        ],
+        [
+          1271.6098632812502,
+          359.47674560546875
+        ]
+      ],
+      "homography": [
+        [
+          -1.3995024050623242,
+          22.353794508151168,
+          1277.8759345090098
+        ],
+        [
+          4.096213956329616,
+          33.956320733881,
+          393.3770053004438
+        ],
+        [
+          -0.006940715150066641,
+          0.01849160139235156,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

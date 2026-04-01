@@ -1,0 +1,65 @@
+{
+  "image_file": "112aeb1823a3_2025_FIRST_Robotics_Competition_REEFSCAPE_presented_by_Haas_.png",
+  "image_sha256": "112aeb1823a3dbf2267b525159676895e41201b36529c877ede670c9382ca2ad",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:01:10.025588+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 16,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 88.38177490234375,
+      "center": [
+        1579.0851449831807,
+        50.01131309390371
+      ],
+      "corners": [
+        [
+          1543.1475830078125,
+          97.04506683349611
+        ],
+        [
+          1608.8731689453127,
+          96.00501251220702
+        ],
+        [
+          1613.3771972656252,
+          5.131141662597642
+        ],
+        [
+          1547.2313232421875,
+          0.8279532194137849
+        ]
+      ],
+      "homography": [
+        [
+          77.90010747309293,
+          5.805942157574246,
+          1579.0851449831807
+        ],
+        [
+          2.225580197807156,
+          46.98552680044515,
+          50.01131309390371
+        ],
+        [
+          0.02847166861045441,
+          0.005041243848568655,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

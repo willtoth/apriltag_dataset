@@ -1,0 +1,65 @@
+{
+  "image_file": "b46e3aa3e5a5_Robot_Reveal____YOSHI_frame_004200.png",
+  "image_sha256": "b46e3aa3e5a55c915c0e08e05b1913dd754bb48099a2458c49a112c61fc29b54",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:44:35.597410+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 74.0005874633789,
+      "center": [
+        46.421005847135056,
+        589.7033552210797
+      ],
+      "corners": [
+        [
+          18.17321395874023,
+          640.6427612304688
+        ],
+        [
+          82.59506225585939,
+          617.6994628906251
+        ],
+        [
+          74.0113525390625,
+          539.9495239257814
+        ],
+        [
+          8.972777366638168,
+          560.7211303710936
+        ]
+      ],
+      "homography": [
+        [
+          33.03264241837031,
+          4.570876845943002,
+          46.421005847135056
+        ],
+        [
+          -2.3549200170583666,
+          41.04147835039964,
+          589.7033552210797
+        ],
+        [
+          0.014540502407246915,
+          0.002766377889796214,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

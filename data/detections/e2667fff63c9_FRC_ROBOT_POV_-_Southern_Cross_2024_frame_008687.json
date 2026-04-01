@@ -1,0 +1,65 @@
+{
+  "image_file": "e2667fff63c9_FRC_ROBOT_POV_-_Southern_Cross_2024_frame_008687.png",
+  "image_sha256": "e2667fff63c97a4944d6aefa6f16717ba4f910e8d9c5b776743784dedd940d4c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T16:14:12.563718+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 36.82302474975586,
+      "center": [
+        924.7952460419804,
+        503.6584164832453
+      ],
+      "corners": [
+        [
+          890.6151733398439,
+          521.1043701171874
+        ],
+        [
+          957.2908325195312,
+          549.3026733398439
+        ],
+        [
+          955.9086303710936,
+          487.7777404785156
+        ],
+        [
+          893.8234863281251,
+          460.15457153320295
+        ]
+      ],
+      "homography": [
+        [
+          42.76084215125821,
+          -33.24944327207242,
+          924.7952460419804
+        ],
+        [
+          19.74243412212661,
+          12.713275154738655,
+          503.6584164832453
+        ],
+        [
+          0.011479078096347555,
+          -0.03548869650862473,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

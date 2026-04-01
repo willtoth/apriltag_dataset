@@ -1,0 +1,65 @@
+{
+  "image_file": "f5fdc11a4881_2026_FRC_Robot_Teaser_from_the_CyberKnights_-_Big_Daddy_fram.png",
+  "image_sha256": "f5fdc11a48811834b9e34baf32eb253689367c14ff18b07d1c2ad445d3cb9722",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:00:37.596935+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 63.805686950683594,
+      "center": [
+        782.6978046659191,
+        373.1296503745699
+      ],
+      "corners": [
+        [
+          763.2606201171874,
+          393.56314086914057
+        ],
+        [
+          806.0016479492188,
+          391.24923706054693
+        ],
+        [
+          801.5783691406249,
+          353.2813110351563
+        ],
+        [
+          760.7512817382811,
+          356.0654296875
+        ]
+      ],
+      "homography": [
+        [
+          14.825912694710953,
+          -15.698723327506285,
+          782.6978046659191
+        ],
+        [
+          -4.166332752915765,
+          10.55009058120163,
+          373.1296503745699
+        ],
+        [
+          -0.007734678926030227,
+          -0.022261108275658265,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

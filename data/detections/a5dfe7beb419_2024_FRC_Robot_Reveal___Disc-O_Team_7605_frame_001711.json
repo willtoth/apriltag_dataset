@@ -1,0 +1,65 @@
+{
+  "image_file": "a5dfe7beb419_2024_FRC_Robot_Reveal___Disc-O_Team_7605_frame_001711.png",
+  "image_sha256": "a5dfe7beb419a5d386a7854f90d0e1a6d9817b40f1513fb0062363f8bd231f56",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:44:27.039829+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 78.57486724853516,
+      "center": [
+        899.1932965425082,
+        85.38189146228221
+      ],
+      "corners": [
+        [
+          849.3170776367189,
+          148.12765502929688
+        ],
+        [
+          970.1700439453126,
+          158.55288696289062
+        ],
+        [
+          947.0043334960935,
+          25.234188079833988
+        ],
+        [
+          826.0594482421874,
+          9.987108230590843
+        ]
+      ],
+      "homography": [
+        [
+          76.66501628099343,
+          8.833596515033955,
+          899.1932965425082
+        ],
+        [
+          7.965020139943639,
+          67.5792538354553,
+          85.38189146228221
+        ],
+        [
+          0.01805456112597001,
+          -0.003086189876154776,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "0835e64e926b_GreenBlitz_4590_2025_Robot_Reveal_-_Dumbo_frame_000950.png",
+  "image_sha256": "0835e64e926bbfe3810de8b68874b7f2e2f31061d9b449bde3368cc7d1e60ba1",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:41:22.797223+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 29.00889015197754,
+      "center": [
+        777.8926274166566,
+        1010.4966648636616
+      ],
+      "corners": [
+        [
+          745.3890380859374,
+          1061.2457275390625
+        ],
+        [
+          813.7954711914062,
+          1045.8095703124995
+        ],
+        [
+          808.0315551757812,
+          963.4396362304685
+        ],
+        [
+          741.4552612304688,
+          974.6580200195315
+        ]
+      ],
+      "homography": [
+        [
+          51.278449413595354,
+          -9.362464152062095,
+          777.8926274166566
+        ],
+        [
+          16.175890718876186,
+          26.864510319627474,
+          1010.4966648636616
+        ],
+        [
+          0.02256875825977669,
+          -0.015179749965124629,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

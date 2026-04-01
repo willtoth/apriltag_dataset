@@ -1,0 +1,65 @@
+{
+  "image_file": "54cdb1479e1f_FRC_1720_PhyXTGears_-_Week_3_Recap_Robot_Reveal_frame_003094.png",
+  "image_sha256": "54cdb1479e1fe9b48158cc8deeb6a7ee369dbc7b5615611908e3ffcb5c48fd25",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:58:27.686961+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 21,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 73.40412902832031,
+      "center": [
+        1806.7649681274747,
+        135.95975359970117
+      ],
+      "corners": [
+        [
+          1760.5887451171875,
+          182.04168701171875
+        ],
+        [
+          1847.64453125,
+          180.68383789062506
+        ],
+        [
+          1852.4761962890625,
+          90.3418655395508
+        ],
+        [
+          1765.4849853515625,
+          90.79759216308591
+        ]
+      ],
+      "homography": [
+        [
+          52.485025102302416,
+          -2.6006266353820076,
+          1806.7649681274747
+        ],
+        [
+          0.22198278803110738,
+          45.382697408695975,
+          135.95975359970117
+        ],
+        [
+          0.004967083238453984,
+          -9.339937118807758e-05,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

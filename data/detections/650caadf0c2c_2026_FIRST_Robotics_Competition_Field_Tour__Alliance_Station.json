@@ -1,0 +1,65 @@
+{
+  "image_file": "650caadf0c2c_2026_FIRST_Robotics_Competition_Field_Tour__Alliance_Station.png",
+  "image_sha256": "650caadf0c2c94b66f21e838f90b5991d24a69da61c81f5acc9b33aac8906c40",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:05:22.839503+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 30,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 71.44364166259766,
+      "center": [
+        25.602227964528232,
+        541.6421646058453
+      ],
+      "corners": [
+        [
+          8.473992347717283,
+          560.0233154296875
+        ],
+        [
+          48.60182571411133,
+          560.3261718749998
+        ],
+        [
+          42.922157287597656,
+          523.0552978515625
+        ],
+        [
+          2.4494755268096844,
+          522.8337402343751
+        ]
+      ],
+      "homography": [
+        [
+          20.120980656529934,
+          3.0399002656294156,
+          25.602227964528232
+        ],
+        [
+          -0.4770429197808451,
+          21.020469693237374,
+          541.6421646058453
+        ],
+        [
+          -0.0011231204728027319,
+          0.004441579608987441,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

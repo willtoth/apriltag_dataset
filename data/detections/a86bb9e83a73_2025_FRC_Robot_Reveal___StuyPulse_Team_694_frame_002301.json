@@ -1,0 +1,65 @@
+{
+  "image_file": "a86bb9e83a73_2025_FRC_Robot_Reveal___StuyPulse_Team_694_frame_002301.png",
+  "image_sha256": "a86bb9e83a7334dd7ae41bc4938c302bc8509323c7ed3bdc1fdab7fc5665a32b",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:26:45.014069+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 1,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 53.53738784790039,
+      "center": [
+        1882.192724311925,
+        223.82142329932228
+      ],
+      "corners": [
+        [
+          1863.4174804687502,
+          240.19136047363284
+        ],
+        [
+          1897.22119140625,
+          237.7065277099609
+        ],
+        [
+          1901.253662109375,
+          207.202392578125
+        ],
+        [
+          1867.3026123046875,
+          210.0641479492188
+        ]
+      ],
+      "homography": [
+        [
+          5.479953987457975,
+          0.7750281672938406,
+          1882.192724311925
+        ],
+        [
+          -2.6988599591091447,
+          15.48471740247362,
+          223.82142329932228
+        ],
+        [
+          -0.0060876002721585165,
+          0.0014632133112106292,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

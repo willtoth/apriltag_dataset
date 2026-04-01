@@ -1,0 +1,65 @@
+{
+  "image_file": "67b4d9c9de6e_Pharaoh___2026_Robot_Reveal_frame_000660.png",
+  "image_sha256": "67b4d9c9de6ed5bbc4837a8a11e1b92fc6f0a894eba1ee44ed770e3114f53bac",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:57:45.424460+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 32.842437744140625,
+      "center": [
+        1280.4627094691962,
+        208.28634199943883
+      ],
+      "corners": [
+        [
+          1263.4376220703125,
+          229.85609436035153
+        ],
+        [
+          1296.8453369140625,
+          226.59744262695312
+        ],
+        [
+          1297.2830810546875,
+          186.97595214843747
+        ],
+        [
+          1263.6907958984377,
+          189.54013061523435
+        ]
+      ],
+      "homography": [
+        [
+          28.138333160537513,
+          3.471285267279203,
+          1280.4627094691962
+        ],
+        [
+          0.3961257590130149,
+          20.57558297451547,
+          208.28634199943883
+        ],
+        [
+          0.008895054374823803,
+          0.002846508438814539,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

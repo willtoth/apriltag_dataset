@@ -1,0 +1,65 @@
+{
+  "image_file": "02c8f9088725_PC000011_MOV-0049_jpg_rf_0f377dc809267cc0dce3a00ed16de78c.png",
+  "image_sha256": "02c8f9088725641df02fda82d2b69d6bb6a8bda02f1dd3eeaa87856dfe32df03",
+  "image_width": 640,
+  "image_height": 360,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-03-24T14:14:00.885325+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 28,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 86.15158081054688,
+      "center": [
+        400.39935768191594,
+        135.72735608703638
+      ],
+      "corners": [
+        [
+          358.2298889160156,
+          194.48793029785156
+        ],
+        [
+          441.17199707031244,
+          188.56329345703128
+        ],
+        [
+          438.51232910156256,
+          82.6192626953125
+        ],
+        [
+          354.2485046386719,
+          75.92196655273432
+        ]
+      ],
+      "homography": [
+        [
+          64.1696515921729,
+          3.8996045381923716,
+          400.39935768191594
+        ],
+        [
+          7.784692376991977,
+          56.71821385612327,
+          135.72735608703638
+        ],
+        [
+          0.05620039344272953,
+          0.005672565229255881,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

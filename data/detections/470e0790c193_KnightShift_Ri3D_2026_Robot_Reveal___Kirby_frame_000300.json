@@ -1,0 +1,65 @@
+{
+  "image_file": "470e0790c193_KnightShift_Ri3D_2026_Robot_Reveal___Kirby_frame_000300.png",
+  "image_sha256": "470e0790c193e752b3e401d6d220ab3af1acc6b45b4233dad8de976fef970be4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:30:40.760883+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 67.5028305053711,
+      "center": [
+        1150.360076144719,
+        607.8094016051379
+      ],
+      "corners": [
+        [
+          1138.6245117187502,
+          631.5699462890625
+        ],
+        [
+          1164.145751953125,
+          628.1985473632812
+        ],
+        [
+          1161.9160156249998,
+          584.4125366210939
+        ],
+        [
+          1135.987060546875,
+          586.5515747070314
+        ]
+      ],
+      "homography": [
+        [
+          29.29217346447308,
+          8.775494392593377,
+          1150.360076144719
+        ],
+        [
+          7.301193405155342,
+          26.191047138553586,
+          607.8094016051379
+        ],
+        [
+          0.0142851216843226,
+          0.006573084436278566,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

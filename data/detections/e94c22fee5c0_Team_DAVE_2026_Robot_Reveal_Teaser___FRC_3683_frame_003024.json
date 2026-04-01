@@ -1,0 +1,65 @@
+{
+  "image_file": "e94c22fee5c0_Team_DAVE_2026_Robot_Reveal_Teaser___FRC_3683_frame_003024.png",
+  "image_sha256": "e94c22fee5c02a221ecbd896e687be0f3e7411b2f0bcb03eed3d46fa65619fe9",
+  "image_width": 1920,
+  "image_height": 800,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:48:16.273824+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 17.19185447692871,
+      "center": [
+        1601.389543755257,
+        427.0369069726665
+      ],
+      "corners": [
+        [
+          1593.0710449218748,
+          444.132568359375
+        ],
+        [
+          1611.84765625,
+          445.3929443359375
+        ],
+        [
+          1609.9864501953127,
+          409.36907958984375
+        ],
+        [
+          1590.5335693359375,
+          407.9825439453125
+        ]
+      ],
+      "homography": [
+        [
+          11.322143530818945,
+          29.22371390111698,
+          1601.389543755257
+        ],
+        [
+          1.1322290807238997,
+          25.537788362514732,
+          427.0369069726665
+        ],
+        [
+          0.0011038992605900695,
+          0.01756271902714096,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

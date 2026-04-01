@@ -1,0 +1,65 @@
+{
+  "image_file": "8978d1ca3a75_SWYFT___ITKAN_Robotics_FRC_Ri3d_Robot_Reveal_REBUILT_frame_0.png",
+  "image_sha256": "8978d1ca3a751e108240c9e02637c02bea8a9802ae2a788fbb7ba6911bee6794",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:16:59.642646+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 80.05982208251953,
+      "center": [
+        1231.375110415921,
+        231.3747938655156
+      ],
+      "corners": [
+        [
+          1222.547119140625,
+          240.21627807617188
+        ],
+        [
+          1239.75390625,
+          239.8082427978515
+        ],
+        [
+          1239.9281005859375,
+          222.80873107910156
+        ],
+        [
+          1222.9085693359377,
+          222.85302734375006
+        ]
+      ],
+      "homography": [
+        [
+          21.50379752617073,
+          -6.667279182908712,
+          1231.375110415921
+        ],
+        [
+          2.3208934453561474,
+          7.361686527903487,
+          231.3747938655156
+        ],
+        [
+          0.0105154147213688,
+          -0.005306540220850959,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

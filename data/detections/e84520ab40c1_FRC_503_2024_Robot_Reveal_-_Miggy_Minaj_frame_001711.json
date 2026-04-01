@@ -1,0 +1,65 @@
+{
+  "image_file": "e84520ab40c1_FRC_503_2024_Robot_Reveal_-_Miggy_Minaj_frame_001711.png",
+  "image_sha256": "e84520ab40c1a297a9e2b778c64d458fb3555c1b86311f9f7f68579900ec9a7a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:43:36.134340+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 66.94122314453125,
+      "center": [
+        1407.6961692454922,
+        65.38028601575758
+      ],
+      "corners": [
+        [
+          1364.3701171875,
+          109.76866912841797
+        ],
+        [
+          1451.2235107421875,
+          106.9509506225586
+        ],
+        [
+          1450.8427734374998,
+          21.17575073242187
+        ],
+        [
+          1363.99365234375,
+          23.642320632934588
+        ]
+      ],
+      "homography": [
+        [
+          46.29954259279589,
+          0.14215266963470297,
+          1407.6961692454922
+        ],
+        [
+          -1.187573705776094,
+          42.97301770623261,
+          65.38028601575758
+        ],
+        [
+          0.0020417012121982194,
+          -3.349658750548338e-05,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

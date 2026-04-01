@@ -1,0 +1,65 @@
+{
+  "image_file": "6c5b184fe214_3015_Ranger_Robotics_2024_Reveal__Cobra_frame_004320.png",
+  "image_sha256": "6c5b184fe2149d06959ed92329d1a1b07e0892021cb6e0e383a0067b432f2f13",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:33:40.770673+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 8.471944808959961,
+      "center": [
+        621.166682578574,
+        192.18891342763047
+      ],
+      "corners": [
+        [
+          601.9674682617186,
+          215.95751953125
+        ],
+        [
+          643.6586914062501,
+          215.13980102539062
+        ],
+        [
+          640.7326660156251,
+          167.96624755859372
+        ],
+        [
+          597.6292114257812,
+          168.1712341308594
+        ]
+      ],
+      "homography": [
+        [
+          25.307587716586113,
+          11.803767503546855,
+          621.166682578574
+        ],
+        [
+          1.0127443061265604,
+          26.824589036851222,
+          192.18891342763047
+        ],
+        [
+          0.006625793515816518,
+          0.016087092346901945,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

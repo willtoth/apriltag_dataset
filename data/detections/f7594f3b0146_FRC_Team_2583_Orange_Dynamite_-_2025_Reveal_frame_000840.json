@@ -1,0 +1,65 @@
+{
+  "image_file": "f7594f3b0146_FRC_Team_2583_Orange_Dynamite_-_2025_Reveal_frame_000840.png",
+  "image_sha256": "f7594f3b01463b28feec0fb0d98421cf0627624e6e2081a4a6abfa753a7d4004",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:41:25.133572+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 19,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 70.73451232910156,
+      "center": [
+        394.479825444348,
+        687.6337350471867
+      ],
+      "corners": [
+        [
+          356.2817687988281,
+          731.986572265625
+        ],
+        [
+          436.8800048828125,
+          723.5443115234375
+        ],
+        [
+          432.49270629882824,
+          643.4959106445314
+        ],
+        [
+          350.98114013671875,
+          650.7927856445312
+        ]
+      ],
+      "homography": [
+        [
+          43.52545121068937,
+          4.461708345650555,
+          394.479825444348
+        ],
+        [
+          1.294626370731061,
+          43.86889745422616,
+          687.6337350471867
+        ],
+        [
+          0.007609071396367067,
+          0.005179291667706014,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

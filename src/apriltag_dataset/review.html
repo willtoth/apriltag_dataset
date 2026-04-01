@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AprilTag Dataset Review</title>
+<style>
+  :root {
+    --bg: #1a1a2e;
+    --bg2: #16213e;
+    --bg3: #0f3460;
+    --fg: #e0e0e0;
+    --fg2: #a0a0b0;
+    --accent: #00d4aa;
+    --accent2: #e94560;
+    --border: #2a2a4a;
+    --card-bg: #16213e;
+    --input-bg: #0f3460;
+  }
+  .light {
+    --bg: #f5f5f5;
+    --bg2: #ffffff;
+    --bg3: #e8e8e8;
+    --fg: #1a1a1a;
+    --fg2: #666666;
+    --accent: #00896b;
+    --accent2: #d63031;
+    --border: #d0d0d0;
+    --card-bg: #ffffff;
+    --input-bg: #f0f0f0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    min-height: 100vh;
+  }
+  header {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header h1 { font-size: 18px; font-weight: 600; }
+  header h1 span { color: var(--accent); }
+  .header-stats { color: var(--fg2); font-size: 13px; }
+  .header-right { display: flex; align-items: center; gap: 12px; }
+  .theme-toggle {
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    color: var(--fg);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .controls {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .controls label { font-size: 13px; color: var(--fg2); }
+  .controls select, .controls input {
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    color: var(--fg);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  .controls input[type="number"] { width: 70px; }
+  .controls input[type="text"] { width: 140px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 24px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .card img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+    background: #000;
+  }
+  .card-info {
+    padding: 8px 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 140px;
+    color: var(--fg2);
+  }
+  .badge {
+    background: var(--accent);
+    color: #000;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 10px;
+  }
+  .badge.zero { background: var(--accent2); color: #fff; }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 24px 32px;
+  }
+  .pagination button {
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    color: var(--fg);
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .pagination button:disabled { opacity: 0.4; cursor: default; }
+  .pagination button.active { background: var(--accent); color: #000; font-weight: 700; border-color: var(--accent); }
+  .pagination .page-info { font-size: 13px; color: var(--fg2); }
+
+  /* Modal */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 200;
+    overflow-y: auto;
+    padding: 24px;
+  }
+  .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; }
+  .modal {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 24px auto;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .modal-header h2 { font-size: 16px; font-weight: 600; }
+  .modal-close {
+    background: none;
+    border: none;
+    color: var(--fg2);
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .modal-body { padding: 20px; }
+  .modal-image-wrap {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .modal-image-wrap img {
+    max-width: 100%;
+    display: block;
+    border-radius: 6px;
+  }
+  .modal-image-wrap canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    pointer-events: none;
+  }
+  .det-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 16px;
+  }
+  .det-table th {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 2px solid var(--border);
+    color: var(--fg2);
+    font-weight: 600;
+  }
+  .det-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .meta-item { font-size: 13px; }
+  .meta-item .label { color: var(--fg2); }
+  .meta-item .value { color: var(--fg); font-weight: 500; }
+  .section-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 16px 0 8px;
+    color: var(--accent);
+  }
+  .empty-state {
+    text-align: center;
+    padding: 80px 24px;
+    color: var(--fg2);
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><span>AprilTag</span> Dataset Review</h1>
+  </div>
+  <div class="header-right">
+    <span class="header-stats" id="headerStats"></span>
+    <button class="theme-toggle" id="themeToggle">Light Mode</button>
+  </div>
+</header>
+
+<div class="controls">
+  <div>
+    <label>Per page:</label>
+    <select id="perPage">
+      <option value="10">10</option>
+      <option value="20" selected>20</option>
+      <option value="50">50</option>
+      <option value="100">100</option>
+    </select>
+  </div>
+  <div>
+    <label>Min detections:</label>
+    <input type="number" id="minDet" min="0" value="0">
+  </div>
+  <div>
+    <label>Max detections:</label>
+    <input type="number" id="maxDet" min="0" value="">
+  </div>
+  <div>
+    <label>Tag ID:</label>
+    <input type="text" id="tagIdFilter" placeholder="e.g. 5">
+  </div>
+  <div>
+    <label>Source:</label>
+    <select id="sourceFilter"><option value="">All</option></select>
+  </div>
+  <div>
+    <label>Sort:</label>
+    <select id="sortBy">
+      <option value="name">Name</option>
+      <option value="detections_desc">Detections (high-low)</option>
+      <option value="detections_asc">Detections (low-high)</option>
+      <option value="date">Date ingested</option>
+    </select>
+  </div>
+</div>
+
+<div class="grid" id="grid"></div>
+<div class="pagination" id="pagination"></div>
+<div class="empty-state" id="emptyState" style="display:none">No images match your filters.</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="modalTitle">Image Detail</h2>
+      <button class="modal-close" id="modalClose">&times;</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+const DET_COLORS = ['#00ff88','#ff6b6b','#4ecdc4','#ffe66d','#a29bfe','#fd79a8','#00cec9','#fab1a0','#81ecec','#ffeaa7'];
+let manifest = [];
+let filtered = [];
+let page = 1;
+let detectionCache = {};
+
+async function init() {
+  const res = await fetch('/api/manifest');
+  const data = await res.json();
+  manifest = data.images || [];
+  populateSources();
+  applyFilters();
+  updateStats();
+}
+
+function updateStats() {
+  const total = manifest.length;
+  const totalDet = manifest.reduce((s, e) => s + e.num_detections, 0);
+  document.getElementById('headerStats').textContent = `${total} images | ${totalDet} detections`;
+}
+
+function populateSources() {
+  const sources = [...new Set(manifest.map(e => e.source))].sort();
+  const sel = document.getElementById('sourceFilter');
+  sources.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = s;
+    sel.appendChild(opt);
+  });
+}
+
+function applyFilters() {
+  const minDet = parseInt(document.getElementById('minDet').value) || 0;
+  const maxDetVal = document.getElementById('maxDet').value;
+  const maxDet = maxDetVal !== '' ? parseInt(maxDetVal) : Infinity;
+  const tagId = document.getElementById('tagIdFilter').value.trim();
+  const source = document.getElementById('sourceFilter').value;
+  const sort = document.getElementById('sortBy').value;
+
+  filtered = manifest.filter(e => {
+    if (e.num_detections < minDet) return false;
+    if (e.num_detections > maxDet) return false;
+    if (source && e.source !== source) return false;
+    return true;
+  });
+
+  // Tag ID filter requires loading detections — filter client-side from cache or skip
+  if (tagId !== '') {
+    const tid = parseInt(tagId);
+    if (!isNaN(tid)) {
+      // We'll do async filtering — for now mark that we need it
+      filterByTagId(tid);
+      return;
+    }
+  }
+
+  sortFiltered(sort);
+  page = 1;
+  render();
+}
+
+async function filterByTagId(tid) {
+  // Load all detection files for filtered set and filter by tag ID
+  const promises = filtered.map(async e => {
+    const det = await loadDetection(e.filename);
+    if (!det) return null;
+    const has = det.detections.some(d => d.tag_id === tid);
+    return has ? e : null;
+  });
+  const results = await Promise.all(promises);
+  filtered = results.filter(e => e !== null);
+  sortFiltered(document.getElementById('sortBy').value);
+  page = 1;
+  render();
+}
+
+function sortFiltered(sort) {
+  if (sort === 'name') filtered.sort((a, b) => a.filename.localeCompare(b.filename));
+  else if (sort === 'detections_desc') filtered.sort((a, b) => b.num_detections - a.num_detections);
+  else if (sort === 'detections_asc') filtered.sort((a, b) => a.num_detections - b.num_detections);
+  else if (sort === 'date') filtered.sort((a, b) => b.ingested_at.localeCompare(a.ingested_at));
+}
+
+function render() {
+  const perPage = parseInt(document.getElementById('perPage').value);
+  const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+  if (page > totalPages) page = totalPages;
+  const start = (page - 1) * perPage;
+  const slice = filtered.slice(start, start + perPage);
+
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('emptyState');
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '';
+    empty.style.display = 'block';
+  } else {
+    empty.style.display = 'none';
+    grid.innerHTML = slice.map(e => `
+      <div class="card" data-filename="${e.filename}">
+        <img src="/images/${e.filename}" loading="lazy" alt="${e.original_name}">
+        <div class="card-info">
+          <span class="card-name" title="${e.original_name}">${e.original_name}</span>
+          <span class="badge ${e.num_detections === 0 ? 'zero' : ''}">${e.num_detections}</span>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  renderPagination(totalPages);
+}
+
+function renderPagination(totalPages) {
+  const pag = document.getElementById('pagination');
+  if (totalPages <= 1) { pag.innerHTML = ''; return; }
+
+  let html = `<button ${page <= 1 ? 'disabled' : ''} onclick="goPage(${page-1})">&laquo; Prev</button>`;
+
+  const range = 2;
+  const pages = [];
+  pages.push(1);
+  for (let i = Math.max(2, page - range); i <= Math.min(totalPages - 1, page + range); i++) pages.push(i);
+  if (totalPages > 1) pages.push(totalPages);
+  const unique = [...new Set(pages)];
+
+  for (let i = 0; i < unique.length; i++) {
+    if (i > 0 && unique[i] - unique[i-1] > 1) html += '<span class="page-info">...</span>';
+    html += `<button class="${unique[i]===page?'active':''}" onclick="goPage(${unique[i]})">${unique[i]}</button>`;
+  }
+
+  html += `<button ${page >= totalPages ? 'disabled' : ''} onclick="goPage(${page+1})">Next &raquo;</button>`;
+  html += `<span class="page-info">${filtered.length} results</span>`;
+  pag.innerHTML = html;
+}
+
+function goPage(p) { page = p; render(); window.scrollTo(0, 0); }
+
+async function loadDetection(filename) {
+  if (detectionCache[filename]) return detectionCache[filename];
+  try {
+    const res = await fetch(`/api/detection/${filename}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    detectionCache[filename] = data;
+    return data;
+  } catch { return null; }
+}
+
+async function openModal(filename) {
+  const entry = manifest.find(e => e.filename === filename);
+  if (!entry) return;
+  const det = await loadDetection(filename);
+
+  const overlay = document.getElementById('modalOverlay');
+  const body = document.getElementById('modalBody');
+  document.getElementById('modalTitle').textContent = entry.original_name;
+
+  let html = `<div class="modal-image-wrap" id="modalImageWrap">
+    <img id="modalImg" src="/images/${filename}" alt="${entry.original_name}">
+    <canvas id="modalCanvas"></canvas>
+  </div>`;
+
+  html += `<div class="section-title">Image Metadata</div>`;
+  html += `<div class="meta-grid">
+    <div class="meta-item"><span class="label">Dimensions:</span> <span class="value">${entry.width} x ${entry.height}</span></div>
+    <div class="meta-item"><span class="label">Source:</span> <span class="value">${entry.source}</span></div>
+    <div class="meta-item"><span class="label">Ingested:</span> <span class="value">${entry.ingested_at}</span></div>
+    <div class="meta-item"><span class="label">SHA-256:</span> <span class="value" title="${entry.sha256}">${entry.sha256.slice(0,24)}...</span></div>
+    <div class="meta-item"><span class="label">Filename:</span> <span class="value">${entry.filename}</span></div>
+  </div>`;
+
+  if (det) {
+    const cfg = det.detector_config;
+    html += `<div class="section-title">Detector Config</div>`;
+    html += `<div class="meta-grid">
+      <div class="meta-item"><span class="label">Library:</span> <span class="value">${cfg.library} ${cfg.library_version}</span></div>
+      <div class="meta-item"><span class="label">Family:</span> <span class="value">${cfg.family}</span></div>
+      <div class="meta-item"><span class="label">Threads:</span> <span class="value">${cfg.nthreads}</span></div>
+      <div class="meta-item"><span class="label">Decimate:</span> <span class="value">${cfg.quad_decimate}</span></div>
+      <div class="meta-item"><span class="label">Sigma:</span> <span class="value">${cfg.quad_sigma}</span></div>
+      <div class="meta-item"><span class="label">Refine edges:</span> <span class="value">${cfg.refine_edges}</span></div>
+      <div class="meta-item"><span class="label">Sharpening:</span> <span class="value">${cfg.decode_sharpening}</span></div>
+    </div>`;
+
+    if (det.detections.length > 0) {
+      html += `<div class="section-title">Detections (${det.detections.length})</div>`;
+      html += `<table class="det-table"><thead><tr>
+        <th>Color</th><th>Tag ID</th><th>Family</th><th>Hamming</th><th>Margin</th><th>Center</th><th>Corners</th>
+      </tr></thead><tbody>`;
+      det.detections.forEach((d, i) => {
+        const color = DET_COLORS[i % DET_COLORS.length];
+        const cx = d.center[0].toFixed(1);
+        const cy = d.center[1].toFixed(1);
+        const corners = d.corners.map(c => `(${c[0].toFixed(1)}, ${c[1].toFixed(1)})`).join(', ');
+        html += `<tr>
+          <td><span style="display:inline-block;width:14px;height:14px;border-radius:3px;background:${color};vertical-align:middle"></span></td>
+          <td>${d.tag_id}</td>
+          <td>${d.tag_family}</td>
+          <td>${d.hamming}</td>
+          <td>${d.decision_margin.toFixed(1)}</td>
+          <td>(${cx}, ${cy})</td>
+          <td style="font-size:11px">${corners}</td>
+        </tr>`;
+      });
+      html += '</tbody></table>';
+    } else {
+      html += `<div class="section-title">No detections</div>`;
+    }
+  }
+
+  body.innerHTML = html;
+  overlay.classList.add('open');
+
+  // Draw detections on canvas after image loads
+  const img = document.getElementById('modalImg');
+  img.onload = () => {
+    if (det) drawDetections(img, det.detections);
+  };
+  if (img.complete) {
+    if (det) drawDetections(img, det.detections);
+  }
+}
+
+function drawDetections(img, detections) {
+  const canvas = document.getElementById('modalCanvas');
+  const displayW = img.clientWidth;
+  const displayH = img.clientHeight;
+  canvas.width = displayW;
+  canvas.height = displayH;
+  canvas.style.width = displayW + 'px';
+  canvas.style.height = displayH + 'px';
+
+  const scaleX = displayW / img.naturalWidth;
+  const scaleY = displayH / img.naturalHeight;
+  const ctx = canvas.getContext('2d');
+
+  detections.forEach((d, i) => {
+    const color = DET_COLORS[i % DET_COLORS.length];
+    const corners = d.corners.map(c => [c[0] * scaleX, c[1] * scaleY]);
+
+    // Draw polygon
+    ctx.beginPath();
+    ctx.moveTo(corners[0][0], corners[0][1]);
+    for (let j = 1; j < corners.length; j++) ctx.lineTo(corners[j][0], corners[j][1]);
+    ctx.closePath();
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2.5;
+    ctx.stroke();
+    ctx.fillStyle = color + '18';
+    ctx.fill();
+
+    // Draw corner dots
+    corners.forEach(c => {
+      ctx.beginPath();
+      ctx.arc(c[0], c[1], 4, 0, Math.PI * 2);
+      ctx.fillStyle = color;
+      ctx.fill();
+    });
+
+    // Draw center
+    const cx = d.center[0] * scaleX;
+    const cy = d.center[1] * scaleY;
+    ctx.beginPath();
+    ctx.arc(cx, cy, 5, 0, Math.PI * 2);
+    ctx.fillStyle = color;
+    ctx.fill();
+    ctx.strokeStyle = '#000';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    // Tag ID label
+    const label = `ID: ${d.tag_id}`;
+    ctx.font = 'bold 13px sans-serif';
+    const tw = ctx.measureText(label).width;
+    const lx = cx - tw / 2;
+    const ly = cy - 14;
+    ctx.fillStyle = 'rgba(0,0,0,0.7)';
+    ctx.fillRect(lx - 3, ly - 12, tw + 6, 16);
+    ctx.fillStyle = color;
+    ctx.fillText(label, lx, ly);
+  });
+}
+
+function closeModal() { document.getElementById('modalOverlay').classList.remove('open'); }
+
+// Event listeners
+document.getElementById('grid').addEventListener('click', e => {
+  const card = e.target.closest('.card');
+  if (card) openModal(card.dataset.filename);
+});
+document.getElementById('modalOverlay').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeModal();
+});
+document.getElementById('modalClose').addEventListener('click', closeModal);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+document.getElementById('perPage').addEventListener('change', () => { page = 1; render(); });
+document.getElementById('sortBy').addEventListener('change', applyFilters);
+document.getElementById('minDet').addEventListener('input', applyFilters);
+document.getElementById('maxDet').addEventListener('input', applyFilters);
+document.getElementById('tagIdFilter').addEventListener('input', applyFilters);
+document.getElementById('sourceFilter').addEventListener('change', applyFilters);
+
+document.getElementById('themeToggle').addEventListener('click', () => {
+  document.body.classList.toggle('light');
+  const isLight = document.body.classList.contains('light');
+  document.getElementById('themeToggle').textContent = isLight ? 'Dark Mode' : 'Light Mode';
+});
+
+init();
+</script>
+</body>
+</html>

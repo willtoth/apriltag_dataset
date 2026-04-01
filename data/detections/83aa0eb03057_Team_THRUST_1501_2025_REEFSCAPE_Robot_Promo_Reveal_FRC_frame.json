@@ -1,0 +1,65 @@
+{
+  "image_file": "83aa0eb03057_Team_THRUST_1501_2025_REEFSCAPE_Robot_Promo_Reveal_FRC_frame.png",
+  "image_sha256": "83aa0eb030574927f5945d9d7794115c818c448879c5aa3e24adefa42444828e",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:30:01.335431+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 51.2121696472168,
+      "center": [
+        693.806352569739,
+        362.50207455059126
+      ],
+      "corners": [
+        [
+          680.5718994140625,
+          376.31036376953125
+        ],
+        [
+          707.64306640625,
+          377.2102661132813
+        ],
+        [
+          707.5764770507812,
+          348.1348876953125
+        ],
+        [
+          679.9212646484375,
+          347.7424621582031
+        ]
+      ],
+      "homography": [
+        [
+          7.40297670795121,
+          7.668562555666086,
+          693.806352569739
+        ],
+        [
+          -2.953241570280911,
+          18.319658797962916,
+          362.50207455059126
+        ],
+        [
+          -0.009045666096990805,
+          0.010790649529637677,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

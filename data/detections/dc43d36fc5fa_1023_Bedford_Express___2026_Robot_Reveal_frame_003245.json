@@ -1,0 +1,65 @@
+{
+  "image_file": "dc43d36fc5fa_1023_Bedford_Express___2026_Robot_Reveal_frame_003245.png",
+  "image_sha256": "dc43d36fc5fa0d288f23e6a0260a5eff8e0e1c07a0568e10837fab5dc1d57cb3",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:24:33.006717+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 18,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 75.67810821533203,
+      "center": [
+        1338.8602590678515,
+        538.4546652159155
+      ],
+      "corners": [
+        [
+          1304.9759521484375,
+          569.33056640625
+        ],
+        [
+          1370.6685791015625,
+          571.0117797851562
+        ],
+        [
+          1373.100708007812,
+          507.25424194335926
+        ],
+        [
+          1307.1387939453123,
+          505.9864501953124
+        ]
+      ],
+      "homography": [
+        [
+          28.49828581434531,
+          1.4361211030066023,
+          1338.8602590678515
+        ],
+        [
+          -1.0378941829500303,
+          32.81434851086806,
+          538.4546652159155
+        ],
+        [
+          -0.003297472058508116,
+          0.0019303194550776691,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

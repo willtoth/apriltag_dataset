@@ -1,0 +1,65 @@
+{
+  "image_file": "3a03e410d2cd_2024_Ratchet_Rocker_Robot_-_Riot_frame_002160.png",
+  "image_sha256": "3a03e410d2cdaec41b912aef5c26f716174e40696a6f02a78d48cb09574b3c13",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:52:26.123746+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 72.33051300048828,
+      "center": [
+        1506.1691460583309,
+        455.5839348388362
+      ],
+      "corners": [
+        [
+          1490.72119140625,
+          472.1553039550781
+        ],
+        [
+          1523.631103515625,
+          470.4240722656249
+        ],
+        [
+          1521.657348632812,
+          438.9693908691406
+        ],
+        [
+          1488.9119873046873,
+          440.9178466796876
+        ]
+      ],
+      "homography": [
+        [
+          10.99149785979148,
+          -2.517029396917677,
+          1506.1691460583309
+        ],
+        [
+          -2.560205101777571,
+          14.62543778788313,
+          455.5839348388362
+        ],
+        [
+          -0.0035998648691358223,
+          -0.002298865455863889,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "33353d099b1c_Team_SCREAM_2024_Robot_Reveal_--_Axl_and_Slash_frame_001363.png",
+  "image_sha256": "33353d099b1c590ecee3451a8602d5d1b2d0ff2667ee2608b28f3b3120f3474d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:47:31.654776+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 3,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 90.99533081054688,
+      "center": [
+        802.2396801936953,
+        47.267330904698014
+      ],
+      "corners": [
+        [
+          767.3526000976564,
+          83.84993743896484
+        ],
+        [
+          836.6166381835938,
+          86.88328552246094
+        ],
+        [
+          836.5960693359373,
+          11.241207122802749
+        ],
+        [
+          767.7747802734374,
+          7.550032138824457
+        ]
+      ],
+      "homography": [
+        [
+          38.10693145443474,
+          -2.6612387678526326,
+          802.2396801936953
+        ],
+        [
+          1.8934869174169744,
+          37.83345662593239,
+          47.267330904698014
+        ],
+        [
+          0.004470789294421728,
+          -0.003193340761956473,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

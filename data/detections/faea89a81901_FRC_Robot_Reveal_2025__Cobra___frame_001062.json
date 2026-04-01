@@ -1,0 +1,65 @@
+{
+  "image_file": "faea89a81901_FRC_Robot_Reveal_2025__Cobra___frame_001062.png",
+  "image_sha256": "faea89a819012b5759b856c61cd2d692de715aa0cfcdcbbdbfc650bb0f31189c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:15:41.929263+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 78.81643676757812,
+      "center": [
+        954.6608662918991,
+        801.7197527890253
+      ],
+      "corners": [
+        [
+          920.180419921875,
+          843.6083374023438
+        ],
+        [
+          987.7350463867186,
+          833.8056640625
+        ],
+        [
+          988.5666503906249,
+          760.529296875
+        ],
+        [
+          920.9485473632812,
+          769.0147705078126
+        ]
+      ],
+      "homography": [
+        [
+          42.36239582615849,
+          0.14950146928322802,
+          954.6608662918991
+        ],
+        [
+          2.6266306458492137,
+          37.42621678776845,
+          801.7197527890253
+        ],
+        [
+          0.008979047265683701,
+          0.0005758604346623073,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "f5b9e1a61319_KRYPTON_FRC__9487_-_ROBOT_REVEAL_26_frame_002640.png",
+  "image_sha256": "f5b9e1a613193b068d5522c797b3e1c2ab5ff7bfa67bd55a693e777f820a9f11",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:10:26.098664+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 5,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 15.879362106323242,
+      "center": [
+        333.4114708770358,
+        803.1216541000782
+      ],
+      "corners": [
+        [
+          298.6398010253906,
+          835.8955078125
+        ],
+        [
+          382.7449645996094,
+          831.7627563476561
+        ],
+        [
+          368.61450195312494,
+          769.9412231445312
+        ],
+        [
+          283.11441040039057,
+          773.9211425781252
+        ]
+      ],
+      "homography": [
+        [
+          42.98293407180597,
+          10.052238579894839,
+          333.4114708770358
+        ],
+        [
+          -0.6206733086997974,
+          37.30608431008659,
+          803.1216541000782
+        ],
+        [
+          0.0017534334762978397,
+          0.007917964638631137,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "94878a438a8a_The_Pink_Team_2026_Robot_Reveal_Video_frame_003840.png",
+  "image_sha256": "94878a438a8aae70d8faa046834ff55c89f04ac785c68c1b31f3186c4234af1c",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:41:55.387596+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 30,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.7498779296875,
+      "center": [
+        1783.4174874340567,
+        156.12720352704335
+      ],
+      "corners": [
+        [
+          1757.7764892578125,
+          185.0637054443359
+        ],
+        [
+          1787.8828125,
+          210.42643737792972
+        ],
+        [
+          1810.934448242187,
+          125.07363128662112
+        ],
+        [
+          1779.0914306640623,
+          103.52149963378906
+        ]
+      ],
+      "homography": [
+        [
+          -30.12444063058092,
+          6.267097281049697,
+          1783.4174874340567
+        ],
+        [
+          7.749154437062538,
+          43.21661808736749,
+          156.12720352704335
+        ],
+        [
+          -0.02556590016770013,
+          0.009724443324188736,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

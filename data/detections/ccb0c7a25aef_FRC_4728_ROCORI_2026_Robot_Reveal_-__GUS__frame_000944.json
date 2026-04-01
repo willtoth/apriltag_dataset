@@ -1,0 +1,65 @@
+{
+  "image_file": "ccb0c7a25aef_FRC_4728_ROCORI_2026_Robot_Reveal_-__GUS__frame_000944.png",
+  "image_sha256": "ccb0c7a25aefd73fe10a72c85494a833208789abb0e578f48a4caedcc688b745",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:36:18.303389+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 23,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 39.59408187866211,
+      "center": [
+        712.36274069389,
+        872.8778952136404
+      ],
+      "corners": [
+        [
+          728.4813232421875,
+          812.8225708007811
+        ],
+        [
+          623.5991821289062,
+          876.0159912109375
+        ],
+        [
+          693.4737548828125,
+          943.2553100585938
+        ],
+        [
+          800.1558227539062,
+          869.7741088867186
+        ]
+      ],
+      "homography": [
+        [
+          -82.97994543031098,
+          -9.21134234741021,
+          712.36274069389
+        ],
+        [
+          -2.9731605911032375,
+          1.2960713060082298,
+          872.8778952136404
+        ],
+        [
+          -0.042316976448520074,
+          0.03682028993742574,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

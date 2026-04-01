@@ -1,0 +1,65 @@
+{
+  "image_file": "e84e9eb98874_FRC__7673_on__feburary____frc__first__robot__robotics__taiwa.png",
+  "image_sha256": "e84e9eb98874e96bf9b1d4aaa6d6097437e81f90c39f9181aa83b2f56ce544d4",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:48:46.908976+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 42.15519714355469,
+      "center": [
+        1167.28986398422,
+        340.4782647410515
+      ],
+      "corners": [
+        [
+          1150.9304199218752,
+          357.18145751953125
+        ],
+        [
+          1184.1766357421875,
+          357.07556152343744
+        ],
+        [
+          1184.4046630859373,
+          323.0038452148438
+        ],
+        [
+          1151.535400390625,
+          324.99386596679693
+        ]
+      ],
+      "homography": [
+        [
+          -16.901663103934197,
+          -7.290061655422052,
+          1167.28986398422
+        ],
+        [
+          -10.276280947909472,
+          14.486804703593519,
+          340.4782647410515
+        ],
+        [
+          -0.028627381053036333,
+          -0.0060621198857975945,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

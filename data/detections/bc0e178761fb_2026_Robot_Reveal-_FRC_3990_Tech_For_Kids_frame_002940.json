@@ -1,0 +1,65 @@
+{
+  "image_file": "bc0e178761fb_2026_Robot_Reveal-_FRC_3990_Tech_For_Kids_frame_002940.png",
+  "image_sha256": "bc0e178761fb60c550f02f2fdfbd913bd8222ade2fc1307e6bc48c9b7d354b3d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:46:36.551029+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 23,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 50.995262145996094,
+      "center": [
+        1891.7653164601622,
+        255.53926851923012
+      ],
+      "corners": [
+        [
+          1876.4986572265623,
+          280.5771484375
+        ],
+        [
+          1906.2088623046875,
+          277.6317443847656
+        ],
+        [
+          1907.232177734375,
+          230.1730499267578
+        ],
+        [
+          1877.7718505859375,
+          234.13522338867188
+        ]
+      ],
+      "homography": [
+        [
+          -6.341803660963705,
+          -9.384713249976812,
+          1891.7653164601622
+        ],
+        [
+          -4.583634409667357,
+          22.28196054867675,
+          255.53926851923012
+        ],
+        [
+          -0.011170693116757804,
+          -0.004656566609119739,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

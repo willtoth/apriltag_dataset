@@ -1,0 +1,65 @@
+{
+  "image_file": "0c66b10acf15_FRC125_-_The_NUTRONs_-_2025_Reveal_frame_000944.png",
+  "image_sha256": "0c66b10acf1576c1fae6e63bf1fcce1a387d15fbd38c3683f264fad3848ac154",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:24:10.637890+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 12,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 70.4139404296875,
+      "center": [
+        1094.3957033048512,
+        236.305485742901
+      ],
+      "corners": [
+        [
+          1069.49853515625,
+          274.5266418457031
+        ],
+        [
+          1120.513916015625,
+          263.6957397460937
+        ],
+        [
+          1120.5379638671877,
+          196.17291259765625
+        ],
+        [
+          1069.2838134765627,
+          209.97056579589852
+        ]
+      ],
+      "homography": [
+        [
+          1.4573968890474587,
+          2.6503427220472986,
+          1094.3957033048512
+        ],
+        [
+          -11.353864291881681,
+          33.56429151807214,
+          236.305485742901
+        ],
+        [
+          -0.022018955833207454,
+          0.0023757610588445196,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

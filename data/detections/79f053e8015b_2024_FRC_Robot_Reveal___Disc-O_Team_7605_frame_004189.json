@@ -1,0 +1,65 @@
+{
+  "image_file": "79f053e8015b_2024_FRC_Robot_Reveal___Disc-O_Team_7605_frame_004189.png",
+  "image_sha256": "79f053e8015bac6231a29bcd6048d3134c9fe76a4102eac9004dbc523cddf8af",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:44:45.426978+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 86.63626098632812,
+      "center": [
+        645.6992376264374,
+        757.7104106703416
+      ],
+      "corners": [
+        [
+          630.445556640625,
+          776.5941162109375
+        ],
+        [
+          663.0507202148438,
+          777.9934692382812
+        ],
+        [
+          660.9884033203126,
+          738.7827758789061
+        ],
+        [
+          628.6544189453126,
+          737.7858276367186
+        ]
+      ],
+      "homography": [
+        [
+          12.980605816832963,
+          -1.5406229270022307,
+          645.6992376264374
+        ],
+        [
+          -3.219589417496993,
+          16.566363899347834,
+          757.7104106703416
+        ],
+        [
+          -0.005038704013595424,
+          -0.0038769030709730062,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "c6f4db23d74a_FRC_Team_Under_Control__1156__2026_Robot_Reveal_-__Tempest__.png",
+  "image_sha256": "c6f4db23d74a50b3aea95fef9107f14bed7afbedcf23c246ff93c63bd8580938",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:52:03.741785+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 39.72701644897461,
+      "center": [
+        817.5886669564985,
+        651.6098241401655
+      ],
+      "corners": [
+        [
+          788.069091796875,
+          670.1440429687499
+        ],
+        [
+          836.7658081054688,
+          681.2106933593752
+        ],
+        [
+          846.1083984375001,
+          633.7033691406251
+        ],
+        [
+          798.5817260742189,
+          622.2716674804685
+        ]
+      ],
+      "homography": [
+        [
+          29.27151101058962,
+          -13.824137768061288,
+          817.5886669564985
+        ],
+        [
+          9.787412800974833,
+          16.777053930220404,
+          651.6098241401655
+        ],
+        [
+          0.006384823804119871,
+          -0.010842185553743153,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

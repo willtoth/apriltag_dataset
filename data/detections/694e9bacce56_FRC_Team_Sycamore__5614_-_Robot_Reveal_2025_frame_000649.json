@@ -1,0 +1,65 @@
+{
+  "image_file": "694e9bacce56_FRC_Team_Sycamore__5614_-_Robot_Reveal_2025_frame_000649.png",
+  "image_sha256": "694e9bacce56dc48020f20ce7f645991ab3472d43ca3fdd114b6488870a49ff2",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T01:28:45.828685+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 22,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.65443420410156,
+      "center": [
+        167.33158132973128,
+        650.3440518968158
+      ],
+      "corners": [
+        [
+          150.52667236328128,
+          698.6036987304689
+        ],
+        [
+          182.3161163330078,
+          690.1153564453125
+        ],
+        [
+          183.11004638671872,
+          605.0321044921874
+        ],
+        [
+          151.55929565429693,
+          608.4819335937501
+        ]
+      ],
+      "homography": [
+        [
+          20.600434161870908,
+          -0.9463774064340643,
+          167.33158132973128
+        ],
+        [
+          15.59725767144368,
+          41.8494380231391,
+          650.3440518968158
+        ],
+        [
+          0.028557151250254577,
+          -0.002944924278332625,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

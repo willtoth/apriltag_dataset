@@ -1,0 +1,65 @@
+{
+  "image_file": "df21a44b064d_SURGE_Robot_Reveal_2025_-_1218_SCH_Robotics_frame_002023.png",
+  "image_sha256": "df21a44b064d8f7c5ad7bd2e2451e095db5b9764f533b0d1592ee629b4cfb469",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:16:50.255254+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 1,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 51.117977142333984,
+      "center": [
+        1736.5111324049783,
+        128.7160598787755
+      ],
+      "corners": [
+        [
+          1701.357421875,
+          162.15051269531253
+        ],
+        [
+          1769.0753173828127,
+          163.07571411132812
+        ],
+        [
+          1771.9913330078127,
+          94.97108459472655
+        ],
+        [
+          1704.1864013671875,
+          94.6090621948242
+        ]
+      ],
+      "homography": [
+        [
+          26.662735628350447,
+          -0.6268158919774546,
+          1736.5111324049783
+        ],
+        [
+          -0.2130443224237452,
+          33.970914388017064,
+          128.7160598787755
+        ],
+        [
+          -0.004156249178309792,
+          0.0004660358915632597,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

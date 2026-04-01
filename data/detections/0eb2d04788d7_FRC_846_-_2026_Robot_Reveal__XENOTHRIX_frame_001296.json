@@ -1,0 +1,65 @@
+{
+  "image_file": "0eb2d04788d7_FRC_846_-_2026_Robot_Reveal__XENOTHRIX_frame_001296.png",
+  "image_sha256": "0eb2d04788d788bfa2cca4da922abaf6e0b112501a31fdf3e2a027eceda24830",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:53:22.245657+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 4,
+      "tag_family": "tag36h11",
+      "hamming": 2,
+      "decision_margin": 21.52968978881836,
+      "center": [
+        168.57615708083358,
+        322.7926591621442
+      ],
+      "corners": [
+        [
+          125.24259948730464,
+          367.1632080078125
+        ],
+        [
+          214.60574340820315,
+          365.5111999511719
+        ],
+        [
+          214.62377929687509,
+          275.64309692382807
+        ],
+        [
+          120.1591796875,
+          277.85845947265625
+        ]
+      ],
+      "homography": [
+        [
+          45.49244147054267,
+          5.96188255329219,
+          168.57615708083358
+        ],
+        [
+          -1.7808302955915063,
+          53.73865030131691,
+          322.7926591621442
+        ],
+        [
+          -0.0025436829513478592,
+          0.02782137408073605,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

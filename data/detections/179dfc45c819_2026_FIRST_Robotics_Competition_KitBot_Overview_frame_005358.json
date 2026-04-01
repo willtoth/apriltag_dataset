@@ -1,0 +1,65 @@
+{
+  "image_file": "179dfc45c819_2026_FIRST_Robotics_Competition_KitBot_Overview_frame_005358.png",
+  "image_sha256": "179dfc45c819f5a095818f495cac3b0c9498fbdc6bc7a9a0f8759529100d4e2a",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T00:15:24.497954+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 29,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 89.08718872070312,
+      "center": [
+        1134.0131622618003,
+        233.08460840647214
+      ],
+      "corners": [
+        [
+          1123.3173828125,
+          248.64210510253906
+        ],
+        [
+          1143.8182373046875,
+          250.38221740722656
+        ],
+        [
+          1144.9853515625,
+          217.12506103515628
+        ],
+        [
+          1124.5050048828123,
+          216.3108062744141
+        ]
+      ],
+      "homography": [
+        [
+          -5.706847459237451,
+          -2.0729038763565777,
+          1134.0131622618003
+        ],
+        [
+          -2.6405215331020333,
+          16.088805809204075,
+          233.08460840647214
+        ],
+        [
+          -0.014065202752469957,
+          -0.0013085916188442263,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "image_file": "d4840c04b60d_RI3D_MTU_2026___Robot_Reveal_frame_002340.png",
+  "image_sha256": "d4840c04b60dd549a092e4e486ddf60a7267f880b3bcc1f6dabe053c8d38c8fe",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T03:31:26.148044+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 10,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 48.782352447509766,
+      "center": [
+        924.9212778406633,
+        265.5792046017734
+      ],
+      "corners": [
+        [
+          909.7297363281249,
+          284.2200622558593
+        ],
+        [
+          943.0714721679689,
+          280.7897033691406
+        ],
+        [
+          940.1070556640625,
+          246.9454193115234
+        ],
+        [
+          906.7081298828124,
+          250.31594848632807
+        ]
+      ],
+      "homography": [
+        [
+          17.573513412373018,
+          2.2093628772005354,
+          924.9212778406633
+        ],
+        [
+          -1.4451589496385415,
+          17.141771757575214,
+          265.5792046017734
+        ],
+        [
+          0.0009604877179512737,
+          0.0007707511228491165,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

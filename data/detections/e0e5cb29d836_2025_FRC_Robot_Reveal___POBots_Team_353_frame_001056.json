@@ -1,0 +1,65 @@
+{
+  "image_file": "e0e5cb29d836_2025_FRC_Robot_Reveal___POBots_Team_353_frame_001056.png",
+  "image_sha256": "e0e5cb29d836f6e67f31f6b6250319822f2abaea4149b1899221e8353d0463a0",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:36:25.571605+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 29.29465675354004,
+      "center": [
+        1237.6477854401214,
+        370.2787349682552
+      ],
+      "corners": [
+        [
+          1222.9676513671873,
+          384.4766540527344
+        ],
+        [
+          1251.9384765625,
+          384.6795349121094
+        ],
+        [
+          1253.9338378906252,
+          354.52764892578125
+        ],
+        [
+          1223.0445556640627,
+          355.56298828125
+        ]
+      ],
+      "homography": [
+        [
+          -10.45541445606455,
+          38.288025601365916,
+          1237.6477854401214
+        ],
+        [
+          -7.787619952901824,
+          26.349406713407177,
+          370.2787349682552
+        ],
+        [
+          -0.02052181206937559,
+          0.03133857365665855,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

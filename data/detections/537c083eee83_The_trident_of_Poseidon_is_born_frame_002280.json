@@ -1,0 +1,65 @@
+{
+  "image_file": "537c083eee83_The_trident_of_Poseidon_is_born_frame_002280.png",
+  "image_sha256": "537c083eee8369063fedd6dffa1300942d115b53af28f83cb324fe8676804d0d",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:07:40.097359+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 7,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 62.20969009399414,
+      "center": [
+        1730.7659598275857,
+        354.17630614154587
+      ],
+      "corners": [
+        [
+          1672.722534179688,
+          365.67602539062506
+        ],
+        [
+          1741.8067626953123,
+          403.89254760742193
+        ],
+        [
+          1792.6719970703123,
+          341.91131591796875
+        ],
+        [
+          1719.5428466796875,
+          303.63912963867176
+        ]
+      ],
+      "homography": [
+        [
+          14.741094319379043,
+          10.562665643958555,
+          1730.7659598275857
+        ],
+        [
+          14.874170015313263,
+          38.14938555746602,
+          354.17630614154587
+        ],
+        [
+          -0.012006696298955202,
+          0.020195295287708703,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

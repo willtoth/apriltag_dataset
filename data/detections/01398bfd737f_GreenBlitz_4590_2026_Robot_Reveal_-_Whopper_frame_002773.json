@@ -1,0 +1,65 @@
+{
+  "image_file": "01398bfd737f_GreenBlitz_4590_2026_Robot_Reveal_-_Whopper_frame_002773.png",
+  "image_sha256": "01398bfd737fdae26b1c4f043e74f79e37842b41280366364accdfaa09387b34",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:56:58.488465+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 2.935678720474243,
+      "center": [
+        1865.712334584542,
+        412.8993087367466
+      ],
+      "corners": [
+        [
+          1833.7290039062498,
+          446.7186584472656
+        ],
+        [
+          1893.3043212890627,
+          445.9306640625
+        ],
+        [
+          1898.4960937500002,
+          378.23358154296875
+        ],
+        [
+          1837.5601806640625,
+          379.1973571777343
+        ]
+      ],
+      "homography": [
+        [
+          27.96933791182118,
+          18.64827191162499,
+          1865.712334584542
+        ],
+        [
+          -0.9138426519649034,
+          38.42630999770722,
+          412.8993087367466
+        ],
+        [
+          -0.0011548347309813234,
+          0.011203733317961793,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

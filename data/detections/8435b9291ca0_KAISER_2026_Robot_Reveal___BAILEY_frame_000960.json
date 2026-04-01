@@ -1,0 +1,65 @@
+{
+  "image_file": "8435b9291ca0_KAISER_2026_Robot_Reveal___BAILEY_frame_000960.png",
+  "image_sha256": "8435b9291ca0c7323b1d33aa52b6786cb1382c9b24f74f98d2b49b92a37516c5",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T04:09:17.891939+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 37.15818405151367,
+      "center": [
+        899.34076331861,
+        388.32038758724207
+      ],
+      "corners": [
+        [
+          880.6948242187501,
+          406.66137695312506
+        ],
+        [
+          916.4964599609374,
+          407.31945800781244
+        ],
+        [
+          917.9229125976561,
+          370.0421447753907
+        ],
+        [
+          880.8650512695312,
+          367.8594665527345
+        ]
+      ],
+      "homography": [
+        [
+          35.631794215884156,
+          15.476796567091927,
+          899.34076331861
+        ],
+        [
+          8.222304598944785,
+          25.866485251371216,
+          388.32038758724207
+        ],
+        [
+          0.019379942997709204,
+          0.017666456660065576,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

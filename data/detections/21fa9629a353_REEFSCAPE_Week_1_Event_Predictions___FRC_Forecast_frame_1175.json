@@ -1,0 +1,65 @@
+{
+  "image_file": "21fa9629a353_REEFSCAPE_Week_1_Event_Predictions___FRC_Forecast_frame_1175.png",
+  "image_sha256": "21fa9629a353d608854d64b459c48bd583421640774a1b0de90362ef7b04e925",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:00:41.411813+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 11,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 33.175785064697266,
+      "center": [
+        1189.8095186120267,
+        610.7642649990613
+      ],
+      "corners": [
+        [
+          1173.9801025390625,
+          630.0542602539062
+        ],
+        [
+          1207.577880859375,
+          631.2645263671874
+        ],
+        [
+          1206.0710449218748,
+          590.9476928710936
+        ],
+        [
+          1172.4384765625,
+          590.722412109375
+        ]
+      ],
+      "homography": [
+        [
+          2.0679403339167943,
+          2.04637478007021,
+          1189.8095186120267
+        ],
+        [
+          -7.2056077824021285,
+          20.568179951962748,
+          610.7642649990613
+        ],
+        [
+          -0.012386073882667143,
+          0.0010791036658523467,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

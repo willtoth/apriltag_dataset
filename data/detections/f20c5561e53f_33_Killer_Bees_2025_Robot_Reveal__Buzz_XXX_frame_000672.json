@@ -1,0 +1,65 @@
+{
+  "image_file": "f20c5561e53f_33_Killer_Bees_2025_Robot_Reveal__Buzz_XXX_frame_000672.png",
+  "image_sha256": "f20c5561e53fc81f76991dff8afe85b1c7a3e08a61af9ae5a771b0346a802fcd",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T02:10:22.114055+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 8,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 66.58899688720703,
+      "center": [
+        1324.0356870742253,
+        561.5728317094458
+      ],
+      "corners": [
+        [
+          1311.88330078125,
+          604.7221069335939
+        ],
+        [
+          1338.4515380859375,
+          604.6060791015623
+        ],
+        [
+          1335.7502441406252,
+          519.9781494140624
+        ],
+        [
+          1308.9603271484377,
+          516.5708618164065
+        ]
+      ],
+      "homography": [
+        [
+          40.28292451266702,
+          4.064580451683929,
+          1324.0356870742253
+        ],
+        [
+          12.249046583583317,
+          44.30494431128943,
+          561.5728317094458
+        ],
+        [
+          0.020353742186213875,
+          0.0020091548637925995,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

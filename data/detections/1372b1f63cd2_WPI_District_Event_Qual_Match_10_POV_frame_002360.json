@@ -1,0 +1,65 @@
+{
+  "image_file": "1372b1f63cd2_WPI_District_Event_Qual_Match_10_POV_frame_002360.png",
+  "image_sha256": "1372b1f63cd2cf4ecfbd8f2ba4e32290e8a24963942647cb6076448be2ed56d0",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-01T14:54:15.860224+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 17,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 57.63303756713867,
+      "center": [
+        803.03360580116,
+        676.6964149711267
+      ],
+      "corners": [
+        [
+          792.3775634765625,
+          691.2787475585936
+        ],
+        [
+          814.2125244140625,
+          687.4241943359376
+        ],
+        [
+          813.9110107421874,
+          661.8111572265625
+        ],
+        [
+          791.378173828125,
+          665.5113525390624
+        ]
+      ],
+      "homography": [
+        [
+          15.340285072902814,
+          12.829839154116941,
+          803.03360580116
+        ],
+        [
+          1.6922465789123151,
+          23.380885479270887,
+          676.6964149711267
+        ],
+        [
+          0.005294162635631251,
+          0.015574105911754158,
+          1.0
+        ]
+      ]
+    }
+  ]
+}
