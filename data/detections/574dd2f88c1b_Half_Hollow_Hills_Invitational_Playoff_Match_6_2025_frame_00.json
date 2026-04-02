@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Half_Hollow_Hills_Invitational_Playoff_Match_6_2025_frame_00.png",
+    "source": "unknown",
+    "dhash": "39985c49b93918ba",
+    "ingested_at": "2026-04-01T16:07:23.455300+00:00"
+  }
 }

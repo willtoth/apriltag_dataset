@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_2910__Reveal_2026__Jack_in_the_Bot_frame_001298.png",
+    "source": "unknown",
+    "dhash": "3196909998ad1b93",
+    "ingested_at": "2026-04-01T04:29:56.895299+00:00"
+  }
 }

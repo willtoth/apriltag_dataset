@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_2338___Gear_it_Forward___2026_Competition_Robot__Cerberu.png",
+    "source": "unknown",
+    "dhash": "a7aee6b64ccf874f",
+    "ingested_at": "2026-04-01T04:50:03.615302+00:00"
+  }
 }

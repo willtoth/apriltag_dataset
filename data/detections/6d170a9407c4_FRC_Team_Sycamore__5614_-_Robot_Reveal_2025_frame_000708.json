@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_Sycamore__5614_-_Robot_Reveal_2025_frame_000708.png",
+    "source": "unknown",
+    "dhash": "f466626464e6e3cd",
+    "ingested_at": "2026-04-01T01:28:46.905297+00:00"
+  }
 }

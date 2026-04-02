@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Review_2024_frame_000840.png",
+    "source": "unknown",
+    "dhash": "be2ec0d0d0c5aa38",
+    "ingested_at": "2026-04-01T00:46:16.625302+00:00"
+  }
 }

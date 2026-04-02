@@ -331,5 +331,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_3476__Code_Orange_2026_-__Sandspit__frame_001824.png",
+    "source": "unknown",
+    "dhash": "2885e5f0d2d2d89c",
+    "ingested_at": "2026-04-01T04:44:24.245300+00:00"
+  }
 }

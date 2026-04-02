@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "ADONIS___2024_Robot_Reveal_frame_002679.png",
+    "source": "unknown",
+    "dhash": "68699978e4cce4f0",
+    "ingested_at": "2026-04-01T00:31:02.675301+00:00"
+  }
 }

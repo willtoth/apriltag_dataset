@@ -286,5 +286,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_3940_CyberTooth_2026_Robot_Reveal__Whiplash_frame_002040.png",
+    "source": "unknown",
+    "dhash": "d9596bcb8b9bcae9",
+    "ingested_at": "2026-04-01T03:48:35.255301+00:00"
+  }
 }

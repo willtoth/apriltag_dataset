@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robocats_2026_Rebuilt_Bot_Reveal___Clonk_frame_001620.png",
+    "source": "unknown",
+    "dhash": "c0f0fce8d2d2f2f0",
+    "ingested_at": "2026-04-01T04:39:49.245302+00:00"
+  }
 }

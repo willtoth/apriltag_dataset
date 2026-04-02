@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Half_Hollow_Hills_Invitational_Qualification_Match_20_2025_f.png",
+    "source": "unknown",
+    "dhash": "94c743c9e2e3e92c",
+    "ingested_at": "2026-04-01T16:04:39.675298+00:00"
+  }
 }

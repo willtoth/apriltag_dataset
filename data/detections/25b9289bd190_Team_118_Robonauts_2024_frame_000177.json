@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_118_Robonauts_2024_frame_000177.png",
+    "source": "unknown",
+    "dhash": "58380c24a0d1939f",
+    "ingested_at": "2026-04-01T00:25:00.975302+00:00"
+  }
 }

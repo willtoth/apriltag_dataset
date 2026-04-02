@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_3128_-_2026_Robot_Reveal__GOJIRA_frame_000540.png",
+    "source": "unknown",
+    "dhash": "82cab9d0cca73405",
+    "ingested_at": "2026-04-01T04:06:24.825300+00:00"
+  }
 }

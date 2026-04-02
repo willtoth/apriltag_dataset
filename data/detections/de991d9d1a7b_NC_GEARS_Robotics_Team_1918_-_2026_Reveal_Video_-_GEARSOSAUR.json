@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "NC_GEARS_Robotics_Team_1918_-_2026_Reveal_Video_-_GEARSOSAUR.png",
+    "source": "unknown",
+    "dhash": "e187b2b1b1b3d3dc",
+    "ingested_at": "2026-04-01T04:59:10.765300+00:00"
+  }
 }

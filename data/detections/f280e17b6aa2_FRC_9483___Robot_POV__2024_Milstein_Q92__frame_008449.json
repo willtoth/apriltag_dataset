@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_9483___Robot_POV__2024_Milstein_Q92__frame_008449.png",
+    "source": "unknown",
+    "dhash": "7418383978cbded8",
+    "ingested_at": "2026-04-01T16:12:19.085300+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_8725___Robot_Reveal_2025_-_Pontus_frame_001200.png",
+    "source": "unknown",
+    "dhash": "f0f0f2e1dcde969e",
+    "ingested_at": "2026-04-01T02:29:18.705299+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_frame_039780.png",
+    "source": "unknown",
+    "dhash": "ceccad6d682cf830",
+    "ingested_at": "2026-04-01T04:20:01.145301+00:00"
+  }
 }

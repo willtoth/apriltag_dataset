@@ -286,5 +286,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "1023_Bedford_Express___2026_Robot_Reveal_frame_002655.png",
+    "source": "unknown",
+    "dhash": "f6e464f985dcd8f0",
+    "ingested_at": "2026-04-01T04:24:27.395300+00:00"
+  }
 }

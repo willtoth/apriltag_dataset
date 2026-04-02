@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "COMETS_3357_FRC_Reveal_Video_2024__Vaisala_frame_003360.png",
+    "source": "unknown",
+    "dhash": "f1f9ed7e3c3432e8",
+    "ingested_at": "2026-04-01T00:34:48.865302+00:00"
+  }
 }

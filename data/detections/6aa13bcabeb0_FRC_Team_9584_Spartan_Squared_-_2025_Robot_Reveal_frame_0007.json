@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_9584_Spartan_Squared_-_2025_Robot_Reveal_frame_0007.png",
+    "source": "unknown",
+    "dhash": "39786aedcf8f9af0",
+    "ingested_at": "2026-04-01T02:09:34.715300+00:00"
+  }
 }

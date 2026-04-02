@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal__10079_ArrowDynamics_frame_000540.png",
+    "source": "unknown",
+    "dhash": "0000726268fb0048",
+    "ingested_at": "2026-04-01T01:47:54.235297+00:00"
+  }
 }

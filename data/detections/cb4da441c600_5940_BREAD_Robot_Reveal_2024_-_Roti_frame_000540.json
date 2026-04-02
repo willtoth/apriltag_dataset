@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "5940_BREAD_Robot_Reveal_2024_-_Roti_frame_000540.png",
+    "source": "unknown",
+    "dhash": "393831382e270e06",
+    "ingested_at": "2026-04-01T00:48:51.205301+00:00"
+  }
 }

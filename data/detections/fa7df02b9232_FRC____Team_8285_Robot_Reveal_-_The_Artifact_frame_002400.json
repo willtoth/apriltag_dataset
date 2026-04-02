@@ -376,5 +376,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC____Team_8285_Robot_Reveal_-_The_Artifact_frame_002400.png",
+    "source": "unknown",
+    "dhash": "47db5b39e91c3cec",
+    "ingested_at": "2026-04-01T04:42:34.125301+00:00"
+  }
 }

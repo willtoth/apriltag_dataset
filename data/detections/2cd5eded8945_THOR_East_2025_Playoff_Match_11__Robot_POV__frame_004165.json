@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "THOR_East_2025_Playoff_Match_11__Robot_POV__frame_004165.png",
+    "source": "unknown",
+    "dhash": "517d54545e9cd836",
+    "ingested_at": "2026-04-01T15:59:57.965298+00:00"
+  }
 }

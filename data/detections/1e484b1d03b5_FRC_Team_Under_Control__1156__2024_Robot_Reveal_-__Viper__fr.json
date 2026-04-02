@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_Under_Control__1156__2024_Robot_Reveal_-__Viper__fr.png",
+    "source": "unknown",
+    "dhash": "9d936162f2f24146",
+    "ingested_at": "2026-04-01T00:29:20.115302+00:00"
+  }
 }

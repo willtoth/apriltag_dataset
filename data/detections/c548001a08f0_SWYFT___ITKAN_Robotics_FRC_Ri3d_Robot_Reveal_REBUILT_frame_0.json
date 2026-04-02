@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SWYFT___ITKAN_Robotics_FRC_Ri3d_Robot_Reveal_REBUILT_frame_0.png",
+    "source": "unknown",
+    "dhash": "e1cd8aa7cd90c187",
+    "ingested_at": "2026-04-01T03:16:57.585298+00:00"
+  }
 }

@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal_-_Monarch_frame_002400.png",
+    "source": "unknown",
+    "dhash": "348991b0339b9391",
+    "ingested_at": "2026-04-01T03:49:31.725301+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "REBELLION_10014_-_REBUILT_2026_-_FRC_Robot_Reveal_frame_0045.png",
+    "source": "unknown",
+    "dhash": "0644868e0f1b0100",
+    "ingested_at": "2026-04-01T00:17:27.345300+00:00"
+  }
 }

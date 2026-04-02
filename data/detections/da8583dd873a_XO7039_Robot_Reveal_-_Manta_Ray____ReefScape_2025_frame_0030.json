@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "XO7039_Robot_Reveal_-_Manta_Ray____ReefScape_2025_frame_0030.png",
+    "source": "unknown",
+    "dhash": "74726bfaf0f8f1b0",
+    "ingested_at": "2026-04-01T02:04:35.235295+00:00"
+  }
 }

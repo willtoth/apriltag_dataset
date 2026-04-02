@@ -286,5 +286,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "OGRE_7072___2026_REBUILT_Robot_Reveal____Robin_Hood__frame_0.png",
+    "source": "unknown",
+    "dhash": "747438383cd65d2d",
+    "ingested_at": "2026-04-01T04:37:16.535299+00:00"
+  }
 }

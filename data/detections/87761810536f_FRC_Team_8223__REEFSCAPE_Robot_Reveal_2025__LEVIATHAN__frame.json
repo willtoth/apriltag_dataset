@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_8223__REEFSCAPE_Robot_Reveal_2025__LEVIATHAN__frame.png",
+    "source": "unknown",
+    "dhash": "787873231a1c1e63",
+    "ingested_at": "2026-04-01T01:33:27.975300+00:00"
+  }
 }

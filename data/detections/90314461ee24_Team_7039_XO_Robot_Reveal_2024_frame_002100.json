@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_7039_XO_Robot_Reveal_2024_frame_002100.png",
+    "source": "unknown",
+    "dhash": "ccd4d4b32b4c240e",
+    "ingested_at": "2026-04-01T00:46:54.965302+00:00"
+  }
 }

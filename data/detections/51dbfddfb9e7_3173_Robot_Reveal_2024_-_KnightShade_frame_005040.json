@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3173_Robot_Reveal_2024_-_KnightShade_frame_005040.png",
+    "source": "unknown",
+    "dhash": "cdccccc3f3d0c447",
+    "ingested_at": "2026-04-01T00:45:23.785302+00:00"
+  }
 }

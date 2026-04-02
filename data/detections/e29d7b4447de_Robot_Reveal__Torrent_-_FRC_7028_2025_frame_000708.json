@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal__Torrent_-_FRC_7028_2025_frame_000708.png",
+    "source": "unknown",
+    "dhash": "8989c8d89dd1003c",
+    "ingested_at": "2026-04-01T01:41:39.485300+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "TRITON_REVEAL_frame_001034.png",
+    "source": "unknown",
+    "dhash": "9191c9ddb43c9ebc",
+    "ingested_at": "2026-04-01T02:41:54.305295+00:00"
+  }
 }

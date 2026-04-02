@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "33_Killer_Bees_2025_Robot_Reveal__Buzz_XXX_frame_000672.png",
+    "source": "unknown",
+    "dhash": "eee5333676de77f5",
+    "ingested_at": "2026-04-01T02:10:22.105299+00:00"
+  }
 }

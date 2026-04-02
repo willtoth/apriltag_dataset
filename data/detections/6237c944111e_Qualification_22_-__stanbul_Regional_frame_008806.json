@@ -286,5 +286,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Qualification_22_-__stanbul_Regional_frame_008806.png",
+    "source": "unknown",
+    "dhash": "5534cc7abbcede15",
+    "ingested_at": "2026-04-01T04:02:46.825300+00:00"
+  }
 }

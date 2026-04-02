@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_Montage_from_Port_Hueneme_Our_unofficial_robot_reveal_o.png",
+    "source": "unknown",
+    "dhash": "4c0a887964b4b632",
+    "ingested_at": "2026-04-01T04:51:38.225301+00:00"
+  }
 }

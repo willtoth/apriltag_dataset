@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_SCREAM_2024_Robot_Reveal_--_Axl_and_Slash_frame_001316.png",
+    "source": "unknown",
+    "dhash": "e2b391919a98d2b2",
+    "ingested_at": "2026-04-01T00:47:31.075302+00:00"
+  }
 }

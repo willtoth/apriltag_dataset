@@ -286,5 +286,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_1540_2026_Robot_Reveal__Hephaestus_frame_002050.png",
+    "source": "unknown",
+    "dhash": "8f8f9cd4c47a6c60",
+    "ingested_at": "2026-04-01T04:49:39.405300+00:00"
+  }
 }

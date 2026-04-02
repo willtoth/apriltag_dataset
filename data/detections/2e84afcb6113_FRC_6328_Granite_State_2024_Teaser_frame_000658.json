@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_6328_Granite_State_2024_Teaser_frame_000658.png",
+    "source": "unknown",
+    "dhash": "537307c72d14d820",
+    "ingested_at": "2026-04-01T00:39:44.745301+00:00"
+  }
 }

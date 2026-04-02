@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_Field_Tour_Video__Alliance_Area_frame_000413.png",
+    "source": "unknown",
+    "dhash": "674968a128ecd832",
+    "ingested_at": "2026-04-01T00:12:09.065299+00:00"
+  }
 }

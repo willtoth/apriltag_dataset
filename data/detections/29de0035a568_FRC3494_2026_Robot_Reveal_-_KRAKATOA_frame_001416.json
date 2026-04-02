@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC3494_2026_Robot_Reveal_-_KRAKATOA_frame_001416.png",
+    "source": "unknown",
+    "dhash": "bcb4d4d1dace4d61",
+    "ingested_at": "2026-04-01T04:25:13.875300+00:00"
+  }
 }

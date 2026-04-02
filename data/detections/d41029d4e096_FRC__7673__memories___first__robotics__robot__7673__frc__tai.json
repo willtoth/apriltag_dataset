@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC__7673__memories___first__robotics__robot__7673__frc__tai.png",
+    "source": "unknown",
+    "dhash": "dc746c7fb99b6f6a",
+    "ingested_at": "2026-04-01T04:48:35.355300+00:00"
+  }
 }

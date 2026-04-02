@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "CERBERUS___3512_Spartatroniks_2026_Robot_Reveal_frame_001008.png",
+    "source": "unknown",
+    "dhash": "13e7673a48db52a4",
+    "ingested_at": "2026-04-01T04:12:57.455298+00:00"
+  }
 }

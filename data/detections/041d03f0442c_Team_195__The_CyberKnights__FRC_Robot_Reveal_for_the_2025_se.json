@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_195__The_CyberKnights__FRC_Robot_Reveal_for_the_2025_se.png",
+    "source": "unknown",
+    "dhash": "90a4258dcd8c8ea4",
+    "ingested_at": "2026-04-01T02:43:10.325297+00:00"
+  }
 }

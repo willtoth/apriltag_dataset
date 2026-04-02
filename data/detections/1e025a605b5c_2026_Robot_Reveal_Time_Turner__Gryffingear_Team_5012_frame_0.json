@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal_Time_Turner__Gryffingear_Team_5012_frame_0.png",
+    "source": "unknown",
+    "dhash": "ccda360c9616c616",
+    "ingested_at": "2026-04-01T03:38:48.685299+00:00"
+  }
 }

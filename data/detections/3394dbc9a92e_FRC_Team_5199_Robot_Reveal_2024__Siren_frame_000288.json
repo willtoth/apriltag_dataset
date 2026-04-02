@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_5199_Robot_Reveal_2024__Siren_frame_000288.png",
+    "source": "unknown",
+    "dhash": "8c8c18b26869d4cc",
+    "ingested_at": "2026-04-01T00:37:19.485302+00:00"
+  }
 }

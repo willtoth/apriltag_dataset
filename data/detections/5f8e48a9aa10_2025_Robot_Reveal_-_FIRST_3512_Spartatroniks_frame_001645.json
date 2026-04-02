@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Robot_Reveal_-_FIRST_3512_Spartatroniks_frame_001645.png",
+    "source": "unknown",
+    "dhash": "031393b2ca85a4c0",
+    "ingested_at": "2026-04-01T02:37:53.145298+00:00"
+  }
 }

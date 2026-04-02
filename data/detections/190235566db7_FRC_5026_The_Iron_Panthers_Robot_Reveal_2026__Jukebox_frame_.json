@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_5026_The_Iron_Panthers_Robot_Reveal_2026__Jukebox_frame_.png",
+    "source": "unknown",
+    "dhash": "c3c0ecf8f9f1f2fa",
+    "ingested_at": "2026-04-01T04:21:31.995300+00:00"
+  }
 }

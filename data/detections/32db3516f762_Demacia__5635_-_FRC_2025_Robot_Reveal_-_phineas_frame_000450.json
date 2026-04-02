@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Demacia__5635_-_FRC_2025_Robot_Reveal_-_phineas_frame_000450.png",
+    "source": "unknown",
+    "dhash": "bcb41c1919cea470",
+    "ingested_at": "2026-04-01T01:26:25.415299+00:00"
+  }
 }

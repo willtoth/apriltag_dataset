@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Poi_Pounder_XXV_-_Team_359_2024_Robot_Reveal_frame_001534.png",
+    "source": "unknown",
+    "dhash": "2cc8e663994c5283",
+    "ingested_at": "2026-04-01T00:27:27.485303+00:00"
+  }
 }

@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_FIRST_Robotics_Competition_REEFSCAPE_presented_by_Haas_.png",
+    "source": "unknown",
+    "dhash": "077f3d2d09669c24",
+    "ingested_at": "2026-04-01T00:00:55.965299+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Newton_Division___QM_80___FRC_5406_Robot_POV_frame_0052.png",
+    "source": "unknown",
+    "dhash": "c6d2d0f070b090d3",
+    "ingested_at": "2026-04-01T15:49:12.465297+00:00"
+  }
 }

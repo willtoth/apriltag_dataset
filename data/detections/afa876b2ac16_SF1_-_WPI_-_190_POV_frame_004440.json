@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SF1_-_WPI_-_190_POV_frame_004440.png",
+    "source": "unknown",
+    "dhash": "9dd8dccce6f2d6f4",
+    "ingested_at": "2026-04-01T15:08:33.985300+00:00"
+  }
 }

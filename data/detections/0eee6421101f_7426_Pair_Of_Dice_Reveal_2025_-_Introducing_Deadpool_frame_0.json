@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "7426_Pair_Of_Dice_Reveal_2025_-_Introducing_Deadpool_frame_0.png",
+    "source": "unknown",
+    "dhash": "c8ca0f2f191d0f0f",
+    "ingested_at": "2026-04-01T02:46:48.685298+00:00"
+  }
 }

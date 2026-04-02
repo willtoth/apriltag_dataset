@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FIRST_Robotics_Competition_Field_Tour__Hub_frame_000472.png",
+    "source": "unknown",
+    "dhash": "1127f0b13198d884",
+    "ingested_at": "2026-03-31T23:59:47.575299+00:00"
+  }
 }

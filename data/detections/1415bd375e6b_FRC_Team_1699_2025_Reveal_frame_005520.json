@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_1699_2025_Reveal_frame_005520.png",
+    "source": "unknown",
+    "dhash": "bb1946daf6e64e0e",
+    "ingested_at": "2026-04-01T02:55:31.465297+00:00"
+  }
 }

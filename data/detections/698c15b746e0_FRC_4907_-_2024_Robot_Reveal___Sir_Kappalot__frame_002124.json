@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_4907_-_2024_Robot_Reveal___Sir_Kappalot__frame_002124.png",
+    "source": "unknown",
+    "dhash": "22272327e3622627",
+    "ingested_at": "2026-04-01T00:51:52.665301+00:00"
+  }
 }

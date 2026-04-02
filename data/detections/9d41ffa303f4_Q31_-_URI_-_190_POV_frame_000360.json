@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Q31_-_URI_-_190_POV_frame_000360.png",
+    "source": "unknown",
+    "dhash": "8929b18999b931b3",
+    "ingested_at": "2026-04-01T15:17:17.335299+00:00"
+  }
 }

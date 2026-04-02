@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_team_10015_Bubbles_2026_robot_reveal_-__BALLISTA__frame_.png",
+    "source": "unknown",
+    "dhash": "c98c8c969617369e",
+    "ingested_at": "2026-04-01T04:12:40.795298+00:00"
+  }
 }

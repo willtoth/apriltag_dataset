@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3015_Ranger_Robotics_2024_Reveal__Cobra_frame_004440.png",
+    "source": "unknown",
+    "dhash": "b131b19393d19f2b",
+    "ingested_at": "2026-04-01T00:33:41.225302+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "6417_Fridolins_FRC_2025_Robot_Reveal_frame_005700.png",
+    "source": "unknown",
+    "dhash": "6e7c4c1a25c74e47",
+    "ingested_at": "2026-04-01T01:48:33.875300+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_6619_GravitechX_-_2024_robot_reveal__Annika_frame_0.png",
+    "source": "unknown",
+    "dhash": "989ae6a6eb997725",
+    "ingested_at": "2026-04-01T00:54:25.525300+00:00"
+  }
 }

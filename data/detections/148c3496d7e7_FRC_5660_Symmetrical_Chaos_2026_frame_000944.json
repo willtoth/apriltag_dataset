@@ -376,5 +376,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_5660_Symmetrical_Chaos_2026_frame_000944.png",
+    "source": "unknown",
+    "dhash": "531fdebcbcede413",
+    "ingested_at": "2026-04-01T04:44:39.875300+00:00"
+  }
 }

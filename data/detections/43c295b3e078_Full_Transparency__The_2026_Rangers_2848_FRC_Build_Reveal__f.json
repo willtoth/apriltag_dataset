@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Full_Transparency__The_2026_Rangers_2848_FRC_Build_Reveal__f.png",
+    "source": "unknown",
+    "dhash": "28a9d06c29928283",
+    "ingested_at": "2026-04-01T05:00:31.305299+00:00"
+  }
 }

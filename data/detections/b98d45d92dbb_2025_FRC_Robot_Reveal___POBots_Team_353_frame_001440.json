@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_FRC_Robot_Reveal___POBots_Team_353_frame_001440.png",
+    "source": "unknown",
+    "dhash": "60a9290e0fa63225",
+    "ingested_at": "2026-04-01T02:36:36.305298+00:00"
+  }
 }

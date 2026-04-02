@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_Ratchet_Rocker_Robot_-_Riot_frame_002040.png",
+    "source": "unknown",
+    "dhash": "8e3c301f14948f2f",
+    "ingested_at": "2026-04-01T00:52:25.335301+00:00"
+  }
 }

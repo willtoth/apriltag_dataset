@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "9200_FRC_ROBOT_REVEAL_2026_-_Cerberus_REBUILT_frame_000472.png",
+    "source": "unknown",
+    "dhash": "a11b0d4ba3323051",
+    "ingested_at": "2026-04-01T03:34:47.415299+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_4499_presents__Slider_frame_001652.png",
+    "source": "unknown",
+    "dhash": "c6e4bcbcfef3f8f0",
+    "ingested_at": "2026-04-01T02:11:06.465299+00:00"
+  }
 }

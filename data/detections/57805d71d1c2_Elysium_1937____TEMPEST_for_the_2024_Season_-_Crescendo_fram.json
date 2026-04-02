@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Elysium_1937____TEMPEST_for_the_2024_Season_-_Crescendo_fram.png",
+    "source": "unknown",
+    "dhash": "11d9d9515997b636",
+    "ingested_at": "2026-04-01T00:50:29.225302+00:00"
+  }
 }

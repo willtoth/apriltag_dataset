@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_6423_Robot_Reveal_-_ARTIFACTOR_frame_000952.png",
+    "source": "unknown",
+    "dhash": "16b23273f69e1693",
+    "ingested_at": "2026-04-01T04:45:17.935299+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_6328_2026_Rebuilt_Reveal_DARWIN_frame_000282.png",
+    "source": "unknown",
+    "dhash": "1c9392f4f634a6e5",
+    "ingested_at": "2026-04-01T03:58:02.715298+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "REBELLION_10014_REEFSCAPE_REVEAL_frame_001740.png",
+    "source": "unknown",
+    "dhash": "ca2123323654c28b",
+    "ingested_at": "2026-04-01T01:42:06.525300+00:00"
+  }
 }

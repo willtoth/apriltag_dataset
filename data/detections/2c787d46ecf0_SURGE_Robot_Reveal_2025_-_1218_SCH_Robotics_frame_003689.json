@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SURGE_Robot_Reveal_2025_-_1218_SCH_Robotics_frame_003689.png",
+    "source": "unknown",
+    "dhash": "cdcdc1a1a9e0b1b9",
+    "ingested_at": "2026-04-01T02:16:58.785300+00:00"
+  }
 }

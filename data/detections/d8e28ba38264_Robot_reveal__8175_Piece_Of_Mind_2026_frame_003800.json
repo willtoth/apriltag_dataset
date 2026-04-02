@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_reveal__8175_Piece_Of_Mind_2026_frame_003800.png",
+    "source": "unknown",
+    "dhash": "cc4c6c4e6c6cda9b",
+    "ingested_at": "2026-04-01T04:55:52.535302+00:00"
+  }
 }

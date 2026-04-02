@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robowranglers_2024__Outlaw_frame_002688.png",
+    "source": "unknown",
+    "dhash": "b3f0b0b9efefe7e6",
+    "ingested_at": "2026-04-01T00:49:15.785301+00:00"
+  }
 }

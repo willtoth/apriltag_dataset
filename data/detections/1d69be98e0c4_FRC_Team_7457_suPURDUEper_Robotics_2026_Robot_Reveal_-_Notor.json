@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_7457_suPURDUEper_Robotics_2026_Robot_Reveal_-_Notor.png",
+    "source": "unknown",
+    "dhash": "f66c2c2c2ca7373e",
+    "ingested_at": "2026-04-01T03:59:25.755300+00:00"
+  }
 }

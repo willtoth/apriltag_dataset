@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Reefscape_Robot_Reveal_______not_our_audio__frame_00384.png",
+    "source": "unknown",
+    "dhash": "73337a5c3ce0f0b8",
+    "ingested_at": "2026-04-01T01:46:09.815295+00:00"
+  }
 }

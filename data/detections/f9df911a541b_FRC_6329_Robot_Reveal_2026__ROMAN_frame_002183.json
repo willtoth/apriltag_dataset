@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_6329_Robot_Reveal_2026__ROMAN_frame_002183.png",
+    "source": "unknown",
+    "dhash": "b29cc4d68b099590",
+    "ingested_at": "2026-04-01T03:45:57.655299+00:00"
+  }
 }

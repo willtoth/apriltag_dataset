@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Awtybots_5829_2026_Robot_Reveal_-_Goldfire_frame_002640.png",
+    "source": "unknown",
+    "dhash": "89c92139382c7860",
+    "ingested_at": "2026-04-01T04:25:43.205300+00:00"
+  }
 }

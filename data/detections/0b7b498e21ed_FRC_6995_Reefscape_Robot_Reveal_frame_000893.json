@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_6995_Reefscape_Robot_Reveal_frame_000893.png",
+    "source": "unknown",
+    "dhash": "70d2ded8c1e7dae4",
+    "ingested_at": "2026-04-01T02:49:08.855298+00:00"
+  }
 }

@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "KAISER_2026_Robot_Reveal___BAILEY_frame_000420.png",
+    "source": "unknown",
+    "dhash": "656d62c4c9595736",
+    "ingested_at": "2026-04-01T04:09:11.105300+00:00"
+  }
 }

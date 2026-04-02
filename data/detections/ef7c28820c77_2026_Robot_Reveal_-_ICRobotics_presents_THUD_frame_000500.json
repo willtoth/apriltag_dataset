@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal_-_ICRobotics_presents_THUD_frame_000500.png",
+    "source": "unknown",
+    "dhash": "7a3070bcbf6b6bdb",
+    "ingested_at": "2026-04-01T04:21:11.245301+00:00"
+  }
 }

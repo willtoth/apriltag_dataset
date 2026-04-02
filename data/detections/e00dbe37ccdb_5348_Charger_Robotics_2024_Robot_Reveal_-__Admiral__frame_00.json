@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "5348_Charger_Robotics_2024_Robot_Reveal_-__Admiral__frame_00.png",
+    "source": "unknown",
+    "dhash": "06a6d656d0d63567",
+    "ingested_at": "2026-04-01T00:38:03.305302+00:00"
+  }
 }

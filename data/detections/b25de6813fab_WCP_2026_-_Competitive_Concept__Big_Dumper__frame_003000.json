@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "WCP_2026_-_Competitive_Concept__Big_Dumper__frame_003000.png",
+    "source": "unknown",
+    "dhash": "376e6ef3cd8d944b",
+    "ingested_at": "2026-04-01T03:32:00.525300+00:00"
+  }
 }

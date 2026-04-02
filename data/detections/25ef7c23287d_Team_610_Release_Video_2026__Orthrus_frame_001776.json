@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_610_Release_Video_2026__Orthrus_frame_001776.png",
+    "source": "unknown",
+    "dhash": "01a7769e8e8edf85",
+    "ingested_at": "2026-04-01T03:56:36.415299+00:00"
+  }
 }

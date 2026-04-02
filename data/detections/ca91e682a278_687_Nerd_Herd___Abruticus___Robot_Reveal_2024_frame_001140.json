@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "687_Nerd_Herd___Abruticus___Robot_Reveal_2024_frame_001140.png",
+    "source": "unknown",
+    "dhash": "333b3b3227270103",
+    "ingested_at": "2026-04-01T00:49:35.945302+00:00"
+  }
 }

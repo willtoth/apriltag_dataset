@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_10015_Bubbles_2025_REEFSCAPE_Robot_Reveal__Octo-MASTER_f.png",
+    "source": "unknown",
+    "dhash": "5acd4c5a15a42e6f",
+    "ingested_at": "2026-04-01T01:35:08.415301+00:00"
+  }
 }

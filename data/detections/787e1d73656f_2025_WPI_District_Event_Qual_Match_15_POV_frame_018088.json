@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_WPI_District_Event_Qual_Match_15_POV_frame_018088.png",
+    "source": "unknown",
+    "dhash": "3396656b9d9c3241",
+    "ingested_at": "2026-04-01T14:56:42.115299+00:00"
+  }
 }

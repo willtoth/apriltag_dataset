@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_TEAM_8806_2026_ROBOT_IN_FIVE_WEEKS_frame_002280.png",
+    "source": "unknown",
+    "dhash": "311e9e93ca4ccccc",
+    "ingested_at": "2026-04-01T03:43:11.105299+00:00"
+  }
 }

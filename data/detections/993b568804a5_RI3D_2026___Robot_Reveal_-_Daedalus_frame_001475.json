@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "RI3D_2026___Robot_Reveal_-_Daedalus_frame_001475.png",
+    "source": "unknown",
+    "dhash": "8d99f1d191999391",
+    "ingested_at": "2026-04-01T03:20:43.805298+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_ROBOT_POV_-_Southern_Cross_2024_frame_039032.png",
+    "source": "unknown",
+    "dhash": "f4cceca84dd69646",
+    "ingested_at": "2026-04-01T16:18:17.645300+00:00"
+  }
 }

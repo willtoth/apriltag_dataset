@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_team_8214_Cyber_Unicorn_2026_Robot_Reveal_frame_001140.png",
+    "source": "unknown",
+    "dhash": "22666363f2939c7c",
+    "ingested_at": "2026-04-01T04:35:47.345300+00:00"
+  }
 }

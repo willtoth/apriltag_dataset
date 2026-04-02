@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_4270_-_Reefscape_Reveal_frame_000826.png",
+    "source": "unknown",
+    "dhash": "b090999e1c8cdc7c",
+    "ingested_at": "2026-04-01T01:23:51.415298+00:00"
+  }
 }

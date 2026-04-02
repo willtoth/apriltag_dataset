@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2026___Ri3D_at_Penn_State_frame_002544.png",
+    "source": "unknown",
+    "dhash": "feeef4e5646ce7e3",
+    "ingested_at": "2026-04-01T03:18:19.545297+00:00"
+  }
 }

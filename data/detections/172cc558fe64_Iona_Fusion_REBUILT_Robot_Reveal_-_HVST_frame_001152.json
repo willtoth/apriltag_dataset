@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Iona_Fusion_REBUILT_Robot_Reveal_-_HVST_frame_001152.png",
+    "source": "unknown",
+    "dhash": "258a8a999e9f5e96",
+    "ingested_at": "2026-04-01T04:31:03.905299+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_957__SWARM_2025_Robot_Reveal_frame_003776.png",
+    "source": "unknown",
+    "dhash": "5684e4c42c68e5cc",
+    "ingested_at": "2026-04-01T02:21:18.645298+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "The_Chimeras_FRC_Team_1684_-_2025_Robot_Reveal__Siren__frame.png",
+    "source": "unknown",
+    "dhash": "6676f7edeca6a6f6",
+    "ingested_at": "2026-04-01T02:49:52.475298+00:00"
+  }
 }

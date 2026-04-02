@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_FIRST_Champs_FRC_5406_Practice_Field_Match_1_Robot_POV_.png",
+    "source": "unknown",
+    "dhash": "394b8b9571a891d9",
+    "ingested_at": "2026-04-01T15:47:07.865297+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "F1_-_Southern_Maine_-_190_POV_frame_003717.png",
+    "source": "unknown",
+    "dhash": "baaeeef47adac65a",
+    "ingested_at": "2026-04-01T15:36:34.345300+00:00"
+  }
 }

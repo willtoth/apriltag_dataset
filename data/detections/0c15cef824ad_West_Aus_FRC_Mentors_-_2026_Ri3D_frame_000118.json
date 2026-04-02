@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "West_Aus_FRC_Mentors_-_2026_Ri3D_frame_000118.png",
+    "source": "unknown",
+    "dhash": "3f7f3f3be3cb6e70",
+    "ingested_at": "2026-04-01T03:19:13.725297+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Team_7433_Iona_Fusion__BAKERBOT__Preview_frame_002350.png",
+    "source": "unknown",
+    "dhash": "d6d5d67674fcb0b2",
+    "ingested_at": "2026-04-01T02:32:04.425300+00:00"
+  }
 }

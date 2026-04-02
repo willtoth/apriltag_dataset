@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_4907_-_2025_Robot_Reveal__Wavelength__frame_002760.png",
+    "source": "unknown",
+    "dhash": "1a932763a1b0140c",
+    "ingested_at": "2026-04-01T02:51:52.045298+00:00"
+  }
 }

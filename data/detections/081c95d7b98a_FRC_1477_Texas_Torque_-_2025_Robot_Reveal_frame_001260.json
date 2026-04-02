@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_1477_Texas_Torque_-_2025_Robot_Reveal_frame_001260.png",
+    "source": "unknown",
+    "dhash": "fef02999bbb9ac2f",
+    "ingested_at": "2026-04-01T02:14:03.925299+00:00"
+  }
 }

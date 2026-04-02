@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FRC_Robot_Teaser_from_the_CyberKnights_-_Big_Daddy_fram.png",
+    "source": "unknown",
+    "dhash": "a2ac96b79149a4b6",
+    "ingested_at": "2026-04-01T04:00:38.785300+00:00"
+  }
 }

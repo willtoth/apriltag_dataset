@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_9427_iDEER_-_2025_REEFSCAPE_Robot_in_5_weeks____2025frc.png",
+    "source": "unknown",
+    "dhash": "f2d6d6d6f4f51130",
+    "ingested_at": "2026-04-01T02:08:40.495300+00:00"
+  }
 }

@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Miss_Daisy_XXIV_Teaser_frame_000295.png",
+    "source": "unknown",
+    "dhash": "726ccd82a024f0c8",
+    "ingested_at": "2026-04-01T04:14:19.625299+00:00"
+  }
 }

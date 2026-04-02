@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal___TEMPO___FRC_7028_Binary_Battalion___2024_fram.png",
+    "source": "unknown",
+    "dhash": "73737158e92070b4",
+    "ingested_at": "2026-04-01T00:47:56.475301+00:00"
+  }
 }

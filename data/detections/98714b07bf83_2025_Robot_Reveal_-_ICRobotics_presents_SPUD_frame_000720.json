@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Robot_Reveal_-_ICRobotics_presents_SPUD_frame_000720.png",
+    "source": "unknown",
+    "dhash": "9b9bdc36b6f6f0f2",
+    "ingested_at": "2026-04-01T02:28:21.335298+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "_FRC_10120__2025_On-season_Robot_Reveal_frame_000600.png",
+    "source": "unknown",
+    "dhash": "3a7a7a3a30347c3e",
+    "ingested_at": "2026-04-01T02:23:32.465299+00:00"
+  }
 }

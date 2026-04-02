@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal__RUFUS_frame_000240.png",
+    "source": "unknown",
+    "dhash": "0000008206efe7c1",
+    "ingested_at": "2026-04-01T04:25:59.215299+00:00"
+  }
 }

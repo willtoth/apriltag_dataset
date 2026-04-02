@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "NEO-PUPLITAN__1119_Robot_Reveal_2026__firstrobotics_frame_00.png",
+    "source": "unknown",
+    "dhash": "460e3ecc1a39387c",
+    "ingested_at": "2026-04-01T04:33:00.475300+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_1778_Chill_Out___2025_SubZero_Robot_POV___Finals_1_PNW_D.png",
+    "source": "unknown",
+    "dhash": "505a5c9198999c9d",
+    "ingested_at": "2026-04-01T15:53:54.155297+00:00"
+  }
 }

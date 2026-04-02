@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "7426_Pair_of_Dice_Robots_2026_Ricochet_Reveal_frame_000944.png",
+    "source": "unknown",
+    "dhash": "37356d5d6a63dbcf",
+    "ingested_at": "2026-04-01T04:13:26.915299+00:00"
+  }
 }

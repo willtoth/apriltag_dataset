@@ -376,5 +376,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_846_-_2026_Robot_Reveal__XENOTHRIX_frame_000864.png",
+    "source": "unknown",
+    "dhash": "2e96c76e3a38291e",
+    "ingested_at": "2026-04-01T03:53:16.595300+00:00"
+  }
 }

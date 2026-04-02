@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "POV_you_score_51_Points_in_Crescendo_frame_003363.png",
+    "source": "unknown",
+    "dhash": "5971f1f9f15d3133",
+    "ingested_at": "2026-04-01T16:25:12.515304+00:00"
+  }
 }

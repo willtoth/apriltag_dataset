@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SPARTRONICS_2025_ROBOT_REVEAL__EPHYRA_frame_000600.png",
+    "source": "unknown",
+    "dhash": "c6e56a1c8d85810b",
+    "ingested_at": "2026-04-01T02:45:45.145301+00:00"
+  }
 }

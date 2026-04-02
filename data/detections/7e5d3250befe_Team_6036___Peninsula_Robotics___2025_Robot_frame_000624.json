@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_6036___Peninsula_Robotics___2025_Robot_frame_000624.png",
+    "source": "unknown",
+    "dhash": "5b5951e373e4ecee",
+    "ingested_at": "2026-04-01T02:11:26.125299+00:00"
+  }
 }

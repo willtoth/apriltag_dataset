@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "TRIGON_5990___2025_ROBOT_REVEAL__TRIDOG__frame_000826.png",
+    "source": "unknown",
+    "dhash": "d81a19c94848ecec",
+    "ingested_at": "2026-04-01T01:42:26.755300+00:00"
+  }
 }

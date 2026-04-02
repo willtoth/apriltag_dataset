@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_190_2025_Reveal_frame_001560.png",
+    "source": "unknown",
+    "dhash": "9a10bd8face6e6e6",
+    "ingested_at": "2026-04-01T02:17:26.155300+00:00"
+  }
 }

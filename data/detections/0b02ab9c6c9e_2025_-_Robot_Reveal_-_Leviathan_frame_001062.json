@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_-_Robot_Reveal_-_Leviathan_frame_001062.png",
+    "source": "unknown",
+    "dhash": "0e8c3ce49e57379f",
+    "ingested_at": "2026-04-01T02:16:04.965300+00:00"
+  }
 }

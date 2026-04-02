@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_POV__FIRST_Crescendo_Jackson_District_Match_frame_0002.png",
+    "source": "unknown",
+    "dhash": "a7db4a4dd9e82849",
+    "ingested_at": "2026-04-01T16:20:39.555301+00:00"
+  }
 }

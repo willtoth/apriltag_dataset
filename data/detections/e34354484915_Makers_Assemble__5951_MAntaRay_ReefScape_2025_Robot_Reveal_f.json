@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Makers_Assemble__5951_MAntaRay_ReefScape_2025_Robot_Reveal_f.png",
+    "source": "unknown",
+    "dhash": "4a4fcb440e32999c",
+    "ingested_at": "2026-04-01T01:31:19.785299+00:00"
+  }
 }

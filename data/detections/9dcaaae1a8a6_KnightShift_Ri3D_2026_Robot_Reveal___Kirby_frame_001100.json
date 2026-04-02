@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "KnightShift_Ri3D_2026_Robot_Reveal___Kirby_frame_001100.png",
+    "source": "unknown",
+    "dhash": "666e62793303c0ff",
+    "ingested_at": "2026-04-01T03:30:48.205304+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal_-_CyberhawK___CyberpunK_FRC_8020______fram.png",
+    "source": "unknown",
+    "dhash": "b1ac2b9b583e1539",
+    "ingested_at": "2026-04-01T04:11:26.745300+00:00"
+  }
 }

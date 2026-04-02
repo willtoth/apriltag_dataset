@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_8858_Beast_from_the_East_Echidna_Reveal_2026_frame_.png",
+    "source": "unknown",
+    "dhash": "edc9d4d449c3139a",
+    "ingested_at": "2026-04-01T04:54:21.345302+00:00"
+  }
 }

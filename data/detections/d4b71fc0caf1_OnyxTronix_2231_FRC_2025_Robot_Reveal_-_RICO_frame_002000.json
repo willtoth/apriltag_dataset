@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "OnyxTronix_2231_FRC_2025_Robot_Reveal_-_RICO_frame_002000.png",
+    "source": "unknown",
+    "dhash": "49452d4dd149a4a6",
+    "ingested_at": "2026-04-01T01:42:45.235300+00:00"
+  }
 }

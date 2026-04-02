@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC3494_Week_Zero_2025__L_MBDA_frame_000649.png",
+    "source": "unknown",
+    "dhash": "d8601b7bcaf3f3b3",
+    "ingested_at": "2026-04-01T01:49:53.795300+00:00"
+  }
 }

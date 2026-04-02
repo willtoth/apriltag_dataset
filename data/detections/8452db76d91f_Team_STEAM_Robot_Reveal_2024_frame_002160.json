@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_STEAM_Robot_Reveal_2024_frame_002160.png",
+    "source": "unknown",
+    "dhash": "3f8db979f6d7f6b6",
+    "ingested_at": "2026-04-01T00:50:00.615302+00:00"
+  }
 }

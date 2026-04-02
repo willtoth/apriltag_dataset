@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "TEAM_1229_ROBOT_REVEAL_2026__KWAZII_frame_002520.png",
+    "source": "unknown",
+    "dhash": "978bcbc171dc9d9b",
+    "ingested_at": "2026-04-01T04:48:01.775300+00:00"
+  }
 }

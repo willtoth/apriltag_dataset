@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Primo_4586___2025_Robot_Reveal_-_Sparrow_frame_001652.png",
+    "source": "unknown",
+    "dhash": "35746e9393648503",
+    "ingested_at": "2026-04-01T01:47:05.085295+00:00"
+  }
 }

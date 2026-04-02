@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "BumbleB_3339_FRC_Robot_Reveal_2026_-_Chamber_frame_002773.png",
+    "source": "unknown",
+    "dhash": "7aeeecf37b9b8f17",
+    "ingested_at": "2026-04-01T04:57:30.915301+00:00"
+  }
 }

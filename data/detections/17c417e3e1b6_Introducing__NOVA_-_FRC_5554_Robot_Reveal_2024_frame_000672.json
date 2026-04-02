@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Introducing__NOVA_-_FRC_5554_Robot_Reveal_2024_frame_000672.png",
+    "source": "unknown",
+    "dhash": "93a3a2eecededede",
+    "ingested_at": "2026-04-01T00:43:46.085303+00:00"
+  }
 }

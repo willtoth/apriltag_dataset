@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_5449_Robot_Reveal_2025__Trident_frame_000420.png",
+    "source": "unknown",
+    "dhash": "809039990d5c5959",
+    "ingested_at": "2026-04-01T02:51:00.695298+00:00"
+  }
 }

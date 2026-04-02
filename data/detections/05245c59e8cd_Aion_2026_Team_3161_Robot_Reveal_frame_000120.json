@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Aion_2026_Team_3161_Robot_Reveal_frame_000120.png",
+    "source": "unknown",
+    "dhash": "00000ab6c6e26800",
+    "ingested_at": "2026-04-01T04:31:14.125299+00:00"
+  }
 }

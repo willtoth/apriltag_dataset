@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Field_Tour_Video__Reef_frame_000590.png",
+    "source": "unknown",
+    "dhash": "c833e8c8fcec938f",
+    "ingested_at": "2026-04-01T00:11:19.315300+00:00"
+  }
 }

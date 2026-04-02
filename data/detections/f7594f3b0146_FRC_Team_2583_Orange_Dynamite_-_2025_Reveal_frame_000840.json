@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_2583_Orange_Dynamite_-_2025_Reveal_frame_000840.png",
+    "source": "unknown",
+    "dhash": "48cd4e43c341f0e0",
+    "ingested_at": "2026-04-01T02:41:25.125295+00:00"
+  }
 }

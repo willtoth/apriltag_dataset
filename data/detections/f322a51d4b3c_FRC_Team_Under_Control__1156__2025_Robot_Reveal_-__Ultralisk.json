@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_Under_Control__1156__2025_Robot_Reveal_-__Ultralisk.png",
+    "source": "unknown",
+    "dhash": "4763a7c866664e07",
+    "ingested_at": "2026-04-01T02:42:30.175295+00:00"
+  }
 }

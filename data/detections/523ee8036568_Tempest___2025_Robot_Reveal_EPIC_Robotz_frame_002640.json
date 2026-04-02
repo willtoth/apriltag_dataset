@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Tempest___2025_Robot_Reveal_EPIC_Robotz_frame_002640.png",
+    "source": "unknown",
+    "dhash": "a1a598890abed250",
+    "ingested_at": "2026-04-01T02:23:12.495299+00:00"
+  }
 }

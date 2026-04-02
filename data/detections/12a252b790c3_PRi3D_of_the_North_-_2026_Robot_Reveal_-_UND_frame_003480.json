@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "PRi3D_of_the_North_-_2026_Robot_Reveal_-_UND_frame_003480.png",
+    "source": "unknown",
+    "dhash": "d09968d8589c1c50",
+    "ingested_at": "2026-04-01T03:29:45.995301+00:00"
+  }
 }

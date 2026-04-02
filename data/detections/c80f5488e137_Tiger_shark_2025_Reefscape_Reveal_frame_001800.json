@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Tiger_shark_2025_Reefscape_Reveal_frame_001800.png",
+    "source": "unknown",
+    "dhash": "fcc1d2b6edcdceec",
+    "ingested_at": "2026-04-01T01:19:46.265297+00:00"
+  }
 }

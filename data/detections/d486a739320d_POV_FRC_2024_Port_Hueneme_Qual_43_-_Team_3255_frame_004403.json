@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "POV_FRC_2024_Port_Hueneme_Qual_43_-_Team_3255_frame_004403.png",
+    "source": "unknown",
+    "dhash": "26b8584445f0f5f1",
+    "ingested_at": "2026-04-01T16:23:50.005301+00:00"
+  }
 }

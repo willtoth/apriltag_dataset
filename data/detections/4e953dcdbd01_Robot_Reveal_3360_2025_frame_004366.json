@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_3360_2025_frame_004366.png",
+    "source": "unknown",
+    "dhash": "902724a6a0268706",
+    "ingested_at": "2026-04-01T01:24:51.665299+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_3572__2026_Robot_Reveal_-_Vanellope_von_Schweetz______no.png",
+    "source": "unknown",
+    "dhash": "f07092c833326ce0",
+    "ingested_at": "2026-04-01T04:42:14.975302+00:00"
+  }
 }

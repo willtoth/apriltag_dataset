@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FIRST_Robotics_Competition_Additional_Field_Interaction.png",
+    "source": "unknown",
+    "dhash": "885848d050e0e4ac",
+    "ingested_at": "2026-04-01T00:03:31.845297+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_2200_BCR_Blackout_Robot_Reveal_2025_frame_002537.png",
+    "source": "unknown",
+    "dhash": "4433361b9a1c989c",
+    "ingested_at": "2026-04-01T02:22:11.065299+00:00"
+  }
 }

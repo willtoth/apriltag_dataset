@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Field_Tour_Video__Alliance_Station_frame_000649.png",
+    "source": "unknown",
+    "dhash": "7a094d0bb2944c4f",
+    "ingested_at": "2026-04-01T00:09:00.665300+00:00"
+  }
 }

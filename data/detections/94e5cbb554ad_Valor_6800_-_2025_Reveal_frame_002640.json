@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Valor_6800_-_2025_Reveal_frame_002640.png",
+    "source": "unknown",
+    "dhash": "25968e9b9c9cc8a4",
+    "ingested_at": "2026-04-01T02:11:58.665299+00:00"
+  }
 }

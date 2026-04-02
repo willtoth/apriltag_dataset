@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Robots_Maryward_Day_2___QM_12___FRC_9062_Robot_POV_fram.png",
+    "source": "unknown",
+    "dhash": "42f2e2626aeab296",
+    "ingested_at": "2026-04-01T15:44:18.185297+00:00"
+  }
 }

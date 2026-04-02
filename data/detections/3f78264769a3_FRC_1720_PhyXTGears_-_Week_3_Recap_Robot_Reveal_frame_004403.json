@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_1720_PhyXTGears_-_Week_3_Recap_Robot_Reveal_frame_004403.png",
+    "source": "unknown",
+    "dhash": "061437c6c6d6ce8e",
+    "ingested_at": "2026-04-01T04:58:35.955300+00:00"
+  }
 }

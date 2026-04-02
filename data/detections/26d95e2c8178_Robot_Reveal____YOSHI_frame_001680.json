@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal____YOSHI_frame_001680.png",
+    "source": "unknown",
+    "dhash": "65192929b1393325",
+    "ingested_at": "2026-04-01T02:44:16.625299+00:00"
+  }
 }

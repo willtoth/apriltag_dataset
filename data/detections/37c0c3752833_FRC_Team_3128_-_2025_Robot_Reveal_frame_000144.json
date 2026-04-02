@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_3128_-_2025_Robot_Reveal_frame_000144.png",
+    "source": "unknown",
+    "dhash": "c6c9292a02e6b3a5",
+    "ingested_at": "2026-04-01T01:19:07.865296+00:00"
+  }
 }

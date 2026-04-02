@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Q51_-_URI_-_190_POV_frame_004620.png",
+    "source": "unknown",
+    "dhash": "d8a9d16dc8cb13b2",
+    "ingested_at": "2026-04-01T15:21:18.775300+00:00"
+  }
 }

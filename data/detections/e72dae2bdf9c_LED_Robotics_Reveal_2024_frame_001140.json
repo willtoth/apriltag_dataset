@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "LED_Robotics_Reveal_2024_frame_001140.png",
+    "source": "unknown",
+    "dhash": "663bada88cf3b349",
+    "ingested_at": "2026-04-01T00:52:42.535301+00:00"
+  }
 }

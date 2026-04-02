@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2521_SERT_Robot_reveal_2025__Walter_frame_002880.png",
+    "source": "unknown",
+    "dhash": "4465716175656161",
+    "ingested_at": "2026-04-01T02:03:35.235295+00:00"
+  }
 }

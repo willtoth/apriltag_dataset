@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_3476__Code_Orange_2026_-__Sandspit__frame_001776.png",
+    "source": "unknown",
+    "dhash": "188ce5f693d2f898",
+    "ingested_at": "2026-04-01T04:44:23.445300+00:00"
+  }
 }

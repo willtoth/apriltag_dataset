@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "ROBOT_REVEAL_2026____CUPID_frame_002880.png",
+    "source": "unknown",
+    "dhash": "0e58f9725819293d",
+    "ingested_at": "2026-04-01T04:45:45.905299+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_4728_ROCORI_2026_Robot_Reveal_-__GUS__frame_001180.png",
+    "source": "unknown",
+    "dhash": "87c7a7a7e7eddedf",
+    "ingested_at": "2026-04-01T04:36:21.225299+00:00"
+  }
 }

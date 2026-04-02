@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FRC_-_Hemlock_s_Gray_Matter_Robot_Reveal__Athena_frame_.png",
+    "source": "unknown",
+    "dhash": "d9db34e2cb9ddf3c",
+    "ingested_at": "2026-04-01T04:22:15.155298+00:00"
+  }
 }

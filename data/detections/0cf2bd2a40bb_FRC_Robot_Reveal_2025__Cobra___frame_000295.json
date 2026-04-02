@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Robot_Reveal_2025__Cobra___frame_000295.png",
+    "source": "unknown",
+    "dhash": "786a3271707e7763",
+    "ingested_at": "2026-04-01T02:15:33.175300+00:00"
+  }
 }

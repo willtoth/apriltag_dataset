@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "STACCATO__2024_Robot_Reveal____CyberCats_2872_frame_000423.png",
+    "source": "unknown",
+    "dhash": "cecdcecece8cb4b4",
+    "ingested_at": "2026-04-01T00:45:55.865302+00:00"
+  }
 }

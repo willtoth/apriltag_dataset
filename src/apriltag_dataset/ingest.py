@@ -39,7 +39,7 @@ def is_image_file(path: Path) -> bool:
     return path.suffix.lower() in IMAGE_EXTENSIONS
 
 
-def sanitize_name(name: str, max_len: int = 60) -> str:
+def sanitize_name(name: str, max_len: int = 200) -> str:
     stem = Path(name).stem
     sanitized = re.sub(r"[^a-zA-Z0-9_-]", "_", stem)
     return sanitized[:max_len]
@@ -147,6 +147,14 @@ def process_single_image(
     if skip_empty and result.num_detections == 0:
         print(f"  SKIP {image_path.name}: no tags detected (--skip-empty)")
         return None
+
+    from .schema import IngestMetadata
+    result.ingest_metadata = IngestMetadata(
+        original_name=image_path.name,
+        source=source_name,
+        dhash=dhash_hex,
+        ingested_at=datetime.now(timezone.utc).isoformat(),
+    )
 
     # Write image and sidecar
     dest_path = images_dir / dest_name

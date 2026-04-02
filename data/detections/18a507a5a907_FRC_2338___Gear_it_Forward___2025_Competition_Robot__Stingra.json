@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_2338___Gear_it_Forward___2025_Competition_Robot__Stingra.png",
+    "source": "unknown",
+    "dhash": "b4747c7c5c94fcc8",
+    "ingested_at": "2026-04-01T02:40:22.815295+00:00"
+  }
 }

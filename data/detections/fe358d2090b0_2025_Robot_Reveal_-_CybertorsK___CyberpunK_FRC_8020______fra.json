@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Robot_Reveal_-_CybertorsK___CyberpunK_FRC_8020______fra.png",
+    "source": "unknown",
+    "dhash": "1bc9a2b894a43210",
+    "ingested_at": "2026-04-01T02:29:35.605299+00:00"
+  }
 }

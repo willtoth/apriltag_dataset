@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_team_1690_Orbit_2024_robot_reveal_-__DOPPLER__frame_0017.png",
+    "source": "unknown",
+    "dhash": "89b39999496b4d30",
+    "ingested_at": "2026-04-01T00:30:37.255302+00:00"
+  }
 }

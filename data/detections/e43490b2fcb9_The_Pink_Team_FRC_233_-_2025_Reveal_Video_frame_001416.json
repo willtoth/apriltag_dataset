@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "The_Pink_Team_FRC_233_-_2025_Reveal_Video_frame_001416.png",
+    "source": "unknown",
+    "dhash": "4ecc856b892c8f8f",
+    "ingested_at": "2026-04-01T02:54:30.375298+00:00"
+  }
 }

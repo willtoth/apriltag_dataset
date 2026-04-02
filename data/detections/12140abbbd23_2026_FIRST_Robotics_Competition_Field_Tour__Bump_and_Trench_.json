@@ -331,5 +331,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FIRST_Robotics_Competition_Field_Tour__Bump_and_Trench_.png",
+    "source": "unknown",
+    "dhash": "a77332d909ccc8c4",
+    "ingested_at": "2026-04-01T00:06:43.755298+00:00"
+  }
 }

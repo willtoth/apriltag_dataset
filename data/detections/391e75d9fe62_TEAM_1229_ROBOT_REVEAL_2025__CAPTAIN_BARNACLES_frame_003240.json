@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "TEAM_1229_ROBOT_REVEAL_2025__CAPTAIN_BARNACLES_frame_003240.png",
+    "source": "unknown",
+    "dhash": "e4e4e4c4cecee0b0",
+    "ingested_at": "2026-04-01T01:32:35.285299+00:00"
+  }
 }

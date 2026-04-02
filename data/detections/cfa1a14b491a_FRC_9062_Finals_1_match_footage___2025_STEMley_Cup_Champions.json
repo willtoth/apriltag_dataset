@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_9062_Finals_1_match_footage___2025_STEMley_Cup_Champions.png",
+    "source": "unknown",
+    "dhash": "274c3a6a449a9a92",
+    "ingested_at": "2026-04-01T15:46:11.215297+00:00"
+  }
 }

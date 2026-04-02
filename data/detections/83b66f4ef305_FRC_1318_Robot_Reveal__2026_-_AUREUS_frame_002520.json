@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_1318_Robot_Reveal__2026_-_AUREUS_frame_002520.png",
+    "source": "unknown",
+    "dhash": "879ff9f9d4f88d07",
+    "ingested_at": "2026-04-01T04:06:11.885300+00:00"
+  }
 }

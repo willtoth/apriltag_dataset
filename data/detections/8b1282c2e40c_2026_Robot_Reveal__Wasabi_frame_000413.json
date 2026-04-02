@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal__Wasabi_frame_000413.png",
+    "source": "unknown",
+    "dhash": "32189a9e0c6aab04",
+    "ingested_at": "2026-04-01T04:59:41.625299+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_3636_2025_Robot_Reveal__Neptune_frame_001680.png",
+    "source": "unknown",
+    "dhash": "f1aaaaeaecfcd884",
+    "ingested_at": "2026-04-01T01:23:34.555298+00:00"
+  }
 }

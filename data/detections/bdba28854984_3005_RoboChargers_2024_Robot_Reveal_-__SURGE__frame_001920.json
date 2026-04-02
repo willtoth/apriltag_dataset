@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3005_RoboChargers_2024_Robot_Reveal_-__SURGE__frame_001920.png",
+    "source": "unknown",
+    "dhash": "c1c1a4bb8b823202",
+    "ingested_at": "2026-04-01T00:18:07.185298+00:00"
+  }
 }

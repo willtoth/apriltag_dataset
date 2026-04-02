@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Q30_-_Southern_Maine_-_190_POV_frame_002773.png",
+    "source": "unknown",
+    "dhash": "9a4a9bd848b9b373",
+    "ingested_at": "2026-04-01T15:31:49.695299+00:00"
+  }
 }

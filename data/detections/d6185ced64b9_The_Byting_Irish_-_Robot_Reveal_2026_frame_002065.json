@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "The_Byting_Irish_-_Robot_Reveal_2026_frame_002065.png",
+    "source": "unknown",
+    "dhash": "b3c480c818143574",
+    "ingested_at": "2026-04-01T04:14:54.305298+00:00"
+  }
 }

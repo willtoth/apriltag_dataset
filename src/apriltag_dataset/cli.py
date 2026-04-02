@@ -236,6 +236,11 @@ def main() -> None:
     p_download.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
     p_download.set_defaults(func=cmd_download)
 
+    # repair
+    p_repair = sub.add_parser("repair", help="Backfill ingest metadata into detection sidecars and rebuild manifest")
+    p_repair.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
+    p_repair.set_defaults(func=cmd_repair)
+
     args = parser.parse_args()
     args.func(args)
 
@@ -256,6 +261,59 @@ def cmd_upload(args: argparse.Namespace) -> None:
 def cmd_download(args: argparse.Namespace) -> None:
     from .sync import download_images
     download_images(Path(args.data_dir).resolve())
+
+
+def cmd_repair(args: argparse.Namespace) -> None:
+    from datetime import datetime, timezone
+
+    import imagehash
+    from PIL import Image
+
+    from .schema import IngestMetadata
+    from .storage import read_detection, rebuild_manifest, write_detection
+
+    data_dir = Path(args.data_dir).resolve()
+    images_dir = data_dir / "images"
+    detections_dir = data_dir / "detections"
+
+    count = 0
+    skipped = 0
+    for img_path in sorted(images_dir.iterdir()):
+        if not img_path.is_file() or img_path.suffix.lower() != ".png":
+            continue
+        det_path = detections_dir / f"{img_path.stem}.json"
+        if not det_path.exists():
+            continue
+
+        result = read_detection(det_path)
+        if result.ingest_metadata is not None:
+            skipped += 1
+            continue
+
+        img = Image.open(img_path)
+        dhash_hex = str(imagehash.dhash(img))
+
+        parts = img_path.stem.split("_", 1)
+        original_name = (parts[1] + ".png") if len(parts) > 1 else img_path.name
+
+        mtime = img_path.stat().st_mtime
+        ingested_at = datetime.fromtimestamp(mtime, tz=timezone.utc).isoformat()
+
+        result.ingest_metadata = IngestMetadata(
+            original_name=original_name,
+            source="unknown",
+            dhash=dhash_hex,
+            ingested_at=ingested_at,
+        )
+        write_detection(result, detections_dir)
+        count += 1
+        if count % 500 == 0:
+            print(f"  Repaired {count} sidecars...")
+
+    print(f"\nRepaired {count} sidecar(s), skipped {skipped} (already had metadata).")
+
+    entries = rebuild_manifest(data_dir)
+    print(f"Manifest rebuilt with {len(entries)} entries.")
 
 
 def cmd_regen(args: argparse.Namespace) -> None:

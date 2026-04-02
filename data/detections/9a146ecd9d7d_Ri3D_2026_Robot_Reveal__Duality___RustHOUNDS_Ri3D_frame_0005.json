@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Ri3D_2026_Robot_Reveal__Duality___RustHOUNDS_Ri3D_frame_0005.png",
+    "source": "unknown",
+    "dhash": "d4dcf2d2eee63cbe",
+    "ingested_at": "2026-04-01T03:26:42.265300+00:00"
+  }
 }

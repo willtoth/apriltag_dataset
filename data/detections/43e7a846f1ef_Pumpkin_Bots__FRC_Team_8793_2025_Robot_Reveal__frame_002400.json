@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Pumpkin_Bots__FRC_Team_8793_2025_Robot_Reveal__frame_002400.png",
+    "source": "unknown",
+    "dhash": "c7d776b4949b3353",
+    "ingested_at": "2026-04-01T02:45:33.205301+00:00"
+  }
 }

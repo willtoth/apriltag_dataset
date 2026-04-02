@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "dji_mimo_20260216_125718_20260216135719_1771268187552_video_.png",
+    "source": "unknown",
+    "dhash": "d9d9939b83d1d0c3",
+    "ingested_at": "2026-03-24T14:15:28.062580+00:00"
+  }
 }

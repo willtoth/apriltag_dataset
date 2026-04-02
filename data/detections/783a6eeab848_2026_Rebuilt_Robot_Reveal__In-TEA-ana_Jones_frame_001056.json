@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Rebuilt_Robot_Reveal__In-TEA-ana_Jones_frame_001056.png",
+    "source": "unknown",
+    "dhash": "dd7dfccd83a38c9c",
+    "ingested_at": "2026-04-01T05:02:19.245299+00:00"
+  }
 }

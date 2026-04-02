@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_9175_ROBOT_REVEAL_2026__ATLAS__frame_002064.png",
+    "source": "unknown",
+    "dhash": "a9f9f9d9f9f9f1e9",
+    "ingested_at": "2026-04-01T03:50:16.365301+00:00"
+  }
 }

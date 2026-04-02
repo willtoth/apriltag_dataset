@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_503_2024_Robot_Reveal_-_Miggy_Minaj_frame_002065.png",
+    "source": "unknown",
+    "dhash": "0de5c6763cf2b2b4",
+    "ingested_at": "2026-04-01T00:43:38.825303+00:00"
+  }
 }

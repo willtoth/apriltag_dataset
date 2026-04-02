@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3005_RoboChargers_2025_Robot_Reveal_-__RELAY__frame_000840.png",
+    "source": "unknown",
+    "dhash": "92b89808d0d3d5d2",
+    "ingested_at": "2026-04-01T00:18:26.095299+00:00"
+  }
 }

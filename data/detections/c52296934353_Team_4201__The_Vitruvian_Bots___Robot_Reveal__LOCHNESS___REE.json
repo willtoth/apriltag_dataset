@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_4201__The_Vitruvian_Bots___Robot_Reveal__LOCHNESS___REE.png",
+    "source": "unknown",
+    "dhash": "7463a86aee6c1c56",
+    "ingested_at": "2026-04-01T02:24:45.655301+00:00"
+  }
 }

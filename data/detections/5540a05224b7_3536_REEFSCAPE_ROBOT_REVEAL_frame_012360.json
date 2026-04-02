@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3536_REEFSCAPE_ROBOT_REVEAL_frame_012360.png",
+    "source": "unknown",
+    "dhash": "f8f8d9d1d2b874f8",
+    "ingested_at": "2026-04-01T02:35:31.875299+00:00"
+  }
 }

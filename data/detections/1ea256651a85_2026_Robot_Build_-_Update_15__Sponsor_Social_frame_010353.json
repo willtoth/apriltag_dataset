@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Build_-_Update_15__Sponsor_Social_frame_010353.png",
+    "source": "unknown",
+    "dhash": "f3f3659bd3b9b9f8",
+    "ingested_at": "2026-04-01T03:41:47.105299+00:00"
+  }
 }

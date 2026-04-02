@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "frame000589_1_png_rf_cfd91409ae9c2e5ece7259c0c3b2ce61.png",
+    "source": "unknown",
+    "dhash": "b260c1c0e070a0b1",
+    "ingested_at": "2026-03-24T14:16:53.695403+00:00"
+  }
 }

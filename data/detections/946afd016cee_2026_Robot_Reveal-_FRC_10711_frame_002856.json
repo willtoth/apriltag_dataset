@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal-_FRC_10711_frame_002856.png",
+    "source": "unknown",
+    "dhash": "e36242919af6cecf",
+    "ingested_at": "2026-04-01T03:37:00.575299+00:00"
+  }
 }

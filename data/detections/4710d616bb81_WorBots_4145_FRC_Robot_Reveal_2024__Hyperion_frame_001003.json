@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "WorBots_4145_FRC_Robot_Reveal_2024__Hyperion_frame_001003.png",
+    "source": "unknown",
+    "dhash": "3205193ab2b232bc",
+    "ingested_at": "2026-04-01T00:53:38.145301+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_FIRST_Robotics_Competition_CRESCENDO_presented_by_Haas_.png",
+    "source": "unknown",
+    "dhash": "64d41998485a26c7",
+    "ingested_at": "2026-04-01T00:01:40.365297+00:00"
+  }
 }

@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "IMG_20250329_164521.png",
+    "source": "unknown",
+    "dhash": "684929b1c44f2600",
+    "ingested_at": "2026-03-24T14:33:29.166960+00:00"
+  }
 }

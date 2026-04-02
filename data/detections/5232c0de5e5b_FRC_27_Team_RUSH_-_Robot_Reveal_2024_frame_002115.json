@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_27_Team_RUSH_-_Robot_Reveal_2024_frame_002115.png",
+    "source": "unknown",
+    "dhash": "625a5e7e16c6c6e2",
+    "ingested_at": "2026-04-01T00:23:34.495302+00:00"
+  }
 }

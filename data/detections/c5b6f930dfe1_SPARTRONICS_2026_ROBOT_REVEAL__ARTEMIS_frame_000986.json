@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SPARTRONICS_2026_ROBOT_REVEAL__ARTEMIS_frame_000986.png",
+    "source": "unknown",
+    "dhash": "9ddddcc99d9ccc1f",
+    "ingested_at": "2026-04-01T04:50:45.885302+00:00"
+  }
 }

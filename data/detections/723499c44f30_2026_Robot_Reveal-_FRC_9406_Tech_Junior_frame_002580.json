@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal-_FRC_9406_Tech_Junior_frame_002580.png",
+    "source": "unknown",
+    "dhash": "69d9e45adad19110",
+    "ingested_at": "2026-04-01T03:36:16.265296+00:00"
+  }
 }

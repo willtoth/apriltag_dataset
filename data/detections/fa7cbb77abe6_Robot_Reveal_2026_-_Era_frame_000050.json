@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2026_-_Era_frame_000050.png",
+    "source": "unknown",
+    "dhash": "38397168ea820b11",
+    "ingested_at": "2026-04-01T03:39:39.565299+00:00"
+  }
 }

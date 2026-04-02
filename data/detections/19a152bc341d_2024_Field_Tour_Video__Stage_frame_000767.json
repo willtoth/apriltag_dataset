@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_Field_Tour_Video__Stage_frame_000767.png",
+    "source": "unknown",
+    "dhash": "94d4b4b61484ce49",
+    "ingested_at": "2026-04-01T00:13:36.125299+00:00"
+  }
 }

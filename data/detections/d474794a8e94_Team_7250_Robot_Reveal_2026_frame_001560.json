@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_7250_Robot_Reveal_2026_frame_001560.png",
+    "source": "unknown",
+    "dhash": "2d8bcade58408488",
+    "ingested_at": "2026-04-01T04:46:38.775300+00:00"
+  }
 }

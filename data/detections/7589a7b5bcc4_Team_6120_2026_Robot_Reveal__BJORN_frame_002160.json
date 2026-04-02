@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_6120_2026_Robot_Reveal__BJORN_frame_002160.png",
+    "source": "unknown",
+    "dhash": "7598b82c36100687",
+    "ingested_at": "2026-04-01T04:29:02.465298+00:00"
+  }
 }

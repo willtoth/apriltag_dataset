@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "TechHOUNDS_FRC_868___Robot_Reveal_2024___Remix__frame_000826.png",
+    "source": "unknown",
+    "dhash": "54555d4d6e2667c3",
+    "ingested_at": "2026-04-01T00:28:51.495302+00:00"
+  }
 }

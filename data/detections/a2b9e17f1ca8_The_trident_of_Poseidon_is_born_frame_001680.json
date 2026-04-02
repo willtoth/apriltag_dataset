@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "The_trident_of_Poseidon_is_born_frame_001680.png",
+    "source": "unknown",
+    "dhash": "edaaf2a4b632b3a5",
+    "ingested_at": "2026-04-01T02:07:32.885299+00:00"
+  }
 }

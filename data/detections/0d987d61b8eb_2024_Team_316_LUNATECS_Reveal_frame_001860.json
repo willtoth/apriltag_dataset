@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_Team_316_LUNATECS_Reveal_frame_001860.png",
+    "source": "unknown",
+    "dhash": "2c3e991d99ac66ce",
+    "ingested_at": "2026-04-01T00:26:32.885303+00:00"
+  }
 }

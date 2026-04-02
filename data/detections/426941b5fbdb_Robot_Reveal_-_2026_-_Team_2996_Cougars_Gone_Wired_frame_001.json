@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_-_2026_-_Team_2996_Cougars_Gone_Wired_frame_001.png",
+    "source": "unknown",
+    "dhash": "33bb8981b11ac7c6",
+    "ingested_at": "2026-04-01T03:55:25.405300+00:00"
+  }
 }

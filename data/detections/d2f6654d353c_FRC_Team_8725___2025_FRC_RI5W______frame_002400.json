@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_8725___2025_FRC_RI5W______frame_002400.png",
+    "source": "unknown",
+    "dhash": "742c6c7b716f2d0d",
+    "ingested_at": "2026-04-01T02:06:24.485296+00:00"
+  }
 }

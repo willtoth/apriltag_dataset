@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "1727_REX_2026_Reveal__Pandora_frame_002183.png",
+    "source": "unknown",
+    "dhash": "6e77b8b49c8e9ab4",
+    "ingested_at": "2026-04-01T04:47:26.395300+00:00"
+  }
 }

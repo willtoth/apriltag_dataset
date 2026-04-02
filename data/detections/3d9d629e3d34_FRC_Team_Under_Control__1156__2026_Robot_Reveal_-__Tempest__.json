@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_Under_Control__1156__2026_Robot_Reveal_-__Tempest__.png",
+    "source": "unknown",
+    "dhash": "66929974d59359d8",
+    "ingested_at": "2026-04-01T03:52:14.495300+00:00"
+  }
 }

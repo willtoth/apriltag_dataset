@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_THRUST_1501_2025_REEFSCAPE_Robot_Promo_Reveal_FRC_frame.png",
+    "source": "unknown",
+    "dhash": "161330b1a1a684cb",
+    "ingested_at": "2026-04-01T01:30:00.595297+00:00"
+  }
 }

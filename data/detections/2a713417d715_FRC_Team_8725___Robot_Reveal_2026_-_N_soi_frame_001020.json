@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_8725___Robot_Reveal_2026_-_N_soi_frame_001020.png",
+    "source": "unknown",
+    "dhash": "3a0ce8bcb42667fc",
+    "ingested_at": "2026-04-01T03:37:55.165298+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Matterhorn___FRC_9496_LYNK_2026_Robot_Reveal_frame_000960.png",
+    "source": "unknown",
+    "dhash": "47430303233268d2",
+    "ingested_at": "2026-04-01T03:40:10.755299+00:00"
+  }
 }

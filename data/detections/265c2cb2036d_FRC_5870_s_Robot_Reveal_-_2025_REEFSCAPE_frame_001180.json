@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_5870_s_Robot_Reveal_-_2025_REEFSCAPE_frame_001180.png",
+    "source": "unknown",
+    "dhash": "b1b39a9b39793b3a",
+    "ingested_at": "2026-04-01T02:48:24.565298+00:00"
+  }
 }

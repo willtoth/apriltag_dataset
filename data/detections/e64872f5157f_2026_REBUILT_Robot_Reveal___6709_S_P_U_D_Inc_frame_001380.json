@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_REBUILT_Robot_Reveal___6709_S_P_U_D_Inc_frame_001380.png",
+    "source": "unknown",
+    "dhash": "89b232526e5d511d",
+    "ingested_at": "2026-04-01T04:11:47.505300+00:00"
+  }
 }

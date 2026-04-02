@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SAFRA_VI_-_Robot_Reveal_2026_frame_002520.png",
+    "source": "unknown",
+    "dhash": "3e253535c7c7371b",
+    "ingested_at": "2026-04-01T03:42:36.965299+00:00"
+  }
 }

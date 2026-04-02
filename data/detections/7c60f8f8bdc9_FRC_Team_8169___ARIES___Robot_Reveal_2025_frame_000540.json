@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_8169___ARIES___Robot_Reveal_2025_frame_000540.png",
+    "source": "unknown",
+    "dhash": "7d2ee8f8dc9d49cc",
+    "ingested_at": "2026-04-01T01:45:39.445296+00:00"
+  }
 }

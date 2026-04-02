@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Paly_Robotics___FRC__8___2026_Robot_Reveal__Ska_i_frame_0006.png",
+    "source": "unknown",
+    "dhash": "e3e662c6f4b8e0e1",
+    "ingested_at": "2026-04-01T03:57:14.705298+00:00"
+  }
 }

@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "EINSTEIN_Match_6___Onboard_360_Video___FRC_7028_Binary_Batta.png",
+    "source": "unknown",
+    "dhash": "de3c357836272637",
+    "ingested_at": "2026-04-01T16:08:56.545302+00:00"
+  }
 }

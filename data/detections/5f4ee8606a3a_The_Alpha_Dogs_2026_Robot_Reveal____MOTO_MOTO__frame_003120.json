@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "The_Alpha_Dogs_2026_Robot_Reveal____MOTO_MOTO__frame_003120.png",
+    "source": "unknown",
+    "dhash": "f269cbacd233b937",
+    "ingested_at": "2026-04-01T04:22:51.605299+00:00"
+  }
 }

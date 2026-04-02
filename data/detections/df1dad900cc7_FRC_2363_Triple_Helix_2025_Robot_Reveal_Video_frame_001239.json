@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_2363_Triple_Helix_2025_Robot_Reveal_Video_frame_001239.png",
+    "source": "unknown",
+    "dhash": "19306a6b793ec683",
+    "ingested_at": "2026-04-01T02:30:39.275299+00:00"
+  }
 }

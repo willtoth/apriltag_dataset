@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "WPI_District_Event_Qual_Match_10_POV_frame_001357.png",
+    "source": "unknown",
+    "dhash": "79b8d0f3b41c6b63",
+    "ingested_at": "2026-04-01T14:54:03.975301+00:00"
+  }
 }

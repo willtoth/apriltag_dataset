@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SWIFT_Robot_Reveal_2024_-_1218_SCH_Robotics_frame_000885.png",
+    "source": "unknown",
+    "dhash": "31e7cbe762f3d171",
+    "ingested_at": "2026-04-01T00:29:42.075302+00:00"
+  }
 }

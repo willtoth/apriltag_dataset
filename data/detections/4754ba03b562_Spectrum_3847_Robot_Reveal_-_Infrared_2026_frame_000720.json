@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Spectrum_3847_Robot_Reveal_-_Infrared_2026_frame_000720.png",
+    "source": "unknown",
+    "dhash": "989494e6e7e6c4c6",
+    "ingested_at": "2026-04-01T04:07:01.875299+00:00"
+  }
 }

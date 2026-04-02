@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_team_1690_Orbit_2026_robot_reveal_-__KEPLER__frame_00106.png",
+    "source": "unknown",
+    "dhash": "f2f195c6c6a67664",
+    "ingested_at": "2026-04-01T03:39:05.585300+00:00"
+  }
 }

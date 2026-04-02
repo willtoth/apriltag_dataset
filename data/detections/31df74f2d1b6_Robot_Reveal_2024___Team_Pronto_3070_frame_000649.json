@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2024___Team_Pronto_3070_frame_000649.png",
+    "source": "unknown",
+    "dhash": "bc98246628d9f1b1",
+    "ingested_at": "2026-04-01T00:51:12.015301+00:00"
+  }
 }

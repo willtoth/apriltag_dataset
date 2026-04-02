@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_9496_LYNK_2025_Robot_Reveal_-__Rocky__frame_004200.png",
+    "source": "unknown",
+    "dhash": "9b1e0a8e86949ece",
+    "ingested_at": "2026-04-01T01:27:41.885297+00:00"
+  }
 }

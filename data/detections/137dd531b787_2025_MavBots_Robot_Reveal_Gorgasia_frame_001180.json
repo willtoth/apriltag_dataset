@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_MavBots_Robot_Reveal_Gorgasia_frame_001180.png",
+    "source": "unknown",
+    "dhash": "9f1e365313074547",
+    "ingested_at": "2026-04-01T02:22:43.175298+00:00"
+  }
 }

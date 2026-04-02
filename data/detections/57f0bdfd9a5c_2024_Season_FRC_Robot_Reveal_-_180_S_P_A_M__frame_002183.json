@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_Season_FRC_Robot_Reveal_-_180_S_P_A_M__frame_002183.png",
+    "source": "unknown",
+    "dhash": "8ec8194a66343131",
+    "ingested_at": "2026-04-01T00:25:35.465303+00:00"
+  }
 }

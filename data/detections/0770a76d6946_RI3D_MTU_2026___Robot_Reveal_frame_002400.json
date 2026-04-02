@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "RI3D_MTU_2026___Robot_Reveal_frame_002400.png",
+    "source": "unknown",
+    "dhash": "c3b495954d4483c3",
+    "ingested_at": "2026-04-01T03:31:26.885300+00:00"
+  }
 }

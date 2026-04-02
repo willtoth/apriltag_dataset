@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_4065_Nerds_of_Prey_-_2026_Robot_Reveal_-__KESTREL__frame.png",
+    "source": "unknown",
+    "dhash": "651d9999901ce8a8",
+    "ingested_at": "2026-04-01T03:45:22.025299+00:00"
+  }
 }

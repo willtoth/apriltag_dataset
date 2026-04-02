@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "955_CTRL_C_Robot_Reveal_FRC_2026_frame_001904.png",
+    "source": "unknown",
+    "dhash": "e5e5c5d9d899eeea",
+    "ingested_at": "2026-04-01T03:56:58.115299+00:00"
+  }
 }

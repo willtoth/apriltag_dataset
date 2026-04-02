@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_4065_Nerds_of_Prey_-_2025_Robot_Reveal_-__NIGHTHAWK__fra.png",
+    "source": "unknown",
+    "dhash": "7e5c2ea626105292",
+    "ingested_at": "2026-04-01T02:41:03.345294+00:00"
+  }
 }

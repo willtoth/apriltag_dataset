@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_3536_REBUILT_ROBOT_REVEAL_frame_000420.png",
+    "source": "unknown",
+    "dhash": "c4e4f5b2e4a6c1c7",
+    "ingested_at": "2026-04-01T04:27:25.805299+00:00"
+  }
 }

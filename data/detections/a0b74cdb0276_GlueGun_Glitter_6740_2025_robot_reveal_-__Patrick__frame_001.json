@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "GlueGun_Glitter_6740_2025_robot_reveal_-__Patrick__frame_001.png",
+    "source": "unknown",
+    "dhash": "f170b8b0f0f8f8b2",
+    "ingested_at": "2026-04-01T01:29:17.375297+00:00"
+  }
 }

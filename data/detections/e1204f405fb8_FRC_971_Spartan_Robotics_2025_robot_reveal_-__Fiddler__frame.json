@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_971_Spartan_Robotics_2025_robot_reveal_-__Fiddler__frame.png",
+    "source": "unknown",
+    "dhash": "c986d2fc6467accc",
+    "ingested_at": "2026-04-01T02:33:42.255300+00:00"
+  }
 }

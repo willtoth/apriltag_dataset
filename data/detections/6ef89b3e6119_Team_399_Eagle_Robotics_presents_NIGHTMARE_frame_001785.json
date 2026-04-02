@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_399_Eagle_Robotics_presents_NIGHTMARE_frame_001785.png",
+    "source": "unknown",
+    "dhash": "9b1b2cc8eeaecc4e",
+    "ingested_at": "2026-04-01T04:03:11.885300+00:00"
+  }
 }

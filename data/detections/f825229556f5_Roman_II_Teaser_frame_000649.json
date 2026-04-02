@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Roman_II_Teaser_frame_000649.png",
+    "source": "unknown",
+    "dhash": "687300c8cdd1b190",
+    "ingested_at": "2026-04-01T04:57:58.175300+00:00"
+  }
 }

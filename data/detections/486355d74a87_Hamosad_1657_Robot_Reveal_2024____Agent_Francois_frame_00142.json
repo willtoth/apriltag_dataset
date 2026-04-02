@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Hamosad_1657_Robot_Reveal_2024____Agent_Francois_frame_00142.png",
+    "source": "unknown",
+    "dhash": "6e1a347a72e6cbc3",
+    "ingested_at": "2026-04-01T00:30:07.675302+00:00"
+  }
 }

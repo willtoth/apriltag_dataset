@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Q44_-_Galileo_-_190_POV_frame_000120.png",
+    "source": "unknown",
+    "dhash": "0720301584ad6566",
+    "ingested_at": "2026-04-01T14:44:50.385300+00:00"
+  }
 }

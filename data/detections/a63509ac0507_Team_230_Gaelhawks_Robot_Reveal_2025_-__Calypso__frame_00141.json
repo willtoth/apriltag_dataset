@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_230_Gaelhawks_Robot_Reveal_2025_-__Calypso__frame_00141.png",
+    "source": "unknown",
+    "dhash": "b1311b9a9e989496",
+    "ingested_at": "2026-04-01T02:39:44.555296+00:00"
+  }
 }

@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Rebuilt_-_Introducing_Theseus_frame_002460.png",
+    "source": "unknown",
+    "dhash": "90984cb32866775d",
+    "ingested_at": "2026-04-01T03:44:28.895299+00:00"
+  }
 }

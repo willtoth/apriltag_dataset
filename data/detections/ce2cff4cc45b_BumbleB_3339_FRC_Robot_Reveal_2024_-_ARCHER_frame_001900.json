@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "BumbleB_3339_FRC_Robot_Reveal_2024_-_ARCHER_frame_001900.png",
+    "source": "unknown",
+    "dhash": "3e3eb5868ea71670",
+    "ingested_at": "2026-04-01T00:34:29.925302+00:00"
+  }
 }

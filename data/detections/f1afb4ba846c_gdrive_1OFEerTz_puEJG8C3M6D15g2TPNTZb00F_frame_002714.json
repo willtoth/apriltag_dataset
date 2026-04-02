@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "gdrive_1OFEerTz_puEJG8C3M6D15g2TPNTZb00F_frame_002714.png",
+    "source": "unknown",
+    "dhash": "5bb3a2a485839090",
+    "ingested_at": "2026-03-31T23:43:33.815301+00:00"
+  }
 }

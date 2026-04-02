@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3419_Presents__Sandstorm_frame_001180.png",
+    "source": "unknown",
+    "dhash": "6c64d0b098c6869c",
+    "ingested_at": "2026-04-01T04:37:55.955299+00:00"
+  }
 }

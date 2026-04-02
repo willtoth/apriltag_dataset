@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_5507___Robot_Reveal_frame_000528.png",
+    "source": "unknown",
+    "dhash": "e3eedcfa3b77f3d2",
+    "ingested_at": "2026-04-01T04:30:46.005299+00:00"
+  }
 }

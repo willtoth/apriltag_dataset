@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "OZone_4611_Robot_Reveal___2026_Rebuilt_frame_000000.png",
+    "source": "unknown",
+    "dhash": "654a48e1f1684741",
+    "ingested_at": "2026-04-01T04:38:41.035299+00:00"
+  }
 }

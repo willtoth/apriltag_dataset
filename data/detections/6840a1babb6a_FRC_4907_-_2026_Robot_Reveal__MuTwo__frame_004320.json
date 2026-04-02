@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_4907_-_2026_Robot_Reveal__MuTwo__frame_004320.png",
+    "source": "unknown",
+    "dhash": "9696f7f6b493c600",
+    "ingested_at": "2026-04-01T04:43:14.815301+00:00"
+  }
 }

@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Uni-Rex_2026_Robot_Reveal_-__Dilophosaurus__frame_001547.png",
+    "source": "unknown",
+    "dhash": "cc4c6464c490c2ee",
+    "ingested_at": "2026-04-01T04:05:07.065300+00:00"
+  }
 }

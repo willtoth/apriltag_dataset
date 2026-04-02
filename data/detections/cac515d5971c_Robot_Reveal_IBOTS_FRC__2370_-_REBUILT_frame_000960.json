@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_IBOTS_FRC__2370_-_REBUILT_frame_000960.png",
+    "source": "unknown",
+    "dhash": "e7bd3cac9474173e",
+    "ingested_at": "2026-04-01T04:23:36.175303+00:00"
+  }
 }

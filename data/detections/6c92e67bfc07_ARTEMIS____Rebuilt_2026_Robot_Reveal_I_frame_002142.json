@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "ARTEMIS____Rebuilt_2026_Robot_Reveal_I_frame_002142.png",
+    "source": "unknown",
+    "dhash": "f198040d2ca4c172",
+    "ingested_at": "2026-04-01T04:53:52.935302+00:00"
+  }
 }

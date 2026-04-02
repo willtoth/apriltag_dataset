@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "1740_Cyber_Colonels_2025_FRC_Reefscape_Robot_Reveal_frame_00.png",
+    "source": "unknown",
+    "dhash": "62339b975692f0b2",
+    "ingested_at": "2026-04-01T01:35:35.985301+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_FRC_Robot_Reveal___StuyPulse_Team_694_frame_002832.png",
+    "source": "unknown",
+    "dhash": "911150da696006c6",
+    "ingested_at": "2026-04-01T02:26:50.915298+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2024_-_CODA_frame_000700.png",
+    "source": "unknown",
+    "dhash": "99636a19632a261e",
+    "ingested_at": "2026-04-01T00:36:10.315301+00:00"
+  }
 }

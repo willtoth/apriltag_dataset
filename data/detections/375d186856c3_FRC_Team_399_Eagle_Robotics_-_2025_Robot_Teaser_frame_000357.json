@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_399_Eagle_Robotics_-_2025_Robot_Teaser_frame_000357.png",
+    "source": "unknown",
+    "dhash": "6a99c44cc0c4e6f2",
+    "ingested_at": "2026-04-01T02:05:55.605295+00:00"
+  }
 }

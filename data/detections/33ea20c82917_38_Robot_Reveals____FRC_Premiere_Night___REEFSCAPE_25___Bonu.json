@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "38_Robot_Reveals____FRC_Premiere_Night___REEFSCAPE_25___Bonu.png",
+    "source": "unknown",
+    "dhash": "60e35af97cdc9c9a",
+    "ingested_at": "2026-04-01T01:14:32.435301+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_857_Superior_Roboworks_2026_Robot_Reveal_frame_0004.png",
+    "source": "unknown",
+    "dhash": "4208af0fa4b4e474",
+    "ingested_at": "2026-04-01T04:54:35.805302+00:00"
+  }
 }

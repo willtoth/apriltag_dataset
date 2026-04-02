@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC125_-_The_NUTRONs_-_2026_Reveal_frame_001298.png",
+    "source": "unknown",
+    "dhash": "93b8d8ce0ce37b99",
+    "ingested_at": "2026-04-01T04:23:15.795297+00:00"
+  }
 }

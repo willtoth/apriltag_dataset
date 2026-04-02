@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "PC000001_MOV-0029_jpg_rf_4583c18176a2d8b1e137eb04277ebf40.png",
+    "source": "unknown",
+    "dhash": "7636f973f59f0f1b",
+    "ingested_at": "2026-03-24T14:12:23.928758+00:00"
+  }
 }

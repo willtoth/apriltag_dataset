@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Paly_Robotics___FRC__8___2025_Robot_Reveal__Nj_r_r_frame_000.png",
+    "source": "unknown",
+    "dhash": "40e16a2a6b23656c",
+    "ingested_at": "2026-04-01T01:50:23.465299+00:00"
+  }
 }

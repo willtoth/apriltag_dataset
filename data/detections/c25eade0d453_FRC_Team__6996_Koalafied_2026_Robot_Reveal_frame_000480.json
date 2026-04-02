@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team__6996_Koalafied_2026_Robot_Reveal_frame_000480.png",
+    "source": "unknown",
+    "dhash": "c8a26064c4941c3f",
+    "ingested_at": "2026-04-01T04:26:51.665300+00:00"
+  }
 }

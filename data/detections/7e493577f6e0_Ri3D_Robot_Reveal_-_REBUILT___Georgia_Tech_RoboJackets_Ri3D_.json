@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Ri3D_Robot_Reveal_-_REBUILT___Georgia_Tech_RoboJackets_Ri3D_.png",
+    "source": "unknown",
+    "dhash": "c8c8706224643432",
+    "ingested_at": "2026-04-01T03:29:14.955297+00:00"
+  }
 }

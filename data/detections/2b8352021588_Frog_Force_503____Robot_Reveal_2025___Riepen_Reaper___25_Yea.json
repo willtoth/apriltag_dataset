@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Frog_Force_503____Robot_Reveal_2025___Riepen_Reaper___25_Yea.png",
+    "source": "unknown",
+    "dhash": "cdcdcd9ed6ce8e86",
+    "ingested_at": "2026-04-01T01:49:07.425300+00:00"
+  }
 }

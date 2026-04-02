@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2521_SERT_2024_Robot_Reveal__Marvin_frame_001800.png",
+    "source": "unknown",
+    "dhash": "8b8645d1d999e0c6",
+    "ingested_at": "2026-04-01T00:48:39.705301+00:00"
+  }
 }

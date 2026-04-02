@@ -4,6 +4,25 @@ A ground-truth dataset of AprilTag detections. Images are ingested, preprocessed
 
 Use this to validate new algorithm versions or train models against known-good outputs.
 
+**Dataset on Hugging Face**: [wt200999/apriltag-dataset](https://huggingface.co/datasets/wt200999/apriltag-dataset)
+
+## Quick start
+
+```bash
+# Load via Hugging Face datasets library
+from datasets import load_dataset
+ds = load_dataset("wt200999/apriltag-dataset")
+```
+
+Or clone and work locally:
+
+```bash
+git clone https://github.com/willtoth/apriltag-dataset
+cd apriltag-dataset
+uv sync
+uv run python main.py download   # fetch images from Hugging Face
+```
+
 ## Setup
 
 Requires Python 3.13+.
@@ -99,6 +118,32 @@ uv run python main.py manifest
 uv run python main.py stats
 ```
 
+### Upload images to Hugging Face
+
+After ingesting new images, push them to Hugging Face:
+
+```bash
+uv run python main.py upload
+```
+
+This regenerates `metadata.jsonl` and uploads all images.
+
+### Download images from Hugging Face
+
+```bash
+uv run python main.py download
+```
+
+Downloads only images not already present locally.
+
+### Repair detection metadata
+
+One-time command to backfill `ingest_metadata` into detection sidecars and rebuild the manifest:
+
+```bash
+uv run python main.py repair
+```
+
 ## Image preprocessing
 
 During ingestion, every image is automatically:
@@ -156,6 +201,21 @@ Each sidecar in `data/detections/` contains:
     }
   ]
 }
+```
+
+## Hosting
+
+- **GitHub** has the code, detection JSONs, and manifest
+- **Hugging Face** has the images and `metadata.jsonl` for the HF `datasets` library
+- Images are gitignored locally; use `download`/`upload` to sync with HF
+
+### Workflow
+
+```
+1. Ingest new images:      uv run python main.py ingest <source>
+2. Commit to git:          git add -A && git commit -m "Add new detections"
+3. Push detections:        git push
+4. Upload images to HF:    uv run python main.py upload
 ```
 
 ## Supported tag families

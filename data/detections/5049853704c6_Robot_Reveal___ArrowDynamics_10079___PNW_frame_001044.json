@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal___ArrowDynamics_10079___PNW_frame_001044.png",
+    "source": "unknown",
+    "dhash": "1192a4ac2161616e",
+    "ingested_at": "2026-04-01T02:04:15.925295+00:00"
+  }
 }

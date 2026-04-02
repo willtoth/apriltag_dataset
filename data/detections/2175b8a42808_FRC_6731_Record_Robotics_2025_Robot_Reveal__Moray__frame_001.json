@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_6731_Record_Robotics_2025_Robot_Reveal__Moray__frame_001.png",
+    "source": "unknown",
+    "dhash": "dbdb97f7f3f6f6d2",
+    "ingested_at": "2026-04-01T02:50:36.445298+00:00"
+  }
 }

@@ -42,6 +42,21 @@ class TagDetection:
 
 
 @dataclass
+class IngestMetadata:
+    original_name: str
+    source: str
+    dhash: str
+    ingested_at: str
+
+    def to_dict(self) -> dict:
+        return dataclasses.asdict(self)
+
+    @classmethod
+    def from_dict(cls, d: dict) -> IngestMetadata:
+        return cls(**d)
+
+
+@dataclass
 class ImageDetectionResult:
     image_file: str
     image_sha256: str
@@ -51,12 +66,28 @@ class ImageDetectionResult:
     detected_at: str
     num_detections: int
     detections: list[TagDetection]
+    ingest_metadata: IngestMetadata | None = None
 
     def to_dict(self) -> dict:
-        return dataclasses.asdict(self)
+        d = {
+            "image_file": self.image_file,
+            "image_sha256": self.image_sha256,
+            "image_width": self.image_width,
+            "image_height": self.image_height,
+            "detector_config": self.detector_config.to_dict(),
+            "detected_at": self.detected_at,
+            "num_detections": self.num_detections,
+            "detections": [det.to_dict() for det in self.detections],
+        }
+        if self.ingest_metadata is not None:
+            d["ingest_metadata"] = self.ingest_metadata.to_dict()
+        return d
 
     @classmethod
     def from_dict(cls, d: dict) -> ImageDetectionResult:
+        meta = None
+        if "ingest_metadata" in d:
+            meta = IngestMetadata.from_dict(d["ingest_metadata"])
         return cls(
             image_file=d["image_file"],
             image_sha256=d["image_sha256"],
@@ -66,6 +97,7 @@ class ImageDetectionResult:
             detected_at=d["detected_at"],
             num_detections=d["num_detections"],
             detections=[TagDetection.from_dict(det) for det in d["detections"]],
+            ingest_metadata=meta,
         )
 
 

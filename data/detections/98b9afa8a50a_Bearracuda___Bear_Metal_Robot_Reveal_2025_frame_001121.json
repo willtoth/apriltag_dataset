@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Bearracuda___Bear_Metal_Robot_Reveal_2025_frame_001121.png",
+    "source": "unknown",
+    "dhash": "5d686d49494e0a4f",
+    "ingested_at": "2026-04-01T02:14:29.155300+00:00"
+  }
 }

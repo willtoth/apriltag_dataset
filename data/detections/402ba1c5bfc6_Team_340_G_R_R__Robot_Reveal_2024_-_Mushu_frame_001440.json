@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_340_G_R_R__Robot_Reveal_2024_-_Mushu_frame_001440.png",
+    "source": "unknown",
+    "dhash": "31174644e47a7239",
+    "ingested_at": "2026-04-01T00:26:46.815303+00:00"
+  }
 }

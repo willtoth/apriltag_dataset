@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "BumbleB_3339_FRC_Robot_Reveal_2025_-_Viper_frame_001400.png",
+    "source": "unknown",
+    "dhash": "09280f8757010080",
+    "ingested_at": "2026-04-01T01:43:28.635299+00:00"
+  }
 }

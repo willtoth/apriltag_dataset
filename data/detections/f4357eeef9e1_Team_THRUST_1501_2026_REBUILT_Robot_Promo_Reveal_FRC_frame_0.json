@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_THRUST_1501_2026_REBUILT_Robot_Promo_Reveal_FRC_frame_0.png",
+    "source": "unknown",
+    "dhash": "49d8d9b988f23174",
+    "ingested_at": "2026-04-01T04:00:59.235300+00:00"
+  }
 }

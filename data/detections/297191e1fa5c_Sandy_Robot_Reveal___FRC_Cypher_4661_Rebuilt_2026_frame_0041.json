@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Sandy_Robot_Reveal___FRC_Cypher_4661_Rebuilt_2026_frame_0041.png",
+    "source": "unknown",
+    "dhash": "3050dbb179dcee72",
+    "ingested_at": "2026-04-01T04:34:13.275300+00:00"
+  }
 }

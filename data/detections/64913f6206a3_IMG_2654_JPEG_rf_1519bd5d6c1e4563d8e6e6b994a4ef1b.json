@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "IMG_2654_JPEG_rf_1519bd5d6c1e4563d8e6e6b994a4ef1b.png",
+    "source": "unknown",
+    "dhash": "684912203313272f",
+    "ingested_at": "2026-03-24T14:17:55.684423+00:00"
+  }
 }

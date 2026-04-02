@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_230_Gaelhawks_Robot_Reveal_2026_-_Imhotep_frame_000531.png",
+    "source": "unknown",
+    "dhash": "93154f4c6d041e76",
+    "ingested_at": "2026-04-01T04:35:29.025300+00:00"
+  }
 }

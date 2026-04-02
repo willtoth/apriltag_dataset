@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Hub_Dispersion_Variations_frame_002760.png",
+    "source": "unknown",
+    "dhash": "7172d28d94862767",
+    "ingested_at": "2026-04-01T00:04:59.925297+00:00"
+  }
 }

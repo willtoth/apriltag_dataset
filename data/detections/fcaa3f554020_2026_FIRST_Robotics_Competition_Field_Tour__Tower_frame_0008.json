@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FIRST_Robotics_Competition_Field_Tour__Tower_frame_0008.png",
+    "source": "unknown",
+    "dhash": "e84c8c2d4d4a4e4e",
+    "ingested_at": "2026-04-01T00:04:21.485296+00:00"
+  }
 }

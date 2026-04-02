@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_8810_-_The_Alphabots_-_2026_Reveal_frame_001536.png",
+    "source": "unknown",
+    "dhash": "b24e4e5bcee4b5ac",
+    "ingested_at": "2026-04-01T05:01:53.215299+00:00"
+  }
 }

@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_59_2026_Robot_Reveal___RICO_frame_000144.png",
+    "source": "unknown",
+    "dhash": "3236323373232728",
+    "ingested_at": "2026-04-01T04:48:58.855300+00:00"
+  }
 }

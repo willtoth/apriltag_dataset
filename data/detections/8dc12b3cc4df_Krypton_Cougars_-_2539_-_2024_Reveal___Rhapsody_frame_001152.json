@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Krypton_Cougars_-_2539_-_2024_Reveal___Rhapsody_frame_001152.png",
+    "source": "unknown",
+    "dhash": "f8ccccaeae96aeec",
+    "ingested_at": "2026-04-01T00:32:12.805302+00:00"
+  }
 }

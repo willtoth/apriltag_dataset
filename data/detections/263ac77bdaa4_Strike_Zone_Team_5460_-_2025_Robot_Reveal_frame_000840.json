@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Strike_Zone_Team_5460_-_2025_Robot_Reveal_frame_000840.png",
+    "source": "unknown",
+    "dhash": "b74dcccd4c4849ae",
+    "ingested_at": "2026-04-01T02:12:16.225299+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_624_CRyptonite_2025__Calypso_frame_000611.png",
+    "source": "unknown",
+    "dhash": "c0f0b2c0d0984c96",
+    "ingested_at": "2026-04-01T02:15:19.585300+00:00"
+  }
 }

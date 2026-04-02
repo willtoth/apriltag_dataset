@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "ITKAN_Robotics_9128___10340_Robot_Reveal___FRC_2026_REBUILT_.png",
+    "source": "unknown",
+    "dhash": "40b444c88cc8c200",
+    "ingested_at": "2026-04-01T04:06:34.735300+00:00"
+  }
 }

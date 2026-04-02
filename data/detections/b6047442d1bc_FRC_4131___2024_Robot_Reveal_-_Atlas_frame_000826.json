@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_4131___2024_Robot_Reveal_-_Atlas_frame_000826.png",
+    "source": "unknown",
+    "dhash": "cece0c248113d56c",
+    "ingested_at": "2026-04-01T00:51:29.085301+00:00"
+  }
 }

@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "7166_Robot_Reveal_-_Short_Round_frame_001534.png",
+    "source": "unknown",
+    "dhash": "3f5f1b486bca467f",
+    "ingested_at": "2026-04-01T04:33:37.105300+00:00"
+  }
 }

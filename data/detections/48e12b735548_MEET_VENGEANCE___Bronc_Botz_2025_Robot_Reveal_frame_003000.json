@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "MEET_VENGEANCE___Bronc_Botz_2025_Robot_Reveal_frame_003000.png",
+    "source": "unknown",
+    "dhash": "7030787071783060",
+    "ingested_at": "2026-04-01T02:57:12.225296+00:00"
+  }
 }

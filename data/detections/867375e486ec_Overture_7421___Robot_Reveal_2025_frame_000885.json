@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Overture_7421___Robot_Reveal_2025_frame_000885.png",
+    "source": "unknown",
+    "dhash": "b2b654d315169bc6",
+    "ingested_at": "2026-04-01T02:03:52.185295+00:00"
+  }
 }

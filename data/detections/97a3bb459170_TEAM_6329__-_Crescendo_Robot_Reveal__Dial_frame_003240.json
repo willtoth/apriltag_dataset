@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "TEAM_6329__-_Crescendo_Robot_Reveal__Dial_frame_003240.png",
+    "source": "unknown",
+    "dhash": "fb7a5a7b3e5c7cf8",
+    "ingested_at": "2026-04-01T00:40:08.335302+00:00"
+  }
 }

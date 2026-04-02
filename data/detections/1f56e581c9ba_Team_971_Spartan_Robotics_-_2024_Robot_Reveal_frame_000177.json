@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_971_Spartan_Robotics_-_2024_Robot_Reveal_frame_000177.png",
+    "source": "unknown",
+    "dhash": "5cd4189888e63733",
+    "ingested_at": "2026-04-01T00:48:09.565301+00:00"
+  }
 }

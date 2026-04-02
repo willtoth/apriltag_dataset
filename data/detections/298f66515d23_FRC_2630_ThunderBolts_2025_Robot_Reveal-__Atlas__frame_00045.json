@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_2630_ThunderBolts_2025_Robot_Reveal-__Atlas__frame_00045.png",
+    "source": "unknown",
+    "dhash": "85b0b2bb1b3898e0",
+    "ingested_at": "2026-04-01T01:40:19.595301+00:00"
+  }
 }

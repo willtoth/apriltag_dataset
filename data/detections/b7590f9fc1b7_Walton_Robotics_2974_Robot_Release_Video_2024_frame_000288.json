@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Walton_Robotics_2974_Robot_Release_Video_2024_frame_000288.png",
+    "source": "unknown",
+    "dhash": "dddc854956999c9d",
+    "ingested_at": "2026-04-01T00:47:06.575302+00:00"
+  }
 }

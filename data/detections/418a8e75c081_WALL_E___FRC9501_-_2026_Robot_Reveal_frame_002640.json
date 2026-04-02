@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "WALL_E___FRC9501_-_2026_Robot_Reveal_frame_002640.png",
+    "source": "unknown",
+    "dhash": "eacaf4b2c8e83d27",
+    "ingested_at": "2026-04-01T03:47:11.485301+00:00"
+  }
 }

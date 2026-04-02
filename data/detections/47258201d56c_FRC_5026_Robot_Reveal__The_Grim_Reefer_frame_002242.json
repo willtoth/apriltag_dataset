@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_5026_Robot_Reveal__The_Grim_Reefer_frame_002242.png",
+    "source": "unknown",
+    "dhash": "6923232828ad8c7c",
+    "ingested_at": "2026-04-01T02:30:15.205299+00:00"
+  }
 }

@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Rebuilt_2026_Robot_Reveal_-_Team_2067_frame_001296.png",
+    "source": "unknown",
+    "dhash": "e1b1b0c2c994e393",
+    "ingested_at": "2026-04-01T04:14:00.605299+00:00"
+  }
 }

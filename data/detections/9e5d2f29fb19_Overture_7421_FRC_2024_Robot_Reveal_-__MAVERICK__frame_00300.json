@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Overture_7421_FRC_2024_Robot_Reveal_-__MAVERICK__frame_00300.png",
+    "source": "unknown",
+    "dhash": "4cccade969e4c1e3",
+    "ingested_at": "2026-04-01T00:40:55.345303+00:00"
+  }
 }

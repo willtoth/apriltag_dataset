@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Team_RUSH_Robot_Reveal_frame_002655.png",
+    "source": "unknown",
+    "dhash": "6246f1dadeadd939",
+    "ingested_at": "2026-04-01T03:59:09.895299+00:00"
+  }
 }

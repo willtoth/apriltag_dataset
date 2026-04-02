@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_Neutrino_Build_Season_Wrap_2026_frame_002242.png",
+    "source": "unknown",
+    "dhash": "272744060e3c64e4",
+    "ingested_at": "2026-04-01T03:47:46.935301+00:00"
+  }
 }

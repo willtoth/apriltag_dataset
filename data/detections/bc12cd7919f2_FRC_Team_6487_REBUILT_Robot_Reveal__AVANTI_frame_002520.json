@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_6487_REBUILT_Robot_Reveal__AVANTI_frame_002520.png",
+    "source": "unknown",
+    "dhash": "377b9b8f8f8f8b83",
+    "ingested_at": "2026-04-01T04:35:00.965299+00:00"
+  }
 }

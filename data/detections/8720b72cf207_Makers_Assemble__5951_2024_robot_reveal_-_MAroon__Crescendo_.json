@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Makers_Assemble__5951_2024_robot_reveal_-_MAroon__Crescendo_.png",
+    "source": "unknown",
+    "dhash": "f8b81a1a746e4bf0",
+    "ingested_at": "2026-04-01T00:39:10.485302+00:00"
+  }
 }

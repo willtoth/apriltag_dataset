@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_SCREAM_2025_Robot_Reveal_frame_002256.png",
+    "source": "unknown",
+    "dhash": "36268adac656e90f",
+    "ingested_at": "2026-04-01T02:28:06.865298+00:00"
+  }
 }

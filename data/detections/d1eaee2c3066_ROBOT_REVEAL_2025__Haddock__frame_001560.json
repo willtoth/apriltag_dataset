@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "ROBOT_REVEAL_2025__Haddock__frame_001560.png",
+    "source": "unknown",
+    "dhash": "6ba3ebcb65218db2",
+    "ingested_at": "2026-04-01T02:25:29.255297+00:00"
+  }
 }

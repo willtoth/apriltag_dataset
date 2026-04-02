@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_CHAOS_131_Reveal__ANGLER_frame_001020.png",
+    "source": "unknown",
+    "dhash": "d95b594b4bcd49c8",
+    "ingested_at": "2026-04-01T02:18:19.235300+00:00"
+  }
 }

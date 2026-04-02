@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal_frame_001666.png",
+    "source": "unknown",
+    "dhash": "e4e6ecc2d29b9e8c",
+    "ingested_at": "2026-04-01T04:30:15.775299+00:00"
+  }
 }

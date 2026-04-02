@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2024_-_Leto___Team_3161_frame_002360.png",
+    "source": "unknown",
+    "dhash": "78f09092b839f0f0",
+    "ingested_at": "2026-04-01T00:53:26.895301+00:00"
+  }
 }

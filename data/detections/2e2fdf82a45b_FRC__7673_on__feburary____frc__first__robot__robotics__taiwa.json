@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC__7673_on__feburary____frc__first__robot__robotics__taiwa.png",
+    "source": "unknown",
+    "dhash": "663ceef6c442cc80",
+    "ingested_at": "2026-04-01T04:48:42.605300+00:00"
+  }
 }

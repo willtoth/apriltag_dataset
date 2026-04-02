@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Marvin_XIX_Robot_Reveal_frame_004080.png",
+    "source": "unknown",
+    "dhash": "3b3b3933d98c4706",
+    "ingested_at": "2026-04-01T05:01:02.205299+00:00"
+  }
 }

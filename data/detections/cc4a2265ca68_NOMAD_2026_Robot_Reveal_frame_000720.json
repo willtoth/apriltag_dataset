@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "NOMAD_2026_Robot_Reveal_frame_000720.png",
+    "source": "unknown",
+    "dhash": "66c3c39be5f054f3",
+    "ingested_at": "2026-04-01T04:44:48.275300+00:00"
+  }
 }

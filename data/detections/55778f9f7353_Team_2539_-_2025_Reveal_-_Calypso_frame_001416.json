@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_2539_-_2025_Reveal_-_Calypso_frame_001416.png",
+    "source": "unknown",
+    "dhash": "4e664ea464a4cc88",
+    "ingested_at": "2026-04-01T01:20:54.235297+00:00"
+  }
 }

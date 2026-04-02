@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal_-_Roadrunner___Team_4099_The_Falcons_frame.png",
+    "source": "unknown",
+    "dhash": "34b0a12424240165",
+    "ingested_at": "2026-04-01T04:08:51.355300+00:00"
+  }
 }

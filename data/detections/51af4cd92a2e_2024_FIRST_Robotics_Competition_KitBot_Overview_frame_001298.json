@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_FIRST_Robotics_Competition_KitBot_Overview_frame_001298.png",
+    "source": "unknown",
+    "dhash": "c7c7cfcdad3735cd",
+    "ingested_at": "2026-04-01T00:14:12.675300+00:00"
+  }
 }

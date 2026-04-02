@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Ha-Dream_Team__3075___First_Robotic_Competition_-_FIRST_REBU.png",
+    "source": "unknown",
+    "dhash": "f9c9e37b9a8e6468",
+    "ingested_at": "2026-04-01T04:56:23.095301+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_Field_Tour_Video__Amp_frame_001239.png",
+    "source": "unknown",
+    "dhash": "56a6a622dadcd850",
+    "ingested_at": "2026-04-01T00:12:44.135298+00:00"
+  }
 }

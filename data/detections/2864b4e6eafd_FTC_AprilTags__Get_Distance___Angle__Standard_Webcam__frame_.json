@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FTC_AprilTags__Get_Distance___Angle__Standard_Webcam__frame_.png",
+    "source": "unknown",
+    "dhash": "f8ece4c7ae6c4e36",
+    "ingested_at": "2026-04-01T03:09:40.695296+00:00"
+  }
 }

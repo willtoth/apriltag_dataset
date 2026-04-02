@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "4635_BOTBUSTERS_ROBOT_REVEAL_2024_frame_001680.png",
+    "source": "unknown",
+    "dhash": "3393de5161396d7c",
+    "ingested_at": "2026-04-01T00:36:50.595302+00:00"
+  }
 }

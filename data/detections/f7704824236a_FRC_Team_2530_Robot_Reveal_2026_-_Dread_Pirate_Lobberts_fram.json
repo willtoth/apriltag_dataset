@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_2530_Robot_Reveal_2026_-_Dread_Pirate_Lobberts_fram.png",
+    "source": "unknown",
+    "dhash": "1d51f1b1b3b566e6",
+    "ingested_at": "2026-04-01T04:53:12.035302+00:00"
+  }
 }

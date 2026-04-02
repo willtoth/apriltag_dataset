@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2025_-_DELT__frame_001000.png",
+    "source": "unknown",
+    "dhash": "402038392939e9c8",
+    "ingested_at": "2026-04-01T01:18:46.075296+00:00"
+  }
 }

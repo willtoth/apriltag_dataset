@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_TEAM_5484_s_Robot_Reveal_-_RAIJU_2024_frame_000531.png",
+    "source": "unknown",
+    "dhash": "333a7272e86a3278",
+    "ingested_at": "2026-04-01T00:38:28.075302+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_team_4728_ROCORI_2025_Robot_Reveal_-__GRAYDUCK__frame_00.png",
+    "source": "unknown",
+    "dhash": "c2c0f2f2b031e0e0",
+    "ingested_at": "2026-04-01T02:52:47.265300+00:00"
+  }
 }

@@ -286,5 +286,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3419_Presents__Sandstorm_frame_002478.png",
+    "source": "unknown",
+    "dhash": "2783a0f1b1b970f8",
+    "ingested_at": "2026-04-01T04:38:10.615299+00:00"
+  }
 }

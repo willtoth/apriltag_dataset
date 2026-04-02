@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_5199_Robot_Reveal_2025__Bubbles_frame_001081.png",
+    "source": "unknown",
+    "dhash": "676b216466722233",
+    "ingested_at": "2026-04-01T01:18:28.545296+00:00"
+  }
 }

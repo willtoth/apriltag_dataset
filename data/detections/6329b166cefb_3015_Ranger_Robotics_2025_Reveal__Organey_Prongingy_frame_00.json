@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3015_Ranger_Robotics_2025_Reveal__Organey_Prongingy_frame_00.png",
+    "source": "unknown",
+    "dhash": "306969f0e8b2b0a8",
+    "ingested_at": "2026-04-01T02:28:47.975299+00:00"
+  }
 }

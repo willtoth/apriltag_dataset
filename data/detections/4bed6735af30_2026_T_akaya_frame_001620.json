@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_T_akaya_frame_001620.png",
+    "source": "unknown",
+    "dhash": "8d8d8e3cac0dcde3",
+    "ingested_at": "2026-04-01T04:01:49.965300+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_2025_Robot_in_5_Weeks___Team_6947_Savage_Tumaz_frame_004.png",
+    "source": "unknown",
+    "dhash": "260c18878dcdeca6",
+    "ingested_at": "2026-04-01T01:26:10.975298+00:00"
+  }
 }

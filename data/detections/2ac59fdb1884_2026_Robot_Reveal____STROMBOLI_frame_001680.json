@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal____STROMBOLI_frame_001680.png",
+    "source": "unknown",
+    "dhash": "c6de8ce4464726ac",
+    "ingested_at": "2026-04-01T03:59:54.945300+00:00"
+  }
 }

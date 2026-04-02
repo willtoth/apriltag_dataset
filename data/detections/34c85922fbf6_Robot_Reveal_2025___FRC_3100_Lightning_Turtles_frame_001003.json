@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2025___FRC_3100_Lightning_Turtles_frame_001003.png",
+    "source": "unknown",
+    "dhash": "35aca2c88e022103",
+    "ingested_at": "2026-04-01T01:31:54.165300+00:00"
+  }
 }

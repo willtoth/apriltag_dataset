@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_________________frame_001056.png",
+    "source": "unknown",
+    "dhash": "f5359985ccccf3fa",
+    "ingested_at": "2026-04-01T01:22:51.645297+00:00"
+  }
 }

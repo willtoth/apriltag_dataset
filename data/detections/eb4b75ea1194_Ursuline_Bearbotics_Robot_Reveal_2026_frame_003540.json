@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Ursuline_Bearbotics_Robot_Reveal_2026_frame_003540.png",
+    "source": "unknown",
+    "dhash": "3313a4a42d8d0a6c",
+    "ingested_at": "2026-04-01T03:51:30.525300+00:00"
+  }
 }

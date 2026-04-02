@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_DAVE_2026_Robot_Reveal_Teaser___FRC_3683_frame_003120.png",
+    "source": "unknown",
+    "dhash": "e6c6c6dc1e9c9cbd",
+    "ingested_at": "2026-04-01T03:48:17.445300+00:00"
+  }
 }

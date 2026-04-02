@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_World_Championship_2025_Daly_Q52_Team_4451_POV_frame_005.png",
+    "source": "unknown",
+    "dhash": "30251d96120a2331",
+    "ingested_at": "2026-04-01T15:56:00.655298+00:00"
+  }
 }

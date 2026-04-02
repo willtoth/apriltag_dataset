@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_702_-_2026_Robot_Reveal__Bury_Byte_frame_000649.png",
+    "source": "unknown",
+    "dhash": "87090987981e0623",
+    "ingested_at": "2026-04-01T04:00:16.905300+00:00"
+  }
 }

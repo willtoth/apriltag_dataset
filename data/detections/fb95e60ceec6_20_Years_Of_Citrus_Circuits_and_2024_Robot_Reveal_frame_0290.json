@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "20_Years_Of_Citrus_Circuits_and_2024_Robot_Reveal_frame_0290.png",
+    "source": "unknown",
+    "dhash": "ccece4e4e3a381d1",
+    "ingested_at": "2026-04-01T00:43:08.565302+00:00"
+  }
 }

@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_3674_CloverBots_-_Robot_Reveal__2024__frame_000780.png",
+    "source": "unknown",
+    "dhash": "71b9b9ccec909898",
+    "ingested_at": "2026-04-01T00:45:35.195302+00:00"
+  }
 }

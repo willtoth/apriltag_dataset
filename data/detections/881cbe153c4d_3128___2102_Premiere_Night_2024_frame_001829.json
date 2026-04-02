@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "3128___2102_Premiere_Night_2024_frame_001829.png",
+    "source": "unknown",
+    "dhash": "126662eaa29b9dba",
+    "ingested_at": "2026-04-01T00:31:23.065302+00:00"
+  }
 }

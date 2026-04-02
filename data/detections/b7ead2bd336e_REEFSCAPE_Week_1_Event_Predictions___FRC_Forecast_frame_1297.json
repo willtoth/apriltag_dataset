@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "REEFSCAPE_Week_1_Event_Predictions___FRC_Forecast_frame_1297.png",
+    "source": "unknown",
+    "dhash": "cbd1f9d97cd2d8d8",
+    "ingested_at": "2026-04-01T02:01:31.325294+00:00"
+  }
 }

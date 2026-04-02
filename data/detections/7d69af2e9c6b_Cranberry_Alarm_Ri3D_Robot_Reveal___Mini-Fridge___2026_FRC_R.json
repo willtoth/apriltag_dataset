@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Cranberry_Alarm_Ri3D_Robot_Reveal___Mini-Fridge___2026_FRC_R.png",
+    "source": "unknown",
+    "dhash": "2623ab93a5a0b0d8",
+    "ingested_at": "2026-04-01T03:24:28.715300+00:00"
+  }
 }

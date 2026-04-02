@@ -286,5 +286,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Pharaoh___2026_Robot_Reveal_frame_000840.png",
+    "source": "unknown",
+    "dhash": "c46931d4f1b83335",
+    "ingested_at": "2026-04-01T04:57:47.405301+00:00"
+  }
 }

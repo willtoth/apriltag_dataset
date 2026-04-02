@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRENZY___2024_ROBOT_REVEAL_-_FRC_1923_frame_001500.png",
+    "source": "unknown",
+    "dhash": "32ac343434b6b6e8",
+    "ingested_at": "2026-04-01T00:44:04.605302+00:00"
+  }
 }

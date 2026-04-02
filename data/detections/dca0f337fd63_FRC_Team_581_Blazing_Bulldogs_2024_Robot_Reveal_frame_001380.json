@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_581_Blazing_Bulldogs_2024_Robot_Reveal_frame_001380.png",
+    "source": "unknown",
+    "dhash": "7bcaecf1f87879e4",
+    "ingested_at": "2026-04-01T00:27:48.065303+00:00"
+  }
 }

@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_9062_Robot_Centric_Match___Robot_POV_Q59_Ontario_DC.png",
+    "source": "unknown",
+    "dhash": "9c60f0fbedcd37af",
+    "ingested_at": "2026-04-01T15:39:33.435296+00:00"
+  }
 }

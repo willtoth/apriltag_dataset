@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "KRYPTON_FRC__9487_-_ROBOT_REVEAL_26_frame_001800.png",
+    "source": "unknown",
+    "dhash": "ed742c0c48131303",
+    "ingested_at": "2026-04-01T04:10:20.125300+00:00"
+  }
 }

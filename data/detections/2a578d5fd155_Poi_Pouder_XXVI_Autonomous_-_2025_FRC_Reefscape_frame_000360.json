@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Poi_Pouder_XXVI_Autonomous_-_2025_FRC_Reefscape_frame_000360.png",
+    "source": "unknown",
+    "dhash": "83034f1f2f6f6627",
+    "ingested_at": "2026-04-01T01:43:59.065299+00:00"
+  }
 }

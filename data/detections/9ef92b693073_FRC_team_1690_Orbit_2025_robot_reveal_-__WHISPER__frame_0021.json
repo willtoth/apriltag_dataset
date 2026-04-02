@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_team_1690_Orbit_2025_robot_reveal_-__WHISPER__frame_0021.png",
+    "source": "unknown",
+    "dhash": "179a788fcecccad2",
+    "ingested_at": "2026-04-01T01:39:02.865301+00:00"
+  }
 }

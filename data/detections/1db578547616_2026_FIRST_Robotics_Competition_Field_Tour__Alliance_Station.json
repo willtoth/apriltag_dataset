@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FIRST_Robotics_Competition_Field_Tour__Alliance_Station.png",
+    "source": "unknown",
+    "dhash": "18b8f8199bf9f1f8",
+    "ingested_at": "2026-04-01T00:05:37.265297+00:00"
+  }
 }

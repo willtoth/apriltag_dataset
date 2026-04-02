@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Warbots_2026_Robot_Reveal__KLAPPA___FRC_Team_9408_frame_0006.png",
+    "source": "unknown",
+    "dhash": "6b6f7943cb1b3525",
+    "ingested_at": "2026-04-01T04:41:14.115302+00:00"
+  }
 }

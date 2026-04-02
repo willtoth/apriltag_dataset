@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_1306_BadgerBOTS_Presents__Gimli__-_2026_Rebuilt_Rob.png",
+    "source": "unknown",
+    "dhash": "3f991688715253e2",
+    "ingested_at": "2026-04-01T04:29:30.885299+00:00"
+  }
 }

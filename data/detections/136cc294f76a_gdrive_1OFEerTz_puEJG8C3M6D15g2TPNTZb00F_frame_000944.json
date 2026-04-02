@@ -331,5 +331,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "gdrive_1OFEerTz_puEJG8C3M6D15g2TPNTZb00F_frame_000944.png",
+    "source": "unknown",
+    "dhash": "f3f57c9355d26841",
+    "ingested_at": "2026-03-31T23:42:21.285301+00:00"
+  }
 }

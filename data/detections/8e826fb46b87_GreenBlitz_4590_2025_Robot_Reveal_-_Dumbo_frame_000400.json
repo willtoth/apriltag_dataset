@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "GreenBlitz_4590_2025_Robot_Reveal_-_Dumbo_frame_000400.png",
+    "source": "unknown",
+    "dhash": "e4c4ccc98988f0f0",
+    "ingested_at": "2026-04-01T01:41:16.315300+00:00"
+  }
 }

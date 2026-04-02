@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "ARTEMIS_3083_-_2025_ROBOT_REVEAL__SWELL__frame_001248.png",
+    "source": "unknown",
+    "dhash": "1d8e3614194b7f2b",
+    "ingested_at": "2026-04-01T01:33:50.375300+00:00"
+  }
 }

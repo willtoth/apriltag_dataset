@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_FRC_Robot_Reveal_-_Rebuilt_-_3966_Gryphon_Command_frame.png",
+    "source": "unknown",
+    "dhash": "28288469e86460d0",
+    "ingested_at": "2026-04-01T04:36:55.505299+00:00"
+  }
 }

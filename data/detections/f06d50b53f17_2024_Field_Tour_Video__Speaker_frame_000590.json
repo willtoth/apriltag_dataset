@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_Field_Tour_Video__Speaker_frame_000590.png",
+    "source": "unknown",
+    "dhash": "6574040829616060",
+    "ingested_at": "2026-04-01T00:13:08.195299+00:00"
+  }
 }

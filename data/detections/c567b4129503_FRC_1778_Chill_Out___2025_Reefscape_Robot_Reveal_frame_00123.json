@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_1778_Chill_Out___2025_Reefscape_Robot_Reveal_frame_00123.png",
+    "source": "unknown",
+    "dhash": "c3e3f3b1d3e5e5f2",
+    "ingested_at": "2026-04-01T02:13:13.785299+00:00"
+  }
 }

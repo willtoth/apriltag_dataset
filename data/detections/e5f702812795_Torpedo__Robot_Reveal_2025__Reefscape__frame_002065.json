@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Torpedo__Robot_Reveal_2025__Reefscape__frame_002065.png",
+    "source": "unknown",
+    "dhash": "5c581d4d274e0e0d",
+    "ingested_at": "2026-04-01T01:45:17.425296+00:00"
+  }
 }

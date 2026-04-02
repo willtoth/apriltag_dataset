@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Reveal_Video_Team_7211_frame_000354.png",
+    "source": "unknown",
+    "dhash": "d72c6c763a91989a",
+    "ingested_at": "2026-04-01T02:32:16.355300+00:00"
+  }
 }

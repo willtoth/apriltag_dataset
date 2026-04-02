@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Introducing__KRAKEN_-_FRC_5554_Robot_Reveal_2025_frame_00051.png",
+    "source": "unknown",
+    "dhash": "ced36bcbcc29d0f0",
+    "ingested_at": "2026-04-01T01:43:41.885299+00:00"
+  }
 }

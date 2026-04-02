@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "M11_-_Ballard_-_190_POV_frame_002880.png",
+    "source": "unknown",
+    "dhash": "e7ef4b4b53737776",
+    "ingested_at": "2026-04-01T15:29:37.305301+00:00"
+  }
 }

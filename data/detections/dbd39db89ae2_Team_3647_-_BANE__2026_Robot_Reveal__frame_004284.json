@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_3647_-_BANE__2026_Robot_Reveal__frame_004284.png",
+    "source": "unknown",
+    "dhash": "c81b1e982d2d2e35",
+    "ingested_at": "2026-04-01T04:03:43.245300+00:00"
+  }
 }

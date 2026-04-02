@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Field_Tour_Video__Processor_frame_001593.png",
+    "source": "unknown",
+    "dhash": "8c2022a4c7913030",
+    "ingested_at": "2026-04-01T00:08:34.475298+00:00"
+  }
 }

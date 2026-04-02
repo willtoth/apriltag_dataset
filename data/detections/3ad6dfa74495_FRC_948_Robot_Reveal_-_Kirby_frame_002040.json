@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_948_Robot_Reveal_-_Kirby_frame_002040.png",
+    "source": "unknown",
+    "dhash": "fe9fc04697cd1736",
+    "ingested_at": "2026-04-01T04:07:49.705300+00:00"
+  }
 }

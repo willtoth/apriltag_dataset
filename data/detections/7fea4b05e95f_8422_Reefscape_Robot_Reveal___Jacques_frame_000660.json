@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "8422_Reefscape_Robot_Reveal___Jacques_frame_000660.png",
+    "source": "unknown",
+    "dhash": "c66c6b4e687ae698",
+    "ingested_at": "2026-04-01T01:47:21.105297+00:00"
+  }
 }

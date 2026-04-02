@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_GAME_POV___Close_Match_at_SCR__frame_004165.png",
+    "source": "unknown",
+    "dhash": "a2e0f6a6a9691949",
+    "ingested_at": "2026-04-01T16:19:37.155300+00:00"
+  }
 }

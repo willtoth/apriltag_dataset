@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_of_Seahorse_from_Team_8575_The_Due_Westerners_f.png",
+    "source": "unknown",
+    "dhash": "3882b2ebe9fa6cfc",
+    "ingested_at": "2026-04-01T02:47:56.915298+00:00"
+  }
 }

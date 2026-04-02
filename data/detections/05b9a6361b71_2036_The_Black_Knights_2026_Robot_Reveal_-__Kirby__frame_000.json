@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2036_The_Black_Knights_2026_Robot_Reveal_-__Kirby__frame_000.png",
+    "source": "unknown",
+    "dhash": "3327272fabab9397",
+    "ingested_at": "2026-04-01T04:51:55.055302+00:00"
+  }
 }

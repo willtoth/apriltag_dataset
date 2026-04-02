@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_ROBOT_REVEAL_-__FIN__-_GENERAL_ANGELS__2230_-_REEFSCAPE_.png",
+    "source": "unknown",
+    "dhash": "101810183cacb0b2",
+    "ingested_at": "2026-04-01T01:22:07.675297+00:00"
+  }
 }

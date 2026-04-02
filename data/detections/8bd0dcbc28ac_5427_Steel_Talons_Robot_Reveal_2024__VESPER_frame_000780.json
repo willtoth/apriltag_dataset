@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "5427_Steel_Talons_Robot_Reveal_2024__VESPER_frame_000780.png",
+    "source": "unknown",
+    "dhash": "e09979796173641c",
+    "ingested_at": "2026-04-01T00:53:00.835301+00:00"
+  }
 }

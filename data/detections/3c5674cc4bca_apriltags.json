@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "apriltags.png",
+    "source": "unknown",
+    "dhash": "b9b0b2b68cc44c61",
+    "ingested_at": "2026-03-24T14:01:32.767287+00:00"
+  }
 }

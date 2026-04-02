@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_ROBOT_REVEAL______FRC_Team_533_-_The_PSIcotics_frame_00.png",
+    "source": "unknown",
+    "dhash": "97373296b1313246",
+    "ingested_at": "2026-04-01T04:45:07.665300+00:00"
+  }
 }

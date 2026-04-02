@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Crescendo_Robot_POV_Practice_Match_frame_003094.png",
+    "source": "unknown",
+    "dhash": "6a696b33324a7171",
+    "ingested_at": "2026-04-01T16:22:29.225300+00:00"
+  }
 }

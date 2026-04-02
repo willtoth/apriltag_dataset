@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Field_Tour_Video__Barge_frame_000295.png",
+    "source": "unknown",
+    "dhash": "636bdbbea3272525",
+    "ingested_at": "2026-04-01T00:07:41.495297+00:00"
+  }
 }

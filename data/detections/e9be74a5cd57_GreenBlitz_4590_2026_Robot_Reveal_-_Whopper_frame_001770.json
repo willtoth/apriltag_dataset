@@ -196,5 +196,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "GreenBlitz_4590_2026_Robot_Reveal_-_Whopper_frame_001770.png",
+    "source": "unknown",
+    "dhash": "1331200033f6e6c3",
+    "ingested_at": "2026-04-01T04:56:48.865301+00:00"
+  }
 }

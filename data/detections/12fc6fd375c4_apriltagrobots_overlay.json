@@ -331,5 +331,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "apriltagrobots_overlay.png",
+    "source": "unknown",
+    "dhash": "93b13d958b2367cc",
+    "ingested_at": "2026-03-24T14:00:35.516182+00:00"
+  }
 }

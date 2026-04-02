@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Team_4414___HighTide___2024_Robot_Teaser_frame_000720.png",
+    "source": "unknown",
+    "dhash": "e3ccf9e361604a70",
+    "ingested_at": "2026-04-01T00:35:56.985301+00:00"
+  }
 }

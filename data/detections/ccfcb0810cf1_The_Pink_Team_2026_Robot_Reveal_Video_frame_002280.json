@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "The_Pink_Team_2026_Robot_Reveal_Video_frame_002280.png",
+    "source": "unknown",
+    "dhash": "6783cececece0f07",
+    "ingested_at": "2026-04-01T04:41:42.665302+00:00"
+  }
 }

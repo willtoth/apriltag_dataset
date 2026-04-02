@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Byting_Bulldogs_2026_Reveal_Video_-_Frozone_-_FRC_3539_frame.png",
+    "source": "unknown",
+    "dhash": "a2a6d8daa6fcf2b6",
+    "ingested_at": "2026-04-01T04:26:24.735299+00:00"
+  }
 }

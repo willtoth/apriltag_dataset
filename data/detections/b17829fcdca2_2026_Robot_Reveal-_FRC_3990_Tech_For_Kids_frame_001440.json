@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2026_Robot_Reveal-_FRC_3990_Tech_For_Kids_frame_001440.png",
+    "source": "unknown",
+    "dhash": "d4d3858cd8f89919",
+    "ingested_at": "2026-04-01T03:46:19.325300+00:00"
+  }
 }

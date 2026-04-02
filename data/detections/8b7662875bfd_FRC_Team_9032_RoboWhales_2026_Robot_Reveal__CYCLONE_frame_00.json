@@ -241,5 +241,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_9032_RoboWhales_2026_Robot_Reveal__CYCLONE_frame_00.png",
+    "source": "unknown",
+    "dhash": "c6568a48dae2c3d0",
+    "ingested_at": "2026-04-01T04:43:49.425300+00:00"
+  }
 }

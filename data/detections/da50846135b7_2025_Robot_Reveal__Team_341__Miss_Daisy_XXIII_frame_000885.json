@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2025_Robot_Reveal__Team_341__Miss_Daisy_XXIII_frame_000885.png",
+    "source": "unknown",
+    "dhash": "b03171f0aaa78bc4",
+    "ingested_at": "2026-04-01T02:20:21.185299+00:00"
+  }
 }

@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "2024_FRC_Robot_Reveal___Disc-O_Team_7605_frame_003540.png",
+    "source": "unknown",
+    "dhash": "7c7b7939704c1a1e",
+    "ingested_at": "2026-04-01T00:44:40.475302+00:00"
+  }
 }

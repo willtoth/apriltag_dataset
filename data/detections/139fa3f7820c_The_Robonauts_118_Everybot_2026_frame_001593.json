@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "The_Robonauts_118_Everybot_2026_frame_001593.png",
+    "source": "unknown",
+    "dhash": "6983a7669e0c34b0",
+    "ingested_at": "2026-04-01T03:54:36.825300+00:00"
+  }
 }

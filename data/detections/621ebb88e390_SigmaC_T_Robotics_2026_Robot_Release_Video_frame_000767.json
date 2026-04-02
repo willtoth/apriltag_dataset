@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "SigmaC_T_Robotics_2026_Robot_Release_Video_frame_000767.png",
+    "source": "unknown",
+    "dhash": "e872cad859383438",
+    "ingested_at": "2026-04-01T04:46:55.705300+00:00"
+  }
 }

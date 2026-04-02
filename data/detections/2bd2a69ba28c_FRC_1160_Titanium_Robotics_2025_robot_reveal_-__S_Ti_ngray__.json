@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_1160_Titanium_Robotics_2025_robot_reveal_-__S_Ti_ngray__.png",
+    "source": "unknown",
+    "dhash": "36168c94949f26cf",
+    "ingested_at": "2026-04-01T02:39:07.215297+00:00"
+  }
 }

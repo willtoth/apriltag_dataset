@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_5549_Gryphon_Robotics_2026_Rebuilt_Robot_Reveal___SOLARI.png",
+    "source": "unknown",
+    "dhash": "6b71656d2f539e8d",
+    "ingested_at": "2026-04-01T04:04:48.375300+00:00"
+  }
 }

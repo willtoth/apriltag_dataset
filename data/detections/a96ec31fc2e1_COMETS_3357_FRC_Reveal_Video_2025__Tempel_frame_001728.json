@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "COMETS_3357_FRC_Reveal_Video_2025__Tempel_frame_001728.png",
+    "source": "unknown",
+    "dhash": "9c8e9d34c6e0f9f1",
+    "ingested_at": "2026-04-01T01:28:09.525297+00:00"
+  }
 }

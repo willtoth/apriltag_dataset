@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "Robot_Reveal_2025___EXCALIBUR_6738___Percival_2_0_frame_0000.png",
+    "source": "unknown",
+    "dhash": "5664a829a9797931",
+    "ingested_at": "2026-04-01T02:44:52.125300+00:00"
+  }
 }

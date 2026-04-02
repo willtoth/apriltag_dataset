@@ -106,5 +106,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "O_R_C_A__3136_Teaser__Deuce__frame_002596.png",
+    "source": "unknown",
+    "dhash": "6e24242ab24c7008",
+    "ingested_at": "2026-04-01T03:54:11.155300+00:00"
+  }
 }

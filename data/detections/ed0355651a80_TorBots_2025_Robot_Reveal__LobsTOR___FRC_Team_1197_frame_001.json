@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "TorBots_2025_Robot_Reveal__LobsTOR___FRC_Team_1197_frame_001.png",
+    "source": "unknown",
+    "dhash": "3423c787eae8cc8e",
+    "ingested_at": "2026-04-01T02:53:14.625299+00:00"
+  }
 }

@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_Team_7632_-2025_robot_reveal_frame_000912.png",
+    "source": "unknown",
+    "dhash": "cee1a964eef3e7a3",
+    "ingested_at": "2026-04-01T02:33:09.615300+00:00"
+  }
 }

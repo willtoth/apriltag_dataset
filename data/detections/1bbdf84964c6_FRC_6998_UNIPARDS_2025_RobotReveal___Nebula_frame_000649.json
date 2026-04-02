@@ -61,5 +61,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_6998_UNIPARDS_2025_RobotReveal___Nebula_frame_000649.png",
+    "source": "unknown",
+    "dhash": "888989a2a5c59393",
+    "ingested_at": "2026-04-01T02:32:38.215300+00:00"
+  }
 }

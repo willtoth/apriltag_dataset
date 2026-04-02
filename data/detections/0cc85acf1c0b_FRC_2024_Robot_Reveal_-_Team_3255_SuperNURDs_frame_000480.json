@@ -151,5 +151,11 @@
         ]
       ]
     }
-  ]
+  ],
+  "ingest_metadata": {
+    "original_name": "FRC_2024_Robot_Reveal_-_Team_3255_SuperNURDs_frame_000480.png",
+    "source": "unknown",
+    "dhash": "3014180c0686f4f0",
+    "ingested_at": "2026-04-01T00:33:56.025302+00:00"
+  }
 }
