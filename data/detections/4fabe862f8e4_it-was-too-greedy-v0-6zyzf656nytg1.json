@@ -1,0 +1,71 @@
+{
+  "image_file": "4fabe862f8e4_it-was-too-greedy-v0-6zyzf656nytg1.png",
+  "image_sha256": "4fabe862f8e45facca4c47be2a9363e958d81501e0186af32ef8af2a553b75d8",
+  "image_width": 487,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-09T23:08:35.528923+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 6,
+      "tag_family": "tag36h11",
+      "hamming": 1,
+      "decision_margin": 58.25032424926758,
+      "center": [
+        197.93618977525938,
+        189.99314021951176
+      ],
+      "corners": [
+        [
+          188.70248413085938,
+          207.29873657226562
+        ],
+        [
+          207.25592041015625,
+          203.44242858886716
+        ],
+        [
+          207.55682373046875,
+          171.9623718261719
+        ],
+        [
+          188.77064514160156,
+          176.76635742187506
+        ]
+      ],
+      "homography": [
+        [
+          6.47608157289622,
+          1.1149238395245797,
+          197.93618977525938
+        ],
+        [
+          -4.903702283909839,
+          16.656073832132392,
+          189.99314021951176
+        ],
+        [
+          -0.014431496822047658,
+          0.006090479498851545,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "it-was-too-greedy-v0-6zyzf656nytg1.jpg",
+    "source": "it-was-too-greedy-v0-6zyzf656nytg1.jpg",
+    "dhash": "9c003b1c94b1fc1e",
+    "ingested_at": "2026-04-09T23:08:35.528948+00:00"
+  }
+}

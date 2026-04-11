@@ -1,0 +1,71 @@
+{
+  "image_file": "58a87997e8e6_2026_FIRST_Robotics_Competition_REBUILT_Presented_by_Haas_Ga_frame_002301.png",
+  "image_sha256": "58a87997e8e65806148c0378d1fa8f3b3d80b97c4516e6dd0bd68da261492df8",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-09T23:14:36.761259+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 14,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 91.47172546386719,
+      "center": [
+        232.48576753968655,
+        937.7514206779439
+      ],
+      "corners": [
+        [
+          192.49737548828122,
+          974.4254150390626
+        ],
+        [
+          277.1956787109375,
+          984.535217285156
+        ],
+        [
+          273.18243408203125,
+          900.4278564453124
+        ],
+        [
+          187.9825439453125,
+          891.1838989257814
+        ]
+      ],
+      "homography": [
+        [
+          41.18315424607397,
+          2.8845543694207314,
+          232.48576753968655
+        ],
+        [
+          -0.362456907233428,
+          44.865297924831566,
+          937.7514206779439
+        ],
+        [
+          -0.005547522500986778,
+          0.003230738347847284,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "2026 FIRST Robotics Competition REBUILT Presented by Haas Ga_frame_002301.png",
+    "source": "2026 FIRST Robotics Competition REBUILT Presented by Haas Ga.mp4",
+    "dhash": "3ec5d1c802f938b9",
+    "ingested_at": "2026-04-09T23:14:36.761290+00:00"
+  }
+}

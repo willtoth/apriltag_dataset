@@ -1,0 +1,25 @@
+{
+  "image_file": "ab9ab96a05ff_synth_37_bimodal_lighting.png",
+  "image_sha256": "ab9ab96a05ff4bb78a44b60329f9dc58b31be997ade5861b8365c98caec4b6d0",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T04:47:22.283237+00:00",
+  "num_detections": 0,
+  "detections": [],
+  "ingest_metadata": {
+    "original_name": "synth_37_bimodal_lighting.png",
+    "source": "synthetic",
+    "dhash": "dadb5d4d4c5e9b5b",
+    "ingested_at": "2026-04-11T04:47:22.283274+00:00"
+  }
+}

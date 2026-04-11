@@ -1,0 +1,25 @@
+{
+  "image_file": "67aab4beb8c1_synth_48_wrong_family_tag25h9.png",
+  "image_sha256": "67aab4beb8c1636d69a696fcd0d5b38f9d4a53993ca74a2fc517c0cd60938c05",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T04:47:24.852158+00:00",
+  "num_detections": 0,
+  "detections": [],
+  "ingest_metadata": {
+    "original_name": "synth_48_wrong_family_tag25h9.png",
+    "source": "synthetic",
+    "dhash": "4cb5eace4facb44f",
+    "ingested_at": "2026-04-11T04:47:24.852189+00:00"
+  }
+}

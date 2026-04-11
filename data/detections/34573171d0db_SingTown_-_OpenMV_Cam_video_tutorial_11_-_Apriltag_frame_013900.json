@@ -1,0 +1,71 @@
+{
+  "image_file": "34573171d0db_SingTown_-_OpenMV_Cam_video_tutorial_11_-_Apriltag_frame_013900.png",
+  "image_sha256": "34573171d0dbf03151ec1f5befc6e60c3c3c583a5c841125b0874485a2b88310",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T20:46:40.918144+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 27.25984001159668,
+      "center": [
+        1515.1750902367341,
+        431.5694598703124
+      ],
+      "corners": [
+        [
+          1484.1180419921875,
+          464.2135620117188
+        ],
+        [
+          1545.880126953125,
+          463.87783813476557
+        ],
+        [
+          1546.2147216796877,
+          398.94366455078125
+        ],
+        [
+          1483.8029785156252,
+          398.55917358398443
+        ]
+      ],
+      "homography": [
+        [
+          39.39511310803823,
+          7.921801230585065,
+          1515.1750902367341
+        ],
+        [
+          2.3896321761210926,
+          34.903532259267934,
+          431.5694598703124
+        ],
+        [
+          0.005513190807234175,
+          0.0052327120170513304,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "SingTown - OpenMV Cam video tutorial 11 - Apriltag_frame_013900.png",
+    "source": "SingTown - OpenMV Cam video tutorial 11 - Apriltag.mp4",
+    "dhash": "8ac4ccd6c08c8c8c",
+    "ingested_at": "2026-04-11T20:46:40.918194+00:00"
+  }
+}

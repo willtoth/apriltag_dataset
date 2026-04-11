@@ -1,0 +1,25 @@
+{
+  "image_file": "fd6e6d26ef47_synth_36_negative_inverted.png",
+  "image_sha256": "fd6e6d26ef475f45918065eed6a272f7fae1ad8add1dee35b084bb4afc0d3131",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T04:47:22.082884+00:00",
+  "num_detections": 0,
+  "detections": [],
+  "ingest_metadata": {
+    "original_name": "synth_36_negative_inverted.png",
+    "source": "synthetic",
+    "dhash": "a188b6b3b3734e6e",
+    "ingested_at": "2026-04-11T04:47:22.082916+00:00"
+  }
+}

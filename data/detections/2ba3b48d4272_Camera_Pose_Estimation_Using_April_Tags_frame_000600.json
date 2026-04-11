@@ -1,0 +1,71 @@
+{
+  "image_file": "2ba3b48d4272_Camera_Pose_Estimation_Using_April_Tags_frame_000600.png",
+  "image_sha256": "2ba3b48d4272c82e05bbe0d6e927e34ca9a6a1f5b6de78b14a655803e68934d1",
+  "image_width": 1136,
+  "image_height": 720,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T20:34:23.558899+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 2,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 48.848758697509766,
+      "center": [
+        221.43445808257675,
+        484.3542595925048
+      ],
+      "corners": [
+        [
+          267.75164794921875,
+          516.1077880859376
+        ],
+        [
+          262.9396667480469,
+          455.7501220703126
+        ],
+        [
+          168.9858245849609,
+          448.3972167968749
+        ],
+        [
+          188.64364624023435,
+          506.9526977539062
+        ]
+      ],
+      "homography": [
+        [
+          -26.137564866312918,
+          36.80181353255264,
+          221.43445808257675
+        ],
+        [
+          -72.92710913644851,
+          -9.133288744829548,
+          484.3542595925048
+        ],
+        [
+          -0.08968676794640792,
+          -0.027606147119095283,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "Camera Pose Estimation Using April Tags_frame_000600.png",
+    "source": "Camera Pose Estimation Using April Tags.mp4",
+    "dhash": "9b9393930b4b4bb3",
+    "ingested_at": "2026-04-11T20:34:23.558938+00:00"
+  }
+}

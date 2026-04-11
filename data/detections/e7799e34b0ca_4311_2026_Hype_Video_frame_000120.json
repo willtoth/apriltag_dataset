@@ -1,0 +1,71 @@
+{
+  "image_file": "e7799e34b0ca_4311_2026_Hype_Video_frame_000120.png",
+  "image_sha256": "e7799e34b0ca6bc57d776e21644de63bd4602dd0790ceecfabe7e8cd1cc5e5bf",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-09T23:10:00.708517+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 9,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 56.61304473876953,
+      "center": [
+        1679.6196096945116,
+        231.42385619646916
+      ],
+      "corners": [
+        [
+          1648.4157714843748,
+          271.04241943359375
+        ],
+        [
+          1713.287841796875,
+          265.4478149414062
+        ],
+        [
+          1712.373046875,
+          189.83781433105466
+        ],
+        [
+          1646.2442626953123,
+          197.69587707519534
+        ]
+      ],
+      "homography": [
+        [
+          8.724268168874458,
+          17.459332399507275,
+          1679.6196096945116
+        ],
+        [
+          -6.6606140660470645,
+          39.52494333258119,
+          231.42385619646916
+        ],
+        [
+          -0.014298618131580627,
+          0.009930040154553753,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "4311 2026 Hype Video_frame_000120.png",
+    "source": "4311 2026 Hype Video.mp4",
+    "dhash": "d9b1b4e7e3d3cc99",
+    "ingested_at": "2026-04-09T23:10:00.708542+00:00"
+  }
+}

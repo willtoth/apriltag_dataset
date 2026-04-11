@@ -1,0 +1,71 @@
+{
+  "image_file": "7a5643a4270f_REEFSCAPE_is_here__FRC_2025__firstrobotics_frame_000360.png",
+  "image_sha256": "7a5643a4270fdea2578964e8102da7d36850ce4fa1b860f995aa5db02549ea97",
+  "image_width": 480,
+  "image_height": 854,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T20:33:58.454757+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 20,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 88.63603973388672,
+      "center": [
+        175.59935404432352,
+        498.4940444736161
+      ],
+      "corners": [
+        [
+          166.3797607421875,
+          509.51611328125006
+        ],
+        [
+          185.29522705078128,
+          511.37091064453114
+        ],
+        [
+          185.02928161621094,
+          487.22052001953125
+        ],
+        [
+          165.99836730957026,
+          485.74319458007824
+        ]
+      ],
+      "homography": [
+        [
+          8.06392983966532,
+          0.7208118482629412,
+          175.59935404432352
+        ],
+        [
+          -3.2030838663263257,
+          13.56544354136986,
+          498.4940444736161
+        ],
+        [
+          -0.00809772693638733,
+          0.0031805397371736715,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "REEFSCAPE is here! FRC 2025 #firstrobotics_frame_000360.png",
+    "source": "REEFSCAPE is here! FRC 2025 #firstrobotics.mp4",
+    "dhash": "9bd6a4640a83ce38",
+    "ingested_at": "2026-04-11T20:33:58.454789+00:00"
+  }
+}

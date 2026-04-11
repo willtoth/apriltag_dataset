@@ -144,6 +144,19 @@ One-time command to backfill `ingest_metadata` into detection sidecars and rebui
 uv run python main.py repair
 ```
 
+### Generate synthetic edge-case images
+
+Produce a batch of 50 synthetic PNGs designed to probe detector behavior at extremes (tiny/huge tags, steep perspective, motion blur, occlusion, wrong tag family, etc.). The script writes to a fresh `/tmp/apriltag_synth_*` dir and prints the ingest command — nothing touches `./data` until you run the ingest yourself.
+
+```bash
+uv run python scripts/generate_synthetic.py
+# Then follow the printed commands:
+#   uv run python main.py ingest /tmp/apriltag_synth_XXXX/synthetic --keep-empty
+#   rm -rf /tmp/apriltag_synth_XXXX
+```
+
+`--keep-empty` is important — several scenarios are negative/decoy cases that correctly yield zero detections, and they should still enter the dataset to document what the detector rejects. Ingested synthetic images land with `ingest_metadata.source == "synthetic"`.
+
 ## Image preprocessing
 
 During ingestion, every image is automatically:

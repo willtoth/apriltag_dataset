@@ -1,0 +1,71 @@
+{
+  "image_file": "444f58083f6c_April_Tags___Enhancing_Scanning_Accuracy_and_User_Experience_frame_005225.png",
+  "image_sha256": "444f58083f6ca9973f0f2ffea509da01d3157ef4ddcbf6f03a050cb58b44de02",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T20:38:45.498800+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 59,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.07939910888672,
+      "center": [
+        1279.9717892896647,
+        708.2817116195835
+      ],
+      "corners": [
+        [
+          1251.18017578125,
+          740.4910278320312
+        ],
+        [
+          1311.9833984375,
+          737.1952514648439
+        ],
+        [
+          1308.70361328125,
+          676.1392822265624
+        ],
+        [
+          1248.0910644531252,
+          679.4863891601562
+        ]
+      ],
+      "homography": [
+        [
+          29.708038044916748,
+          -0.3840446535800729,
+          1279.9717892896647
+        ],
+        [
+          -2.018134438534961,
+          29.421519829240083,
+          708.2817116195835
+        ],
+        [
+          -0.0005045597612333997,
+          -0.0015439537791813792,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "April Tags \uff5c Enhancing Scanning Accuracy and User Experience_frame_005225.png",
+    "source": "April Tags \uff5c Enhancing Scanning Accuracy and User Experience.mp4",
+    "dhash": "495d7da5a79c1c1c",
+    "ingested_at": "2026-04-11T20:38:45.498836+00:00"
+  }
+}

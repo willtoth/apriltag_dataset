@@ -1,0 +1,71 @@
+{
+  "image_file": "e2f92129665a_synth_34_overexposed_clipped.png",
+  "image_sha256": "e2f92129665a1b5fa8b1b107b826b05f213eefe7bffeedf70ec3a931b7afa8a5",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T04:47:21.680036+00:00",
+  "num_detections": 1,
+  "detections": [
+    {
+      "tag_id": 0,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 11.764705657958984,
+      "center": [
+        960.0818830741475,
+        539.7871719116513
+      ],
+      "corners": [
+        [
+          799.79052734375,
+          700.209228515625
+        ],
+        [
+          1120.2095947265625,
+          699.8598022460935
+        ],
+        [
+          1119.86376953125,
+          379.87500000000006
+        ],
+        [
+          800.1146850585938,
+          379.87500000000017
+        ]
+      ],
+      "homography": [
+        [
+          160.56518971643231,
+          -0.9992143199384403,
+          960.0818830741475
+        ],
+        [
+          0.20708330527541285,
+          159.51459786140924,
+          539.7871719116513
+        ],
+        [
+          0.0005451353873655967,
+          -0.0010465917742466416,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "synth_34_overexposed_clipped.png",
+    "source": "synthetic",
+    "dhash": "9221094d0c493400",
+    "ingested_at": "2026-04-11T04:47:21.680063+00:00"
+  }
+}

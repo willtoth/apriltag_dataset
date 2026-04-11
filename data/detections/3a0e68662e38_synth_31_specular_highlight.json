@@ -1,0 +1,25 @@
+{
+  "image_file": "3a0e68662e38_synth_31_specular_highlight.png",
+  "image_sha256": "3a0e68662e38e5453ef555026600372ab100215f6ae342c4c50b7b856dd05fa9",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T04:47:20.878517+00:00",
+  "num_detections": 0,
+  "detections": [],
+  "ingest_metadata": {
+    "original_name": "synth_31_specular_highlight.png",
+    "source": "synthetic",
+    "dhash": "25b54d4c489a3136",
+    "ingested_at": "2026-04-11T04:47:20.878547+00:00"
+  }
+}

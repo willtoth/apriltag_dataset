@@ -1,0 +1,116 @@
+{
+  "image_file": "4916b938f703_April_Tags___Enhancing_Scanning_Accuracy_and_User_Experience_frame_002090.png",
+  "image_sha256": "4916b938f703a75083fcc1b074efcb9c5e5122752c84c5dd9978daa53c354acc",
+  "image_width": 1920,
+  "image_height": 1080,
+  "detector_config": {
+    "library": "pupil-apriltags",
+    "library_version": "1.0.4.post11",
+    "family": "tag36h11",
+    "nthreads": 4,
+    "quad_decimate": 1.0,
+    "quad_sigma": 0.0,
+    "refine_edges": true,
+    "decode_sharpening": 0.25
+  },
+  "detected_at": "2026-04-11T20:38:17.465520+00:00",
+  "num_detections": 2,
+  "detections": [
+    {
+      "tag_id": 192,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 65.4996337890625,
+      "center": [
+        283.490545809214,
+        532.8750740249435
+      ],
+      "corners": [
+        [
+          270.74758911132807,
+          545.7395019531249
+        ],
+        [
+          296.2401428222657,
+          545.9294433593751
+        ],
+        [
+          296.3976135253906,
+          519.844970703125
+        ],
+        [
+          270.3573913574218,
+          519.4279785156249
+        ]
+      ],
+      "homography": [
+        [
+          14.075140651967843,
+          3.0644498510480407,
+          283.490545809214
+        ],
+        [
+          2.394201210107324,
+          18.75031647321066,
+          532.8750740249435
+        ],
+        [
+          0.004210476105252455,
+          0.010608560397163935,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tag_id": 193,
+      "tag_family": "tag36h11",
+      "hamming": 0,
+      "decision_margin": 88.56055450439453,
+      "center": [
+        1196.869600559057,
+        543.1401511532048
+      ],
+      "corners": [
+        [
+          1183.5087890625,
+          556.9638671875
+        ],
+        [
+          1209.8834228515625,
+          555.9035644531249
+        ],
+        [
+          1209.7398681640623,
+          529.823974609375
+        ],
+        [
+          1183.4256591796875,
+          529.9548950195314
+        ]
+      ],
+      "homography": [
+        [
+          34.08806462254552,
+          -1.4053859783527927,
+          1196.869600559057
+        ],
+        [
+          9.196313853789091,
+          12.604323320848836,
+          543.1401511532048
+        ],
+        [
+          0.01747884264950514,
+          -0.0012220232070749284,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "ingest_metadata": {
+    "original_name": "April Tags \uff5c Enhancing Scanning Accuracy and User Experience_frame_002090.png",
+    "source": "April Tags \uff5c Enhancing Scanning Accuracy and User Experience.mp4",
+    "dhash": "4c6b8fcdcdcd9525",
+    "ingested_at": "2026-04-11T20:38:17.465549+00:00"
+  }
+}
