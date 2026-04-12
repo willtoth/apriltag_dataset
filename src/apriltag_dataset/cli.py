@@ -8,6 +8,7 @@ from pathlib import Path
 from .detect import create_detector, detect_image
 from .ingest import ingest_source
 from .storage import (
+    image_path,
     load_manifest,
     read_detection,
     rebuild_manifest,
@@ -48,7 +49,7 @@ def cmd_regenerate(args: argparse.Namespace) -> None:
         print("No images directory found.")
         return
 
-    image_files = sorted(images_dir.iterdir())
+    image_files = sorted(images_dir.rglob("*.png"))
     if not image_files:
         print("No images found.")
         return
@@ -65,9 +66,6 @@ def cmd_regenerate(args: argparse.Namespace) -> None:
 
     changed = 0
     for img_path in image_files:
-        if not img_path.is_file():
-            continue
-
         img = Image.open(img_path).convert("L")
         sha256 = compute_sha256(img_path.read_bytes())
 
@@ -162,7 +160,7 @@ def cmd_prune(args: argparse.Namespace) -> None:
     print(f"Found {len(empty)} image(s) with 0 detections.")
     removed = 0
     for entry in empty:
-        img_path = images_dir / entry.filename
+        img_path = image_path(images_dir, entry.filename)
         det_path = detections_dir / f"{Path(entry.filename).stem}.json"
 
         if img_path.exists():
@@ -241,6 +239,11 @@ def main() -> None:
     p_repair.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
     p_repair.set_defaults(func=cmd_repair)
 
+    # migrate
+    p_migrate = sub.add_parser("migrate", help="Move flat images into sharded subdirectories")
+    p_migrate.add_argument("--data-dir", default="./data", help="Data directory (default: ./data)")
+    p_migrate.set_defaults(func=cmd_migrate)
+
     args = parser.parse_args()
     args.func(args)
 
@@ -251,10 +254,8 @@ def cmd_review(args: argparse.Namespace) -> None:
 
 
 def cmd_upload(args: argparse.Namespace) -> None:
-    from .hf_metadata import generate_metadata
     from .sync import upload_images
     data_dir = Path(args.data_dir).resolve()
-    generate_metadata(data_dir)
     upload_images(data_dir)
 
 
@@ -278,9 +279,7 @@ def cmd_repair(args: argparse.Namespace) -> None:
 
     count = 0
     skipped = 0
-    for img_path in sorted(images_dir.iterdir()):
-        if not img_path.is_file() or img_path.suffix.lower() != ".png":
-            continue
+    for img_path in sorted(images_dir.rglob("*.png")):
         det_path = detections_dir / f"{img_path.stem}.json"
         if not det_path.exists():
             continue
@@ -314,6 +313,30 @@ def cmd_repair(args: argparse.Namespace) -> None:
 
     entries = rebuild_manifest(data_dir)
     print(f"Manifest rebuilt with {len(entries)} entries.")
+
+
+def cmd_migrate(args: argparse.Namespace) -> None:
+    from .storage import shard_for
+
+    data_dir = Path(args.data_dir).resolve()
+    images_dir = data_dir / "images"
+
+    if not images_dir.exists():
+        print("No images directory found.")
+        return
+
+    flat_files = [f for f in images_dir.iterdir() if f.is_file() and f.suffix.lower() == ".png"]
+    if not flat_files:
+        print("No flat images to migrate.")
+        return
+
+    print(f"Migrating {len(flat_files)} images into shard subdirectories...")
+    for f in flat_files:
+        shard_dir = images_dir / shard_for(f.name)
+        shard_dir.mkdir(exist_ok=True)
+        f.rename(shard_dir / f.name)
+
+    print(f"Migrated {len(flat_files)} image(s).")
 
 
 def cmd_regen(args: argparse.Namespace) -> None:

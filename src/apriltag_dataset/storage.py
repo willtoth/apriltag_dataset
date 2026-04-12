@@ -6,6 +6,14 @@ from pathlib import Path
 from .schema import ImageDetectionResult, ManifestEntry
 
 
+def shard_for(filename: str) -> str:
+    return filename[:2]
+
+
+def image_path(images_dir: Path, filename: str) -> Path:
+    return images_dir / shard_for(filename) / filename
+
+
 def write_detection(result: ImageDetectionResult, detections_dir: Path) -> Path:
     detections_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(result.image_file).stem
@@ -46,8 +54,8 @@ def rebuild_manifest(data_dir: Path, compute_dhash: bool = True) -> list[Manifes
         save_manifest(data_dir, entries)
         return entries
 
-    for img_path in sorted(images_dir.iterdir()):
-        if not img_path.is_file() or img_path.suffix.lower() != ".png":
+    for img_path in sorted(images_dir.rglob("*.png")):
+        if not img_path.is_file():
             continue
 
         det_path = detections_dir / f"{img_path.stem}.json"

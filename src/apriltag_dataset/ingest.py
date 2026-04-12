@@ -17,7 +17,7 @@ from pupil_apriltags import Detector
 
 from .detect import detect_image
 from .schema import ManifestEntry
-from .storage import load_manifest, read_detection, save_manifest, write_detection
+from .storage import load_manifest, read_detection, save_manifest, shard_for, write_detection
 from .video import (
     VIDEO_EXTENSIONS,
     download_video,
@@ -111,7 +111,8 @@ def process_single_image(
     dest_name = f"{sha_prefix}_{sanitized}.png"
 
     # Check for exact duplicate — allow re-ingest if previous had 0 detections
-    existing = list(images_dir.glob(f"{sha_prefix}_*"))
+    shard_dir = images_dir / shard_for(dest_name)
+    existing = list(shard_dir.glob(f"{sha_prefix}_*")) if shard_dir.exists() else []
     if existing:
         existing_stem = existing[0].stem
         det_path = data_dir / "detections" / f"{existing_stem}.json"
@@ -157,7 +158,8 @@ def process_single_image(
     )
 
     # Write image and sidecar
-    dest_path = images_dir / dest_name
+    shard_dir.mkdir(parents=True, exist_ok=True)
+    dest_path = shard_dir / dest_name
     dest_path.write_bytes(png_bytes)
 
     detections_dir = data_dir / "detections"

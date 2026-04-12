@@ -5,11 +5,14 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from .storage import image_path, shard_for
+
 
 def generate_metadata(data_dir: Path) -> int:
     """Generate metadata.jsonl pairing images with detection data.
 
-    Creates data/metadata.jsonl for HF ImageFolder auto-loading.
+    Creates data/images/metadata.jsonl for HF ImageFolder auto-loading.
+    File names include the shard prefix (e.g. "ab/abc123_name.png").
     """
     images_dir = data_dir / "images"
     detections_dir = data_dir / "detections"
@@ -29,11 +32,11 @@ def generate_metadata(data_dir: Path) -> int:
                 det = json.load(f)
 
             image_file = det["image_file"]
-            if not (images_dir / image_file).exists():
+            if not image_path(images_dir, image_file).exists():
                 continue
 
             row = {
-                "file_name": image_file,
+                "file_name": f"{shard_for(image_file)}/{image_file}",
                 "image_sha256": det["image_sha256"],
                 "image_width": det["image_width"],
                 "image_height": det["image_height"],

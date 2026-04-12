@@ -5,6 +5,8 @@ import mimetypes
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
+from .storage import image_path
+
 
 class ReviewHandler(SimpleHTTPRequestHandler):
     data_dir: Path
@@ -20,7 +22,7 @@ class ReviewHandler(SimpleHTTPRequestHandler):
             self._serve_json(self.data_dir / "detections" / f"{stem}.json")
         elif self.path.startswith("/images/"):
             name = self.path[len("/images/"):]
-            self._serve_file(self.data_dir / "images" / name)
+            self._serve_file(image_path(self.data_dir / "images", name))
         else:
             self.send_error(404)
 
